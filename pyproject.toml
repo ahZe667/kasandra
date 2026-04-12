@@ -1,0 +1,37 @@
+[build-system]
+requires = ["hatchling>=1.27"]
+build-backend = "hatchling.build"
+
+[project]
+name = "kasandra"
+version = "0.1.0"
+description = "Internal alpha for monitoring Polish companies using public data."
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+  "typer>=0.12,<1.0",
+]
+
+[project.scripts]
+kasandra = "kasandra.cli.main:main"
+
+[dependency-groups]
+dev = [
+  "pytest>=8.2,<9",
+  "ruff>=0.6,<1",
+]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/kasandra"]
+
+[tool.pytest.ini_options]
+addopts = "-q"
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 100
+src = ["src", "tests"]
+target-version = "py38"
+
+[tool.ruff.lint]
+select = ["E", "F", "I"]

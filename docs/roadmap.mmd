@@ -1,0 +1,90 @@
+%%{init: {
+  "theme": "dark",
+  "flowchart": {
+    "curve": "linear",
+    "nodeSpacing": 44,
+    "rankSpacing": 72,
+    "padding": 24
+  },
+  "themeVariables": {
+    "background": "#0b1220",
+    "primaryColor": "#1e3a5f",
+    "primaryTextColor": "#f8fafc",
+    "primaryBorderColor": "#2f5d8a",
+    "lineColor": "#7dd3fc",
+    "secondaryColor": "#111827",
+    "secondaryTextColor": "#dbe7f3",
+    "secondaryBorderColor": "#334155",
+    "tertiaryColor": "#172033",
+    "tertiaryTextColor": "#cbd5e1",
+    "tertiaryBorderColor": "#334155",
+    "clusterBkg": "#0f172a",
+    "clusterBorder": "#1f2a44",
+    "fontFamily": "Segoe UI, Arial, sans-serif"
+  }
+}}%%
+flowchart LR
+    subgraph C0[" "]
+        direction TB
+        P0["FAZA 0<br/>Alpha i rdzeń"]
+        P0A["Seed watchlista 5-10 spółek"]
+        P0B["Modele: spółka, snapshot, zmiana"]
+        P0C["Ręczne case studies i karta alertu"]
+        P0 --- P0A
+        P0 --- P0B
+        P0 --- P0C
+    end
+
+    G0{"Czy ręczny przepływ<br/>snapshot → diff → alert<br/>jest jednoznaczny?"}
+
+    subgraph C1[" "]
+        direction TB
+        P1["FAZA 1<br/>v0"]
+        P1A["KRS + CRBR + SQLite"]
+        P1B["Powtarzalny manual run / CLI"]
+        P1C["Digest, historia zmian, rerun"]
+        P1 --- P1A
+        P1 --- P1B
+        P1 --- P1C
+    end
+
+    G1{"Czy kolejne runy wykrywają<br/>tylko realne zmiany?"}
+
+    subgraph C2[" "]
+        direction TB
+        P2["FAZA 2<br/>Rozszerzenie"]
+        P2A["KRZ i sygnały distress-first"]
+        P2B["Retry, monitoring, deduplikacja"]
+        P2C["Półautomatyczny run dla 25-100 spółek"]
+        P2 --- P2A
+        P2 --- P2B
+        P2 --- P2C
+    end
+
+    G2{"Czy system jest gotowy<br/>na pierwszy pilot zewnętrzny?"}
+
+    subgraph C3[" "]
+        direction TB
+        P3["FAZA 3<br/>Produkt lub platforma"]
+        P3A["Email-first i onboarding watchlisty"]
+        P3B["Minimalny dostęp i historia zmian"]
+        P3C["Pilot dla 1-2 organizacji / 3-5 użytkowników"]
+        P3 --- P3A
+        P3 --- P3B
+        P3 --- P3C
+    end
+
+    P0 --> G0 --> P1 --> G1 --> P2 --> G2 --> P3
+
+    classDef phase fill:#1f4b77,color:#f8fafc,stroke:#7dd3fc,stroke-width:2px,font-size:24px,font-weight:bold;
+    classDef detail fill:#132038,color:#e2e8f0,stroke:#3b4b66,stroke-width:1.3px,font-size:17px;
+    classDef gate fill:#2f1d12,color:#ffedd5,stroke:#f59e0b,stroke-width:2.2px,font-size:18px,font-weight:bold;
+
+    class P0,P1,P2,P3 phase
+    class P0A,P0B,P0C,P1A,P1B,P1C,P2A,P2B,P2C,P3A,P3B,P3C detail
+    class G0,G1,G2 gate
+
+    style C0 fill:#0f172a,stroke:#23324f,stroke-width:1.2px,color:#0f172a
+    style C1 fill:#0f172a,stroke:#23324f,stroke-width:1.2px,color:#0f172a
+    style C2 fill:#0f172a,stroke:#23324f,stroke-width:1.2px,color:#0f172a
+    style C3 fill:#0f172a,stroke:#23324f,stroke-width:1.2px,color:#0f172a

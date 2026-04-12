@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "defaultMode": "default"
+  },
+  "model": "opus",
+  "hooks": {
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "powershell -NoProfile -ExecutionPolicy Bypass -File scripts/check-changed.ps1",
+            "statusMessage": "Sprawdzam zmienione pliki (pre-commit)..."
+          }
+        ]
+      }
+    ]
+  }
+}

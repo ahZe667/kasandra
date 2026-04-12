@@ -1,0 +1,51 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Node
+node_modules/
+
+# Pre-commit
+.pre-commit-cache/
+
+# Local env
+.env
+.env.local
+.env.*.local
+
+# Local runtime / data
+*.db
+*.sqlite
+*.sqlite3
+*.log
+tmp/
+temp/
+var/*
+!var/.gitkeep
+!var/sqlite/
+!var/exports/
+!var/tmp/
+var/sqlite/*
+!var/sqlite/.gitkeep
+var/exports/*
+!var/exports/.gitkeep
+var/tmp/*
+!var/tmp/.gitkeep
+
+# Agent-local files
+.claude/worktrees/
+.claude/settings.local.json
+
+# Codex / local tooling
+.codex/

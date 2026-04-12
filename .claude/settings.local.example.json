@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(rg:*)",
+      "Bash(uv:*)",
+      "Bash(python:*)",
+      "Bash(npx:*)",
+      "Bash(git status:*)",
+      "Bash(git diff:*)",
+      "Bash(git add:*)",
+      "Bash(git config:*)",
+      "Bash(git rev-parse:*)",
+      "Bash(git ls-files:*)"
+    ]
+  }
+}
