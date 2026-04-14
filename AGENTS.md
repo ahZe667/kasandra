@@ -50,6 +50,29 @@ Do czasu świadomej zmiany dokumentacji zakładamy:
 
 Nie dodawaj ciężkiej infrastruktury tylko "na zapas".
 
+## Konwencja commitów
+
+Język commit messages: angielski.
+
+Format: `<typ>(<scope>): <opis>`
+
+Dozwolone typy: `feat`, `fix`, `docs`, `refactor`, `test`, `chore`
+
+Scope jest opcjonalny. Używaj gdy dodaje informację — najczęściej przy `feat` i `fix`, żeby zawęzić obszar zmiany. Nie ma zamkniętej listy scope'ów; dopasuj do kontekstu (np. `sources`, `storage`, `cli`, `docs`).
+
+Body jest opcjonalne. Dodawaj je przy `feat` i `fix` żeby wyjaśnić "dlaczego", nie "co". Przy `docs`, `chore`, `test` — zwykle zbędne.
+
+Granularność: jeden commit na task. Wyjątek: gdy zmiana naturalnie się dzieli (np. schema + kod).
+
+Przykłady:
+
+- `feat(sources): add KRS API data fetching`
+- `fix(storage): prevent duplicate snapshots on reimport`
+- `docs: sync 02-data-sources with KRS contract`
+- `chore: add conventional-pre-commit hook`
+
+Konwencja jest wymuszana przez hook `commit-msg` w pre-commit.
+
 ## Workflow agentów
 
 - Jeden task = jeden mały slice = jedna gałąź lub worktree.

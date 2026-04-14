@@ -20,6 +20,7 @@ if (Test-Path "uv.lock") {
 
 Write-Host "Installing pre-commit hooks..."
 uv tool run pre-commit install
+uv tool run pre-commit install --hook-type commit-msg
 
 Write-Host "Running initial repository checks..."
 powershell -NoProfile -ExecutionPolicy Bypass -File scripts/repo-check.ps1
