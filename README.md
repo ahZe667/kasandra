@@ -14,19 +14,62 @@ Kasandra to wspólne repo dla dokumentacji, researchu, przykładów i implementa
 
 ## Stan projektu
 
-- etap: `pre-build / alpha wewnętrzna`
+- etap: `faza 0-1` — scaffold kodu, agent-driven workflow skonfigurowany
 - domyślny zakres `v0`: `KRS + CRBR`
 - cel pierwszej wersji: zbudować prosty pipeline zmian i alertów, a nie pełną platformę
 
 ## Agent-first workflow
 
-- wspólne zasady pracy agentów: [AGENTS.md](AGENTS.md)
-- cienka nakładka dla Claude Code: [CLAUDE.md](CLAUDE.md)
-- vendor-neutral skills: `.agents/skills/`
-- bootstrap repo: `powershell -ExecutionPolicy Bypass -File scripts/bootstrap.ps1`
-- pełne checki repo: `powershell -ExecutionPolicy Bypass -File scripts/repo-check.ps1`
-- check zmienionych plików dla hooków Claude: `powershell -ExecutionPolicy Bypass -File scripts/check-changed.ps1`
-- preferowana konwencja gałęzi: `task/<slug>`
+Repo jest prowadzone w trybie agent-driven — kod powstaje przez agentów, nie ręcznie.
+
+### Dokumenty sterujące
+
+- [AGENTS.md](AGENTS.md) — zasady pracy agentów, konwencja commitów, routing do skills
+- [CLAUDE.md](CLAUDE.md) — cienka nakładka dla Claude Code
+- `.agents/skills/` — vendor-neutral procedury operacyjne
+
+### Setup
+
+```bash
+powershell -ExecutionPolicy Bypass -File scripts/bootstrap.ps1
+```
+
+Bootstrap instaluje zależności Python (`uv sync`), hooki pre-commit (linting, ruff, conventional commits) i hook commit-msg.
+
+### Typowy flow pracy
+
+1. **Start taska** — `/task-start <opis zadania>`
+   - Agent tworzy branch `task/<slug>` z `main`
+   - Czyta `AGENTS.md` i dobiera właściwy skill
+   - Czyta wymagane dokumenty i rozpoczyna pracę
+
+2. **Praca** — agent implementuje zmianę zgodnie ze skillem:
+   - `/slice` — mały feature end-to-end
+   - `/source` — nowe źródło danych lub zmiana integracji
+   - `/schema-change` — zmiana SQLite lub modelu danych
+   - `/docs-sync` — synchronizacja dokumentacji
+   - `/research-update` — aktualizacja researchu
+   - `/concept` — praca koncepcyjna (bez kodu)
+
+3. **Finish taska** — `/task-finish`
+   - Agent uruchamia `repo-check.ps1` (pre-commit + ruff + pytest)
+   - Commituje z konwencją `<typ>(<scope>): <opis>` (angielski)
+   - Pokazuje podsumowanie: co dowiezione, jak zweryfikować, follow-upy
+
+4. **Push** — ręczna decyzja użytkownika
+
+### Bramki jakości
+
+Przy każdym `git commit` automatycznie odpalają się:
+
+- **pre-commit hook** — trailing whitespace, line endings, JSON/TOML/YAML, merge conflicts, large files, private keys, AST check, debug statements, markdownlint, ruff
+- **commit-msg hook** — walidacja formatu conventional commits (`feat`, `fix`, `docs`, `refactor`, `test`, `chore`)
+
+Pełne checki (z pytest) uruchamia `repo-check.ps1`:
+
+```bash
+powershell -ExecutionPolicy Bypass -File scripts/repo-check.ps1
+```
 
 ## Środowisko i sekrety
 
