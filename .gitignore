@@ -45,7 +45,6 @@ var/tmp/*
 
 # Agent-local files
 .claude/worktrees/
-.claude/settings.local.json
 
 # Codex / local tooling
 .codex/
