@@ -81,7 +81,7 @@ Konwencja jest wymuszana przez hook `commit-msg` w pre-commit.
 - Przed pracą przeczytaj `AGENTS.md`, właściwe dokumenty i odpowiadający skill z `.agents/skills/`.
 - Dowieź jeden mały, kończący się feature albo jedną spójną zmianę koncepcyjną.
 - Jeśli zmienił się kontrakt, zachowanie albo ważne założenie, zsynchronizuj `docs/` i `examples/`.
-- Po pracy uruchom `powershell -ExecutionPolicy Bypass -File scripts/repo-check.ps1`.
+- Po pracy uruchom `uv run poe check`.
 - Nie rozszerzaj scope'u ponad aktualną fazę projektu bez wyraźnej decyzji użytkownika.
 
 ## Routing zadań do skills
@@ -145,12 +145,12 @@ Zasady:
 
 - środowisko i zależności: `uv`
 - konfiguracja projektu: `pyproject.toml`
-- pełne checki repo: `powershell -ExecutionPolicy Bypass -File scripts/repo-check.ps1`
-- bootstrap środowiska: `powershell -ExecutionPolicy Bypass -File scripts/bootstrap.ps1`
+- pełne checki repo: `uv run poe check`
+- bootstrap środowiska: `uv run poe bootstrap`
 
 ## Jakość i checki
 
-- `scripts/repo-check.ps1` jest wspólną bramką jakości dla pracy lokalnej i CI.
+- `uv run poe check` jest wspólną bramką jakości dla pracy lokalnej i CI.
 - Po zmianach kodu repo musi przechodzić `pre-commit`, `ruff` i `pytest`.
 - Zmiany w dokumentach mają być czytelne, rzeczowe i bez korpomowy.
 - Zmiany w kodzie mają być małe, weryfikowalne i łatwe do cofnięcia.

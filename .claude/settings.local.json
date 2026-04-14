@@ -8,7 +8,6 @@
       "Bash(node:*)",
       "Bash(npx:*)",
       "Bash(mmdc:*)",
-      "Bash(powershell:*)",
       "Bash(git status:*)",
       "Bash(git diff:*)",
       "Bash(git add:*)",

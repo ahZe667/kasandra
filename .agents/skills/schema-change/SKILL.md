@@ -23,7 +23,7 @@ Użyj tego skillu, gdy zadanie dotyczy zmian w `SQLite`, plikach `sql/` albo mod
 
 ## Checki końcowe
 
-- `powershell -ExecutionPolicy Bypass -File scripts/repo-check.ps1`
+- `uv run poe check`
 - opisz wpływ na istniejące dane i najprostszy rollback
 
 ## Czego nie robić

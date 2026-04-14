@@ -20,7 +20,7 @@ Użyj tego skillu, gdy zadanie dotyczy aktualizacji dokumentacji, przykładów a
 
 ## Checki końcowe
 
-- `powershell -ExecutionPolicy Bypass -File scripts/repo-check.ps1`
+- `uv run poe check`
 - upewnij się, że dokumenty mówią jednym głosem
 
 ## Czego nie robić

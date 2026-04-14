@@ -22,7 +22,7 @@ Użyj tego skillu, gdy zadanie dotyczy małej, domkniętej zmiany end-to-end, kt
 
 ## Checki końcowe
 
-- `powershell -ExecutionPolicy Bypass -File scripts/repo-check.ps1`
+- `uv run poe check`
 - pokaż, jaki slice został dowieziony i jak go uruchomić
 
 ## Czego nie robić

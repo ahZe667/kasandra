@@ -14,7 +14,7 @@ This file is a thin adapter for Claude Code.
 - Preferowana konwencja gałęzi: `task/<slug>`.
 - Nie rozszerzaj scope'u ponad aktualną fazę projektu.
 - Jeśli zmienia się kontrakt, zachowanie albo ważne założenie, zsynchronizuj `docs/` i `examples/`.
-- Przed oddaniem pracy uruchom `powershell -ExecutionPolicy Bypass -File scripts/repo-check.ps1`.
+- Przed oddaniem pracy uruchom `uv run poe check`.
 
 ## Routing do repo skills
 

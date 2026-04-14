@@ -8,7 +8,7 @@ Użyj tej komendy, gdy użytkownik prosi o implementację małej, domkniętej zm
 2. Przeczytaj `.agents/skills/vertical-slice/SKILL.md`.
 3. Zidentyfikuj minimalny slice zgodny z aktualną fazą projektu.
 4. Dowieź zmianę z testami i działającym entry pointem tam, gdzie to ma sens.
-5. Uruchom `powershell -ExecutionPolicy Bypass -File scripts/repo-check.ps1`.
+5. Uruchom `uv run poe check`.
 
 ## Input użytkownika
 

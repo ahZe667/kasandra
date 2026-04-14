@@ -19,6 +19,22 @@ kasandra = "kasandra.cli.main:main"
 dev = [
   "pytest>=8.2,<9",
   "ruff>=0.6,<1",
+  "poethepoet>=0.29,<1",
+]
+
+[tool.poe.tasks.check]
+sequence = [
+  { cmd = "pre-commit run --all-files" },
+  { cmd = "ruff check src tests" },
+  { cmd = "pytest" },
+]
+
+[tool.poe.tasks.bootstrap]
+sequence = [
+  { cmd = "uv sync --dev" },
+  { cmd = "pre-commit install" },
+  { cmd = "pre-commit install --hook-type commit-msg" },
+  { ref = "check" },
 ]
 
 [tool.hatch.build.targets.wheel]

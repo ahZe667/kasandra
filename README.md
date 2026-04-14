@@ -31,7 +31,7 @@ Repo jest prowadzone w trybie agent-driven — kod powstaje przez agentów, nie 
 ### Setup
 
 ```bash
-powershell -ExecutionPolicy Bypass -File scripts/bootstrap.ps1
+uv run poe bootstrap
 ```
 
 Bootstrap instaluje zależności Python (`uv sync`), hooki pre-commit (linting, ruff, conventional commits) i hook commit-msg.
@@ -52,7 +52,7 @@ Bootstrap instaluje zależności Python (`uv sync`), hooki pre-commit (linting, 
    - `/concept` — praca koncepcyjna (bez kodu)
 
 3. **Finish taska** — `/task-finish`
-   - Agent uruchamia `repo-check.ps1` (pre-commit + ruff + pytest)
+   - Agent uruchamia `uv run poe check` (pre-commit + ruff + pytest)
    - Commituje z konwencją `<typ>(<scope>): <opis>` (angielski)
    - Pokazuje podsumowanie: co dowiezione, jak zweryfikować, follow-upy
 
@@ -65,10 +65,10 @@ Przy każdym `git commit` automatycznie odpalają się:
 - **pre-commit hook** — trailing whitespace, line endings, JSON/TOML/YAML, merge conflicts, large files, private keys, AST check, debug statements, markdownlint, ruff
 - **commit-msg hook** — walidacja formatu conventional commits (`feat`, `fix`, `docs`, `refactor`, `test`, `chore`)
 
-Pełne checki (z pytest) uruchamia `repo-check.ps1`:
+Pełne checki (z pytest) uruchamia `uv run poe check`:
 
 ```bash
-powershell -ExecutionPolicy Bypass -File scripts/repo-check.ps1
+uv run poe check
 ```
 
 ## Środowisko i sekrety

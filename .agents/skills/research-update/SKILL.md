@@ -20,7 +20,7 @@ Użyj tego skillu, gdy zadanie dotyczy aktualizacji researchu, konkurencji, nota
 
 ## Checki końcowe
 
-- `powershell -ExecutionPolicy Bypass -File scripts/repo-check.ps1`
+- `uv run poe check`
 - jasno wskaż, co jest potwierdzonym faktem, a co interpretacją
 
 ## Czego nie robić

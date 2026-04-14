@@ -6,7 +6,7 @@ on:
 
 jobs:
   checks:
-    runs-on: windows-latest
+    runs-on: ubuntu-latest
 
     steps:
       - name: Checkout repository
@@ -29,5 +29,4 @@ jobs:
         run: uv sync --dev --frozen
 
       - name: Run repository checks
-        shell: pwsh
-        run: powershell -NoProfile -ExecutionPolicy Bypass -File scripts/repo-check.ps1
+        run: uv run poe check
