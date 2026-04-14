@@ -6,14 +6,13 @@ Kasandra jest jednym repozytorium dla:
 
 - dokumentacji produktowej i koncepcyjnej,
 - przykładów alertów i case studies,
-- researchu,
 - implementacji systemu.
 
 Repo nie jest już tylko dokumentacyjne. Dokumentacja nadal wyznacza kierunek, ale kod, testy i tooling są już częścią tego samego workflow.
 
 ## Źródła prawdy
 
-Przed większą zmianą przeczytaj właściwe dokumenty z `docs/`, `examples/` i `research/`.
+Przed większą zmianą przeczytaj właściwe dokumenty z `docs/` i `examples/`.
 
 Najważniejsze dziś są:
 
@@ -92,7 +91,6 @@ Canonical location dla skills to `.agents/skills/`.
 - nowe źródło lub zmiana integracji: `.agents/skills/source-integration/SKILL.md`
 - zmiana SQLite lub plików w `sql/`: `.agents/skills/schema-change/SKILL.md`
 - synchronizacja dokumentacji i przykładów: `.agents/skills/docs-sync/SKILL.md`
-- aktualizacja researchu lub benchmarków: `.agents/skills/research-update/SKILL.md`
 
 Skills są repo-local procedurami operacyjnymi dla agentów i ludzi. To jest źródło prawdy dla workflow, a nie obietnica natywnego auto-loadu we wszystkich narzędziach.
 
@@ -104,7 +102,6 @@ kasandra/
 |- .claude/commands/
 |- docs/
 |- examples/
-|- research/
 |- scripts/
 |- sql/
 |  |- schema/

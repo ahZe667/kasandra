@@ -8,7 +8,6 @@ Użyj tej komendy do pracy koncepcyjnej i dokumentacyjnej, nie do implementacji 
 2. Przeczytaj właściwe dokumenty z `docs/`.
 3. Jeśli zmiana dotyczy dokumentacji lub przykładów, użyj też repo skills:
    - `.agents/skills/docs-sync/SKILL.md`
-   - `.agents/skills/research-update/SKILL.md` gdy temat dotyczy researchu
 
 ## Zasady pracy
 

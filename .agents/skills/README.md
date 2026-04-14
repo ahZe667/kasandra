@@ -8,7 +8,6 @@ To jest vendor-neutral warstwa procedur dla pracy agentów i ludzi w repo Kasand
 - nowe źródło lub zmiana integracji: `source-integration`
 - zmiana SQLite lub SQL: `schema-change`
 - synchronizacja dokumentacji i przykładów: `docs-sync`
-- aktualizacja researchu: `research-update`
 
 ## Zasady
 

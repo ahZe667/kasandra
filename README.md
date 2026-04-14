@@ -1,6 +1,6 @@
 # Kasandra
 
-Kasandra to wspólne repo dla dokumentacji, researchu, przykładów i implementacji systemu monitoringu polskich spółek opartego na danych publicznych. Punkt wyjścia to wąska `alpha wewnętrzna`: budowa użytecznego systemu i własnego IP, z opcją komercjalizacji później.
+Kasandra to wspólne repo dla dokumentacji, przykładów i implementacji systemu monitoringu polskich spółek opartego na danych publicznych. Punkt wyjścia to wąska `alpha wewnętrzna`: budowa użytecznego systemu i własnego IP, z opcją komercjalizacji później.
 
 ## Główne dokumenty
 
@@ -48,7 +48,6 @@ Bootstrap instaluje zależności Python (`uv sync`), hooki pre-commit (linting, 
    - `/source` — nowe źródło danych lub zmiana integracji
    - `/schema-change` — zmiana SQLite lub modelu danych
    - `/docs-sync` — synchronizacja dokumentacji
-   - `/research-update` — aktualizacja researchu
    - `/concept` — praca koncepcyjna (bez kodu)
 
 3. **Finish taska** — `/task-finish`
@@ -62,7 +61,7 @@ Bootstrap instaluje zależności Python (`uv sync`), hooki pre-commit (linting, 
 
 Przy każdym `git commit` automatycznie odpalają się:
 
-- **pre-commit hook** — trailing whitespace, line endings, JSON/TOML/YAML, merge conflicts, large files, private keys, AST check, debug statements, markdownlint, ruff
+- **pre-commit hook** — trailing whitespace, line endings, JSON/TOML/YAML, merge conflicts, large files, private keys, AST check, debug statements, ruff
 - **commit-msg hook** — walidacja formatu conventional commits (`feat`, `fix`, `docs`, `refactor`, `test`, `chore`)
 
 Pełne checki (z pytest) uruchamia `uv run poe check`:
@@ -93,7 +92,6 @@ uv run poe check
 
 ## Katalogi pomocnicze
 
-- `research/` - notatki researchowe
 - `examples/` - przykładowe alerty i case'y
 - `docs/roadmap.mmd` - roadmapa w Mermaid
 - `docs/roadmap.png` - wygenerowany podgląd roadmapy

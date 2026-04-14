@@ -7,7 +7,7 @@ Użyj tego skillu, gdy zadanie dotyczy aktualizacji dokumentacji, przykładów a
 ## Wejścia i zależności
 
 - `AGENTS.md`
-- odpowiednie pliki z `docs/`, `examples/` i ewentualnie `research/`
+- odpowiednie pliki z `docs/` i `examples/`
 - zmienione pliki kodu lub nowe ustalenia produktowe
 
 ## Kroki wykonania
@@ -27,4 +27,4 @@ Użyj tego skillu, gdy zadanie dotyczy aktualizacji dokumentacji, przykładów a
 
 - nie twórz nowych numerowanych dokumentów bez potrzeby
 - nie zostawiaj sprzeczności między `docs/` i `examples/`
-- nie dopisuj niepotwierdzonych faktów do researchu
+- nie dopisuj niepotwierdzonych faktów

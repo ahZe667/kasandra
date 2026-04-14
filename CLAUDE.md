@@ -22,7 +22,6 @@ This file is a thin adapter for Claude Code.
 - źródła danych: `.agents/skills/source-integration/SKILL.md`
 - SQLite i SQL: `.agents/skills/schema-change/SKILL.md`
 - dokumentacja i examples: `.agents/skills/docs-sync/SKILL.md`
-- research: `.agents/skills/research-update/SKILL.md`
 
 ## Kontekst repo
 
