@@ -4,11 +4,10 @@ Użyj tej komendy, gdy użytkownik prosi o implementację małej, domkniętej zm
 
 ## Procedura
 
-1. Przeczytaj `AGENTS.md`.
-2. Przeczytaj `.agents/skills/vertical-slice/SKILL.md`.
-3. Zidentyfikuj minimalny slice zgodny z aktualną fazą projektu.
-4. Dowieź zmianę z testami i działającym entry pointem tam, gdzie to ma sens.
-5. Uruchom `uv run poe check`.
+1. Przeczytaj `.agents/skills/vertical-slice/SKILL.md`.
+2. Zidentyfikuj minimalny slice zgodny z aktualną fazą projektu.
+3. Dowieź zmianę z testami i działającym entry pointem tam, gdzie to ma sens.
+4. Uruchom `uv run poe check`.
 
 ## Input użytkownika
 

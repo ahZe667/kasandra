@@ -4,9 +4,8 @@ Użyj tej komendy do pracy koncepcyjnej i dokumentacyjnej, nie do implementacji 
 
 ## Obowiązkowy kontekst
 
-1. Przeczytaj `AGENTS.md`.
-2. Przeczytaj właściwe dokumenty z `docs/`.
-3. Jeśli zmiana dotyczy dokumentacji lub przykładów, użyj też repo skills:
+1. Przeczytaj właściwe dokumenty z `docs/`.
+2. Jeśli zmiana dotyczy dokumentacji lub przykładów, użyj też repo skills:
    - `.agents/skills/docs-sync/SKILL.md`
 
 ## Zasady pracy
