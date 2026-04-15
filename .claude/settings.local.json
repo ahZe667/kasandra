@@ -21,7 +21,11 @@
       "Bash(git ls-files:*)",
       "Bash(git stash:*)",
       "Bash(git config:*)",
-      "Bash(gh:*)"
+      "Bash(gh:*)",
+      "Bash(where uv:*)",
+      "Bash(ls ~/.local/bin/uv*)",
+      "Bash(command -v uv.exe)",
+      "Read(//c/Users/mateu/.claude/**)"
     ]
   }
 }
