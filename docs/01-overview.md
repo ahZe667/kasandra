@@ -2,89 +2,68 @@
 
 ## Teza
 
-Najmocniejsza teza dla tego projektu jest prosta: nie budować kolejnej bazy danych o firmach, tylko mały system, który zamienia publiczne dane o spółkach w użyteczne sygnały i przy okazji buduje własne IP.
+Kasandra nie ma byc kolejna baza danych o firmach. Ma byc malym systemem, ktory zamienia publiczne dane o spolkach w uzyteczne sygnaly i przy okazji buduje wlasne IP.
 
-Na tym etapie projekt ma największy sens jako `alpha wewnętrzna`: narzędzie, które pozwala nam sprawdzić, czy da się regularnie zbierać zmiany ze źródeł publicznych, porządkować je i wyciągać z nich sensowny alert.
-
-Teza robocza:
-
-> Jeśli połączymy kilka publicznych rejestrów i zamienimy zmiany w spółkach na krótki, trafny alert z priorytetem, to zbudujemy użyteczny system monitoringu i wartościowy asset, który później może stać się produktem.
-
-## Punkt odniesienia v0
-
-Pierwsza wersja nie musi od razu powstawać z myślą o sprzedaży. Punktem odniesienia jest wewnętrzny workflow:
-
-- obserwowanie wybranych spółek,
-- wychwytywanie zmian formalnych i właścicielskich,
-- szybkie rozumienie, co się zmieniło i czy warto to dalej sprawdzić,
-- budowa własnego know-how, pipeline'u i logiki alertowej.
-
-Potencjalni odbiorcy zewnętrzni pozostają ważni, ale na późniejszym etapie. Najbardziej naturalne kierunki to:
-
-- kancelarie restrukturyzacyjne,
-- prawnicy biznesowi,
-- analitycy gospodarczy,
-- zespoły due diligence i compliance.
+Na obecnym etapie najlepszym punktem odniesienia jest `alpha wewnetrzna`, nie pelny produkt. Najpierw trzeba dowiezc powtarzalny przeplyw `snapshot -> diff -> alert`, a dopiero potem myslec o szerszej produktizacji.
 
 ## Problem
 
-Informacje o spółkach są publiczne, ale w praktyce:
+Informacje o spolkach sa publiczne, ale w praktyce:
 
-- są rozproszone między wieloma źródłami,
-- trudno je monitorować regularnie,
-- surowe dane nie dają szybkiej odpowiedzi, czy coś się realnie zmieniło,
-- ręczne sprawdzanie kilku serwisów zabiera czas i powoduje, że łatwo coś przegapić.
+- sa rozproszone miedzy wieloma zrodlami,
+- trudno je monitorowac regularnie,
+- surowe dane nie odpowiadaja szybko na pytanie, czy zmiana jest istotna,
+- reczne sprawdzanie kilku rejestrow zabiera czas i latwo prowadzi do przeoczen.
 
-Problem jest więc podwójny: z jednej strony chodzi o wygodę pracy, z drugiej o zbudowanie własnego sposobu zamiany publicznych danych w uporządkowany sygnał.
+Projekt rozwiazuje nie tyle problem dostepu do danych, co problem ich interpretacji i uporzadkowania.
 
-## Job to Be Done
+## Job To Be Done
 
-W pierwszej wersji system ma dawać prostą odpowiedź:
+Pierwsza wersja systemu ma dawac prosta odpowiedz:
 
-- co się zmieniło,
-- skąd pochodzi zmiana,
-- co to może znaczyć,
-- czy warto to dalej sprawdzić.
+- co sie zmienilo,
+- skad pochodzi zmiana,
+- czy zmiana wyglada istotnie,
+- co warto sprawdzic dalej.
 
-To nie musi jeszcze być pełny produkt dla szerokiego rynku. Wystarczy, że pipeline i alerty będą wystarczająco sensowne, żeby używanie ich miało praktyczny sens i żeby rosła wartość projektu jako assetu.
+W `v0` wazniejsze od szerokosci funkcji sa jakosc diffu, historia zmian i czytelny alert.
 
-## Rozwiązanie
+## Pozycjonowanie
 
-Pierwsza wersja to lekki system alertów oparty głównie na `KRS` i `CRBR`.
+Projekt nie powinien byc opisywany jako:
 
-System:
+- pelna baza informacji gospodarczej,
+- zamiennik duzych wywiadowni,
+- szeroka platforma danych o firmach.
 
-- zbiera snapshot danych dla wybranych spółek,
-- normalizuje podstawowe identyfikatory,
-- wykrywa różnice względem poprzedniego stanu,
-- zapisuje historię zmian,
-- generuje prosty alert lub digest z krótką interpretacją.
+Lepsze pozycjonowanie:
 
-Docelowo zakres może się rozszerzać o kolejne źródła i bardziej złożone sygnały, ale `v0` ma przede wszystkim dowieźć działający rdzeń.
+- lekkie narzedzie wczesnego ostrzegania,
+- monitoring zmian w spolkach,
+- system lead qualification oparty o publiczne dane.
 
-## Logika rozwoju
+Naturalnym pierwszym workflow jest praca osoby, ktora chce szybko wiedziec:
 
-Projekt jest rozpisany na cztery fazy:
+- co jest nowe,
+- co jest wazne,
+- co warto sprawdzic dzis, a nie za tydzien.
 
-- `Faza 0` - definicja rdzenia, modeli danych i ręcznych case studies,
-- `Faza 1` - `v0 / alpha wewnętrzna` na `KRS + CRBR`,
-- `Faza 2` - rozszerzenie `distress-first`, przede wszystkim o `KRZ`,
-- `Faza 3` - mały pilot produktowy dla wąskiej grupy użytkowników zewnętrznych.
+## Zakres v0
 
-Fazy są bramkami jakościowymi, a nie sztywnym harmonogramem. Dokładniejszy opis znajduje się w [05-mvp](05-mvp.md).
+Pierwszy rdzen jest swiadomie waski:
 
-## Propozycja wartości
+- zrodla: `KRS + CRBR`,
+- formaty wyjscia: alert tekstowy, digest, historia zmian,
+- interfejs: prosty CLI i lokalny run,
+- magazyn danych: `sqlite3`.
 
-To nie ma być kolejna baza firm. To ma być filtr i silnik zmian, który:
+Nie budujemy jeszcze publicznego API, ciezkiej orkiestracji ani pelnego panelu.
 
-- porządkuje rozproszone dane,
-- pokazuje tylko to, co rzeczywiście się zmieniło,
-- buduje własną logikę interpretacji,
-- daje fundament pod dalszy rozwój produktu albo komercjalizację.
+## Jak czytac docs
 
-Przewaga rozwiązania ma wynikać z:
+Ten dokument odpowiada za kierunek produktu.
 
-- prostoty,
-- wąskiego zakresu startowego,
-- jakości diffu i alertu,
-- budowy własnego IP zamiast zależności od gotowych raportów.
+- [02-sources-and-alerts](02-sources-and-alerts.md) opisuje zrodla, sygnaly i kontrakt alertu.
+- [03-roadmap-and-gates](03-roadmap-and-gates.md) jest glownym zrodlem prawdy dla faz, gate'ow, ryzyk i otwartych pytan.
+- [04-tech-stack](04-tech-stack.md) opisuje decyzje techniczne i granice architektury.
+- `docs/examples/` trzyma referencyjne alerty i case studies.
