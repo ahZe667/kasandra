@@ -1,6 +1,30 @@
 {
+  "autoMemoryEnabled": true,
   "permissions": {
-    "defaultMode": "bypassPermissions"
+    "defaultMode": "auto",
+    "allow": [
+      "Bash(rg:*)",
+      "Bash(uv:*)",
+      "Bash(pre-commit:*)",
+      "Bash(python:*)",
+      "Bash(node:*)",
+      "Bash(npx:*)",
+      "Bash(mmdc:*)",
+      "Bash(git status:*)",
+      "Bash(git diff:*)",
+      "Bash(git add:*)",
+      "Bash(git rm:*)",
+      "Bash(git commit:*)",
+      "Bash(git checkout:*)",
+      "Bash(git switch:*)",
+      "Bash(git branch:*)",
+      "Bash(git log:*)",
+      "Bash(git rev-parse:*)",
+      "Bash(git ls-files:*)",
+      "Bash(git stash:*)",
+      "Bash(git config:*)",
+      "Bash(gh:*)"
+    ]
   },
-  "model": "opus"
+  "model": "Sonnet"
 }

@@ -1,14 +1,12 @@
+---
+description: Nowe zrodlo danych albo zmiana istniejacej integracji
+argument-hint: [zrodlo-lub-zmiana]
+---
+
 # Source integration
 
-Użyj tej komendy, gdy zadanie dotyczy nowego źródła danych albo zmiany istniejącej integracji.
+Uruchom skill `source-integration`. Jesli zmienia sie opis zrodel albo zachowanie systemu, zamknij task uruchamiajac `docs-sync`.
 
-## Procedura
-
-1. Przeczytaj `.agents/skills/source-integration/SKILL.md`.
-2. Sprawdź zgodność z aktualną fazą produktu i listą źródeł w `docs/`.
-3. Dowieź minimalną zmianę w kodzie, testach i dokumentacji.
-4. Uruchom `uv run poe check`.
-
-## Input użytkownika
+## Input
 
 $ARGUMENTS

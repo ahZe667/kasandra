@@ -34,9 +34,24 @@ repos:
         types: [python]
         pass_filenames: false
 
+      - id: ty-check
+        name: ty check
+        entry: uv run ty check src tests
+        language: system
+        types: [python]
+        pass_filenames: false
+
+      - id: pytest
+        name: pytest
+        entry: uv run pytest
+        language: system
+        types: [python]
+        pass_filenames: false
+        stages: [pre-push]
+
   - repo: https://github.com/compilerla/conventional-pre-commit
     rev: v4.4.0
     hooks:
       - id: conventional-pre-commit
         stages: [commit-msg]
-        args: [feat, fix, docs, refactor, test, chore]
+        args: [feat, fix, docs, refactor, test, chore, ci, build, revert]

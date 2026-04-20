@@ -1,19 +1,12 @@
-# Praca koncepcyjna nad Kasandra
+---
+description: Praca koncepcyjna i dokumentacyjna bez implementacji kodu
+argument-hint: [temat]
+---
 
-Użyj tej komendy do pracy koncepcyjnej i dokumentacyjnej, nie do implementacji kodu.
+# Concept work
 
-## Obowiązkowy kontekst
+Uruchom skill `concept-work`. Jesli wynik wymaga zmian w `docs/` lub `docs/examples/`, zamknij przez `docs-sync`.
 
-1. Przeczytaj właściwe dokumenty z `docs/`.
-2. Jeśli zmiana dotyczy dokumentacji lub przykładów, użyj też repo skills:
-   - `.agents/skills/docs-sync/SKILL.md`
-
-## Zasady pracy
-
-- Nie wymyślaj danych rynkowych, prawnych ani technicznych.
-- Jeśli słabnie spójność między dokumentami, wskaż to wprost i popraw w tym samym change secie.
-- Jeśli temat zaczyna dotyczyć implementacji, przełącz się na workflow `vertical-slice` albo `source-integration`.
-
-## Input użytkownika
+## Input
 
 $ARGUMENTS
