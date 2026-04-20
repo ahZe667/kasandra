@@ -7,7 +7,7 @@ name = "kasandra"
 version = "0.1.0"
 description = "Internal alpha for monitoring Polish companies using public data."
 readme = "README.md"
-requires-python = ">=3.8"
+requires-python = ">=3.14"
 dependencies = [
   "typer>=0.12,<1.0",
 ]
@@ -19,6 +19,8 @@ kasandra = "kasandra.cli.main:main"
 dev = [
   "pytest>=8.2,<9",
   "ruff>=0.6,<1",
+  "ty>=0.0.31",
+  "pre-commit>=4.0,<5",
   "poethepoet>=0.29,<1",
 ]
 
@@ -26,6 +28,7 @@ dev = [
 sequence = [
   { cmd = "pre-commit run --all-files" },
   { cmd = "ruff check src tests" },
+  { cmd = "ty check src tests" },
   { cmd = "pytest" },
 ]
 
@@ -47,7 +50,7 @@ testpaths = ["tests"]
 [tool.ruff]
 line-length = 100
 src = ["src", "tests"]
-target-version = "py38"
+target-version = "py314"
 
 [tool.ruff.lint]
 select = ["E", "F", "I"]

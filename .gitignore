@@ -45,6 +45,15 @@ var/tmp/*
 
 # Agent-local files
 .claude/worktrees/
+.claude/settings.local.json
 
 # Codex / local tooling
 .codex/
+
+# Task reports
+!var/reports/
+var/reports/*
+!var/reports/.gitkeep
+!var/reports/task-runs/
+var/reports/task-runs/*
+!var/reports/task-runs/.gitkeep
