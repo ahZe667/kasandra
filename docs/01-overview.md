@@ -4,7 +4,13 @@
 
 Kasandra nie ma byc kolejna baza danych o firmach. Ma byc malym systemem, ktory zamienia publiczne dane o spolkach w uzyteczne sygnaly i przy okazji buduje wlasne IP.
 
-Na obecnym etapie najlepszym punktem odniesienia jest `alpha wewnetrzna`, nie pelny produkt. Najpierw trzeba dowiezc powtarzalny przeplyw `snapshot -> diff -> alert`, a dopiero potem myslec o szerszej produktizacji.
+Na tym etapie projekt ma najwiekszy sens jako `alpha wewnetrzna`: narzedzie, ktore pozwala sprawdzic, czy da sie regularnie zbierac zmiany ze zrodel publicznych, porzadkowac je i wyciagac z nich sensowny alert.
+
+Teza robocza:
+
+> Jesli polaczymy kilka publicznych rejestrow i zamienimy zmiany w spolkach na krotki, trafny alert z priorytetem, to zbudujemy uzyteczny system monitoringu i wartosciowy asset, ktory pozniej moze stac sie produktem.
+
+Przewaga systemu ma wynikac z czterech rzeczy: prostoty, waskiego zakresu startowego, jakosci diffu i alertu oraz budowy wlasnej logiki interpretacji — zamiast zaleznosci od gotowych raportow. To ostatnie jest kluczowe: wlasne IP to nie dane, ale sposob ich przetwarzania — reguly priorytetowania, slownik interpretacji zmian i logika alertowa, ktore rosna razem z projektem.
 
 ## Problem
 
@@ -16,6 +22,8 @@ Informacje o spolkach sa publiczne, ale w praktyce:
 - reczne sprawdzanie kilku rejestrow zabiera czas i latwo prowadzi do przeoczen.
 
 Projekt rozwiazuje nie tyle problem dostepu do danych, co problem ich interpretacji i uporzadkowania.
+
+Grupy, ktore ten problem odczuwaja najdotkliwiej, to przede wszystkim kancelarie restrukturyzacyjne i prawnicy biznesowi — sledza zmiany formalne i wlascicielskie w wielu spolkach jednoczesnie i kazde opoznienie w informacji ma konsekwencje. Podobna potrzeba pojawia sie u analitykow gospodarczych oraz zespolow due diligence i compliance, gdzie regularny monitoring jest warunkiem pracy, a nie opcja.
 
 ## Job To Be Done
 
@@ -42,11 +50,53 @@ Lepsze pozycjonowanie:
 - monitoring zmian w spolkach,
 - system lead qualification oparty o publiczne dane.
 
+## Funkcjonalnosc
+
+Zeby pokazac co system robi w praktyce, najlatwiej przesledzic przyklad.
+
+**Scenariusz:** uzytkownik monitoruje 15 spolek. Uruchamia pipeline (lub dostaje go automatycznie). System porownuje aktualny stan KRS i CRBR z poprzednim snapshotem.
+
+Jesli nic sie nie zmienilo — brak alertu.
+
+Jesli wykryje zmiane, generuje krotki alert:
+
+```
+[PODWYZSZONY] ABC Sp. z o.o. | KRS + CRBR | 2025-04-14
+
+KRS: zmiana w skladzie zarzadu — usunieto Jana Kowalskiego, dodano Anne Nowak
+CRBR: zmiana beneficjenta rzeczywistego — nowy udzial 30%: Anna Nowak
+
+Interpretacja: korelacja zmian w zarzadzie i beneficjencie w tej samej spolce
+w krotkim czasie sugeruje istotna zmiane struktury wlascicielskiej.
+Warte sprawdzenia.
+```
+
+Po zakonczeniu runu uzytkownik dostaje **digest** — zbiorczy przeglad wszystkich zmian z danego dnia, posortowany wedlug priorytetu. Kazda spolka ze zmiana ma swoj wpis z krotkim podsumowaniem i ocena pilnosci.
+
+Dla kazdej spolki system prowadzi **historie zmian** — kolejne snapshoty z datami, dzieki czemu widac nie tylko co sie wlasnie zmienilo, ale tez jak wygladal stan poprzedni i kiedy doszlo do poprzedniej zmiany.
+
+Trzy glowne wyjscia systemu:
+
+- **alert** — pojedyncze zdarzenie z interpretacja i priorytetem,
+- **digest** — dzienny przeglad wszystkich alertow dla watchlisty,
+- **historia** — pelny log zmian per spolka.
+
 Naturalnym pierwszym workflow jest praca osoby, ktora chce szybko wiedziec:
 
 - co jest nowe,
 - co jest wazne,
 - co warto sprawdzic dzis, a nie za tydzien.
+
+## Roadmap
+
+- `Faza 0` — definicja rdzenia, modeli danych i recznych case studies,
+- `Faza 1` — `v0 / alpha wewnetrzna` na `KRS + CRBR`,
+- `Faza 2` — rozszerzenie `distress-first`, przede wszystkim o `KRZ`,
+- `Faza 3` — maly pilot produktowy dla waskiej grupy uzytkownikow zewnetrznych.
+
+`Alpha wewnetrzna` (Faza 1) to przede wszystkim narzedzie do pracy wlasnej: obserwowania wybranych spolek, wychwytywania zmian formalnych i wlascicielskich, szybkiego rozumienia co sie zmienilo i czy warto to dalej sprawdzic. Na tym etapie budujemy know-how, pipeline i logike alertowa — zewnetrzni odbiorcy sa wazni, ale jako cel pozniejszy.
+
+`Distress-first` (Faza 2) to konkretna strategia rozszerzenia: zamiast dodawac kolejne zrodla ogolnie, priorytetyzujemy sygnaly zwiazane z zagrozeniem finansowym. `KRZ` (Krajowy Rejestr Zadluzonych) daje dostep do postepowania upadlosciowych, restrukturyzacyjnych i egzekucyjnych — czyli zdarzen, ktore dla kancelarii restrukturyzacyjnych i compliance maja najwieksza wartosc operacyjna.
 
 ## Zakres v0
 
