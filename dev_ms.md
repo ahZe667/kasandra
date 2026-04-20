@@ -21,9 +21,18 @@ zanim coś będzie gotowe do review lub merge'a.
 
 ### Watchlista startowa (do wypełnienia)
 
-| Spółka | KRS | NIP | REGON | Uwagi |
-|--------|-----|-----|-------|-------|
-|        |     |     |       |       |
+| Spółka | KRS | NIP | REGON | Forma | Uwagi |
+|--------|-----|-----|-------|-------|-------|
+| ŻABKA POLSKA SP. Z O.O. | 0000636642 | 5223071241 | 365388398 | Sp. z o.o. | duży retail, dużo zmian operacyjnych |
+| DRUTEX SPÓŁKA AKCYJNA | 0000140428 | 8421622720 | 771564493 | SA | producent okien/drzwi, stabilna |
+| GRUPA MASPEX SP. Z O.O. | 0000898248 | 5512617657 | 122948517 | Sp. z o.o. | FMCG, Tymbark — holding |
+| DINO POLSKA SPÓŁKA AKCYJNA | 0000408273 | 6211766191 | 300820828 | SA | retail, notowana GPW |
+| ASSECO POLAND SPÓŁKA AKCYJNA | 0000033391 | 5220003307 | 010337520 | SA | IT, notowana GPW |
+| FAME MMA SPÓŁKA AKCYJNA | 0000883491 | 7773370464 | 388181156 | SA | młoda SA, dynamiczne zmiany |
+| MENTZEN SPÓŁKA AKCYJNA | 0001008036 | 5273032556 | 523923895 | SA | nowa SA, Mentzen — ciekawy CRBR |
+| "STRONG MAN" SP. Z O.O. | 0000055656 | 5862021333 | 191892935 | Sp. z o.o. | stara spółka, logistyka Malbork |
+| "TENCZYNEK DYSTRYBUCJA" SA | 0000864032 | 9462683417 | 381368271 | SA | Palikot, strata, ciekawy profil ryzyka |
+| JANUSZEX SP. Z O.O. | 0000779880 | 5272889007 | 382903625 | Sp. z o.o. | mała spółka, 100% właściciel = prezes |
 
 ### Ręczne case studies — postęp
 
