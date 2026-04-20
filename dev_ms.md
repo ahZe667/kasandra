@@ -90,6 +90,124 @@ Surowe JSON: [dev_ms_data/snapshots/2026-04-20/krs/](dev_ms_data/snapshots/2026-
 
 ---
 
+## Wzór wyciąganych danych — KRS normalized_payload (v0.1)
+
+Schemat `normalized_payload` dla snapshotu KRS. Wyciągamy tylko te pola, których zmiana generuje alert lub daje istotny kontekst. Reszta zostaje w `raw_payload`.
+
+### Źródłowe ścieżki → pola znormalizowane
+
+| Pole wyjściowe | Ścieżka w JSON | Uwagi |
+|---|---|---|
+| `company.krs` | `odpis.naglowekA.numerKRS` | stabilny identyfikator |
+| `company.nazwa` | `odpis.dane.dzial1.danePodmiotu.nazwa` | |
+| `company.forma` | `odpis.dane.dzial1.danePodmiotu.formaPrawna` | |
+| `company.nip` | `odpis.dane.dzial1.danePodmiotu.identyfikatory.nip` | |
+| `company.regon` | `odpis.dane.dzial1.danePodmiotu.identyfikatory.regon` | |
+| `snapshot_meta.stan_z_dnia` | `odpis.naglowekA.stanZDnia` | meta — nie alertujemy |
+| `snapshot_meta.nr_ostatniego_wpisu` | `odpis.naglowekA.numerOstatniegoWpisu` | proxy "coś się zmieniło" |
+| `snapshot_meta.data_ostatniego_wpisu` | `odpis.naglowekA.dataOstatniegoWpisu` | |
+| `adres` | `odpis.dane.dzial1.siedzibaIAdres.adres` | ulica, nrDomu, kodPocztowy, miejscowosc, kraj |
+| `kapital.wartosc` | `odpis.dane.dzial1.kapital.wysokoscKapitaluZakladowego.wartosc` | string "5000,00" |
+| `kapital.waluta` | `odpis.dane.dzial1.kapital.wysokoscKapitaluZakladowego.waluta` | |
+| `zarzad.nazwa_organu` | `odpis.dane.dzial2.reprezentacja.nazwaOrganu` | |
+| `zarzad.sposob_reprezentacji` | `odpis.dane.dzial2.reprezentacja.sposobReprezentacji` | |
+| `zarzad.sklad[]` | `odpis.dane.dzial2.reprezentacja.sklad[]` | patrz `osoba_key` niżej |
+| `wlasciciele.typ` | — | `wspolnicy_spzoo` \| `jedyny_akcjonariusz` \| `brak_w_krs` |
+| `wlasciciele.lista[]` | `dzial1.wspolnicySpzoo[]` **lub** `dzial1.jedynyAkcjonariusz[]` | |
+| `pkd_glowny.kod` | `dzial3.przedmiotDzialalnosci.przedmiotPrzewazajacejDzialalnosci[0].kodDzial+Klasa+Podklasa` | |
+| `pkd_glowny.opis` | j.w. `.opis` | |
+| `distress.dzial4` | `dzial4` niepuste? | bool |
+| `distress.dzial5` | `dzial5` niepuste? | bool |
+| `distress.dzial6` | `dzial6` niepuste? | bool |
+| `distress.dzial6_typy[]` | klucze w `dzial6` (np. `polaczeniePodzialPrzeksztalcenie`) | lista stringów |
+
+### Identyfikator osoby (osoba_key)
+
+Bez deanonimizacji — stabilny klucz osoby budujemy jako:
+
+- **osoba prawna:** `"LE:" + nazwa + (krs || regon)` — pełna nazwa i ID są jawne
+- **osoba fizyczna:** `"NAT:" + maska_nazwisko + "|" + maska_imie + "|" + maska_pesel`
+
+Maski są deterministyczne (długość = długość oryginału), więc ten sam człowiek daje ten sam klucz między snapshotami. Zmiana któregokolwiek członu = inna osoba.
+
+### Reprezentacja członka zarządu / wspólnika
+
+```python
+{
+  "osoba_key": "NAT:J************|K********|4**********",
+  "typ": "fizyczna",   # lub "prawna"
+  "display": "K******** J************",   # do alertu
+  "funkcja": "PREZES ZARZĄDU",   # tylko zarząd
+  "posiadane_udzialy": "100 UDZIAŁÓW O ŁĄCZNEJ WARTOŚCI 5.000,00 ZŁ",   # tylko wspólnicy
+  "calosc": true   # tylko wspólnicy / jedyny_akcjonariusz
+}
+```
+
+### Pola pomijane w v0.1
+
+- `dzial1.umowaStatut` (zmiany umowy — za szczegółowe na start)
+- `dzial1.emisjeAkcji` (potrzebne dla SA, ale skomplikowane — odłożyć)
+- `dzial1.pozostaleInformacje` (czas trwania spółki, rok obrotowy — kontekst)
+- pełna historia wpisów, daty każdej zmiany
+- adresy korespondencyjne oddziałów
+
+---
+
+## Alerty — propozycje v0.1
+
+Każdy alert = reguła na diffie dwóch `normalized_payload`. Priorytet orientacyjny: `N / Ś / W / K` (niski / średni / wysoki / krytyczny).
+
+### Sygnały binarne (distress — najsilniejsze)
+
+| ID | Trigger | Priorytet | Uzasadnienie |
+|---|---|---|---|
+| `A-DZ6-NEW` | `distress.dzial6` przeszedł `false → true` lub przybył nowy typ | **K** | pojawiła się upadłość / połączenie / przekształcenie / podział |
+| `A-DZ4-NEW` | `distress.dzial4` przeszedł `false → true` | **K** | pojawili się wierzyciele / hipoteki |
+| `A-DZ5-NEW` | `distress.dzial5` przeszedł `false → true` | **W** | pojawił się kurator |
+
+### Zmiany struktury (klasyczne sygnały kontroli)
+
+| ID | Trigger | Priorytet | Uwagi |
+|---|---|---|---|
+| `A-ZARZAD-PREZES` | zmiana osoby na funkcji `PREZES ZARZĄDU` | **W** | najsilniejsza rotacja w zarządzie |
+| `A-ZARZAD-SKLAD` | zmiana liczby lub składu `zarzad.sklad[]` (bez prezesa) | Ś | dodanie/usunięcie członka |
+| `A-ZARZAD-REPR` | zmiana `sposob_reprezentacji` | Ś | zmiana zasad podpisywania |
+| `A-WLASC-NOWY` | nowy `osoba_key` w `wlasciciele.lista[]` | **W** | nowy wspólnik / akcjonariusz |
+| `A-WLASC-USUN` | zniknął `osoba_key` z `wlasciciele.lista[]` | **W** | exit wspólnika |
+| `A-WLASC-50PC` | udział wspólnika przekroczył 50% (lub spadł poniżej) | **W** | zmiana kontroli — heurystyka na `posiadane_udzialy` |
+| `A-KAPITAL` | zmiana `kapital.wartosc` | Ś | podwyższenie / obniżenie kapitału |
+
+### Zmiany kontekstowe (słabszy sygnał, ale warto odnotować)
+
+| ID | Trigger | Priorytet |
+|---|---|---|
+| `A-NAZWA` | zmiana `company.nazwa` | Ś |
+| `A-FORMA` | zmiana `company.forma` | **W** |
+| `A-ADRES` | zmiana `adres.miejscowosc` lub pełnego adresu | N |
+| `A-PKD` | zmiana `pkd_glowny.kod` | Ś |
+
+### Reguły kompozycyjne (v0.2, wymagają historii kilku snapshotów)
+
+| ID | Trigger | Priorytet |
+|---|---|---|
+| `A-KOMP-ZAR-WLASC` | `A-ZARZAD-*` i `A-WLASC-*` w tej samej spółce w oknie ≤30 dni | **K** |
+| `A-SWIEZA-ROTACJA` | spółka < 12 mies. od rejestracji + jakakolwiek zmiana zarządu | **W** |
+
+### Co z osobami fizycznymi?
+
+Wszystkie powyższe reguły **działają na `osoba_key`** (maski), nie na pełnych danych. Alert powie *"zmiana PREZESA ZARZĄDU: K\*\*\*\*\*\*\*\* J\*\*\*\*\*\*\*\*\*\*\*\* → M\*\*\*\*\*\*\* N\*\*\*\*\*\*\*"* — wystarczy jako sygnał, pełna identyfikacja = ręczna weryfikacja w KRS online.
+
+### Dataset testowy (baseline)
+
+Znormalizowane snapshoty dla 10 spółek są w:
+
+- [dev_ms_data/normalized/2026-04-20/krs/](dev_ms_data/normalized/2026-04-20/krs/) — per spółka
+- [dev_ms_data/normalized/2026-04-20/dataset.json](dev_ms_data/normalized/2026-04-20/dataset.json) — zbiorczy plik
+
+To baseline dla pierwszego diffu — kolejny run (za ~tydzień) pozwoli sprawdzić, czy reguły alertowe faktycznie wychwytują to, co powinny.
+
+---
+
 ## Gotchas i znaleziska — źródła
 
 ### KRS API (api-krs.ms.gov.pl)
