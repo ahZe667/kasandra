@@ -1,0 +1,546 @@
+{
+  "odpis": {
+    "rodzaj": "Aktualny",
+    "naglowekA": {
+      "rejestr": "RejP",
+      "numerKRS": "0000636642",
+      "dataCzasOdpisu": "20.04.2026 22:59:34",
+      "stanZDnia": "21.11.2025",
+      "dataRejestracjiWKRS": "13.09.2016",
+      "numerOstatniegoWpisu": 88,
+      "dataOstatniegoWpisu": "10.07.2025",
+      "sygnaturaAktSprawyDotyczacejOstatniegoWpisu": "RDF/768290/25/246",
+      "oznaczenieSaduDokonujacegoOstatniegoWpisu": "SYSTEM",
+      "stanPozycji": 1
+    },
+    "dane": {
+      "dzial1": {
+        "danePodmiotu": {
+          "formaPrawna": "SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ",
+          "identyfikatory": {
+            "regon": "36538839800000",
+            "nip": "5223071241"
+          },
+          "nazwa": "ŻABKA POLSKA SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ",
+          "daneOWczesniejszejRejestracji": {},
+          "czyProwadziDzialalnoscZInnymiPodmiotami": false,
+          "czyPosiadaStatusOPP": false
+        },
+        "siedzibaIAdres": {
+          "siedziba": {
+            "kraj": "POLSKA",
+            "wojewodztwo": "WIELKOPOLSKIE",
+            "powiat": "POZNAŃ",
+            "gmina": "POZNAŃ",
+            "miejscowosc": "POZNAŃ"
+          },
+          "adres": {
+            "ulica": "UL. STANISŁAWA MATYI",
+            "nrDomu": "8",
+            "miejscowosc": "POZNAŃ",
+            "kodPocztowy": "61-586",
+            "poczta": "POZNAŃ",
+            "kraj": "POLSKA"
+          },
+          "adresDoDoreczenElektronicznychWpisanyDoBAE": "AE:PL-18344-65100-VFBSA-22"
+        },
+        "umowaStatut": {
+          "informacjaOZawarciuZmianieUmowyStatutu": [
+            {
+              "zawarcieZmianaUmowyStatutu": "AKT NOTARIALNY Z DNIA 23.08.2016, ZASTĘPCA NOTARIALNY EMILIA SZCZYPIŃSKA, KANCELARIA NOTARIALNA DANUTA KOSIM-KRUSZEWSKA, MAGDALENA WITKOWSKA S.C. W WARSZAWIE, UL. SZARA 14 LOK. 15,REP. A NR 5423/2016."
+            },
+            {
+              "zawarcieZmianaUmowyStatutu": "AKT NOTARIALNY Z DN. 19.04.2017R., REP. A NR 2292/2017, NOTARIUSZ MAŁGORZATA KIERUZAL-RYDZEWSKA, KANCELARIA NOTARIALNA W WARSZAWIE\nZMIENIONO: § 4 UST.1, § 4 UST.2, § 4 UST.7 ORAZ § 5 UST.4 AKTU ZAŁOŻYCIELSKIEGO\nUSUNIĘTO: § 5 UST.2 ORAZ § 5 UST.3 AKTU ZAŁOŻYCIELSKIEGO\nDOTYCHCZASOWY UST.4 W § 5 AKTU ZAŁOŻYCIELSKIEGO, UWZGLĘDNIAJĄC JEGO NOWE BRZMIENIE, OTRZYMAŁ OZNACZENIE NUMEREM 2\nPRZYJĘTO TEKST JEDNOLITY AKTU ZAŁOŻYCIELSKIEGO SPÓŁKI."
+            },
+            {
+              "zawarcieZmianaUmowyStatutu": "27.10.2017 R., REP. A NR 9703/2017, NOTARIUSZ MAŁGORZATA KIERUZAL-RYDZEWSKA, KANCELARIA NOTARIALNA W WARSZAWIE, ZMIANA § 2 UST. 3 ORAZ PRZYJĘCIE TEKSTU JEDNOLITEGO"
+            },
+            {
+              "zawarcieZmianaUmowyStatutu": "13.12.2017 R., REP.A NR 15372/2017, NOTARIUSZ MAŁGORZATA KIERUZAL-RYDZEWSKA, KANCELARIA NOTARIALNA W WARSZAWIE - UCHYLENIE CAŁEJ DOTYCHCZASOWEJ TREŚCI AKTU ZAŁOŻYCIELSKIEGO I PRZYJĘCIE NOWEJ TREŚCI, STANOWIĄCEJ JEDNOCZEŚNIE TEKST JEDNOLITY."
+            },
+            {
+              "zawarcieZmianaUmowyStatutu": "15.03.2018 R., REP. A NR 995/2018, NOTARIUSZ MAŁGORZATA KIERUZAL-RYDZEWSKA, KANCELARIA NOTARIALNA W WARSZAWIE - ZMIENIONO § 1 UST. 1 ORAZ § 9 UST. 8 AKTU ZAŁOŻYCIELSKIEGO I PRZYJĘTO JEGO TEKST JEDNOLITY."
+            },
+            {
+              "zawarcieZmianaUmowyStatutu": "29.06.2018 R., REP. A NR 5682/2018, NOTARIUSZ MAŁGORZATA KIERUZAL - RYDZEWSKA, KANCELARIA NOTARIALNA W WARSZAWIE - ZMIENIONO: § 2 UST. 1, § 8 UST. 3 I § 9 UST. 8 AKTU ZAŁOŻYCIELSKIEGO I PRZYJĘTO JEGO TEKST JEDNOLITY."
+            },
+            {
+              "zawarcieZmianaUmowyStatutu": "14.02.2022 R., REP. A 281/2022, NOTARIUSZ DOROTA WZIĄTEK, KANCELARIA NOTARIALNA W WARSZAWIE - USUNIĘTO: §3 UST. 4 ZDANIE 2 AKTU ZAŁOŻYCIELSKIEGO I PRZYJĘTO JEGO TEKST JEDNOLITY."
+            },
+            {
+              "zawarcieZmianaUmowyStatutu": "06.05.2024 R., REP. A NR 4922/2024, NOTARIUSZ MAŁGORZATA KIERUZAL-RYDZEWSKA, KANCELARIA NOTARIALNA W WARSZAWIE - ZMIENIONO: §7, §8 UST. 2-3, §8 UST. 7-8, §10 UST. 1 LIT. (D) AKTU ZAŁOŻYCIELSKIEGO; USUNIĘTO: §9, §10 UST. 1 LIT. (M), §10 UST. 2  AKTU ZAŁOŻYCIELSKIEGO I PRZYJĘTO JEGO TEKST JEDNOLITY."
+            }
+          ]
+        },
+        "pozostaleInformacje": {
+          "czasNaJakiUtworzonyZostalPodmiot": "NIEOZNACZONY",
+          "informacjaOLiczbieUdzialow": "WIĘKSZĄ LICZBĘ UDZIAŁÓW"
+        },
+        "wspolnicySpzoo": [
+          {
+            "nazwa": "ZABKA GROUP SOCIÉTÉ ANONYME",
+            "identyfikator": {},
+            "krs": {
+              "krs": "0000000000"
+            },
+            "posiadaneUdzialy": "2.264.300 UDZIAŁÓW O ŁĄCZNEJ WARTOŚCI 113.215.000,00 ZŁ",
+            "czyPosiadaCaloscUdzialow": true
+          }
+        ],
+        "kapital": {
+          "wysokoscKapitaluZakladowego": {
+            "wartosc": "113215000,00",
+            "waluta": "PLN"
+          },
+          "wniesioneAporty": {}
+        }
+      },
+      "dzial2": {
+        "reprezentacja": {
+          "nazwaOrganu": "ZARZĄD",
+          "sposobReprezentacji": "W PRZYPADKU ZARZĄDU JEDNOOSOBOWEGO SPÓŁKĘ REPREZENTUJE JEDYNY CZŁONEK ZARZĄDU.\nW PRZYPADKU ZARZĄDU WIELOOSOBOWEGO DO SKŁADANIA OŚWIADCZEŃ WOLI I PODPISYWANIA W IMIENIU SPÓŁKI WYMAGANE JEST WSPÓŁDZIAŁANIE DWÓCH CZŁONKÓW ZARZĄDU ALBO JEDNEGO CZŁONKA ZARZĄDU ŁĄCZNIE Z PROKURENTEM.",
+          "sklad": [
+            {
+              "nazwisko": {
+                "nazwiskoICzlon": "S********"
+              },
+              "imiona": {
+                "imie": "T*****",
+                "imieDrugie": "Z****"
+              },
+              "identyfikator": {
+                "pesel": "7**********"
+              },
+              "funkcjaWOrganie": "PREZES ZARZĄDU",
+              "czyZawieszona": false
+            },
+            {
+              "nazwisko": {
+                "nazwiskoICzlon": "B*********"
+              },
+              "imiona": {
+                "imie": "T*****"
+              },
+              "identyfikator": {
+                "pesel": "8**********"
+              },
+              "funkcjaWOrganie": "WICEPREZES ZARZĄDU",
+              "czyZawieszona": false
+            },
+            {
+              "nazwisko": {
+                "nazwiskoICzlon": "G********"
+              },
+              "imiona": {
+                "imie": "A***",
+                "imieDrugie": "E*******"
+              },
+              "identyfikator": {
+                "pesel": "7**********"
+              },
+              "funkcjaWOrganie": "WICEPREZES ZARZĄDU",
+              "czyZawieszona": false
+            },
+            {
+              "nazwisko": {
+                "nazwiskoICzlon": "M*********"
+              },
+              "imiona": {
+                "imie": "A***",
+                "imieDrugie": "A*********"
+              },
+              "identyfikator": {
+                "pesel": "7**********"
+              },
+              "funkcjaWOrganie": "WICEPREZES ZARZĄDU",
+              "czyZawieszona": false
+            },
+            {
+              "nazwisko": {
+                "nazwiskoICzlon": "B***********"
+              },
+              "imiona": {
+                "imie": "J******"
+              },
+              "identyfikator": {
+                "pesel": "6**********"
+              },
+              "funkcjaWOrganie": "CZŁONEK ZARZĄDU",
+              "czyZawieszona": false
+            },
+            {
+              "nazwisko": {
+                "nazwiskoICzlon": "W******",
+                "nazwiskoIICzlon": "Ł********"
+              },
+              "imiona": {
+                "imie": "M****"
+              },
+              "identyfikator": {
+                "pesel": "8**********"
+              },
+              "funkcjaWOrganie": "CZŁONEK ZARZĄDU",
+              "czyZawieszona": false
+            },
+            {
+              "nazwisko": {
+                "nazwiskoICzlon": "K***"
+              },
+              "imiona": {
+                "imie": "W*******"
+              },
+              "identyfikator": {
+                "pesel": "8**********"
+              },
+              "funkcjaWOrganie": "CZŁONEK ZARZĄDU",
+              "czyZawieszona": false
+            }
+          ]
+        }
+      },
+      "dzial3": {
+        "przedmiotDzialalnosci": {
+          "przedmiotPrzewazajacejDzialalnosci": [
+            {
+              "opis": "DZIAŁALNOŚĆ FIRM CENTRALNYCH (HEAD OFFICES) I HOLDINGÓW, Z WYŁĄCZENIEM HOLDINGÓW FINANSOWYCH",
+              "kodDzial": "70",
+              "kodKlasa": "10",
+              "kodPodklasa": "Z"
+            }
+          ],
+          "przedmiotPozostalejDzialalnosci": [
+            {
+              "opis": "POZOSTAŁE DORADZTWO W ZAKRESIE PROWADZENIA DZIAŁALNOŚCI GOSPODARCZEJ I ZARZĄDZANIA",
+              "kodDzial": "70",
+              "kodKlasa": "22",
+              "kodPodklasa": "Z"
+            },
+            {
+              "opis": "DZIAŁALNOŚĆ AGENTÓW SPECJALIZUJĄCYCH SIĘ W SPRZEDAŻY POZOSTAŁYCH OKREŚLONYCH TOWARÓW",
+              "kodDzial": "46",
+              "kodKlasa": "18",
+              "kodPodklasa": "Z"
+            },
+            {
+              "opis": "SPRZEDAŻ HURTOWA OWOCÓW I WARZYW",
+              "kodDzial": "46",
+              "kodKlasa": "31",
+              "kodPodklasa": "Z"
+            },
+            {
+              "opis": "SPRZEDAŻ HURTOWA MIĘSA I WYROBÓW Z MIĘSA",
+              "kodDzial": "46",
+              "kodKlasa": "32",
+              "kodPodklasa": "Z"
+            },
+            {
+              "opis": "SPRZEDAŻ HURTOWA MLEKA, WYROBÓW MLECZARSKICH, JAJ, OLEJÓW I TŁUSZCZÓW JADALNYCH",
+              "kodDzial": "46",
+              "kodKlasa": "33",
+              "kodPodklasa": "Z"
+            },
+            {
+              "opis": "SPRZEDAŻ HURTOWA NAPOJÓW ALKOHOLOWYCH",
+              "kodDzial": "46",
+              "kodKlasa": "34",
+              "kodPodklasa": "A"
+            },
+            {
+              "opis": "SPRZEDAŻ HURTOWA WYROBÓW TYTONIOWYCH",
+              "kodDzial": "46",
+              "kodKlasa": "35",
+              "kodPodklasa": "Z"
+            },
+            {
+              "opis": "SPRZEDAŻ HURTOWA WYROBÓW FARMACEUTYCZNYCH I MEDYCZNYCH",
+              "kodDzial": "46",
+              "kodKlasa": "46",
+              "kodPodklasa": "Z"
+            },
+            {
+              "opis": "SPRZEDAŻ HURTOWA POZOSTAŁEJ ŻYWNOŚCI, WŁĄCZAJĄC RYBY, SKORUPIAKI I MIĘCZAKI",
+              "kodDzial": "46",
+              "kodKlasa": "38",
+              "kodPodklasa": "Z"
+            }
+          ]
+        },
+        "wzmiankiOZlozonychDokumentach": {
+          "wzmiankaOZlozeniuRocznegoSprawozdaniaFinansowego": [
+            {
+              "dataZlozenia": "12.07.2018",
+              "zaOkresOdDo": "OD 01.01.2017 DO 31.12.2017"
+            },
+            {
+              "dataZlozenia": "12.07.2018",
+              "zaOkresOdDo": "OD 01.01.2017 DO 31.12.2017"
+            },
+            {
+              "dataZlozenia": "12.07.2019",
+              "zaOkresOdDo": "OD 01.01.2018 DO 31.12.2018"
+            },
+            {
+              "dataZlozenia": "23.02.2021",
+              "zaOkresOdDo": "OD 01.01.2019 DO 31.12.2019"
+            },
+            {
+              "dataZlozenia": "30.09.2021",
+              "zaOkresOdDo": "OD 01.01.2020 DO 31.12.2020"
+            },
+            {
+              "dataZlozenia": "12.10.2022",
+              "zaOkresOdDo": "OD 01.01.2021 DO 31.12.2021"
+            },
+            {
+              "dataZlozenia": "17.07.2023",
+              "zaOkresOdDo": "OD 01.01.2022 DO 31.12.2022"
+            },
+            {
+              "dataZlozenia": "11.07.2024",
+              "zaOkresOdDo": "OD 01.01.2023 DO 31.12.2023"
+            },
+            {
+              "dataZlozenia": "10.07.2025",
+              "zaOkresOdDo": "OD 01.01.2024 DO 31.12.2024"
+            }
+          ],
+          "wzmiankaOZlozeniuOpiniiBieglegoRewidentaSprawozdaniaZBadania": [
+            {
+              "zaOkresOdDo": "OD 01.01.2017 DO 31.12.2017"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2017 DO 31.12.2017"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2018 DO 31.12.2018"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2019 DO 31.12.2019"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2020 DO 31.12.2020"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2021 DO 31.12.2021"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2022 DO 31.12.2022"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2023 DO 31.12.2023"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2024 DO 31.12.2024"
+            }
+          ],
+          "wzmiankaOZlozeniuUchwalyPostanowieniaOZatwierdzeniuRocznegoSprawozdaniaFinansowego": [
+            {
+              "zaOkresOdDo": "OD 01.01.2017 DO 31.12.2017"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2017 DO 31.12.2017"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2018 DO 31.12.2018"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2019 DO 31.12.2019"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2020 DO 31.12.2020"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2021 DO 31.12.2021"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2022 DO 31.12.2022"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2023 DO 31.12.2023"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2024 DO 31.12.2024"
+            }
+          ],
+          "wzmiankaOZlozeniuSprawozdaniaZDzialalnosci": [
+            {
+              "zaOkresOdDo": "OD 01.01.2017 DO 31.12.2017"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2017 DO 31.12.2017"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2018 DO 31.12.2018"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2019 DO 31.12.2019"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2020 DO 31.12.2020"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2021 DO 31.12.2021"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2022 DO 31.12.2022"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2023 DO 31.12.2023"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2024 DO 31.12.2024"
+            }
+          ]
+        },
+        "sprawozdaniaGrupyKapitalowej": {
+          "wzmiankaOZlozeniuSkonsolidowanegoRocznegoSprawozdaniaFinansowego": [
+            {
+              "dataZlozenia": "12.07.2018",
+              "zaOkresOdDo": "OD 01.01.2017 DO 31.12.2017"
+            },
+            {
+              "dataZlozenia": "15.07.2019",
+              "zaOkresOdDo": "OD 01.01.2018 DO 31.12.2018"
+            },
+            {
+              "dataZlozenia": "23.02.2021",
+              "zaOkresOdDo": "OD 01.01.2019 DO 31.12.2019"
+            },
+            {
+              "dataZlozenia": "30.09.2021",
+              "zaOkresOdDo": "OD 01.01.2020 DO 31.12.2020"
+            },
+            {
+              "dataZlozenia": "12.10.2022",
+              "zaOkresOdDo": "OD 01.01.2021 DO 31.12.2021"
+            },
+            {
+              "dataZlozenia": "17.07.2023",
+              "zaOkresOdDo": "OD 01.01.2022 DO 31.12.2022"
+            },
+            {
+              "dataZlozenia": "11.07.2024",
+              "zaOkresOdDo": "OD 01.01.2023 DO 31.12.2023"
+            },
+            {
+              "dataZlozenia": "10.07.2025",
+              "zaOkresOdDo": "OD 01.01.2024 DO 31.12.2024"
+            }
+          ],
+          "wzmiankaOZlozeniuOpiniiBieglegoRewidentaSprawozdaniaZBadania": [
+            {
+              "zaOkresOdDo": "OD 01.01.2017 DO 31.12.2017"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2018 DO 31.12.2018"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2019 DO 31.12.2019"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2020 DO 31.12.2020"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2021 DO 31.12.2021"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2022 DO 31.12.2022"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2023 DO 31.12.2023"
+            }
+          ],
+          "wzmiankaOZlozeniuUchwalyPostanowieniaOZatwierdzeniuSkonsolidowanegoRocznegoSprawozdaniaFinansowego": [
+            {
+              "zaOkresOdDo": "OD 01.01.2017 DO 31.12.2017"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2018 DO 31.12.2018"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2019 DO 31.12.2019"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2020 DO 31.12.2020"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2021 DO 31.12.2021"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2022 DO 31.12.2022"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2023 DO 31.12.2023"
+            }
+          ],
+          "wzmiankaOZlozeniuSprawozdaniaZDzialalnosciGrupyKapitalowejSpolkiDominujacejLacznie": [
+            {
+              "zaOkresOdDo": "OD 01.01.2017 DO 31.12.2017"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2018 DO 31.12.2018"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2019 DO 31.12.2019"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2020 DO 31.12.2020"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2021 DO 31.12.2021"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2022 DO 31.12.2022"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2023 DO 31.12.2023"
+            }
+          ]
+        },
+        "informacjaODniuKonczacymRokObrotowy": {
+          "dzienKonczacyPierwszyRokObrotowy": "31.12.2017"
+        }
+      },
+      "dzial4": {},
+      "dzial5": {},
+      "dzial6": {
+        "polaczeniePodzialPrzeksztalcenie": [
+          {
+            "okreslenieOkolicznosci": "PRZEJĘCIE INNEJ SPÓŁKI",
+            "opisPolaczeniaPodzialuPrzeksztalcenia": "POŁĄCZENIE W TRYBIE ART. 492 § 1 PKT 1 KSH POPRZEZ PRZENIESIENIE CAŁEGO MAJĄTKU SPÓŁKI PRZEJMOWANEJ - ŻABKA POLSKA S.A. - NA SPÓŁKĘ PRZEJMUJĄCĄ - ŻABKA POLSKA SP. Z O.O. (POPRZEDNIO: SARLEY INVESTMENTS SP. Z O.O.), Z UWZGLĘDNIENIEM ART. 515 § 1 KSH I ART. 516 § 6 KSH.\nUCHWAŁA NR 4 NADZWYCZAJNEGO WALNEGO ZGROMADZENIA SPÓŁKI PRZEJMOWANEJ I UCHWAŁA NR 2 NADZWYCZAJNEGO ZGROMADZENIA WSPÓLNIKÓW SPÓŁKI PRZEJMUJĄCEJ - ZAPROTOKOŁOWANE W DNIU 15.03.2018R. PRZEZ NOTARIUSZA MAŁGORZATĘ KIERUZAL-RYDZEWSKĄ, KANCELARIA NOTARIALNA W WARSZAWIE, REP. A NR 990/2018 I REP. A NR 995/2018.",
+            "podmiotyPrzejmowane": [
+              {
+                "nazwa": "ŻABKA POLSKA, SPÓŁKA AKCYJNA",
+                "krajNazwaRejestru": "------,KRAJOWY REJESTR SĄDOWY",
+                "krs": {
+                  "krs": "0000662856"
+                },
+                "nazwaSadu": "*******",
+                "identyfikator": {
+                  "regon": "14262425900000"
+                }
+              }
+            ]
+          },
+          {
+            "okreslenieOkolicznosci": "PRZEJĘCIE INNEJ SPÓŁKI",
+            "opisPolaczeniaPodzialuPrzeksztalcenia": "WSZCZĘTO PROCEDURĘ TRANSGRANICZNEGO ŁĄCZENIA SPÓŁEK NA PODSTAWIE PLANU POŁĄCZENIA Z DNIA 03 STYCZNIA 2022 ROKU.  \nW ŁĄCZENIU UCZESTNICZĄ NASTĘPUJĄCE SPÓŁKI: \n1) ŻABKA POLSKA SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ Z SIEDZIBĄ W POZNANIU (SPÓŁKA PRZEJMUJĄCA);\n2) HEKET HOLGIDNGS S.À R.L. Z SIEDZIBĄ W LUKSEMBURGU (SPÓŁKA\nPRZEJMOWANA)."
+          },
+          {
+            "okreslenieOkolicznosci": "PRZEJĘCIE INNEJ SPÓŁKI",
+            "opisPolaczeniaPodzialuPrzeksztalcenia": "POŁĄCZENIE TRANSGRANICZNE NASTĄPIŁO POPRZEZ PRZEJĘCIE PRZEZ SPÓŁKĘ ŻABKA POLSKA SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ JEJ JEDYNEGO WSPÓLNIKA, TJ. LUKSEMBURSKIEJ SPÓŁKI HEKET HOLDINGS S.A R.L., A WSZYSTKIE UDZIAŁY W ŻABKA POLSKA SP. Z O.O. ZOSTAŁY PRZYZNANE JEDYNEMU WSPÓLNIKOWI SPÓŁKI PRZEJMOWANEJ. DNIA 14 LUTEGO 2022 R. NADZWYCZAJNE ZGROMADZENIE WSPÓLNIKÓW SPÓŁKI ŻABKA POLSKA SP. Z O.O. PODJĘŁO UCHWAŁĘ O POŁĄCZENIU UMIESZCZONĄ W PROTOKOLE SPORZĄDZONYM PRZEZ NOTARIUSZA DOROTĘ WZIĄTEK ZA NR REP. A 281/2022. UCHWAŁA JEDYNEGO WSPÓLNIKA SPÓŁKI PRZEJMOWANEJ O POŁĄCZENIU ZOSTAŁA PODJĘTA DNIA 14 LUTEGO 2022 R. I UMIESZCZONA W PROTOKOLE SPORZĄDZONYM PRZEZ LUKSEMBURSKIEGO NOTARIUSZA MARC LOESCH, 14.02.2022 R., ZGROMADZENIE WSPÓLNIKÓW",
+            "podmiotyPrzejmowane": [
+              {
+                "nazwa": "HEKET HOLDINGS, SOCIETE A RESPONSABILITE LIMITEE",
+                "krajNazwaRejestru": "LUKSEMBURG, REGISTRE DE COMMERCE ET DES SOCIETES",
+                "numerWRejestrzeAlboEwidencji": "B212652",
+                "nazwaSadu": "REGISTRE DE COMMERCE ET DES SOCIÉTÉS",
+                "identyfikator": {}
+              }
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,451 @@
+{
+  "odpis": {
+    "rodzaj": "Aktualny",
+    "naglowekA": {
+      "rejestr": "RejP",
+      "numerKRS": "0000055656",
+      "dataCzasOdpisu": "20.04.2026 22:59:34",
+      "stanZDnia": "13.04.2026",
+      "dataRejestracjiWKRS": "05.11.2001",
+      "numerOstatniegoWpisu": 40,
+      "dataOstatniegoWpisu": "13.04.2026",
+      "sygnaturaAktSprawyDotyczacejOstatniegoWpisu": "RDF/811280/26/449",
+      "oznaczenieSaduDokonujacegoOstatniegoWpisu": "SYSTEM",
+      "stanPozycji": 1
+    },
+    "dane": {
+      "dzial1": {
+        "danePodmiotu": {
+          "formaPrawna": "SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ",
+          "identyfikatory": {
+            "regon": "19189293500000",
+            "nip": "5862021333"
+          },
+          "nazwa": "\"STRONG MAN\" SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ",
+          "daneOWczesniejszejRejestracji": {
+            "nazwaPoprzedniegoRejestru": "RHB",
+            "numerWPoprzednimRejestrze": "14030",
+            "sadProwadzacyRejestr": "SĄD REJONOWY W GDAŃSKU XII WYDZIAŁ GOSPODARCZY REJESTROWY"
+          },
+          "czyProwadziDzialalnoscZInnymiPodmiotami": false,
+          "czyPosiadaStatusOPP": false
+        },
+        "siedzibaIAdres": {
+          "siedziba": {
+            "kraj": "POLSKA",
+            "wojewodztwo": "POMORSKIE",
+            "powiat": "MALBORSKI",
+            "gmina": "MALBORK",
+            "miejscowosc": "MALBORK"
+          },
+          "adres": {
+            "ulica": "STEFANA BATOREGO",
+            "nrDomu": "21",
+            "miejscowosc": "MALBORK",
+            "kodPocztowy": "82-200",
+            "poczta": "MALBORK",
+            "kraj": "POLSKA"
+          }
+        },
+        "umowaStatut": {
+          "informacjaOZawarciuZmianieUmowyStatutu": [
+            {
+              "zawarcieZmianaUmowyStatutu": "02.11.1999R. KANC. NOT. M.KUŹMICKIEJ W GDYNI, REP. A NR 4649/1999,\n05.09.2001R. KANC. NOT. E.JEZIORSKIEJ, REP. A NR 6493/2001 - ZMIANA PAR. 1, 2, 5, 9, 10, 11, 13 TYTUŁU ROZDZIAŁU IV, PAR. 15, 16, 18, 19, 21, 22 PKT. 1, 23 PKT. 1 ZD. 1, 25, 28, 30, 33 PKT. 2; SKREŚLENIE PAR. 6, 24, 26, 27, 31 - TEKST JEDNOLITY UMOWY SPÓŁKI; W ZWIĄZKU Z PRZYJĘCIEM TEKSTU JEDNOLITEGO UMOWY SPÓŁKI ZMIENIONO DOTYCHCZASOWĄ NUMERACJĘ PARAGRAFÓW: DOTYCHCZASOWE POSTANOWIENIE OD PAR. 7 DO PAR. 23 OZNACZONO ODPOWIEDNIO OD PAR. 6 DO PAR. 22, DOTYCHCZASOWY PAR. 25 OZNACZA SIĘ JAKO PAR. 23, DOTYCHCZASOWY PAR. 28 OZNACZA SIĘ JAKO PAR. 24, DOTYCHCZASOWE PAR. 29 I 30 OTRZYMUJĄ ODPOWIEDNIO OZNACZENIE PAR. 25 I PAR. 26, DOTYCHCZASOWE PAR. 32 - 34 OTRZYMUJĄ ODPOWIEDNIO OZNACZENIE PAR. 27 - 29"
+            },
+            {
+              "zawarcieZmianaUmowyStatutu": "17.10.2003 R. NOTARIUSZ PIOTR RYŁKO KANCELARIA NOTARIALNA W GDYNI UL. 10 LUTEGO 27, REPERTORIUM A NR 2786/2003, ZMIANA PAR.2 I PAR.5 (OD PKT 17 DO PKT 24), PAR.7, PAR.21 (DODANO PKT 4)"
+            },
+            {
+              "zawarcieZmianaUmowyStatutu": "30.12.2003 NOTARIUSZ PIOTR RYŁKO, KANCELARIA NOTARIALNA W GDYNI, REP.A NR 3636/2003"
+            }
+          ]
+        },
+        "pozostaleInformacje": {
+          "czasNaJakiUtworzonyZostalPodmiot": "NIEOZNACZONY",
+          "informacjaOLiczbieUdzialow": "WIĘKSZĄ LICZBĘ UDZIAŁÓW"
+        },
+        "wspolnicySpzoo": [
+          {
+            "nazwisko": {
+              "nazwiskoICzlon": "D****"
+            },
+            "imiona": {
+              "imie": "J*******",
+              "imieDrugie": "T*****"
+            },
+            "identyfikator": {
+              "pesel": "7**********"
+            },
+            "posiadaneUdzialy": "15 UDZIAŁÓW O ŁĄCZNEJ WARTOŚCI NOMINALNEJ 9.375 ZŁ.",
+            "czyPosiadaCaloscUdzialow": false
+          },
+          {
+            "nazwisko": {
+              "nazwiskoICzlon": "P***********"
+            },
+            "imiona": {
+              "imie": "M******",
+              "imieDrugie": "Z*******"
+            },
+            "identyfikator": {
+              "pesel": "7**********"
+            },
+            "posiadaneUdzialy": "10 UDZIAŁÓW O ŁĄCZNEJ WARTOŚCI 6.250 ZŁ.",
+            "czyPosiadaCaloscUdzialow": false
+          },
+          {
+            "nazwisko": {
+              "nazwiskoICzlon": "D*******"
+            },
+            "imiona": {
+              "imie": "M*****",
+              "imieDrugie": "P****"
+            },
+            "identyfikator": {
+              "pesel": "8**********"
+            },
+            "posiadaneUdzialy": "15 UDZIAŁÓW O ŁĄCZNEJ WARTOŚCI NOMINALNEJ 9.375 ZŁ",
+            "czyPosiadaCaloscUdzialow": false
+          }
+        ],
+        "kapital": {
+          "wysokoscKapitaluZakladowego": {
+            "wartosc": "25000,00",
+            "waluta": "PLN"
+          },
+          "wniesioneAporty": {}
+        }
+      },
+      "dzial2": {
+        "reprezentacja": {
+          "nazwaOrganu": "ZARZĄD",
+          "sposobReprezentacji": "DO SKŁADANIA OŚWIADCZEŃ WOLI I PODPISYWANIA W IMIENIU SPÓŁKI UPOWAŻNIENI SĄ DWAJ CZŁONKOWIE ZARZĄDU ŁĄCZNIE ALBO CZŁONEK ZARZĄDU ŁĄCZNIE Z PROKURENTEM.",
+          "sklad": [
+            {
+              "nazwisko": {
+                "nazwiskoICzlon": "D****"
+              },
+              "imiona": {
+                "imie": "J*******",
+                "imieDrugie": "T*****"
+              },
+              "identyfikator": {
+                "pesel": "7**********"
+              },
+              "funkcjaWOrganie": "PREZES ZARZĄDU",
+              "czyZawieszona": false
+            }
+          ]
+        }
+      },
+      "dzial3": {
+        "przedmiotDzialalnosci": {
+          "przedmiotPrzewazajacejDzialalnosci": [],
+          "przedmiotPozostalejDzialalnosci": [
+            {
+              "opis": "SPRZEDAŻ, OBSŁUGA I NAPRAWA POJAZDÓW MECHANICZNYCH  I MOTOCYKLI; SPRZEDAŻ DETALICZNA PALIW DO POJAZDÓW SAMOCHODOWYCH",
+              "kodDzial": "50"
+            },
+            {
+              "opis": "HANDEL HURTOWY I KOMISOWY, Z WYJĄTKIEM HANDLU POJAZDAMI MECHANICZNYMI I MOTOCYKLAMI",
+              "kodDzial": "51"
+            },
+            {
+              "opis": "HANDEL DETALICZNY,  Z  WYJĄTKIEM SPRZEDAŻY POJAZDÓW MECHANICZNYCH I MOTOCYKLI; NAPRAWA ARTYKUŁÓW UŻYTKU OSOBISTEGO I DOMOWEGO",
+              "kodDzial": "52"
+            },
+            {
+              "opis": "HOTELE I RESTAURACJE",
+              "kodDzial": "55"
+            },
+            {
+              "opis": "TRANSPORT LĄDOWY; TRANSPORT RUROCIĄGOWY",
+              "kodDzial": "60"
+            },
+            {
+              "opis": "TRANSPORT WODNY",
+              "kodDzial": "61"
+            },
+            {
+              "opis": "TRANSPORT LOTNICZY",
+              "kodDzial": "62"
+            },
+            {
+              "opis": "DZIAŁALNOŚĆ WSPOMAGAJĄCA TRANSPORT; DZIAŁALNOŚĆ ZWIĄZANA Z TURYSTYKĄ",
+              "kodDzial": "63"
+            },
+            {
+              "opis": "POCZTA I TELEKOMUNIKACJA",
+              "kodDzial": "64"
+            },
+            {
+              "opis": "POŚREDNICTWO FINANSOWE, Z WYJĄTKIEM UBEZPIECZEŃ I FUNDUSZÓW EMERYTALNO- RENTOWYCH",
+              "kodDzial": "65"
+            },
+            {
+              "opis": "UBEZPIECZENIA ORAZ FUNDUSZE EMERYTALNO-RENTOWE, BEZ GWARANTOWANEJ PRAWNIE OPIEKI SPOŁECZNEJ",
+              "kodDzial": "66"
+            },
+            {
+              "opis": "DZIAŁALNOŚĆ POMOCNICZA ZWIĄZANA Z POŚREDNICTWEM FINANSOWYM I Z UBEZPIECZENIAMI",
+              "kodDzial": "67"
+            },
+            {
+              "opis": "OBSŁUGA NIERUCHOMOŚCI",
+              "kodDzial": "70"
+            },
+            {
+              "opis": "WYNAJEM MASZYN I URZĄDZEŃ BEZ OBSŁUGI ORAZ WYPOŻYCZANIE ARTYKUŁÓW UŻYTKU OSOBISTEGO I DOMOWEGO",
+              "kodDzial": "71"
+            },
+            {
+              "opis": "NAUKA",
+              "kodDzial": "73"
+            },
+            {
+              "opis": "POZOSTAŁE USŁUGI ZWIĄZANE Z PROWADZENIEM DZIAŁALNOŚCI GOSPODARCZEJ",
+              "kodDzial": "74"
+            },
+            {
+              "opis": "DZIAŁALNOŚĆ ZWIĄZANA Z KULTURĄ, REKREACJĄ I SPORTEM",
+              "kodDzial": "92"
+            },
+            {
+              "opis": "BUDOWNICTWO",
+              "kodDzial": "45"
+            },
+            {
+              "opis": "PRODUKCJA METALOWYCH WYROBÓW GOTOWYCH, Z WYJĄTKIEM MASZYN I URZĄDZEŃ",
+              "kodDzial": "28"
+            },
+            {
+              "opis": "PRODUKCJA URZĄDZEŃ WYTWARZAJĄCYCH I WYKORZYSTUJĄCYCH ENERGIĘ MECHANICZNĄ, Z WYJĄTKIEM SILNIKÓW LOTNICZYCH, SAMOCHODOWYCH I MOTOCYKLOWYCH",
+              "kodDzial": "29",
+              "kodKlasa": "1"
+            },
+            {
+              "opis": "PRODUKCJA POZOSTAŁYCH MASZYN OGÓLNEGO PRZEZNACZENIA",
+              "kodDzial": "29",
+              "kodKlasa": "2"
+            },
+            {
+              "opis": "PRODUKCJA MASZYN DLA ROLNICTWA I LEŚNICTWA",
+              "kodDzial": "29",
+              "kodKlasa": "3"
+            },
+            {
+              "opis": "PRODUKCJA OBRABIAREK I NARZĘDZI MECHANICZNYCH",
+              "kodDzial": "29",
+              "kodKlasa": "4"
+            },
+            {
+              "opis": "PRODUKCJA POZOSTAŁYCH MASZYN SPECJALNEGO PRZEZNACZENIA",
+              "kodDzial": "29",
+              "kodKlasa": "5"
+            }
+          ]
+        },
+        "wzmiankiOZlozonychDokumentach": {
+          "wzmiankaOZlozeniuRocznegoSprawozdaniaFinansowego": [
+            {
+              "dataZlozenia": "30.06.2002",
+              "zaOkresOdDo": "1.01.2001 - 31.12.2001"
+            },
+            {
+              "dataZlozenia": "14.07.2003",
+              "zaOkresOdDo": "01.01.2002R. - 31.12.2002R."
+            },
+            {
+              "dataZlozenia": "12.07.2007",
+              "zaOkresOdDo": "2006"
+            },
+            {
+              "dataZlozenia": "16.04.2008",
+              "zaOkresOdDo": "2007R."
+            },
+            {
+              "dataZlozenia": "31.03.2009",
+              "zaOkresOdDo": "2008 R."
+            },
+            {
+              "dataZlozenia": "25.03.2010",
+              "zaOkresOdDo": "2009"
+            },
+            {
+              "dataZlozenia": "31.03.2011",
+              "zaOkresOdDo": "2010 ROK"
+            },
+            {
+              "dataZlozenia": "19.02.2014",
+              "zaOkresOdDo": "OD 01.01.2012 DO 31.12.2012"
+            },
+            {
+              "dataZlozenia": "19.02.2014",
+              "zaOkresOdDo": "OD 01.01.2013 DO 31.12.2013"
+            },
+            {
+              "dataZlozenia": "30.06.2015",
+              "zaOkresOdDo": "OD 01.01.2014 DO 31.12.2014"
+            },
+            {
+              "dataZlozenia": "01.07.2016",
+              "zaOkresOdDo": "OD 01.01.2015 DO 31.12.2015"
+            },
+            {
+              "dataZlozenia": "30.06.2017",
+              "zaOkresOdDo": "OD 01.01.2016 DO 31.12.2016"
+            },
+            {
+              "dataZlozenia": "10.11.2018",
+              "zaOkresOdDo": "OD 01.01.2017 DO 31.12.2017"
+            },
+            {
+              "dataZlozenia": "08.11.2019",
+              "zaOkresOdDo": "OD 01.01.2018 DO 31.12.2018"
+            },
+            {
+              "dataZlozenia": "22.12.2020",
+              "zaOkresOdDo": "OD 01.01.2019 DO 31.12.2019"
+            },
+            {
+              "dataZlozenia": "04.01.2022",
+              "zaOkresOdDo": "OD 01.01.2020 DO 31.12.2020"
+            },
+            {
+              "dataZlozenia": "28.06.2022",
+              "zaOkresOdDo": "OD 01.01.2021 DO 31.12.2021"
+            },
+            {
+              "dataZlozenia": "30.03.2023",
+              "zaOkresOdDo": "OD 01.01.2022 DO 31.12.2022"
+            },
+            {
+              "dataZlozenia": "04.04.2024",
+              "zaOkresOdDo": "OD 01.01.2023 DO 31.12.2023"
+            },
+            {
+              "dataZlozenia": "28.03.2025",
+              "zaOkresOdDo": "OD 01.01.2024 DO 31.12.2024"
+            },
+            {
+              "dataZlozenia": "13.04.2026",
+              "zaOkresOdDo": "OD 01.01.2025 DO 31.12.2025"
+            }
+          ],
+          "wzmiankaOZlozeniuUchwalyPostanowieniaOZatwierdzeniuRocznegoSprawozdaniaFinansowego": [
+            {
+              "zaOkresOdDo": "1.01.2001 - 31.12.2001"
+            },
+            {
+              "zaOkresOdDo": "01.01.2002R. - 31.12.2002R."
+            },
+            {
+              "zaOkresOdDo": "2006"
+            },
+            {
+              "zaOkresOdDo": "2007R."
+            },
+            {
+              "zaOkresOdDo": "2008 R."
+            },
+            {
+              "zaOkresOdDo": "2009"
+            },
+            {
+              "zaOkresOdDo": "2010 ROK"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2016 DO 31.12.2016"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2017 DO 31.12.2017"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2018 DO 31.12.2018"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2019 DO 31.12.2019"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2020 DO 31.12.2020"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2021 DO 31.12.2021"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2022 DO 31.12.2022"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2023 DO 31.12.2023"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2024 DO 31.12.2024"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2025 DO 31.12.2025"
+            }
+          ],
+          "wzmiankaOZlozeniuSprawozdaniaZDzialalnosci": [
+            {
+              "zaOkresOdDo": "1.01.2001 - 31.12.2001"
+            },
+            {
+              "zaOkresOdDo": "01.01.2002R. - 31.12.2002R."
+            },
+            {
+              "zaOkresOdDo": "2006"
+            },
+            {
+              "zaOkresOdDo": "2007R."
+            },
+            {
+              "zaOkresOdDo": "2008 R."
+            },
+            {
+              "zaOkresOdDo": "2009"
+            },
+            {
+              "zaOkresOdDo": "2010 ROK"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2014 DO 31.12.2014"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2015 DO 31.12.2015"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2016 DO 31.12.2016"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2017 DO 31.12.2017"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2018 DO 31.12.2018"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2019 DO 31.12.2019"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2020 DO 31.12.2020"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2021 DO 31.12.2021"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2022 DO 31.12.2022"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2024 DO 31.12.2024"
+            }
+          ]
+        },
+        "informacjaODniuKonczacymRokObrotowy": {
+          "dzienKonczacyPierwszyRokObrotowy": "31.12.2001"
+        }
+      },
+      "dzial4": {},
+      "dzial5": {},
+      "dzial6": {}
+    }
+  }
+}

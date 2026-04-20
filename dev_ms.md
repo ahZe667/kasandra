@@ -36,9 +36,22 @@ zanim coś będzie gotowe do review lub merge'a.
 
 ### Ręczne case studies — postęp
 
-| Spółka | Snapshot KRS | Snapshot CRBR | Diff zrobiony | Alert napisany |
-|--------|-------------|---------------|---------------|----------------|
-|        | [ ]         | [ ]           | [ ]           | [ ]            |
+Snapshot KRS pobrany dla wszystkich 10 spółek 2026-04-20. Plik podsumowujący:
+[dev_ms_data/snapshot_summary_2026-04-20.md](dev_ms_data/snapshot_summary_2026-04-20.md).
+Surowe JSON: [dev_ms_data/snapshots/2026-04-20/krs/](dev_ms_data/snapshots/2026-04-20/krs/).
+
+| Spółka | KRS | CRBR | Diff | Alert |
+|--------|-----|------|------|-------|
+| Żabka Polska              | OK  | brak | [ ] | [ ] |
+| Drutex                    | OK  | brak | [ ] | [ ] |
+| Grupa Maspex              | OK  | brak | [ ] | [ ] |
+| Dino Polska               | OK  | brak | [ ] | [ ] |
+| Asseco Poland             | OK  | brak | [ ] | [ ] |
+| FAME MMA                  | OK  | brak | [ ] | [ ] |
+| Mentzen                   | OK  | brak | [ ] | [ ] |
+| Strong Man                | OK  | brak | [ ] | [ ] |
+| Tenczynek Dystrybucja     | OK  | brak | [ ] | [ ] |
+| Januszex                  | OK  | brak | [ ] | [ ] |
 
 ### Pytania otwarte (Faza 0)
 
@@ -77,15 +90,79 @@ zanim coś będzie gotowe do review lub merge'a.
 
 ---
 
+## Gotchas i znaleziska — źródła
+
+### KRS API (api-krs.ms.gov.pl)
+
+- **Endpoint:** `GET https://api-krs.ms.gov.pl/api/krs/OdpisAktualny/{KRS}?rejestr=P&format=json`
+- **Bez autoryzacji**, działa od ręki, zwraca pełny odpis aktualny w JSON
+- **Rozmiary:** od ~3.6 KB (Januszex, mała spółka, 3 wpisy) do ~62 KB (Asseco, 169 wpisów)
+- **Struktura:** `odpis.dane.dzial1..dzial6` — standardowe działy KRS
+  - dz1: dane podmiotu, adres, kapitał, wspólnicy (dla sp. z o.o.)
+  - dz2: skład zarządu, sposób reprezentacji
+  - dz3: PKD, rok obrotowy
+  - dz4: wierzyciele, hipoteki (puste dla naszych 10)
+  - dz5: kuratorzy (puste dla naszych 10)
+  - dz6: połączenia, podziały, przekształcenia, upadłość — Żabka, Maspex, Dino, Asseco mają wpisy
+
+#### KRYTYCZNE: maskowanie danych osobowych
+
+Publiczne API maskuje imiona, nazwiska i PESEL osób fizycznych:
+- `nazwiskoICzlon: "J************"`
+- `imie: "K********"`
+- `pesel: "4**********"`
+
+**Implikacje dla projektu:**
+- Możemy wykryć **zmianę** w zarządzie (liczba osób, długość masek, dodanie/usunięcie pozycji)
+- **Nie możemy zidentyfikować** kto konkretnie wszedł/wyszedł
+- Osoby prawne (np. `MASPEX HOLDING SA`, `ZABKA GROUP S.A.`) — pełne dane + KRS
+- Pole `posiadaneUdzialy` (np. "100 UDZIAŁÓW O ŁĄCZNEJ WARTOŚCI 5.000,00 ZŁ") — **nie jest maskowane**
+
+To zmienia myślenie o sygnale: dla zmian zarządu/wspólników osób fizycznych wartość = "coś się zmieniło, sprawdź źródło"; pełna nazwa wymaga ręcznej weryfikacji w KRS online.
+
+### CRBR (crbr.podatki.gov.pl)
+
+- Próbowane endpointy 404: `/api/wyszukaj/{NIP}`, `/api/wyszukaj/zgloszenie-aktualne/{NIP}`, POST z body
+- **Brak otwartego REST API** — system wymaga kwalifikowanego dostępu lub interakcji przez interfejs
+- Do podjęcia decyzji w Fazie 0:
+  - czy ręcznie zaciągać przez frontend (web-scraping/Selenium),
+  - czy zgłosić się o oficjalny dostęp,
+  - czy odłożyć CRBR do Fazy 1 i Fazę 0 robić tylko na KRS
+
+---
+
 ## Log sesji
 
 ### 2026-04-20
 
 - Projekt wszedł w Fazę 0
 - Branch Mat założony jako osobna przestrzeń robocza
+- Watchlista 10 spółek skompletowana
+- Snapshot KRS pobrany dla wszystkich 10 (`dev_ms_data/snapshots/2026-04-20/krs/`)
+- Wygenerowane podsumowanie: `dev_ms_data/snapshot_summary_2026-04-20.md`
+- **Znalezisko:** KRS publiczne API maskuje dane osób fizycznych
+- **Blokada:** CRBR nie ma otwartego API — wymaga decyzji jak dalej
 
 ---
 
 ## Scratchpad / surowe notatki
 
 <!-- Tu wrzucaj bez formatowania: fragmenty JSON, linki, cytaty z docs, pomysły -->
+
+### KRS — pełne dane wspólników (przykłady osób prawnych)
+
+```
+Żabka:  ZABKA GROUP SOCIÉTÉ ANONYME — 100% (Luxembourg, brak KRS PL)
+Maspex: MASPEX HOLDING SA [KRS 0000725647] — większość udziałów
+```
+
+### KRS — przykład osoby fizycznej (Januszex, zarząd)
+
+```json
+{
+  "nazwisko": {"nazwiskoICzlon": "J************"},
+  "imiona": {"imie": "K********"},
+  "identyfikator": {"pesel": "4**********"},
+  "funkcjaWOrganie": "PREZES ZARZĄDU"
+}
+```
