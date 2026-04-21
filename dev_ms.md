@@ -240,12 +240,41 @@ To zmienia myślenie o sygnale: dla zmian zarządu/wspólników osób fizycznych
 
 ### CRBR (crbr.podatki.gov.pl)
 
-- Próbowane endpointy 404: `/api/wyszukaj/{NIP}`, `/api/wyszukaj/zgloszenie-aktualne/{NIP}`, POST z body
-- **Brak otwartego REST API** — system wymaga kwalifikowanego dostępu lub interakcji przez interfejs
-- Do podjęcia decyzji w Fazie 0:
-  - czy ręcznie zaciągać przez frontend (web-scraping/Selenium),
-  - czy zgłosić się o oficjalny dostęp,
-  - czy odłożyć CRBR do Fazy 1 i Fazę 0 robić tylko na KRS
+**Portal publiczny (crbr.podatki.gov.pl/adcrbr/):**
+- JavaScript SPA z CAPTCHA przed wyszukiwaniem → scraping wymaga Playwright + rozwiązywania CAPTCHA (kosztowne, kruche)
+- Wyszukuje po NIP lub KRS (nie REGON), brak eksportu JSON/CSV
+
+**Publiczne SOAP API (bramka-crbr.mf.gov.pl:5058):**
+- Udokumentowane w `ApiPrzegladoweCRBR_Specyfikacja_We-Wy 2.0.0` (MF, 2020-11-10)
+- Endpointy: `.../ApiPrzegladoweCRBR/2020/05/01` i `.../2022/02/01`
+- Operacja: `PobierzInformacjeOSpolkachIBeneficjentach(NIP)`
+- Spec twierdzi: "usługa dostępna publicznie, bez autoryzacji"
+
+**Próba 2026-04-21 (skrypt `dev_ms_data/scripts/fetch_crbr.py`):**
+- Wysłano 10 żądań SOAP 1.2 dla spółek z watchlisty
+- Envelope budowany zgodnie ze spec (namespacy, prefixy, Content-Type z `action`)
+- **Wynik: wszystkie 10 → HTTP 500 + SOAP Fault `env:Receiver "Internal Error (from server)"`** (310 B per response)
+- Przetestowane wariacje (wszystkie ten sam fault):
+  - Oba endpointy (2020/05/01, 2022/02/01)
+  - SOAP 1.2 z `application/soap+xml; action="..."` (krótka nazwa operacji i pełny URI)
+  - SOAP 1.1 z nagłówkiem `SOAPAction`
+  - Z WS-Addressing (`wsa:Action`, `MessageID`, `To`, `ReplyTo`)
+  - Przykładowy NIP ze spec (1120149662) — ten sam błąd
+- **Diagnoza:** `env:Receiver` = błąd po stronie serwera, nie klienta. Bramka przyjmuje kopertę, ale backend ESB zwraca internal error. Prawdopodobne przyczyny (nie do zweryfikowania bez dostępu MF):
+  - Rejestracja / whitelist IP mimo "public" w spec
+  - Serwis faktycznie niedziałający publicznie (tylko dla zintegrowanych instytucji)
+  - Wymaga WS-Security header, którego spec nie wspomina
+- Brak publicznych implementacji na GitHub (`site:github.com "ApiPrzegladoweCRBR"` → 0 trafień, nikt nie zintegrował)
+
+**Surowe response'y:** `dev_ms_data/snapshots/2026-04-21/crbr/*.xml` (wszystkie to ten sam fault, zachowane jako dowód)
+
+**Rekomendacja na Fazę 0:**
+- **Odłożyć CRBR na Fazę 1.** Nie blokować Fazy 1 implementacji KRS na problemie CRBR.
+- Faza 0 zamyka się na KRS — 10 spółek, schemat znormalizowany v0.1, reguły alertowe v0.1
+- Decyzje do podjęcia w Fazie 1:
+  - Próba kontaktu mailowego z MF o status bramki CRBR (szybki low-cost test)
+  - Jeżeli bramka nie otworzy się → Playwright na portalu SPA (kosztowne, ale wykonalne dla ~10 spółek raz na tydzień)
+  - Alternatywa: komercyjne API (MGBI, Transparent Data) — za pieniądze ale szybciej
 
 ---
 
@@ -260,6 +289,16 @@ To zmienia myślenie o sygnale: dla zmian zarządu/wspólników osób fizycznych
 - Wygenerowane podsumowanie: `dev_ms_data/snapshot_summary_2026-04-20.md`
 - **Znalezisko:** KRS publiczne API maskuje dane osób fizycznych
 - **Blokada:** CRBR nie ma otwartego API — wymaga decyzji jak dalej
+
+### 2026-04-21
+
+- Próba podejścia do CRBR przez publiczne SOAP API MF (`bramka-crbr.mf.gov.pl:5058`)
+- Napisany skrypt `dev_ms_data/scripts/fetch_crbr.py` — envelope zgodny ze spec MF 2.0.0
+- **Wynik: 10/10 żądań → HTTP 500 `env:Receiver Internal Error`**, także dla przykładowego NIP ze specyfikacji
+- Przetestowano wszystkie sensowne wariacje (oba endpointy, SOAP 1.1/1.2, WS-Addressing) — bez zmian
+- **Decyzja:** CRBR odłożona do Fazy 1. Faza 0 zamyka się na KRS.
+- Surowe SOAP Fault zachowane w `dev_ms_data/snapshots/2026-04-21/crbr/` jako dowód próby
+- Szczegółowa diagnoza w sekcji "Surowe notatki / próby integracji → CRBR" powyżej
 
 ---
 

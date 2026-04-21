@@ -1,0 +1,82 @@
+[
+  {
+    "slug": "zabka",
+    "nip": "5223071241",
+    "http_status": 500,
+    "bytes": 310,
+    "fault": true,
+    "file": "5223071241_zabka.xml"
+  },
+  {
+    "slug": "drutex",
+    "nip": "8421622720",
+    "http_status": 500,
+    "bytes": 310,
+    "fault": true,
+    "file": "8421622720_drutex.xml"
+  },
+  {
+    "slug": "maspex",
+    "nip": "5512617657",
+    "http_status": 500,
+    "bytes": 310,
+    "fault": true,
+    "file": "5512617657_maspex.xml"
+  },
+  {
+    "slug": "dino",
+    "nip": "6211766191",
+    "http_status": 500,
+    "bytes": 310,
+    "fault": true,
+    "file": "6211766191_dino.xml"
+  },
+  {
+    "slug": "asseco",
+    "nip": "5220003782",
+    "http_status": 500,
+    "bytes": 310,
+    "fault": true,
+    "file": "5220003782_asseco.xml"
+  },
+  {
+    "slug": "fame_mma",
+    "nip": "7773370464",
+    "http_status": 500,
+    "bytes": 310,
+    "fault": true,
+    "file": "7773370464_fame_mma.xml"
+  },
+  {
+    "slug": "mentzen",
+    "nip": "5273032556",
+    "http_status": 500,
+    "bytes": 310,
+    "fault": true,
+    "file": "5273032556_mentzen.xml"
+  },
+  {
+    "slug": "strong_man",
+    "nip": "5862021333",
+    "http_status": 500,
+    "bytes": 310,
+    "fault": true,
+    "file": "5862021333_strong_man.xml"
+  },
+  {
+    "slug": "tenczynek",
+    "nip": "9462683417",
+    "http_status": 500,
+    "bytes": 310,
+    "fault": true,
+    "file": "9462683417_tenczynek.xml"
+  },
+  {
+    "slug": "januszex",
+    "nip": "5272889007",
+    "http_status": 500,
+    "bytes": 310,
+    "fault": true,
+    "file": "5272889007_januszex.xml"
+  }
+]
