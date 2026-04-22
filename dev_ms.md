@@ -1,25 +1,31 @@
-# dev_ms — notes robocze Mateusz
+# dev_ms — notatki robocze Mateusz
 
-Plik prywatny, nie idzie na main. Służy do zbierania obserwacji, decyzji i surowych wyników
-zanim coś będzie gotowe do review lub merge'a.
-
----
-
-## Co tu trzymać
-
-- **Obserwacje z ręcznych testów** — co zobaczyłem w KRS/CRBR, jak wygląda surowy response, co jest dziwne
-- **Decyzje i uzasadnienia** — dlaczego wybrałem dane pole, dlaczego odrzuciłem inne podejście
-- **Otwarte pytania** — rzeczy, które trzeba ustalić zanim zacommituję logikę
-- **Scratchpad modeli danych** — drafty schematów przed zamrożeniem kontraktu
-- **Wyniki case studies** — 5-10 spółek testowych: co zmieniło się, jak to wyglądało
-- **Braki i gotchas źródeł** — niespójności API, brakujące pola, edge case'y identyfikatorów
-- **TODO do następnego posiedzenia** — żeby nie tracić wątku między sesjami
+Plik prywatny, nie idzie na main. Obserwacje, decyzje techniczne i wyniki Fazy 0 / Fazy 1.
 
 ---
 
-## Faza 0 — aktywny sprint
+## Status projektu
 
-### Watchlista startowa (do wypełnienia)
+**Faza 0 — ZAMKNIĘTA** (2026-04-22)
+Wszystkie snapshoty Fazy 0 zebrane, ekstraktor KRS gotowy, CRBR Playwright działa.
+
+**Faza 1 — W TOKU** (od 2026-04-23)
+
+| Blok | Opis | Status |
+|------|------|--------|
+| B1 | Fundament storage — SQLite, importer, hashe snapshotów | DONE |
+| B2 | Diff engine KRS — porównanie snapshotów, reguły alertów | TODO |
+| B3 | Normalizacja CRBR + alerty CRBR-specyficzne | DONE |
+| B4 | CLI — `kasandra fetch / diff / alerts` | TODO |
+| B5 | Harmonogram pobierania + automatyzacja | TODO |
+
+**Deadline krytyczny:** CRBR publiczny dostęp kończy się **2026-07-01**.
+
+---
+
+---
+
+## Watchlista Faza 0
 
 | Spółka | KRS | NIP | REGON | Forma | Uwagi |
 |--------|-----|-----|-------|-------|-------|
@@ -34,67 +40,53 @@ zanim coś będzie gotowe do review lub merge'a.
 | "TENCZYNEK DYSTRYBUCJA" SA | 0000864032 | 9462683417 | 381368271 | SA | Palikot, strata, ciekawy profil ryzyka |
 | JANUSZEX SP. Z O.O. | 0000779880 | 5272889007 | 382903625 | Sp. z o.o. | mała spółka, 100% właściciel = prezes |
 
-### Ręczne case studies — postęp
-
-Snapshot KRS pobrany dla wszystkich 10 spółek 2026-04-20. Plik podsumowujący:
-[dev_ms_data/snapshot_summary_2026-04-20.md](dev_ms_data/snapshot_summary_2026-04-20.md).
-Surowe JSON: [dev_ms_data/snapshots/2026-04-20/krs/](dev_ms_data/snapshots/2026-04-20/krs/).
-
-| Spółka | KRS | CRBR | Diff | Alert |
-|--------|-----|------|------|-------|
-| Żabka Polska              | OK  | brak | [ ] | [ ] |
-| Drutex                    | OK  | brak | [ ] | [ ] |
-| Grupa Maspex              | OK  | brak | [ ] | [ ] |
-| Dino Polska               | OK  | brak | [ ] | [ ] |
-| Asseco Poland             | OK  | brak | [ ] | [ ] |
-| FAME MMA                  | OK  | brak | [ ] | [ ] |
-| Mentzen                   | OK  | brak | [ ] | [ ] |
-| Strong Man                | OK  | brak | [ ] | [ ] |
-| Tenczynek Dystrybucja     | OK  | brak | [ ] | [ ] |
-| Januszex                  | OK  | brak | [ ] | [ ] |
-
-### Pytania otwarte (Faza 0)
-
-- [ ] Które pola KRS wchodzą do rdzenia, które zostają jako kontekst?
-- [ ] Które pola CRBR są kluczowe dla wykrywania zmiany beneficjenta?
-- [ ] Format przechowywania `raw_payload` — JSON dump czy coś znormalizowanego?
-- [ ] Jak identyfikować spółkę gdy nie ma NIP lub REGON w odpowiedzi?
+**Uwaga NIP Asseco:** seed watchlisty ma `5220003307`, KRS API w odpisie zwraca `5220003782`. Do wyjaśnienia przy normalizacji — nieistotne dla CRBR (spółka zwolniona jako GPW).
 
 ---
 
-## Kontrakty danych — robocze drafty
+## Postęp — snapshoty i dane
 
-### model_spolki (draft)
+| Spółka | KRS 20.04 | KRS 22.04 | CRBR 22.04 |
+|--------|-----------|-----------|------------|
+| Żabka Polska | OK | OK | OK (7 beneficjentów) |
+| Drutex | OK | OK | OK (1 beneficjent) |
+| Grupa Maspex | OK | OK | OK (12 beneficjentów) |
+| FAME MMA | OK | OK | OK (2 beneficjentów) |
+| Mentzen | OK | OK | OK (2 beneficjentów) |
+| Tenczynek Dystrybucja | OK | OK | OK (1 beneficjent) |
+| Dino Polska | OK | OK | brak wpisów — zwolnienie GPW |
+| Asseco Poland | OK | OK | brak wpisów — zwolnienie GPW |
+| Strong Man | OK | OK | brak wpisów — brak zgłoszenia |
+| Januszex | OK | OK | brak wpisów — brak zgłoszenia |
+
+**Ścieżki danych:**
+- KRS surowe: `dev_ms_data/snapshots/{data}/krs/`
+- CRBR surowe: `dev_ms_data/snapshots/2026-04-22/crbr/`
+- KRS znormalizowane (baseline): `dev_ms_data/normalized/2026-04-20/krs/`
+
+---
+
+## Model danych — robocze drafty
 
 ```python
+# model_spolki
 # internal_id, KRS, NIP, REGON, nazwa, status, notatki
-```
 
-### model_snapshotu (draft)
-
-```python
+# model_snapshotu
 # company_id, source, collected_at, raw_payload, normalized_payload, hash
-```
 
-### model_zmiany (draft)
-
-```python
+# model_zmiany
 # company_id, source, field, previous_value, current_value, detected_at, change_type
-```
 
-### model_alertu (draft)
-
-```python
+# model_alertu
 # company_id, title, summary, evidence, priority, recommended_next_step, generated_at
 ```
 
 ---
 
-## Wzór wyciąganych danych — KRS normalized_payload (v0.1)
+## KRS normalized_payload v0.1
 
-Schemat `normalized_payload` dla snapshotu KRS. Wyciągamy tylko te pola, których zmiana generuje alert lub daje istotny kontekst. Reszta zostaje w `raw_payload`.
-
-### Źródłowe ścieżki → pola znormalizowane
+Schemat `normalized_payload` dla snapshotu KRS. Tylko pola których zmiana generuje alert lub daje istotny kontekst.
 
 | Pole wyjściowe | Ścieżka w JSON | Uwagi |
 |---|---|---|
@@ -113,207 +105,148 @@ Schemat `normalized_payload` dla snapshotu KRS. Wyciągamy tylko te pola, który
 | `zarzad.sposob_reprezentacji` | `odpis.dane.dzial2.reprezentacja.sposobReprezentacji` | |
 | `zarzad.sklad[]` | `odpis.dane.dzial2.reprezentacja.sklad[]` | patrz `osoba_key` niżej |
 | `wlasciciele.typ` | — | `wspolnicy_spzoo` \| `jedyny_akcjonariusz` \| `brak_w_krs` |
-| `wlasciciele.lista[]` | `dzial1.wspolnicySpzoo[]` **lub** `dzial1.jedynyAkcjonariusz[]` | |
-| `pkd_glowny.kod` | `dzial3.przedmiotDzialalnosci.przedmiotPrzewazajacejDzialalnosci[0].kodDzial+Klasa+Podklasa` | |
-| `pkd_glowny.opis` | j.w. `.opis` | |
+| `wlasciciele.lista[]` | `dzial1.wspolnicySpzoo[]` lub `dzial1.jedynyAkcjonariusz[]` | |
+| `pkd_glowny.kod` | `dzial3.przedmiotDzialalnosci.przedmiotPrzewazajacejDzialalnosci[0]` | |
 | `distress.dzial4` | `dzial4` niepuste? | bool |
 | `distress.dzial5` | `dzial5` niepuste? | bool |
 | `distress.dzial6` | `dzial6` niepuste? | bool |
-| `distress.dzial6_typy[]` | klucze w `dzial6` (np. `polaczeniePodzialPrzeksztalcenie`) | lista stringów |
+| `distress.dzial6_typy[]` | klucze w `dzial6` | lista stringów |
 
 ### Identyfikator osoby (osoba_key)
 
-Bez deanonimizacji — stabilny klucz osoby budujemy jako:
-
-- **osoba prawna:** `"LE:" + nazwa + (krs || regon)` — pełna nazwa i ID są jawne
+- **osoba prawna:** `"LE:" + nazwa + (krs || regon)`
 - **osoba fizyczna:** `"NAT:" + maska_nazwisko + "|" + maska_imie + "|" + maska_pesel`
 
-Maski są deterministyczne (długość = długość oryginału), więc ten sam człowiek daje ten sam klucz między snapshotami. Zmiana któregokolwiek członu = inna osoba.
-
-### Reprezentacja członka zarządu / wspólnika
+Maski deterministyczne (długość = długość oryginału) — ten sam człowiek daje ten sam klucz między snapshotami.
 
 ```python
 {
   "osoba_key": "NAT:J************|K********|4**********",
-  "typ": "fizyczna",   # lub "prawna"
-  "display": "K******** J************",   # do alertu
-  "funkcja": "PREZES ZARZĄDU",   # tylko zarząd
-  "posiadane_udzialy": "100 UDZIAŁÓW O ŁĄCZNEJ WARTOŚCI 5.000,00 ZŁ",   # tylko wspólnicy
-  "calosc": true   # tylko wspólnicy / jedyny_akcjonariusz
+  "typ": "fizyczna",
+  "display": "K******** J************",
+  "funkcja": "PREZES ZARZĄDU",          # tylko zarząd
+  "posiadane_udzialy": "100 UDZIAŁÓW",  # tylko wspólnicy
+  "calosc": True
 }
 ```
 
 ### Pola pomijane w v0.1
 
-- `dzial1.umowaStatut` (zmiany umowy — za szczegółowe na start)
-- `dzial1.emisjeAkcji` (potrzebne dla SA, ale skomplikowane — odłożyć)
-- `dzial1.pozostaleInformacje` (czas trwania spółki, rok obrotowy — kontekst)
+- `dzial1.umowaStatut`, `dzial1.emisjeAkcji`, `dzial1.pozostaleInformacje`
 - pełna historia wpisów, daty każdej zmiany
 - adresy korespondencyjne oddziałów
 
 ---
 
-## Alerty — propozycje v0.1
+## CRBR normalized_payload v0.1
 
-Każdy alert = reguła na diffie dwóch `normalized_payload`. Priorytet orientacyjny: `N / Ś / W / K` (niski / średni / wysoki / krytyczny).
+Schemat `normalized_payload` dla snapshotu CRBR. Produkuje `extract_crbr.py`.
 
-### Sygnały binarne (distress — najsilniejsze)
+**KRYTYCZNE — maskowanie PESEL:** CRBR zwraca pełne numery PESEL. Skrypt maskuje je przed zapisem (ten sam sposób co KRS API: `pesel[0] + '*' * 10`).
 
-| ID | Trigger | Priorytet | Uzasadnienie |
-|---|---|---|---|
-| `A-DZ6-NEW` | `distress.dzial6` przeszedł `false → true` lub przybył nowy typ | **K** | pojawiła się upadłość / połączenie / przekształcenie / podział |
-| `A-DZ4-NEW` | `distress.dzial4` przeszedł `false → true` | **K** | pojawili się wierzyciele / hipoteki |
-| `A-DZ5-NEW` | `distress.dzial5` przeszedł `false → true` | **W** | pojawił się kurator |
+### Status spółki w CRBR
 
-### Zmiany struktury (klasyczne sygnały kontroli)
+| Wartość | Znaczenie |
+|---|---|
+| `ok` | Spółka ma wpisy w CRBR, XML pobrany |
+| `brak_wpisow` | Portal zwrócił brak wyników |
 
-| ID | Trigger | Priorytet | Uwagi |
-|---|---|---|---|
-| `A-ZARZAD-PREZES` | zmiana osoby na funkcji `PREZES ZARZĄDU` | **W** | najsilniejsza rotacja w zarządzie |
-| `A-ZARZAD-SKLAD` | zmiana liczby lub składu `zarzad.sklad[]` (bez prezesa) | Ś | dodanie/usunięcie członka |
-| `A-ZARZAD-REPR` | zmiana `sposob_reprezentacji` | Ś | zmiana zasad podpisywania |
-| `A-WLASC-NOWY` | nowy `osoba_key` w `wlasciciele.lista[]` | **W** | nowy wspólnik / akcjonariusz |
-| `A-WLASC-USUN` | zniknął `osoba_key` z `wlasciciele.lista[]` | **W** | exit wspólnika |
-| `A-WLASC-50PC` | udział wspólnika przekroczył 50% (lub spadł poniżej) | **W** | zmiana kontroli — heurystyka na `posiadane_udzialy` |
-| `A-KAPITAL` | zmiana `kapital.wartosc` | Ś | podwyższenie / obniżenie kapitału |
+Dino i Asseco: `brak_wpisow` z powodu zwolnienia GPW (rejestr regulowany).
+Strong Man i Januszex: `brak_wpisow` bez oczywistego zwolnienia — potencjalny alert `A-CRBR-BRAK`.
 
-### Zmiany kontekstowe (słabszy sygnał, ale warto odnotować)
+### Typy `charakterUdzialu`
+
+| Kod | Opis | Pole danych |
+|---|---|---|
+| `1` | bezpośrednia własność | `udzial_ilosc` + `udzial_jednostka_opis` + `rodzaj_wlasnosci_opis` |
+| `2` | pośrednia własność / fundacja | `posrednie_opis` (tekst wolny) |
+| `3` | inne uprawnienia (senior manager AML) | `inne_uprbo_opis` |
+
+### `osoba_key` w CRBR
+
+Format identyczny jak KRS: `"NAT:{mask_nazwisko}|{mask_imie}|{mask_pesel}"`.
+Masking deterministyczny → ten sam beneficjent między snapshotami = ten sam klucz.
+
+---
+
+## Alerty — reguły v0.1
+
+Każdy alert = reguła na diffie dwóch `normalized_payload`. Priorytety: `N / Ś / W / K`.
+
+### Sygnały binarne (distress)
+
+| ID | Trigger | Priorytet |
+|---|---|---|
+| `A-DZ6-NEW` | `distress.dzial6` przeszedł `false → true` lub nowy typ | **K** |
+| `A-DZ4-NEW` | `distress.dzial4` przeszedł `false → true` | **K** |
+| `A-DZ5-NEW` | `distress.dzial5` przeszedł `false → true` | **W** |
+
+### Zmiany struktury
+
+| ID | Trigger | Priorytet |
+|---|---|---|
+| `A-ZARZAD-PREZES` | zmiana osoby na funkcji `PREZES ZARZĄDU` | **W** |
+| `A-ZARZAD-SKLAD` | zmiana liczby lub składu `zarzad.sklad[]` | Ś |
+| `A-ZARZAD-REPR` | zmiana `sposob_reprezentacji` | Ś |
+| `A-WLASC-NOWY` | nowy `osoba_key` w `wlasciciele.lista[]` | **W** |
+| `A-WLASC-USUN` | zniknął `osoba_key` z `wlasciciele.lista[]` | **W** |
+| `A-WLASC-50PC` | udział wspólnika przekroczył / spadł poniżej 50% | **W** |
+| `A-KAPITAL` | zmiana `kapital.wartosc` | Ś |
+
+### Zmiany kontekstowe
 
 | ID | Trigger | Priorytet |
 |---|---|---|
 | `A-NAZWA` | zmiana `company.nazwa` | Ś |
 | `A-FORMA` | zmiana `company.forma` | **W** |
-| `A-ADRES` | zmiana `adres.miejscowosc` lub pełnego adresu | N |
+| `A-ADRES` | zmiana adresu | N |
 | `A-PKD` | zmiana `pkd_glowny.kod` | Ś |
 
-### Reguły kompozycyjne (v0.2, wymagają historii kilku snapshotów)
+### Reguły kompozycyjne (v0.2)
 
 | ID | Trigger | Priorytet |
 |---|---|---|
 | `A-KOMP-ZAR-WLASC` | `A-ZARZAD-*` i `A-WLASC-*` w tej samej spółce w oknie ≤30 dni | **K** |
 | `A-SWIEZA-ROTACJA` | spółka < 12 mies. od rejestracji + jakakolwiek zmiana zarządu | **W** |
 
-### Co z osobami fizycznymi?
+Wszystkie reguły działają na `osoba_key` (maski), nie pełnych danych. Alert mówi *"zmiana PREZESA: K\*\*\*\*\*\*\*\* → M\*\*\*\*\*\*\*"* — wystarczy jako sygnał, identyfikacja = ręczna weryfikacja w KRS online.
 
-Wszystkie powyższe reguły **działają na `osoba_key`** (maski), nie na pełnych danych. Alert powie *"zmiana PREZESA ZARZĄDU: K\*\*\*\*\*\*\*\* J\*\*\*\*\*\*\*\*\*\*\*\* → M\*\*\*\*\*\*\* N\*\*\*\*\*\*\*"* — wystarczy jako sygnał, pełna identyfikacja = ręczna weryfikacja w KRS online.
+### Alerty CRBR (v0.1)
 
-### Dataset testowy (baseline)
+Reguły specyficzne dla źródła CRBR. Działają na `normalized_payload` z `extract_crbr.py`.
 
-Znormalizowane snapshoty dla 10 spółek są w:
+| ID | Trigger | Priorytet | Uwagi |
+|---|---|---|---|
+| `A-CRBR-BRAK` | `status == "brak_wpisow"` dla sp. z o.o. lub SA niebędącej na GPW | **W** | Strong Man, Januszex — gotowe do zaalertowania |
+| `A-CRBR-BEN-NOWY` | nowy `osoba_key` w `beneficjenci[]` między snapshotami | **W** | porównanie po `osoba_key` |
+| `A-CRBR-BEN-USUN` | zniknął `osoba_key` z `beneficjenci[]` między snapshotami | **W** | |
+| `A-CRBR-BEN-UDZIAL` | zmiana `udzial_ilosc` lub `udzial_jednostka_opis` dla istniejącego beneficjenta | **Ś** | tylko `charakterUdzialu == 1` |
+| `A-CRBR-KOREKTA` | `snapshot_meta.korekta == true` w nowym snapshocie | **Ś** | korekta zgłoszenia = coś się zmieniło wstecz |
+| `A-CRBR-CHARAKTER` | zmiana `charakter_udzialu_kod` dla istniejącego beneficjenta | **W** | np. 1→2: akcjonariusz → fundacja |
 
-- [dev_ms_data/normalized/2026-04-20/krs/](dev_ms_data/normalized/2026-04-20/krs/) — per spółka
-- [dev_ms_data/normalized/2026-04-20/dataset.json](dev_ms_data/normalized/2026-04-20/dataset.json) — zbiorczy plik
-
-To baseline dla pierwszego diffu — kolejny run (za ~tydzień) pozwoli sprawdzić, czy reguły alertowe faktycznie wychwytują to, co powinny.
+**Spółki zwolnione z CRBR (nie alertujemy `A-CRBR-BRAK`):**
+Lista w seedzie watchlisty — obecnie: Dino (GPW), Asseco (GPW).
 
 ---
 
-## Gotchas i znaleziska — źródła
+## Gotchas — źródła
 
-### KRS API (api-krs.ms.gov.pl)
+### KRS API
 
 - **Endpoint:** `GET https://api-krs.ms.gov.pl/api/krs/OdpisAktualny/{KRS}?rejestr=P&format=json`
-- **Bez autoryzacji**, działa od ręki, zwraca pełny odpis aktualny w JSON
-- **Rozmiary:** od ~3.6 KB (Januszex, mała spółka, 3 wpisy) do ~62 KB (Asseco, 169 wpisów)
-- **Struktura:** `odpis.dane.dzial1..dzial6` — standardowe działy KRS
-  - dz1: dane podmiotu, adres, kapitał, wspólnicy (dla sp. z o.o.)
-  - dz2: skład zarządu, sposób reprezentacji
-  - dz3: PKD, rok obrotowy
-  - dz4: wierzyciele, hipoteki (puste dla naszych 10)
-  - dz5: kuratorzy (puste dla naszych 10)
-  - dz6: połączenia, podziały, przekształcenia, upadłość — Żabka, Maspex, Dino, Asseco mają wpisy
+- Bez autoryzacji, działa od ręki
+- Rozmiary: ~3.6 KB (Januszex) do ~62 KB (Asseco, 169 wpisów)
+- Struktura: `odpis.dane.dzial1..dzial6`
 
-#### KRYTYCZNE: maskowanie danych osobowych
-
-Publiczne API maskuje imiona, nazwiska i PESEL osób fizycznych:
-- `nazwiskoICzlon: "J************"`
-- `imie: "K********"`
-- `pesel: "4**********"`
-
-**Implikacje dla projektu:**
-- Możemy wykryć **zmianę** w zarządzie (liczba osób, długość masek, dodanie/usunięcie pozycji)
-- **Nie możemy zidentyfikować** kto konkretnie wszedł/wyszedł
-- Osoby prawne (np. `MASPEX HOLDING SA`, `ZABKA GROUP S.A.`) — pełne dane + KRS
-- Pole `posiadaneUdzialy` (np. "100 UDZIAŁÓW O ŁĄCZNEJ WARTOŚCI 5.000,00 ZŁ") — **nie jest maskowane**
-
-To zmienia myślenie o sygnale: dla zmian zarządu/wspólników osób fizycznych wartość = "coś się zmieniło, sprawdź źródło"; pełna nazwa wymaga ręcznej weryfikacji w KRS online.
-
-### CRBR (crbr.podatki.gov.pl)
-
-**Portal publiczny (crbr.podatki.gov.pl/adcrbr/):**
-- JavaScript SPA z CAPTCHA przed wyszukiwaniem → scraping wymaga Playwright + rozwiązywania CAPTCHA (kosztowne, kruche)
-- Wyszukuje po NIP lub KRS (nie REGON), brak eksportu JSON/CSV
-
-**Publiczne SOAP API (bramka-crbr.mf.gov.pl:5058):**
-- Udokumentowane w `ApiPrzegladoweCRBR_Specyfikacja_We-Wy 2.0.0` (MF, 2020-11-10)
-- Endpointy: `.../ApiPrzegladoweCRBR/2020/05/01` i `.../2022/02/01`
-- Operacja: `PobierzInformacjeOSpolkachIBeneficjentach(NIP)`
-- Spec twierdzi: "usługa dostępna publicznie, bez autoryzacji"
-
-**Próba 2026-04-21 (skrypt `dev_ms_data/scripts/fetch_crbr.py`):**
-- Wysłano 10 żądań SOAP 1.2 dla spółek z watchlisty
-- Envelope budowany zgodnie ze spec (namespacy, prefixy, Content-Type z `action`)
-- **Wynik: wszystkie 10 → HTTP 500 + SOAP Fault `env:Receiver "Internal Error (from server)"`** (310 B per response)
-- Przetestowane wariacje (wszystkie ten sam fault):
-  - Oba endpointy (2020/05/01, 2022/02/01)
-  - SOAP 1.2 z `application/soap+xml; action="..."` (krótka nazwa operacji i pełny URI)
-  - SOAP 1.1 z nagłówkiem `SOAPAction`
-  - Z WS-Addressing (`wsa:Action`, `MessageID`, `To`, `ReplyTo`)
-  - Przykładowy NIP ze spec (1120149662) — ten sam błąd
-- **Diagnoza:** `env:Receiver` = błąd po stronie serwera, nie klienta. Bramka przyjmuje kopertę, ale backend ESB zwraca internal error. Prawdopodobne przyczyny (nie do zweryfikowania bez dostępu MF):
-  - Rejestracja / whitelist IP mimo "public" w spec
-  - Serwis faktycznie niedziałający publicznie (tylko dla zintegrowanych instytucji)
-  - Wymaga WS-Security header, którego spec nie wspomina
-- Brak publicznych implementacji na GitHub (`site:github.com "ApiPrzegladoweCRBR"` → 0 trafień, nikt nie zintegrował)
-
-**Surowe response'y:** `dev_ms_data/snapshots/2026-04-21/crbr/*.xml` (wszystkie to ten sam fault, zachowane jako dowód)
-
-**Rekomendacja na Fazę 0:**
-- **Odłożyć CRBR na Fazę 1.** Nie blokować Fazy 1 implementacji KRS na problemie CRBR.
-- Faza 0 zamyka się na KRS — 10 spółek, schemat znormalizowany v0.1, reguły alertowe v0.1
-- Decyzje do podjęcia w Fazie 1:
-  - Próba kontaktu mailowego z MF o status bramki CRBR (szybki low-cost test)
-  - Jeżeli bramka nie otworzy się → Playwright na portalu SPA (kosztowne, ale wykonalne dla ~10 spółek raz na tydzień)
-  - Alternatywa: komercyjne API (MGBI, Transparent Data) — za pieniądze ale szybciej
-
----
-
-## Log sesji
-
-### 2026-04-20
-
-- Projekt wszedł w Fazę 0
-- Branch Mat założony jako osobna przestrzeń robocza
-- Watchlista 10 spółek skompletowana
-- Snapshot KRS pobrany dla wszystkich 10 (`dev_ms_data/snapshots/2026-04-20/krs/`)
-- Wygenerowane podsumowanie: `dev_ms_data/snapshot_summary_2026-04-20.md`
-- **Znalezisko:** KRS publiczne API maskuje dane osób fizycznych
-- **Blokada:** CRBR nie ma otwartego API — wymaga decyzji jak dalej
-
-### 2026-04-21
-
-- Próba podejścia do CRBR przez publiczne SOAP API MF (`bramka-crbr.mf.gov.pl:5058`)
-- Napisany skrypt `dev_ms_data/scripts/fetch_crbr.py` — envelope zgodny ze spec MF 2.0.0
-- **Wynik: 10/10 żądań → HTTP 500 `env:Receiver Internal Error`**, także dla przykładowego NIP ze specyfikacji
-- Przetestowano wszystkie sensowne wariacje (oba endpointy, SOAP 1.1/1.2, WS-Addressing) — bez zmian
-- **Decyzja:** CRBR odłożona do Fazy 1. Faza 0 zamyka się na KRS.
-- Surowe SOAP Fault zachowane w `dev_ms_data/snapshots/2026-04-21/crbr/` jako dowód próby
-- Szczegółowa diagnoza w sekcji "Surowe notatki / próby integracji → CRBR" powyżej
-
----
-
-## Scratchpad / surowe notatki
-
-<!-- Tu wrzucaj bez formatowania: fragmenty JSON, linki, cytaty z docs, pomysły -->
-
-### KRS — pełne dane wspólników (przykłady osób prawnych)
+**KRYTYCZNE — maskowanie danych osobowych:**  
+Publiczne API maskuje imiona, nazwiska i PESEL osób fizycznych (`"J************"`, `"K********"`, `"4**********"`).  
+Osoby prawne (np. `MASPEX HOLDING SA`) — pełne dane + KRS.  
+Pole `posiadaneUdzialy` — **nie jest maskowane**.
 
 ```
 Żabka:  ZABKA GROUP SOCIÉTÉ ANONYME — 100% (Luxembourg, brak KRS PL)
 Maspex: MASPEX HOLDING SA [KRS 0000725647] — większość udziałów
 ```
-
-### KRS — przykład osoby fizycznej (Januszex, zarząd)
 
 ```json
 {
@@ -323,3 +256,62 @@ Maspex: MASPEX HOLDING SA [KRS 0000725647] — większość udziałów
   "funkcjaWOrganie": "PREZES ZARZĄDU"
 }
 ```
+
+### CRBR
+
+**Portal:** `crbr.podatki.gov.pl/adcrbr/` — Angular SPA chroniona przez Imperva WAF.
+
+**SOAP API (`bramka-crbr.mf.gov.pl:5058`) — niedziałające:**  
+Próba 2026-04-21: 10/10 żądań → HTTP 500 `env:Receiver Internal Error`, w tym przykładowy NIP ze specyfikacji MF. Przetestowano: SOAP 1.1/1.2, WS-Addressing, oba endpointy (2020/2022). Diagnoza: backend ESB niedostępny publicznie lub wymaga IP whitelist.
+
+**REST API (`/adcrbr/api/`) — blokowane przez WAF:**  
+Zwraca HTTP 200 + `null` dla wszystkich zapytań bez JS (Imperva silent block).
+
+**Playwright — działa:**  
+Skrypt `dev_ms_data/scripts/fetch_crbr_playwright.py` uruchamia headless Chrome, przechodzi Imperva challenge, pobiera XML.  
+Wyniki dla Fazy 0: 6/10 spółek ma wpisy, 4 nie (2× zwolnienie GPW, 2× brak zgłoszenia).  
+Dostęp publiczny CRBR ważny do **2026-07-01** (potem wymagany uzasadniony interes).
+
+**Spółki zwolnione z CRBR:** notowane na regulowanym rynku (GPW) → Dino, Asseco.  
+**Brak zgłoszenia sp. z o.o.:** Strong Man, Januszex — potencjalny sygnał alertowy.
+
+---
+
+## Log sesji
+
+### 2026-04-20
+- Projekt wszedł w Fazę 0, branch Mat założony
+- Watchlista 10 spółek skompletowana
+- Snapshot KRS pobrany dla wszystkich 10 (`snapshots/2026-04-20/krs/`)
+- Znalezisko: KRS API maskuje dane osób fizycznych
+- Blokada: CRBR bez działającego API — odłożone do Fazy 1
+
+### 2026-04-21
+- Próba CRBR przez SOAP API MF — 10/10 HTTP 500, wszystkie wariacje
+- Skrypt `scripts/fetch_crbr.py` — dokumentacja nieudanej próby
+- Decyzja: CRBR odłożona, Faza 0 zamyka się na KRS
+
+### 2026-04-22
+- Snapshot KRS odświeżony (`snapshots/2026-04-22/krs/`) — brak zmian merytorycznych vs 20.04
+- Znaleziono REST API portalu CRBR (`/adcrbr/api/`) — blokowane przez Imperva WAF (zwraca null bez JS)
+- Wdrożony Playwright scraper (`scripts/fetch_crbr_playwright.py`) — działa
+- Snapshot CRBR pobrany (`snapshots/2026-04-22/crbr/`): 6 XMLi + log brak_wpisow dla 4
+- Rozbieżność NIP Asseco: seed=`5220003307`, KRS API=`5220003782` — do wyjaśnienia
+- Strong Man i Januszex: sp. z o.o. bez wpisu w CRBR — potencjalny alert
+
+### 2026-04-23 — Faza 1 start, Blok 3
+- Zamknięto Fazę 0, otwarto Fazę 1 — plan bloków B1–B5 w sekcji "Status projektu"
+- Napisano `scripts/extract_crbr.py` — normalizacja XML → JSON, PESEL maskowany
+- Obsługiwane typy: `karakterUdzialu` 1 (własność), 2 (pośrednia/fundacja), 3 (senior manager)
+- Uruchomiono na `snapshots/2026-04-22/crbr/`: 6 OK + 4 brak_wpisow → `normalized/2026-04-22/crbr/`
+- Dodano schemat CRBR normalized_payload v0.1 i reguły alertów CRBR (A-CRBR-*) do dev_ms.md
+- B3 zamknięty
+
+### 2026-04-23 — Blok 1: SQLite storage
+- Zaprojektowano schemat 4 tabel: `companies`, `snapshots`, `changes`, `alerts` (`sql/schema/001_init.sql`)
+- Tabela `snapshots.source` TEXT — otwarte na nowe źródła bez migracji struktury
+- Rozszerzono `src/kasandra/storage/sqlite.py`: `init_db`, `upsert_company`, `insert_snapshot`, query helpers
+- Znormalizowano KRS 2026-04-22 (`normalized/2026-04-22/krs/`)
+- Wgrano dane do `var/sqlite/kasandra.sqlite3`: 10 spółek, 30 snapshotów (20 KRS + 10 CRBR)
+- Weryfikacja hash: KRS 20.04 vs 22.04 — brak zmian we wszystkich 10 (zgodne z obserwacją z Fazy 0)
+- B1 zamknięty

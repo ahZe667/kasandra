@@ -1,0 +1,119 @@
+{
+  "source": "crbr",
+  "slug": "zabka",
+  "status": "ok",
+  "snapshot_meta": {
+    "collected_at": "2026-04-22",
+    "zgloszenie_id": "cc5cf8a7-b5a4-4513-8345-18e98f2cd52a",
+    "korekta": false,
+    "data_poczatku_prezentacji": "2026-04-22",
+    "data_konca_prezentacji": "2026-04-22"
+  },
+  "company": {
+    "krs": "0000636642",
+    "nip": "5223071241",
+    "nazwa": "ŻABKA POLSKA SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ",
+    "forma": "Spółka z ograniczoną odpowiedzialnością",
+    "adres": {
+      "ulica": "STANISŁAWA MATYI",
+      "nr_domu": "8",
+      "nr_lokalu": null,
+      "kod_pocztowy": "61-586",
+      "miejscowosc": "POZNAŃ",
+      "wojewodztwo": "WIELKOPOLSKIE"
+    }
+  },
+  "beneficjenci": [
+    {
+      "osoba_key": "NAT:B***********|J******|6**********",
+      "display": "J****** B***********",
+      "obywatelstwo": "PL",
+      "panstwo_zamieszkania": "PL",
+      "charakter_udzialu_kod": "3",
+      "charakter_udzialu_opis": "inne_uprawnienia",
+      "udzial_ilosc": null,
+      "udzial_jednostka_opis": null,
+      "rodzaj_wlasnosci_opis": null,
+      "posrednie_opis": null,
+      "inne_uprbo_opis": "osoba fizyczna zajmująca wyższe stanowisko kierownicze, o której mowa w art. 2 ust. 2 pkt.1 lit. a tiret 5 ustawy AML"
+    },
+    {
+      "osoba_key": "NAT:W****************|M****|8**********",
+      "display": "M**** W****************",
+      "obywatelstwo": "PL",
+      "panstwo_zamieszkania": "PL",
+      "charakter_udzialu_kod": "3",
+      "charakter_udzialu_opis": "inne_uprawnienia",
+      "udzial_ilosc": null,
+      "udzial_jednostka_opis": null,
+      "rodzaj_wlasnosci_opis": null,
+      "posrednie_opis": null,
+      "inne_uprbo_opis": "osoba fizyczna zajmująca wyższe stanowisko kierownicze, o której mowa w art. 2 ust. 2 pkt.1 lit. a tiret 5 ustawy AML"
+    },
+    {
+      "osoba_key": "NAT:S********|T*****|7**********",
+      "display": "T***** S********",
+      "obywatelstwo": "PL",
+      "panstwo_zamieszkania": "PL",
+      "charakter_udzialu_kod": "3",
+      "charakter_udzialu_opis": "inne_uprawnienia",
+      "udzial_ilosc": null,
+      "udzial_jednostka_opis": null,
+      "rodzaj_wlasnosci_opis": null,
+      "posrednie_opis": null,
+      "inne_uprbo_opis": "osoba fizyczna zajmująca wyższe stanowisko kierownicze, o której mowa w art. 2 ust. 2 pkt.1 lit. a tiret 5 ustawy AML"
+    },
+    {
+      "osoba_key": "NAT:B*********|T*****|8**********",
+      "display": "T***** B*********",
+      "obywatelstwo": "PL",
+      "panstwo_zamieszkania": "PL",
+      "charakter_udzialu_kod": "3",
+      "charakter_udzialu_opis": "inne_uprawnienia",
+      "udzial_ilosc": null,
+      "udzial_jednostka_opis": null,
+      "rodzaj_wlasnosci_opis": null,
+      "posrednie_opis": null,
+      "inne_uprbo_opis": "osoba fizyczna zajmująca wyższe stanowisko kierownicze, o której mowa w art. 2 ust. 2 pkt.1 lit. a tiret 5 ustawy AML"
+    },
+    {
+      "osoba_key": "NAT:G********|A***|7**********",
+      "display": "A*** G********",
+      "obywatelstwo": "PL",
+      "panstwo_zamieszkania": "PL",
+      "charakter_udzialu_kod": "3",
+      "charakter_udzialu_opis": "inne_uprawnienia",
+      "udzial_ilosc": null,
+      "udzial_jednostka_opis": null,
+      "rodzaj_wlasnosci_opis": null,
+      "posrednie_opis": null,
+      "inne_uprbo_opis": "osoba fizyczna zajmująca wyższe stanowisko kierownicze, o której mowa w art. 2 ust. 2 pkt.1 lit. a tiret 5 ustawy AML"
+    },
+    {
+      "osoba_key": "NAT:M*********|A***|7**********",
+      "display": "A*** M*********",
+      "obywatelstwo": "PL",
+      "panstwo_zamieszkania": "PL",
+      "charakter_udzialu_kod": "3",
+      "charakter_udzialu_opis": "inne_uprawnienia",
+      "udzial_ilosc": null,
+      "udzial_jednostka_opis": null,
+      "rodzaj_wlasnosci_opis": null,
+      "posrednie_opis": null,
+      "inne_uprbo_opis": "osoba fizyczna zajmująca wyższe stanowisko kierownicze, o której mowa w art. 2 ust. 2 pkt.1 lit. a tiret 5 ustawy AML"
+    },
+    {
+      "osoba_key": "NAT:K***|W*******|8**********",
+      "display": "W******* K***",
+      "obywatelstwo": "PL",
+      "panstwo_zamieszkania": "PL",
+      "charakter_udzialu_kod": "3",
+      "charakter_udzialu_opis": "inne_uprawnienia",
+      "udzial_ilosc": null,
+      "udzial_jednostka_opis": null,
+      "rodzaj_wlasnosci_opis": null,
+      "posrednie_opis": null,
+      "inne_uprbo_opis": "osoba fizyczna zajmująca wyższe stanowisko kierownicze, o której mowa w art. 2 ust. 2 pkt.1 lit. a tiret 5 ustawy AML"
+    }
+  ]
+}
