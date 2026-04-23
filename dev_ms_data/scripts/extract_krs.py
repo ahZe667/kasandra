@@ -228,7 +228,7 @@ def main():
     krs_out.mkdir(parents=True, exist_ok=True)
 
     dataset = []
-    files = sorted(snap_dir.glob('*.json'))
+    files = sorted(f for f in snap_dir.glob('*.json') if not f.name.startswith('_'))
     for f in files:
         with open(f, encoding='utf-8') as fp:
             raw = json.load(fp)

@@ -1,0 +1,82 @@
+[
+  {
+    "slug": "zabka",
+    "krs": "0000636642",
+    "http_status": 200,
+    "ok": true,
+    "bytes": 21273,
+    "file": "0000636642_zabka.json"
+  },
+  {
+    "slug": "drutex",
+    "krs": "0000140428",
+    "http_status": 200,
+    "ok": true,
+    "bytes": 25207,
+    "file": "0000140428_drutex.json"
+  },
+  {
+    "slug": "maspex",
+    "krs": "0000898248",
+    "http_status": 200,
+    "ok": true,
+    "bytes": 21690,
+    "file": "0000898248_maspex.json"
+  },
+  {
+    "slug": "dino",
+    "krs": "0000408273",
+    "http_status": 200,
+    "ok": true,
+    "bytes": 27365,
+    "file": "0000408273_dino.json"
+  },
+  {
+    "slug": "asseco",
+    "krs": "0000033391",
+    "http_status": 200,
+    "ok": true,
+    "bytes": 62390,
+    "file": "0000033391_asseco.json"
+  },
+  {
+    "slug": "fame_mma",
+    "krs": "0000883491",
+    "http_status": 200,
+    "ok": true,
+    "bytes": 10453,
+    "file": "0000883491_fame_mma.json"
+  },
+  {
+    "slug": "mentzen",
+    "krs": "0001008036",
+    "http_status": 200,
+    "ok": true,
+    "bytes": 11765,
+    "file": "0001008036_mentzen.json"
+  },
+  {
+    "slug": "strong_man",
+    "krs": "0000055656",
+    "http_status": 200,
+    "ok": true,
+    "bytes": 15311,
+    "file": "0000055656_strong_man.json"
+  },
+  {
+    "slug": "tenczynek",
+    "krs": "0000864032",
+    "http_status": 200,
+    "ok": true,
+    "bytes": 9814,
+    "file": "0000864032_tenczynek.json"
+  },
+  {
+    "slug": "januszex",
+    "krs": "0000779880",
+    "http_status": 200,
+    "ok": true,
+    "bytes": 3684,
+    "file": "0000779880_januszex.json"
+  }
+]

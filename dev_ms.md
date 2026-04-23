@@ -14,7 +14,7 @@ Wszystkie snapshoty Fazy 0 zebrane, ekstraktor KRS gotowy, CRBR Playwright dzia�
 | Blok | Opis | Status |
 |------|------|--------|
 | B1 | Fundament storage — SQLite, importer, hashe snapshotów | DONE |
-| B2 | Diff engine KRS — porównanie snapshotów, reguły alertów | TODO |
+| B2 | Diff engine KRS — porównanie snapshotów, reguły alertów | DONE |
 | B3 | Normalizacja CRBR + alerty CRBR-specyficzne | DONE |
 | B4 | CLI — `kasandra fetch / diff / alerts` | TODO |
 | B5 | Harmonogram pobierania + automatyzacja | TODO |
@@ -315,3 +315,11 @@ Dostęp publiczny CRBR ważny do **2026-07-01** (potem wymagany uzasadniony inte
 - Wgrano dane do `var/sqlite/kasandra.sqlite3`: 10 spółek, 30 snapshotów (20 KRS + 10 CRBR)
 - Weryfikacja hash: KRS 20.04 vs 22.04 — brak zmian we wszystkich 10 (zgodne z obserwacją z Fazy 0)
 - B1 zamknięty
+
+### 2026-04-23 — Blok 2: Diff engine + synthetic test
+- Napisano `run_diff.py`: diff KRS (A-WPIS-NR, A-ZARZAD-SKLAD, A-ADRES, A-KAPITAL) + CRBR (A-CRBR-BEN-*)
+- Napisano `import_today.py`, `fetch_krs.py` — import znormalizowanych danych do SQLite
+- Zaimportowano snapshoty 2026-04-22 i 2026-04-23 do DB (20 KRS + 16 CRBR + 4 brak_wpisow)
+- `seed_synthetic.py`: spreparowany snapshot Żabki 2026-04-24 (odejście wiceprezesa z zarządu i CRBR)
+- Diff potwierdził 3 zmiany dla Żabki: A-WPIS-NR + A-ZARZAD-SKLAD (KRS) + A-CRBR-BEN-SKLAD (CRBR)
+- B2 zamknięty

@@ -1,0 +1,98 @@
+{
+  "company": {
+    "krs": "0000636642",
+    "nazwa": "ŻABKA POLSKA SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ",
+    "forma": "SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ",
+    "nip": "5223071241",
+    "regon": "36538839800000"
+  },
+  "snapshot_meta": {
+    "stan_z_dnia": "21.11.2025",
+    "nr_ostatniego_wpisu": 88,
+    "data_ostatniego_wpisu": "10.07.2025"
+  },
+  "adres": {
+    "ulica": "UL. STANISŁAWA MATYI",
+    "nr_domu": "8",
+    "nr_lokalu": null,
+    "kod_pocztowy": "61-586",
+    "miejscowosc": "POZNAŃ",
+    "kraj": "POLSKA"
+  },
+  "kapital": {
+    "wartosc": "113215000,00",
+    "waluta": "PLN"
+  },
+  "zarzad": {
+    "nazwa_organu": "ZARZĄD",
+    "sposob_reprezentacji": "W PRZYPADKU ZARZĄDU JEDNOOSOBOWEGO SPÓŁKĘ REPREZENTUJE JEDYNY CZŁONEK ZARZĄDU.\nW PRZYPADKU ZARZĄDU WIELOOSOBOWEGO DO SKŁADANIA OŚWIADCZEŃ WOLI I PODPISYWANIA W IMIENIU SPÓŁKI WYMAGANE JEST WSPÓŁDZIAŁANIE DWÓCH CZŁONKÓW ZARZĄDU ALBO JEDNEGO CZŁONKA ZARZĄDU ŁĄCZNIE Z PROKURENTEM.",
+    "sklad": [
+      {
+        "osoba_key": "NAT:S********|T*****|7**********",
+        "typ": "fizyczna",
+        "display": "T***** Z**** S********",
+        "funkcja": "PREZES ZARZĄDU"
+      },
+      {
+        "osoba_key": "NAT:B*********|T*****|8**********",
+        "typ": "fizyczna",
+        "display": "T***** B*********",
+        "funkcja": "WICEPREZES ZARZĄDU"
+      },
+      {
+        "osoba_key": "NAT:G********|A***|7**********",
+        "typ": "fizyczna",
+        "display": "A*** E******* G********",
+        "funkcja": "WICEPREZES ZARZĄDU"
+      },
+      {
+        "osoba_key": "NAT:M*********|A***|7**********",
+        "typ": "fizyczna",
+        "display": "A*** A********* M*********",
+        "funkcja": "WICEPREZES ZARZĄDU"
+      },
+      {
+        "osoba_key": "NAT:B***********|J******|6**********",
+        "typ": "fizyczna",
+        "display": "J****** B***********",
+        "funkcja": "CZŁONEK ZARZĄDU"
+      },
+      {
+        "osoba_key": "NAT:W******|M****|8**********",
+        "typ": "fizyczna",
+        "display": "M**** W******",
+        "funkcja": "CZŁONEK ZARZĄDU"
+      },
+      {
+        "osoba_key": "NAT:K***|W*******|8**********",
+        "typ": "fizyczna",
+        "display": "W******* K***",
+        "funkcja": "CZŁONEK ZARZĄDU"
+      }
+    ]
+  },
+  "wlasciciele": {
+    "typ": "wspolnicy_spzoo",
+    "lista": [
+      {
+        "osoba_key": "LE:ZABKA GROUP SOCIÉTÉ ANONYME|0000000000",
+        "typ": "prawna",
+        "display": "ZABKA GROUP SOCIÉTÉ ANONYME",
+        "posiadane_udzialy": "2.264.300 UDZIAŁÓW O ŁĄCZNEJ WARTOŚCI 113.215.000,00 ZŁ",
+        "calosc": true
+      }
+    ]
+  },
+  "pkd_glowny": {
+    "kod": "70.10.Z",
+    "opis": "DZIAŁALNOŚĆ FIRM CENTRALNYCH (HEAD OFFICES) I HOLDINGÓW, Z WYŁĄCZENIEM HOLDINGÓW FINANSOWYCH"
+  },
+  "distress": {
+    "dzial4": false,
+    "dzial5": false,
+    "dzial6": true,
+    "dzial6_typy": [
+      "polaczeniePodzialPrzeksztalcenie"
+    ]
+  }
+}

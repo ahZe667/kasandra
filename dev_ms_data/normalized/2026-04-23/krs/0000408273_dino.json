@@ -1,0 +1,72 @@
+{
+  "company": {
+    "krs": "0000408273",
+    "nazwa": "\"DINO POLSKA\" SPÓŁKA AKCYJNA",
+    "forma": "SPÓŁKA AKCYJNA",
+    "nip": "6211766191",
+    "regon": "30082082800000"
+  },
+  "snapshot_meta": {
+    "stan_z_dnia": "27.02.2026",
+    "nr_ostatniego_wpisu": 102,
+    "data_ostatniego_wpisu": "26.02.2026"
+  },
+  "adres": {
+    "ulica": "OSTROWSKA",
+    "nr_domu": "122",
+    "nr_lokalu": null,
+    "kod_pocztowy": "63-700",
+    "miejscowosc": "KROTOSZYN",
+    "kraj": "POLSKA"
+  },
+  "kapital": {
+    "wartosc": "9804000,00",
+    "waluta": "PLN"
+  },
+  "zarzad": {
+    "nazwa_organu": "ZARZĄD",
+    "sposob_reprezentacji": "W PRZYPADKU ZARZĄDU JEDNOOSOBOWEGO OŚWIADCZENIA WOLI W IMIENIU SPÓŁKI SKŁADA JEDYNY CZŁONEK ZARZĄDU.\nW PRZYPADKU ZARZĄDU WIELOOSOBOWEGO DO SKŁADANIA OŚWIADCZEŃ WOLI W IMIENIU SPÓŁKI WYMAGANE JEST WSPÓŁDZIAŁANIE DWÓCH CZŁONKÓW ZARZĄDU LUB JEDNEGO CZŁONKA ZARZĄDU ŁĄCZNIE Z PROKURENTEM.",
+    "sklad": [
+      {
+        "osoba_key": "NAT:K*****|M*****|8**********",
+        "typ": "fizyczna",
+        "display": "M***** K*****",
+        "funkcja": "CZŁONEK ZARZĄDU"
+      },
+      {
+        "osoba_key": "NAT:B******|I******|7**********",
+        "typ": "fizyczna",
+        "display": "I****** M********* B******",
+        "funkcja": "CZŁONEK ZARZĄDU"
+      },
+      {
+        "osoba_key": "NAT:J********|M*****|8**********",
+        "typ": "fizyczna",
+        "display": "M***** J********",
+        "funkcja": "CZŁONEK ZARZĄDU"
+      },
+      {
+        "osoba_key": "NAT:N*********|S*******|7**********",
+        "typ": "fizyczna",
+        "display": "S******* N*********",
+        "funkcja": "CZŁONEK ZARZĄDU"
+      }
+    ]
+  },
+  "wlasciciele": {
+    "typ": "brak_w_krs",
+    "lista": []
+  },
+  "pkd_glowny": {
+    "kod": "47.11.Z",
+    "opis": "SPRZEDAŻ DETALICZNA NIEWYSPECJALIZOWANA Z PRZEWAGĄ ŻYWNOŚCI, NAPOJÓW LUB WYROBÓW TYTONIOWYCH"
+  },
+  "distress": {
+    "dzial4": false,
+    "dzial5": false,
+    "dzial6": true,
+    "dzial6_typy": [
+      "polaczeniePodzialPrzeksztalcenie"
+    ]
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "source": "crbr",
+  "slug": "drutex",
+  "status": "ok",
+  "snapshot_meta": {
+    "collected_at": "2026-04-23",
+    "zgloszenie_id": "9ca145a0-eb45-4c07-8f3a-45306d38b883",
+    "korekta": false,
+    "data_poczatku_prezentacji": "2026-04-23",
+    "data_konca_prezentacji": "2026-04-23"
+  },
+  "company": {
+    "krs": "0000140428",
+    "nip": "8421622720",
+    "nazwa": "DRUTEX SPÓŁKA AKCYJNA",
+    "forma": "Spółka akcyjna",
+    "adres": {
+      "ulica": "LĘBORSKA",
+      "nr_domu": "31",
+      "nr_lokalu": null,
+      "kod_pocztowy": "77-100",
+      "miejscowosc": "BYTÓW",
+      "wojewodztwo": "POMORSKIE"
+    }
+  },
+  "beneficjenci": [
+    {
+      "osoba_key": "NAT:G**********|K*****|8**********",
+      "display": "K***** G**********",
+      "obywatelstwo": "PL",
+      "panstwo_zamieszkania": "PL",
+      "charakter_udzialu_kod": "1",
+      "charakter_udzialu_opis": "bezposrednia_wlasnosc",
+      "udzial_ilosc": "100",
+      "udzial_jednostka_opis": "%",
+      "rodzaj_wlasnosci_opis": "AKCJONARIUSZ SPÓŁKI AKCYJNEJ",
+      "posrednie_opis": null,
+      "inne_uprbo_opis": null
+    }
+  ]
+}

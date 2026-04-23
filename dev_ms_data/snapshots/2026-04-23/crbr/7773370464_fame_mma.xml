@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<wynikWyszukiwania>
+    <adresIp>188.47.78.65</adresIp>
+    <parametryWyszukiwania>
+        <dataDo>2026-04-23</dataDo>
+        <dataOd>2026-04-23</dataOd>
+        <nipLubIdentyfikatortrustu>7773370464</nipLubIdentyfikatortrustu>
+    </parametryWyszukiwania>
+    <szczegolyWnioskuOInformacje>
+        <dataICzasUdostepnieniaWniosku>2026-04-23 14:42:48</dataICzasUdostepnieniaWniosku>
+        <dataICzasZlozeniaWniosku>2026-04-23 14:42:48</dataICzasZlozeniaWniosku>
+        <identyfikatorZlozonegoWniosku>F12FC05D2A8B42698F482F1D412D9C46</identyfikatorZlozonegoWniosku>
+    </szczegolyWnioskuOInformacje>
+    <zgloszeniePodmiotu>
+        <dataKoncaPrezentacji>2026-04-23</dataKoncaPrezentacji>
+        <dataPoczatkuPrezentacji>2026-04-23</dataPoczatkuPrezentacji>
+        <id>bd276c21-67c2-4003-a0b6-3fb4064e8aa3</id>
+        <korekta>false</korekta>
+        <beneficjent>
+            <imieDrugieINastepne>DANIEL</imieDrugieINastepne>
+            <imiePierwsze>RAFAŁ</imiePierwsze>
+            <informacjeOUdzialeLubUprawnieniach>
+                <charakterUdzialu>1</charakterUdzialu>
+                <ilosc>30</ilosc>
+                <jednostkaMiaryUdzialu>01</jednostkaMiaryUdzialu>
+                <jednostkaMiaryUdzialuOpis>%</jednostkaMiaryUdzialuOpis>
+                <rodzajUprzywilejowania>
+                    <kod>99</kod>
+                    <opis>brak</opis>
+                </rodzajUprzywilejowania>
+                <rodzajWlasnosci>007</rodzajWlasnosci>
+                <rodzajWlasnosciOpis>AKCJONARIUSZ SPÓŁKI AKCYJNEJ</rodzajWlasnosciOpis>
+            </informacjeOUdzialeLubUprawnieniach>
+            <nazwisko>PASTERNAK</nazwisko>
+            <obywatelstwo>
+                <kodKraju>PL</kodKraju>
+                <nazwa>POLSKA</nazwa>
+            </obywatelstwo>
+            <panstwoZamieszkania>
+                <kodKraju>PL</kodKraju>
+                <nazwa>POLSKA</nazwa>
+            </panstwoZamieszkania>
+            <pesel>82020310156</pesel>
+        </beneficjent>
+        <beneficjent>
+            <imieDrugieINastepne>PAWEŁ</imieDrugieINastepne>
+            <imiePierwsze>KRZYSZTOF</imiePierwsze>
+            <informacjeOUdzialeLubUprawnieniach>
+                <charakterUdzialu>1</charakterUdzialu>
+                <ilosc>30</ilosc>
+                <jednostkaMiaryUdzialu>01</jednostkaMiaryUdzialu>
+                <jednostkaMiaryUdzialuOpis>%</jednostkaMiaryUdzialuOpis>
+                <rodzajUprzywilejowania>
+                    <kod>99</kod>
+                    <opis>brak</opis>
+                </rodzajUprzywilejowania>
+                <rodzajWlasnosci>007</rodzajWlasnosci>
+                <rodzajWlasnosciOpis>AKCJONARIUSZ SPÓŁKI AKCYJNEJ</rodzajWlasnosciOpis>
+            </informacjeOUdzialeLubUprawnieniach>
+            <nazwisko>ROZPARA</nazwisko>
+            <obywatelstwo>
+                <kodKraju>PL</kodKraju>
+                <nazwa>POLSKA</nazwa>
+            </obywatelstwo>
+            <panstwoZamieszkania>
+                <kodKraju>PL</kodKraju>
+                <nazwa>POLSKA</nazwa>
+            </panstwoZamieszkania>
+            <pesel>77020106373</pesel>
+        </beneficjent>
+        <listaZglaszajacych>
+            <funkcjeZglaszajacego>
+                <kod>111</kod>
+                <opis>ZGŁASZAJĄCY - CZŁONEK ZARZĄDU</opis>
+            </funkcjeZglaszajacego>
+            <imieDrugieINastepne>PAWEŁ</imieDrugieINastepne>
+            <imiePierwsze>KRZYSZTOF</imiePierwsze>
+            <nazwisko>ROZPARA</nazwisko>
+            <obywatelstwo>
+                <kodKraju>PL</kodKraju>
+                <nazwa>POLSKA</nazwa>
+            </obywatelstwo>
+            <panstwoZamieszkania>
+                <kodKraju>PL</kodKraju>
+                <nazwa>POLSKA</nazwa>
+            </panstwoZamieszkania>
+            <pesel>77020106373</pesel>
+        </listaZglaszajacych>
+        <skorygowane>Zgłoszenie skorygowano w dniu 2025-04-16 10:59:59</skorygowane>
+        <danePodmiotu>
+            <adresSiedziby>
+                <gmina>SWARZĘDZ</gmina>
+                <kodPocztowy>62-020</kodPocztowy>
+                <miejscowosc>SWARZĘDZ</miejscowosc>
+                <nrDomu>4B</nrDomu>
+                <nrLokalu>3</nrLokalu>
+                <powiat>POZNAŃSKI</powiat>
+                <ulica>DWORCOWA</ulica>
+                <wojewodztwo>WIELKOPOLSKIE</wojewodztwo>
+            </adresSiedziby>
+            <formaOrganizacyjna>116</formaOrganizacyjna>
+            <formaOrganizacyjnaOpis>Spółka akcyjna</formaOrganizacyjnaOpis>
+            <krs>0000883491</krs>
+            <nipLubIdentyfikatortrustu>7773370464</nipLubIdentyfikatortrustu>
+            <pelnaNazwa>FAME MMA SPÓŁKA AKCYJNA</pelnaNazwa>
+        </danePodmiotu>
+    </zgloszeniePodmiotu>
+</wynikWyszukiwania>

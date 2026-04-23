@@ -1,0 +1,20 @@
+{
+  "source": "crbr",
+  "slug": "asseco",
+  "status": "brak_wpisow",
+  "snapshot_meta": {
+    "collected_at": null,
+    "zgloszenie_id": null,
+    "korekta": false,
+    "data_poczatku_prezentacji": null,
+    "data_konca_prezentacji": null
+  },
+  "company": {
+    "krs": null,
+    "nip": "5220003782",
+    "nazwa": null,
+    "forma": null,
+    "adres": {}
+  },
+  "beneficjenci": []
+}
