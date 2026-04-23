@@ -323,3 +323,15 @@ Dostęp publiczny CRBR ważny do **2026-07-01** (potem wymagany uzasadniony inte
 - `seed_synthetic.py`: spreparowany snapshot Żabki 2026-04-24 (odejście wiceprezesa z zarządu i CRBR)
 - Diff potwierdził 3 zmiany dla Żabki: A-WPIS-NR + A-ZARZAD-SKLAD (KRS) + A-CRBR-BEN-SKLAD (CRBR)
 - B2 zamknięty
+
+
+### Do dokończenia (notatka):
+Zrobione: diff.py, priority.py, alerts.py, sqlite.py + cli/main.py — wszystkie komendy zaimplementowane. kasandra diff przetestowany i działa (3 nowe rekordy: A-CRBR-BEN-USUN dla Żabki + A-CRBR-BRAK dla Strong Man i Januszex).
+
+Do dokończenia przy następnej sesji (w kolejności):
+
+Drobny bug w diff.py — print "zapisano" pokazuje się nawet przy idempotent skip
+Test kasandra digest i kasandra watchlist list
+Fix Unicode (--help rzuca UnicodeEncodeError w Windows terminal)
+Commit plików src/kasandra/
+Aktualizacja dev_ms.md (B4 → DONE + log)

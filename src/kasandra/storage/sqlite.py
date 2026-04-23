@@ -171,3 +171,36 @@ def get_snapshots(
         """,
         (company_id, source),
     ).fetchall()
+
+
+# --------------------------------------------------------------------------
+# alerts
+# --------------------------------------------------------------------------
+
+def list_alerts(
+    conn: sqlite3.Connection,
+    *,
+    status: str | None = "new",
+    company_id: int | None = None,
+) -> list[sqlite3.Row]:
+    """Return alerts, optionally filtered by status and/or company."""
+    clauses = []
+    params: list[Any] = []
+    if status is not None:
+        clauses.append("a.status = ?")
+        params.append(status)
+    if company_id is not None:
+        clauses.append("a.company_id = ?")
+        params.append(company_id)
+    where = f"WHERE {' AND '.join(clauses)}" if clauses else ""
+    return conn.execute(
+        f"""
+        SELECT a.*, co.slug FROM alerts a
+        JOIN companies co ON co.id = a.company_id
+        {where}
+        ORDER BY
+            CASE a.priority WHEN 'K' THEN 0 WHEN 'W' THEN 1 WHEN 'S' THEN 2 ELSE 3 END,
+            co.slug, a.generated_at
+        """,
+        params,
+    ).fetchall()
