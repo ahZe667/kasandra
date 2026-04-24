@@ -1,0 +1,82 @@
+[
+  {
+    "slug": "zabka",
+    "nip": "5223071241",
+    "status": "ok",
+    "file": "5223071241_zabka.xml",
+    "bytes": 9598,
+    "error": null
+  },
+  {
+    "slug": "drutex",
+    "nip": "8421622720",
+    "status": "ok",
+    "file": "8421622720_drutex.xml",
+    "bytes": 3572,
+    "error": null
+  },
+  {
+    "slug": "maspex",
+    "nip": "5512617657",
+    "status": "ok",
+    "file": "5512617657_maspex.xml",
+    "bytes": 15598,
+    "error": null
+  },
+  {
+    "slug": "dino",
+    "nip": "6211766191",
+    "status": "brak_wpisow",
+    "file": null,
+    "bytes": 0,
+    "error": null
+  },
+  {
+    "slug": "asseco",
+    "nip": "5220003782",
+    "status": "brak_wpisow",
+    "file": null,
+    "bytes": 0,
+    "error": null
+  },
+  {
+    "slug": "fame_mma",
+    "nip": "7773370464",
+    "status": "ok",
+    "file": "7773370464_fame_mma.xml",
+    "bytes": 4799,
+    "error": null
+  },
+  {
+    "slug": "mentzen",
+    "nip": "5273032556",
+    "status": "ok",
+    "file": "5273032556_mentzen.xml",
+    "bytes": 4037,
+    "error": null
+  },
+  {
+    "slug": "strong_man",
+    "nip": "5862021333",
+    "status": "brak_wpisow",
+    "file": null,
+    "bytes": 0,
+    "error": null
+  },
+  {
+    "slug": "tenczynek",
+    "nip": "9462683417",
+    "status": "ok",
+    "file": "9462683417_tenczynek.xml",
+    "bytes": 3582,
+    "error": null
+  },
+  {
+    "slug": "januszex",
+    "nip": "5272889007",
+    "status": "brak_wpisow",
+    "file": null,
+    "bytes": 0,
+    "error": null
+  }
+]

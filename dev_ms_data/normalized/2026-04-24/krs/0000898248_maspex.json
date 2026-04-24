@@ -1,0 +1,128 @@
+{
+  "company": {
+    "krs": "0000898248",
+    "nazwa": "GRUPA MASPEX SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ",
+    "forma": "SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ",
+    "nip": "5512617657",
+    "regon": "12294851700000"
+  },
+  "snapshot_meta": {
+    "stan_z_dnia": "03.12.2025",
+    "nr_ostatniego_wpisu": 36,
+    "data_ostatniego_wpisu": "24.09.2025"
+  },
+  "adres": {
+    "ulica": "UL. LEGIONÓW",
+    "nr_domu": "37",
+    "nr_lokalu": null,
+    "kod_pocztowy": "34-100",
+    "miejscowosc": "WADOWICE",
+    "kraj": "POLSKA"
+  },
+  "kapital": {
+    "wartosc": "2988781500,00",
+    "waluta": "PLN"
+  },
+  "zarzad": {
+    "nazwa_organu": "ZARZĄD",
+    "sposob_reprezentacji": "W PRZYPADKU POWOŁANIA ZARZĄDU WIELOOSOBOWEGO DO SKŁADANIA OŚWIADCZEŃ W IMIENIU SPÓŁKI WYMAGANE JEST WSPÓŁDZIAŁANIE DWÓCH CZŁONKÓW ZARZĄDU ALBO JEDNEGO CZŁONKA ZARZĄDU ŁĄCZNIE Z PROKURENTEM ALBO DWÓCH PROKURENTÓW ŁĄCZNIE.",
+    "sklad": [
+      {
+        "osoba_key": "NAT:W****|R*****|7**********",
+        "typ": "fizyczna",
+        "display": "R***** P**** W****",
+        "funkcja": "CZŁONEK ZARZĄDU"
+      },
+      {
+        "osoba_key": "NAT:R****|M********|6**********",
+        "typ": "fizyczna",
+        "display": "M******** A*** R****",
+        "funkcja": "CZŁONEK ZARZĄDU"
+      },
+      {
+        "osoba_key": "NAT:T******|B*****|6**********",
+        "typ": "fizyczna",
+        "display": "B***** T******",
+        "funkcja": "CZŁONEK ZARZĄDU"
+      },
+      {
+        "osoba_key": "NAT:L*****|D*****|6**********",
+        "typ": "fizyczna",
+        "display": "D***** M**** L*****",
+        "funkcja": "CZŁONEK ZARZĄDU"
+      },
+      {
+        "osoba_key": "NAT:W********|B******|7**********",
+        "typ": "fizyczna",
+        "display": "B****** M**** W********",
+        "funkcja": "CZŁONEK ZARZĄDU"
+      },
+      {
+        "osoba_key": "NAT:M*****|M*****|7**********",
+        "typ": "fizyczna",
+        "display": "M***** B**** M*****",
+        "funkcja": "CZŁONEK ZARZĄDU"
+      },
+      {
+        "osoba_key": "NAT:P****|E****|6**********",
+        "typ": "fizyczna",
+        "display": "E**** A*** P****",
+        "funkcja": "CZŁONEK ZARZĄDU"
+      },
+      {
+        "osoba_key": "NAT:G*******|E*******|7**********",
+        "typ": "fizyczna",
+        "display": "E******* A******** G*******",
+        "funkcja": "CZŁONEK ZARZĄDU"
+      },
+      {
+        "osoba_key": "NAT:P*****|I****|7**********",
+        "typ": "fizyczna",
+        "display": "I**** M**** P*****",
+        "funkcja": "CZŁONEK ZARZĄDU"
+      },
+      {
+        "osoba_key": "NAT:Z****|K********|7**********",
+        "typ": "fizyczna",
+        "display": "K******** B******* Z****",
+        "funkcja": "CZŁONEK ZARZĄDU"
+      },
+      {
+        "osoba_key": "NAT:K******|L*****|6**********",
+        "typ": "fizyczna",
+        "display": "L***** K******",
+        "funkcja": "CZŁONEK ZARZĄDU"
+      },
+      {
+        "osoba_key": "NAT:R********|P****|7**********",
+        "typ": "fizyczna",
+        "display": "P**** A****** R********",
+        "funkcja": "CZŁONEK ZARZĄDU"
+      }
+    ]
+  },
+  "wlasciciele": {
+    "typ": "wspolnicy_spzoo",
+    "lista": [
+      {
+        "osoba_key": "LE:MASPEX HOLDING SPÓŁKA AKCYJNA|0000725647",
+        "typ": "prawna",
+        "display": "MASPEX HOLDING SPÓŁKA AKCYJNA",
+        "posiadane_udzialy": "59 775 430 UDZIAŁY O ŁĄCZNEJ WARTOŚCI 2.988.771.500,00 ZŁ",
+        "calosc": false
+      }
+    ]
+  },
+  "pkd_glowny": {
+    "kod": "70.10.Z",
+    "opis": "DZIAŁALNOŚĆ FIRM CENTRALNYCH (HEAD OFFICES) I HOLDINGÓW, Z WYŁĄCZENIEM HOLDINGÓW FINANSOWYCH"
+  },
+  "distress": {
+    "dzial4": false,
+    "dzial5": false,
+    "dzial6": true,
+    "dzial6_typy": [
+      "polaczeniePodzialPrzeksztalcenie"
+    ]
+  }
+}

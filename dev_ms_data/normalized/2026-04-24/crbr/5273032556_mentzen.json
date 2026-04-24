@@ -1,0 +1,54 @@
+{
+  "source": "crbr",
+  "slug": "mentzen",
+  "status": "ok",
+  "snapshot_meta": {
+    "collected_at": "2026-04-24",
+    "zgloszenie_id": "8f9d735d-40ea-4ec2-a395-15105307a183",
+    "korekta": false,
+    "data_poczatku_prezentacji": "2026-04-24",
+    "data_konca_prezentacji": "2026-04-24"
+  },
+  "company": {
+    "krs": "0001008036",
+    "nip": "5273032556",
+    "nazwa": "MENTZEN SPÓŁKA AKCYJNA",
+    "forma": "Spółka akcyjna",
+    "adres": {
+      "ulica": "GRUDZIĄDZKA",
+      "nr_domu": "110-114",
+      "nr_lokalu": "101",
+      "kod_pocztowy": "87-100",
+      "miejscowosc": "TORUŃ",
+      "wojewodztwo": "KUJAWSKO-POMORSKIE"
+    }
+  },
+  "beneficjenci": [
+    {
+      "osoba_key": "NAT:M******|S*******|8**********",
+      "display": "S******* M******",
+      "obywatelstwo": "PL",
+      "panstwo_zamieszkania": "PL",
+      "charakter_udzialu_kod": "2",
+      "charakter_udzialu_opis": "posrednia_wlasnosc",
+      "udzial_ilosc": null,
+      "udzial_jednostka_opis": null,
+      "rodzaj_wlasnosci_opis": null,
+      "posrednie_opis": "FUNDATOR / PREZES ZARZĄDU / BENEFICJENT FUNDACJI RODZINNEJ MENTZEN W ORGANIZACJI",
+      "inne_uprbo_opis": null
+    },
+    {
+      "osoba_key": "NAT:M******|A********|8**********",
+      "display": "A******** M******",
+      "obywatelstwo": "PL",
+      "panstwo_zamieszkania": "PL",
+      "charakter_udzialu_kod": "2",
+      "charakter_udzialu_opis": "posrednia_wlasnosc",
+      "udzial_ilosc": null,
+      "udzial_jednostka_opis": null,
+      "rodzaj_wlasnosci_opis": null,
+      "posrednie_opis": "BENEFICJENT FUNDACJI RODZINNEJ MENTZEN W ORGANIZACJI",
+      "inne_uprbo_opis": null
+    }
+  ]
+}

@@ -1,0 +1,575 @@
+[
+  {
+    "source": "crbr",
+    "slug": "asseco",
+    "status": "brak_wpisow",
+    "snapshot_meta": {
+      "collected_at": null,
+      "zgloszenie_id": null,
+      "korekta": false,
+      "data_poczatku_prezentacji": null,
+      "data_konca_prezentacji": null
+    },
+    "company": {
+      "krs": null,
+      "nip": "5220003782",
+      "nazwa": null,
+      "forma": null,
+      "adres": {}
+    },
+    "beneficjenci": []
+  },
+  {
+    "source": "crbr",
+    "slug": "zabka",
+    "status": "ok",
+    "snapshot_meta": {
+      "collected_at": "2026-04-24",
+      "zgloszenie_id": "a7f27672-db49-4592-a2b6-da2d74072e7d",
+      "korekta": false,
+      "data_poczatku_prezentacji": "2026-04-24",
+      "data_konca_prezentacji": "2026-04-24"
+    },
+    "company": {
+      "krs": "0000636642",
+      "nip": "5223071241",
+      "nazwa": "ŻABKA POLSKA SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ",
+      "forma": "Spółka z ograniczoną odpowiedzialnością",
+      "adres": {
+        "ulica": "STANISŁAWA MATYI",
+        "nr_domu": "8",
+        "nr_lokalu": null,
+        "kod_pocztowy": "61-586",
+        "miejscowosc": "POZNAŃ",
+        "wojewodztwo": "WIELKOPOLSKIE"
+      }
+    },
+    "beneficjenci": [
+      {
+        "osoba_key": "NAT:B***********|J******|6**********",
+        "display": "J****** B***********",
+        "obywatelstwo": "PL",
+        "panstwo_zamieszkania": "PL",
+        "charakter_udzialu_kod": "3",
+        "charakter_udzialu_opis": "inne_uprawnienia",
+        "udzial_ilosc": null,
+        "udzial_jednostka_opis": null,
+        "rodzaj_wlasnosci_opis": null,
+        "posrednie_opis": null,
+        "inne_uprbo_opis": "osoba fizyczna zajmująca wyższe stanowisko kierownicze, o której mowa w art. 2 ust. 2 pkt.1 lit. a tiret 5 ustawy AML"
+      },
+      {
+        "osoba_key": "NAT:W****************|M****|8**********",
+        "display": "M**** W****************",
+        "obywatelstwo": "PL",
+        "panstwo_zamieszkania": "PL",
+        "charakter_udzialu_kod": "3",
+        "charakter_udzialu_opis": "inne_uprawnienia",
+        "udzial_ilosc": null,
+        "udzial_jednostka_opis": null,
+        "rodzaj_wlasnosci_opis": null,
+        "posrednie_opis": null,
+        "inne_uprbo_opis": "osoba fizyczna zajmująca wyższe stanowisko kierownicze, o której mowa w art. 2 ust. 2 pkt.1 lit. a tiret 5 ustawy AML"
+      },
+      {
+        "osoba_key": "NAT:S********|T*****|7**********",
+        "display": "T***** S********",
+        "obywatelstwo": "PL",
+        "panstwo_zamieszkania": "PL",
+        "charakter_udzialu_kod": "3",
+        "charakter_udzialu_opis": "inne_uprawnienia",
+        "udzial_ilosc": null,
+        "udzial_jednostka_opis": null,
+        "rodzaj_wlasnosci_opis": null,
+        "posrednie_opis": null,
+        "inne_uprbo_opis": "osoba fizyczna zajmująca wyższe stanowisko kierownicze, o której mowa w art. 2 ust. 2 pkt.1 lit. a tiret 5 ustawy AML"
+      },
+      {
+        "osoba_key": "NAT:B*********|T*****|8**********",
+        "display": "T***** B*********",
+        "obywatelstwo": "PL",
+        "panstwo_zamieszkania": "PL",
+        "charakter_udzialu_kod": "3",
+        "charakter_udzialu_opis": "inne_uprawnienia",
+        "udzial_ilosc": null,
+        "udzial_jednostka_opis": null,
+        "rodzaj_wlasnosci_opis": null,
+        "posrednie_opis": null,
+        "inne_uprbo_opis": "osoba fizyczna zajmująca wyższe stanowisko kierownicze, o której mowa w art. 2 ust. 2 pkt.1 lit. a tiret 5 ustawy AML"
+      },
+      {
+        "osoba_key": "NAT:G********|A***|7**********",
+        "display": "A*** G********",
+        "obywatelstwo": "PL",
+        "panstwo_zamieszkania": "PL",
+        "charakter_udzialu_kod": "3",
+        "charakter_udzialu_opis": "inne_uprawnienia",
+        "udzial_ilosc": null,
+        "udzial_jednostka_opis": null,
+        "rodzaj_wlasnosci_opis": null,
+        "posrednie_opis": null,
+        "inne_uprbo_opis": "osoba fizyczna zajmująca wyższe stanowisko kierownicze, o której mowa w art. 2 ust. 2 pkt.1 lit. a tiret 5 ustawy AML"
+      },
+      {
+        "osoba_key": "NAT:M*********|A***|7**********",
+        "display": "A*** M*********",
+        "obywatelstwo": "PL",
+        "panstwo_zamieszkania": "PL",
+        "charakter_udzialu_kod": "3",
+        "charakter_udzialu_opis": "inne_uprawnienia",
+        "udzial_ilosc": null,
+        "udzial_jednostka_opis": null,
+        "rodzaj_wlasnosci_opis": null,
+        "posrednie_opis": null,
+        "inne_uprbo_opis": "osoba fizyczna zajmująca wyższe stanowisko kierownicze, o której mowa w art. 2 ust. 2 pkt.1 lit. a tiret 5 ustawy AML"
+      },
+      {
+        "osoba_key": "NAT:K***|W*******|8**********",
+        "display": "W******* K***",
+        "obywatelstwo": "PL",
+        "panstwo_zamieszkania": "PL",
+        "charakter_udzialu_kod": "3",
+        "charakter_udzialu_opis": "inne_uprawnienia",
+        "udzial_ilosc": null,
+        "udzial_jednostka_opis": null,
+        "rodzaj_wlasnosci_opis": null,
+        "posrednie_opis": null,
+        "inne_uprbo_opis": "osoba fizyczna zajmująca wyższe stanowisko kierownicze, o której mowa w art. 2 ust. 2 pkt.1 lit. a tiret 5 ustawy AML"
+      }
+    ]
+  },
+  {
+    "source": "crbr",
+    "slug": "januszex",
+    "status": "brak_wpisow",
+    "snapshot_meta": {
+      "collected_at": null,
+      "zgloszenie_id": null,
+      "korekta": false,
+      "data_poczatku_prezentacji": null,
+      "data_konca_prezentacji": null
+    },
+    "company": {
+      "krs": null,
+      "nip": "5272889007",
+      "nazwa": null,
+      "forma": null,
+      "adres": {}
+    },
+    "beneficjenci": []
+  },
+  {
+    "source": "crbr",
+    "slug": "mentzen",
+    "status": "ok",
+    "snapshot_meta": {
+      "collected_at": "2026-04-24",
+      "zgloszenie_id": "8f9d735d-40ea-4ec2-a395-15105307a183",
+      "korekta": false,
+      "data_poczatku_prezentacji": "2026-04-24",
+      "data_konca_prezentacji": "2026-04-24"
+    },
+    "company": {
+      "krs": "0001008036",
+      "nip": "5273032556",
+      "nazwa": "MENTZEN SPÓŁKA AKCYJNA",
+      "forma": "Spółka akcyjna",
+      "adres": {
+        "ulica": "GRUDZIĄDZKA",
+        "nr_domu": "110-114",
+        "nr_lokalu": "101",
+        "kod_pocztowy": "87-100",
+        "miejscowosc": "TORUŃ",
+        "wojewodztwo": "KUJAWSKO-POMORSKIE"
+      }
+    },
+    "beneficjenci": [
+      {
+        "osoba_key": "NAT:M******|S*******|8**********",
+        "display": "S******* M******",
+        "obywatelstwo": "PL",
+        "panstwo_zamieszkania": "PL",
+        "charakter_udzialu_kod": "2",
+        "charakter_udzialu_opis": "posrednia_wlasnosc",
+        "udzial_ilosc": null,
+        "udzial_jednostka_opis": null,
+        "rodzaj_wlasnosci_opis": null,
+        "posrednie_opis": "FUNDATOR / PREZES ZARZĄDU / BENEFICJENT FUNDACJI RODZINNEJ MENTZEN W ORGANIZACJI",
+        "inne_uprbo_opis": null
+      },
+      {
+        "osoba_key": "NAT:M******|A********|8**********",
+        "display": "A******** M******",
+        "obywatelstwo": "PL",
+        "panstwo_zamieszkania": "PL",
+        "charakter_udzialu_kod": "2",
+        "charakter_udzialu_opis": "posrednia_wlasnosc",
+        "udzial_ilosc": null,
+        "udzial_jednostka_opis": null,
+        "rodzaj_wlasnosci_opis": null,
+        "posrednie_opis": "BENEFICJENT FUNDACJI RODZINNEJ MENTZEN W ORGANIZACJI",
+        "inne_uprbo_opis": null
+      }
+    ]
+  },
+  {
+    "source": "crbr",
+    "slug": "maspex",
+    "status": "ok",
+    "snapshot_meta": {
+      "collected_at": "2026-04-24",
+      "zgloszenie_id": "455743ab-2d6b-404c-978f-4898fe792924",
+      "korekta": false,
+      "data_poczatku_prezentacji": "2026-04-24",
+      "data_konca_prezentacji": "2026-04-24"
+    },
+    "company": {
+      "krs": "0000898248",
+      "nip": "5512617657",
+      "nazwa": "GRUPA MASPEX SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ",
+      "forma": "Spółka z ograniczoną odpowiedzialnością",
+      "adres": {
+        "ulica": "LEGIONÓW",
+        "nr_domu": "37",
+        "nr_lokalu": null,
+        "kod_pocztowy": "34-100",
+        "miejscowosc": "WADOWICE",
+        "wojewodztwo": "MAŁOPOLSKIE"
+      }
+    },
+    "beneficjenci": [
+      {
+        "osoba_key": "NAT:R***********|M********|6**********",
+        "display": "M******** R***********",
+        "obywatelstwo": "PL",
+        "panstwo_zamieszkania": "PL",
+        "charakter_udzialu_kod": "3",
+        "charakter_udzialu_opis": "inne_uprawnienia",
+        "udzial_ilosc": null,
+        "udzial_jednostka_opis": null,
+        "rodzaj_wlasnosci_opis": null,
+        "posrednie_opis": null,
+        "inne_uprbo_opis": "osoba fizyczna zajmująca wyższe stanowisko kierownicze, o której mowa w art. 2 ust. 2 pkt.1 lit. a tiret 5 ustawy AML"
+      },
+      {
+        "osoba_key": "NAT:T******|B*****|6**********",
+        "display": "B***** T******",
+        "obywatelstwo": "PL",
+        "panstwo_zamieszkania": "PL",
+        "charakter_udzialu_kod": "3",
+        "charakter_udzialu_opis": "inne_uprawnienia",
+        "udzial_ilosc": null,
+        "udzial_jednostka_opis": null,
+        "rodzaj_wlasnosci_opis": null,
+        "posrednie_opis": null,
+        "inne_uprbo_opis": "osoba fizyczna zajmująca wyższe stanowisko kierownicze, o której mowa w art. 2 ust. 2 pkt.1 lit. a tiret 5 ustawy AML"
+      },
+      {
+        "osoba_key": "NAT:P****|E****|6**********",
+        "display": "E**** P****",
+        "obywatelstwo": "PL",
+        "panstwo_zamieszkania": "PL",
+        "charakter_udzialu_kod": "3",
+        "charakter_udzialu_opis": "inne_uprawnienia",
+        "udzial_ilosc": null,
+        "udzial_jednostka_opis": null,
+        "rodzaj_wlasnosci_opis": null,
+        "posrednie_opis": null,
+        "inne_uprbo_opis": "osoba fizyczna zajmująca wyższe stanowisko kierownicze, o której mowa w art. 2 ust. 2 pkt.1 lit. a tiret 5 ustawy AML"
+      },
+      {
+        "osoba_key": "NAT:W****|R*****|7**********",
+        "display": "R***** W****",
+        "obywatelstwo": "PL",
+        "panstwo_zamieszkania": "PL",
+        "charakter_udzialu_kod": "3",
+        "charakter_udzialu_opis": "inne_uprawnienia",
+        "udzial_ilosc": null,
+        "udzial_jednostka_opis": null,
+        "rodzaj_wlasnosci_opis": null,
+        "posrednie_opis": null,
+        "inne_uprbo_opis": "osoba fizyczna zajmująca wyższe stanowisko kierownicze, o której mowa w art. 2 ust. 2 pkt.1 lit. a tiret 5 ustawy AML"
+      },
+      {
+        "osoba_key": "NAT:G*******|E*******|7**********",
+        "display": "E******* G*******",
+        "obywatelstwo": "PL",
+        "panstwo_zamieszkania": "PL",
+        "charakter_udzialu_kod": "3",
+        "charakter_udzialu_opis": "inne_uprawnienia",
+        "udzial_ilosc": null,
+        "udzial_jednostka_opis": null,
+        "rodzaj_wlasnosci_opis": null,
+        "posrednie_opis": null,
+        "inne_uprbo_opis": "osoba fizyczna zajmująca wyższe stanowisko kierownicze, o której mowa w art. 2 ust. 2 pkt.1 lit. a tiret 5 ustawy AML"
+      },
+      {
+        "osoba_key": "NAT:W********|B******|7**********",
+        "display": "B****** W********",
+        "obywatelstwo": "PL",
+        "panstwo_zamieszkania": "PL",
+        "charakter_udzialu_kod": "3",
+        "charakter_udzialu_opis": "inne_uprawnienia",
+        "udzial_ilosc": null,
+        "udzial_jednostka_opis": null,
+        "rodzaj_wlasnosci_opis": null,
+        "posrednie_opis": null,
+        "inne_uprbo_opis": "osoba fizyczna zajmująca wyższe stanowisko kierownicze, o której mowa w art. 2 ust. 2 pkt.1 lit. a tiret 5 ustawy AML"
+      },
+      {
+        "osoba_key": "NAT:M*****|M*****|7**********",
+        "display": "M***** M*****",
+        "obywatelstwo": "PL",
+        "panstwo_zamieszkania": "PL",
+        "charakter_udzialu_kod": "3",
+        "charakter_udzialu_opis": "inne_uprawnienia",
+        "udzial_ilosc": null,
+        "udzial_jednostka_opis": null,
+        "rodzaj_wlasnosci_opis": null,
+        "posrednie_opis": null,
+        "inne_uprbo_opis": "osoba fizyczna zajmująca wyższe stanowisko kierownicze, o której mowa w art. 2 ust. 2 pkt.1 lit. a tiret 5 ustawy AML"
+      },
+      {
+        "osoba_key": "NAT:L*****|D*****|6**********",
+        "display": "D***** L*****",
+        "obywatelstwo": "PL",
+        "panstwo_zamieszkania": "PL",
+        "charakter_udzialu_kod": "3",
+        "charakter_udzialu_opis": "inne_uprawnienia",
+        "udzial_ilosc": null,
+        "udzial_jednostka_opis": null,
+        "rodzaj_wlasnosci_opis": null,
+        "posrednie_opis": null,
+        "inne_uprbo_opis": "osoba fizyczna zajmująca wyższe stanowisko kierownicze, o której mowa w art. 2 ust. 2 pkt.1 lit. a tiret 5 ustawy AML"
+      },
+      {
+        "osoba_key": "NAT:P*****|I****|7**********",
+        "display": "I**** P*****",
+        "obywatelstwo": "PL",
+        "panstwo_zamieszkania": "PL",
+        "charakter_udzialu_kod": "3",
+        "charakter_udzialu_opis": "inne_uprawnienia",
+        "udzial_ilosc": null,
+        "udzial_jednostka_opis": null,
+        "rodzaj_wlasnosci_opis": null,
+        "posrednie_opis": null,
+        "inne_uprbo_opis": "osoba fizyczna zajmująca wyższe stanowisko kierownicze, o której mowa w art. 2 ust. 2 pkt.1 lit. a tiret 5 ustawy AML"
+      },
+      {
+        "osoba_key": "NAT:Z****|K********|7**********",
+        "display": "K******** Z****",
+        "obywatelstwo": "PL",
+        "panstwo_zamieszkania": "PL",
+        "charakter_udzialu_kod": "3",
+        "charakter_udzialu_opis": "inne_uprawnienia",
+        "udzial_ilosc": null,
+        "udzial_jednostka_opis": null,
+        "rodzaj_wlasnosci_opis": null,
+        "posrednie_opis": null,
+        "inne_uprbo_opis": "osoba fizyczna zajmująca wyższe stanowisko kierownicze, o której mowa w art. 2 ust. 2 pkt.1 lit. a tiret 5 ustawy AML"
+      },
+      {
+        "osoba_key": "NAT:K******|L*****|6**********",
+        "display": "L***** K******",
+        "obywatelstwo": "PL",
+        "panstwo_zamieszkania": "PL",
+        "charakter_udzialu_kod": "3",
+        "charakter_udzialu_opis": "inne_uprawnienia",
+        "udzial_ilosc": null,
+        "udzial_jednostka_opis": null,
+        "rodzaj_wlasnosci_opis": null,
+        "posrednie_opis": null,
+        "inne_uprbo_opis": "osoba fizyczna zajmująca wyższe stanowisko kierownicze, o której mowa w art. 2 ust. 2 pkt.1 lit. a tiret 5 ustawy AML"
+      },
+      {
+        "osoba_key": "NAT:R********|P****|7**********",
+        "display": "P**** R********",
+        "obywatelstwo": "PL",
+        "panstwo_zamieszkania": "PL",
+        "charakter_udzialu_kod": "3",
+        "charakter_udzialu_opis": "inne_uprawnienia",
+        "udzial_ilosc": null,
+        "udzial_jednostka_opis": null,
+        "rodzaj_wlasnosci_opis": null,
+        "posrednie_opis": null,
+        "inne_uprbo_opis": "osoba fizyczna zajmująca wyższe stanowisko kierownicze, o której mowa w art. 2 ust. 2 pkt.1 lit. a tiret 5 ustawy AML"
+      }
+    ]
+  },
+  {
+    "source": "crbr",
+    "slug": "strong_man",
+    "status": "brak_wpisow",
+    "snapshot_meta": {
+      "collected_at": null,
+      "zgloszenie_id": null,
+      "korekta": false,
+      "data_poczatku_prezentacji": null,
+      "data_konca_prezentacji": null
+    },
+    "company": {
+      "krs": null,
+      "nip": "5862021333",
+      "nazwa": null,
+      "forma": null,
+      "adres": {}
+    },
+    "beneficjenci": []
+  },
+  {
+    "source": "crbr",
+    "slug": "dino",
+    "status": "brak_wpisow",
+    "snapshot_meta": {
+      "collected_at": null,
+      "zgloszenie_id": null,
+      "korekta": false,
+      "data_poczatku_prezentacji": null,
+      "data_konca_prezentacji": null
+    },
+    "company": {
+      "krs": null,
+      "nip": "6211766191",
+      "nazwa": null,
+      "forma": null,
+      "adres": {}
+    },
+    "beneficjenci": []
+  },
+  {
+    "source": "crbr",
+    "slug": "fame_mma",
+    "status": "ok",
+    "snapshot_meta": {
+      "collected_at": "2026-04-24",
+      "zgloszenie_id": "ce2793c6-5d9a-4aa9-88ea-aa22b4372862",
+      "korekta": false,
+      "data_poczatku_prezentacji": "2026-04-24",
+      "data_konca_prezentacji": "2026-04-24"
+    },
+    "company": {
+      "krs": "0000883491",
+      "nip": "7773370464",
+      "nazwa": "FAME MMA SPÓŁKA AKCYJNA",
+      "forma": "Spółka akcyjna",
+      "adres": {
+        "ulica": "DWORCOWA",
+        "nr_domu": "4B",
+        "nr_lokalu": "3",
+        "kod_pocztowy": "62-020",
+        "miejscowosc": "SWARZĘDZ",
+        "wojewodztwo": "WIELKOPOLSKIE"
+      }
+    },
+    "beneficjenci": [
+      {
+        "osoba_key": "NAT:P********|R****|8**********",
+        "display": "R**** P********",
+        "obywatelstwo": "PL",
+        "panstwo_zamieszkania": "PL",
+        "charakter_udzialu_kod": "1",
+        "charakter_udzialu_opis": "bezposrednia_wlasnosc",
+        "udzial_ilosc": "30",
+        "udzial_jednostka_opis": "%",
+        "rodzaj_wlasnosci_opis": "AKCJONARIUSZ SPÓŁKI AKCYJNEJ",
+        "posrednie_opis": null,
+        "inne_uprbo_opis": null
+      },
+      {
+        "osoba_key": "NAT:R******|K********|7**********",
+        "display": "K******** R******",
+        "obywatelstwo": "PL",
+        "panstwo_zamieszkania": "PL",
+        "charakter_udzialu_kod": "1",
+        "charakter_udzialu_opis": "bezposrednia_wlasnosc",
+        "udzial_ilosc": "30",
+        "udzial_jednostka_opis": "%",
+        "rodzaj_wlasnosci_opis": "AKCJONARIUSZ SPÓŁKI AKCYJNEJ",
+        "posrednie_opis": null,
+        "inne_uprbo_opis": null
+      }
+    ]
+  },
+  {
+    "source": "crbr",
+    "slug": "drutex",
+    "status": "ok",
+    "snapshot_meta": {
+      "collected_at": "2026-04-24",
+      "zgloszenie_id": "96a98d98-3a4a-4505-86de-3d4faf0dbaa1",
+      "korekta": false,
+      "data_poczatku_prezentacji": "2026-04-24",
+      "data_konca_prezentacji": "2026-04-24"
+    },
+    "company": {
+      "krs": "0000140428",
+      "nip": "8421622720",
+      "nazwa": "DRUTEX SPÓŁKA AKCYJNA",
+      "forma": "Spółka akcyjna",
+      "adres": {
+        "ulica": "LĘBORSKA",
+        "nr_domu": "31",
+        "nr_lokalu": null,
+        "kod_pocztowy": "77-100",
+        "miejscowosc": "BYTÓW",
+        "wojewodztwo": "POMORSKIE"
+      }
+    },
+    "beneficjenci": [
+      {
+        "osoba_key": "NAT:G**********|K*****|8**********",
+        "display": "K***** G**********",
+        "obywatelstwo": "PL",
+        "panstwo_zamieszkania": "PL",
+        "charakter_udzialu_kod": "1",
+        "charakter_udzialu_opis": "bezposrednia_wlasnosc",
+        "udzial_ilosc": "100",
+        "udzial_jednostka_opis": "%",
+        "rodzaj_wlasnosci_opis": "AKCJONARIUSZ SPÓŁKI AKCYJNEJ",
+        "posrednie_opis": null,
+        "inne_uprbo_opis": null
+      }
+    ]
+  },
+  {
+    "source": "crbr",
+    "slug": "tenczynek",
+    "status": "ok",
+    "snapshot_meta": {
+      "collected_at": "2026-04-24",
+      "zgloszenie_id": "cfd2a3c9-e953-4b9f-9f9b-8395002fa61e",
+      "korekta": false,
+      "data_poczatku_prezentacji": "2026-04-24",
+      "data_konca_prezentacji": "2026-04-24"
+    },
+    "company": {
+      "krs": "0000749821",
+      "nip": "9462683417",
+      "nazwa": "TENCZYNEK DYSTRYBUCJA",
+      "forma": "Prosta spółka akcyjna",
+      "adres": {
+        "ulica": "ARCHIDIAKOŃSKA",
+        "nr_domu": "9",
+        "nr_lokalu": null,
+        "kod_pocztowy": "20-113",
+        "miejscowosc": "LUBLIN",
+        "wojewodztwo": "LUBELSKIE"
+      }
+    },
+    "beneficjenci": [
+      {
+        "osoba_key": "NAT:P******|J*****|6**********",
+        "display": "J***** P******",
+        "obywatelstwo": "PL",
+        "panstwo_zamieszkania": "PL",
+        "charakter_udzialu_kod": "2",
+        "charakter_udzialu_opis": "posrednia_wlasnosc",
+        "udzial_ilosc": null,
+        "udzial_jednostka_opis": null,
+        "rodzaj_wlasnosci_opis": null,
+        "posrednie_opis": "POSIADA 6% AKCJI SPÓŁKI KTÓRA POSIADA 100% AKCJI SPÓŁKI ZGŁASZANEJ ORAZ 67% W SPÓŁCE Z O.O. BĘDĄCEJ WŁAŚCICIELEM 28% AKCJI SPÓŁKI,KTÓRAPOSIADA100%AKCJI SPÓŁKI ZGŁASZANEJ, POSIADA 45% AKCJI SPÓŁKI, KTÓRA POSIADA 19% AKCJI SPÓŁKI, KTÓRA POSIADA 100% AKCJI SPÓŁKI ZGŁASZANEJ.\nBENEFICJENT POSIADA W SUMIE POŚREDNIO ORAZ BEZPOŚREDNIO 33% AKCJI SPÓŁKI KTÓRA POSIADA 100% AKCJI SPÓŁKI ZGŁASZANEJ",
+        "inne_uprbo_opis": null
+      }
+    ]
+  }
+]

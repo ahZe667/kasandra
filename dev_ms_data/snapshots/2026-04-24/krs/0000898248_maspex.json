@@ -1,0 +1,634 @@
+{
+  "odpis": {
+    "rodzaj": "Aktualny",
+    "naglowekA": {
+      "rejestr": "RejP",
+      "numerKRS": "0000898248",
+      "dataCzasOdpisu": "24.04.2026 14:21:16",
+      "stanZDnia": "03.12.2025",
+      "dataRejestracjiWKRS": "30.04.2021",
+      "numerOstatniegoWpisu": 36,
+      "dataOstatniegoWpisu": "24.09.2025",
+      "sygnaturaAktSprawyDotyczacejOstatniegoWpisu": "KR.XII NS-REJ.KRS/18507/25/904",
+      "oznaczenieSaduDokonujacegoOstatniegoWpisu": "SĄD REJONOWY DLA KRAKOWA ŚRÓDMIEŚCIA W KRAKOWIE, XII WYDZIAŁ GOSPODARCZY KRAJOWEGO REJESTRU SĄDOWEGO",
+      "stanPozycji": 1
+    },
+    "dane": {
+      "dzial1": {
+        "danePodmiotu": {
+          "formaPrawna": "SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ",
+          "identyfikatory": {
+            "regon": "12294851700000",
+            "nip": "5512617657"
+          },
+          "nazwa": "GRUPA MASPEX SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ",
+          "daneOWczesniejszejRejestracji": {},
+          "czyProwadziDzialalnoscZInnymiPodmiotami": false,
+          "czyPosiadaStatusOPP": false
+        },
+        "siedzibaIAdres": {
+          "siedziba": {
+            "kraj": "POLSKA",
+            "wojewodztwo": "MAŁOPOLSKIE",
+            "powiat": "WADOWICKI",
+            "gmina": "WADOWICE",
+            "miejscowosc": "WADOWICE"
+          },
+          "adres": {
+            "ulica": "UL. LEGIONÓW",
+            "nrDomu": "37",
+            "miejscowosc": "WADOWICE",
+            "kodPocztowy": "34-100",
+            "poczta": "WADOWICE",
+            "kraj": "POLSKA"
+          },
+          "adresStronyInternetowej": "HTTPS://MASPEX.COM/O-FIRMIE/OGLOSZENIA-KSH/GRUPA-MASPEX-SP-Z-O-O-Z-SIEDZIBA-W-WADOWICACH/",
+          "adresDoDoreczenElektronicznychWpisanyDoBAE": "AE:PL-49667-77755-GBDEE-26"
+        },
+        "jednostkiTerenoweOddzialy": [
+          {
+            "nazwa": "GRUPA MASPEX SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ ODDZIAŁ W TYMBARKU",
+            "siedziba": {
+              "kraj": "POLSKA",
+              "wojewodztwo": "MAŁOPOLSKIE",
+              "powiat": "LIMANOWSKI",
+              "gmina": "TYMBARK",
+              "miejscowosc": "TYMBARK"
+            },
+            "adres": {
+              "nrDomu": "156",
+              "miejscowosc": "TYMBARK",
+              "kodPocztowy": "34-650",
+              "poczta": "TYMBARK",
+              "kraj": "POLSKA"
+            }
+          },
+          {
+            "nazwa": "GRUPA MASPEX SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ ODDZIAŁ W OLSZTYNKU",
+            "siedziba": {
+              "kraj": "POLSKA",
+              "wojewodztwo": "WARMIŃSKO-MAZURSKIE",
+              "powiat": "OLSZTYŃSKI",
+              "gmina": "OLSZTYNEK",
+              "miejscowosc": "OLSZTYNEK"
+            },
+            "adres": {
+              "ulica": "UL. ZIELONA",
+              "nrDomu": "16a",
+              "miejscowosc": "OLSZTYNEK",
+              "kodPocztowy": "11-015",
+              "poczta": "OLSZTYNEK",
+              "kraj": "POLSKA"
+            }
+          },
+          {
+            "nazwa": "GRUPA MASPEX SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ ODDZIAŁ W LUBLINIE",
+            "siedziba": {
+              "kraj": "POLSKA",
+              "wojewodztwo": "LUBELSKIE",
+              "powiat": "LUBLIN",
+              "gmina": "LUBLIN",
+              "miejscowosc": "LUBLIN"
+            },
+            "adres": {
+              "ulica": "UL. WROTKOWSKA",
+              "nrDomu": "3",
+              "miejscowosc": "LUBLIN",
+              "kodPocztowy": "20-469",
+              "poczta": "LUBLIN",
+              "kraj": "POLSKA"
+            }
+          },
+          {
+            "nazwa": "GRUPA MASPEX SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ ODDZIAŁ W ŁOWICZU",
+            "siedziba": {
+              "kraj": "POLSKA",
+              "wojewodztwo": "ŁÓDZKIE",
+              "powiat": "ŁOWICKI",
+              "gmina": "ŁOWICZ",
+              "miejscowosc": "ŁOWICZ"
+            },
+            "adres": {
+              "ulica": "UL. GEN. WŁADYSŁAWA SIKORSKIEGO",
+              "nrDomu": "5",
+              "miejscowosc": "ŁOWICZ",
+              "kodPocztowy": "99-400",
+              "poczta": "ŁOWICZ",
+              "kraj": "POLSKA"
+            }
+          },
+          {
+            "nazwa": "GRUPA MASPEX SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ ODDZIAŁ W WARSZAWIE",
+            "siedziba": {
+              "kraj": "POLSKA",
+              "wojewodztwo": "MAZOWIECKIE",
+              "powiat": "WARSZAWA",
+              "gmina": "WARSZAWA",
+              "miejscowosc": "WARSZAWA"
+            },
+            "adres": {
+              "ulica": "UL. BOBROWIECKA",
+              "nrDomu": "8",
+              "miejscowosc": "WARSZAWA",
+              "kodPocztowy": "00-728",
+              "poczta": "WARSZAWA",
+              "kraj": "POLSKA"
+            }
+          }
+        ],
+        "umowaStatut": {
+          "informacjaOZawarciuZmianieUmowyStatutu": [
+            {
+              "zawarcieZmianaUmowyStatutu": "24.03.2021R. - UMOWA SPÓŁKI AKT NOTARIALNY SPORZĄDZONY PRZEZ NOTARIUSZA EWĘ KŁOSOWSKĄ-MATLAK, Z KAN. NOT. W ZATORZE REP. A NR 1606/2021."
+            },
+            {
+              "zawarcieZmianaUmowyStatutu": "24.08.2021, REP. A NR 5547/2021, NOTARIUSZ EWA KŁOSOWSKA-MATLAK, KANCELARIA NOTARIALNA W ZATORZE -ZMIANA § 6 UST 1, PAR. 7 UST. 1 I 3"
+            }
+          ]
+        },
+        "pozostaleInformacje": {
+          "czasNaJakiUtworzonyZostalPodmiot": "NIEOZNACZONY",
+          "informacjaOLiczbieUdzialow": "WIĘKSZĄ LICZBĘ UDZIAŁÓW"
+        },
+        "sposobPowstaniaPodmiotu": {
+          "okolicznosciPowstania": "PRZEKSZTAŁCENIE",
+          "opisSposobuPowstaniaInformacjaOUchwale": "24.03.2021R. - UCHWAŁA O PRZEKSZTAŁCENIU W TRYBIE 551 PKT 1 K.S.H. PODJĘTA PRZEZ WSPÓLNIKÓW SPÓŁKI: GRUPA MASPEX SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ SPÓŁKA KOMANDYTOWA O PRZEKSZTAŁCENIU SPÓŁKI KOMANDYTOWEJ W SPÓŁKĘ Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ DZIAŁAJĄCĄ POD FIRMĄ: GRUPA MASPEX SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ, AKT NOTARIALNY SPORZĄDZONY PRZEZ NOTARIUSZA EWĘ KŁOSOWSKĄ-MATLAK, Z KAN. NOT. W ZATORZE REP. A NR 1606/2021.",
+          "podmioty": [
+            {
+              "nazwa": "GRUPA MASPEX SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ SPÓŁKA KOMANDYTOWA,------",
+              "krajNazwaRejestruEwidencji": "------,KRAJOWY REJESTR SĄDOWY",
+              "krs": {
+                "krs": "0000571274"
+              },
+              "identyfikator": {
+                "regon": "12294851700000"
+              },
+              "nip": "5512617657"
+            }
+          ]
+        },
+        "wspolnicySpzoo": [
+          {
+            "nazwa": "MASPEX HOLDING SPÓŁKA AKCYJNA",
+            "identyfikator": {
+              "regon": "36987900600000"
+            },
+            "krs": {
+              "krs": "0000725647"
+            },
+            "posiadaneUdzialy": "59 775 430 UDZIAŁY O ŁĄCZNEJ WARTOŚCI 2.988.771.500,00 ZŁ",
+            "czyPosiadaCaloscUdzialow": false
+          }
+        ],
+        "kapital": {
+          "wysokoscKapitaluZakladowego": {
+            "wartosc": "2988781500,00",
+            "waluta": "PLN"
+          },
+          "wniesioneAporty": {}
+        }
+      },
+      "dzial2": {
+        "reprezentacja": {
+          "nazwaOrganu": "ZARZĄD",
+          "sposobReprezentacji": "W PRZYPADKU POWOŁANIA ZARZĄDU WIELOOSOBOWEGO DO SKŁADANIA OŚWIADCZEŃ W IMIENIU SPÓŁKI WYMAGANE JEST WSPÓŁDZIAŁANIE DWÓCH CZŁONKÓW ZARZĄDU ALBO JEDNEGO CZŁONKA ZARZĄDU ŁĄCZNIE Z PROKURENTEM ALBO DWÓCH PROKURENTÓW ŁĄCZNIE.",
+          "sklad": [
+            {
+              "nazwisko": {
+                "nazwiskoICzlon": "W****"
+              },
+              "imiona": {
+                "imie": "R*****",
+                "imieDrugie": "P****"
+              },
+              "identyfikator": {
+                "pesel": "7**********"
+              },
+              "funkcjaWOrganie": "CZŁONEK ZARZĄDU",
+              "czyZawieszona": false
+            },
+            {
+              "nazwisko": {
+                "nazwiskoICzlon": "R****",
+                "nazwiskoIICzlon": "K*****"
+              },
+              "imiona": {
+                "imie": "M********",
+                "imieDrugie": "A***"
+              },
+              "identyfikator": {
+                "pesel": "6**********"
+              },
+              "funkcjaWOrganie": "CZŁONEK ZARZĄDU",
+              "czyZawieszona": false
+            },
+            {
+              "nazwisko": {
+                "nazwiskoICzlon": "T******"
+              },
+              "imiona": {
+                "imie": "B*****"
+              },
+              "identyfikator": {
+                "pesel": "6**********"
+              },
+              "funkcjaWOrganie": "CZŁONEK ZARZĄDU",
+              "czyZawieszona": false
+            },
+            {
+              "nazwisko": {
+                "nazwiskoICzlon": "L*****"
+              },
+              "imiona": {
+                "imie": "D*****",
+                "imieDrugie": "M****"
+              },
+              "identyfikator": {
+                "pesel": "6**********"
+              },
+              "funkcjaWOrganie": "CZŁONEK ZARZĄDU",
+              "czyZawieszona": false
+            },
+            {
+              "nazwisko": {
+                "nazwiskoICzlon": "W********"
+              },
+              "imiona": {
+                "imie": "B******",
+                "imieDrugie": "M****"
+              },
+              "identyfikator": {
+                "pesel": "7**********"
+              },
+              "funkcjaWOrganie": "CZŁONEK ZARZĄDU",
+              "czyZawieszona": false
+            },
+            {
+              "nazwisko": {
+                "nazwiskoICzlon": "M*****"
+              },
+              "imiona": {
+                "imie": "M*****",
+                "imieDrugie": "B****"
+              },
+              "identyfikator": {
+                "pesel": "7**********"
+              },
+              "funkcjaWOrganie": "CZŁONEK ZARZĄDU",
+              "czyZawieszona": false
+            },
+            {
+              "nazwisko": {
+                "nazwiskoICzlon": "P****"
+              },
+              "imiona": {
+                "imie": "E****",
+                "imieDrugie": "A***"
+              },
+              "identyfikator": {
+                "pesel": "6**********"
+              },
+              "funkcjaWOrganie": "CZŁONEK ZARZĄDU",
+              "czyZawieszona": false
+            },
+            {
+              "nazwisko": {
+                "nazwiskoICzlon": "G*******"
+              },
+              "imiona": {
+                "imie": "E*******",
+                "imieDrugie": "A********"
+              },
+              "identyfikator": {
+                "pesel": "7**********"
+              },
+              "funkcjaWOrganie": "CZŁONEK ZARZĄDU",
+              "czyZawieszona": false
+            },
+            {
+              "nazwisko": {
+                "nazwiskoICzlon": "P*****"
+              },
+              "imiona": {
+                "imie": "I****",
+                "imieDrugie": "M****"
+              },
+              "identyfikator": {
+                "pesel": "7**********"
+              },
+              "funkcjaWOrganie": "CZŁONEK ZARZĄDU",
+              "czyZawieszona": false
+            },
+            {
+              "nazwisko": {
+                "nazwiskoICzlon": "Z****"
+              },
+              "imiona": {
+                "imie": "K********",
+                "imieDrugie": "B*******"
+              },
+              "identyfikator": {
+                "pesel": "7**********"
+              },
+              "funkcjaWOrganie": "CZŁONEK ZARZĄDU",
+              "czyZawieszona": false
+            },
+            {
+              "nazwisko": {
+                "nazwiskoICzlon": "K******"
+              },
+              "imiona": {
+                "imie": "L*****"
+              },
+              "identyfikator": {
+                "pesel": "6**********"
+              },
+              "funkcjaWOrganie": "CZŁONEK ZARZĄDU",
+              "czyZawieszona": false
+            },
+            {
+              "nazwisko": {
+                "nazwiskoICzlon": "R********"
+              },
+              "imiona": {
+                "imie": "P****",
+                "imieDrugie": "A******"
+              },
+              "identyfikator": {
+                "pesel": "7**********"
+              },
+              "funkcjaWOrganie": "CZŁONEK ZARZĄDU",
+              "czyZawieszona": false
+            }
+          ]
+        },
+        "prokurenci": [
+          {
+            "nazwisko": {
+              "nazwiskoICzlon": "G*********"
+            },
+            "imiona": {
+              "imie": "R****"
+            },
+            "identyfikator": {
+              "pesel": "7**********"
+            },
+            "rodzajProkury": "PROKURA ŁĄCZNA DWUOSOBOWA TAKŻE Z CZŁONKIEM ZARZĄDU"
+          },
+          {
+            "nazwisko": {
+              "nazwiskoICzlon": "O*****"
+            },
+            "imiona": {
+              "imie": "S****",
+              "imieDrugie": "A********"
+            },
+            "identyfikator": {
+              "pesel": "7**********"
+            },
+            "rodzajProkury": "PROKURA ŁĄCZNA DWUOSOBOWA TAKŻE Z CZŁONKIEM ZARZĄDU"
+          },
+          {
+            "nazwisko": {
+              "nazwiskoICzlon": "C********",
+              "nazwiskoIICzlon": "R****"
+            },
+            "imiona": {
+              "imie": "J*****"
+            },
+            "identyfikator": {
+              "pesel": "8**********"
+            },
+            "rodzajProkury": "PROKURA ŁĄCZNA DWUOSOBOWA TAKŻE Z CZŁONKIEM ZARZĄDU"
+          },
+          {
+            "nazwisko": {
+              "nazwiskoICzlon": "Ć*****"
+            },
+            "imiona": {
+              "imie": "R******"
+            },
+            "identyfikator": {
+              "pesel": "7**********"
+            },
+            "rodzajProkury": "PROKURA ŁĄCZNA DWUOSOBOWA TAKŻE Z CZŁONKIEM ZARZĄDU"
+          },
+          {
+            "nazwisko": {
+              "nazwiskoICzlon": "B******"
+            },
+            "imiona": {
+              "imie": "J****"
+            },
+            "identyfikator": {
+              "pesel": "8**********"
+            },
+            "rodzajProkury": "PROKURA ŁĄCZNA DWUOSOBOWA TAKŻE Z CZŁONKIEM ZARZĄDU"
+          },
+          {
+            "nazwisko": {
+              "nazwiskoICzlon": "H****"
+            },
+            "imiona": {
+              "imie": "K********"
+            },
+            "identyfikator": {
+              "pesel": "7**********"
+            },
+            "rodzajProkury": "PROKURA ŁĄCZNA DWUOSOBOWA TAKŻE Z CZŁONKIEM ZARZĄDU"
+          },
+          {
+            "nazwisko": {
+              "nazwiskoICzlon": "J****"
+            },
+            "imiona": {
+              "imie": "I****",
+              "imieDrugie": "M****"
+            },
+            "identyfikator": {
+              "pesel": "9**********"
+            },
+            "rodzajProkury": "PROKURA ŁĄCZNA DWUOSOBOWA TAKŻE Z CZŁONKIEM ZARZĄDU"
+          },
+          {
+            "nazwisko": {
+              "nazwiskoICzlon": "B**********"
+            },
+            "imiona": {
+              "imie": "N******"
+            },
+            "identyfikator": {
+              "pesel": "8**********"
+            },
+            "rodzajProkury": "PROKURA ŁĄCZNA DWUOSOBOWA TAKŻE Z CZŁONKIEM ZARZĄDU"
+          }
+        ]
+      },
+      "dzial3": {
+        "przedmiotDzialalnosci": {
+          "przedmiotPrzewazajacejDzialalnosci": [
+            {
+              "opis": "DZIAŁALNOŚĆ FIRM CENTRALNYCH (HEAD OFFICES) I HOLDINGÓW, Z WYŁĄCZENIEM HOLDINGÓW FINANSOWYCH",
+              "kodDzial": "70",
+              "kodKlasa": "10",
+              "kodPodklasa": "Z"
+            }
+          ],
+          "przedmiotPozostalejDzialalnosci": [
+            {
+              "opis": "SPRZEDAŻ HURTOWA NIEWYSPECJALIZOWANA",
+              "kodDzial": "46",
+              "kodKlasa": "90",
+              "kodPodklasa": "Z"
+            },
+            {
+              "opis": "DZIAŁALNOŚĆ ZWIĄZANA Z DORADZTWEM W ZAKRESIE INFORMATYKI",
+              "kodDzial": "62",
+              "kodKlasa": "02",
+              "kodPodklasa": "Z"
+            },
+            {
+              "opis": "POZOSTAŁE DORADZTWO W ZAKRESIE PROWADZENIA DZIAŁALNOŚCI GOSPODARCZEJ I ZARZĄDZANIA",
+              "kodDzial": "70",
+              "kodKlasa": "22",
+              "kodPodklasa": "Z"
+            },
+            {
+              "opis": "BADANIA I ANALIZY ZWIĄZANE Z JAKOŚCIĄ ŻYWNOŚCI",
+              "kodDzial": "71",
+              "kodKlasa": "20",
+              "kodPodklasa": "A"
+            },
+            {
+              "opis": "DZIAŁALNOŚĆ AGENCJI REKLAMOWYCH",
+              "kodDzial": "73",
+              "kodKlasa": "11",
+              "kodPodklasa": "Z"
+            },
+            {
+              "opis": "DZIERŻAWA WŁASNOŚCI INTELEKTUALNEJ I PODOBNYCH PRODUKTÓW, Z WYŁĄCZENIEM PRAC CHRONIONYCH PRAWEM AUTORSKIM",
+              "kodDzial": "77",
+              "kodKlasa": "40",
+              "kodPodklasa": "Z"
+            },
+            {
+              "opis": "BADANIA NAUKOWE I PRACE ROZWOJOWE W DZIEDZINIE POZOSTAŁYCH NAUK PRZYRODNICZYCH I TECHNICZNYCH",
+              "kodDzial": "72",
+              "kodKlasa": "19",
+              "kodPodklasa": "Z"
+            },
+            {
+              "opis": "BADANIA NAUKOWE I PRACE ROZWOJOWE W DZIEDZINIE NAUK SPOŁECZNYCH I HUMANISTYCZNYCH",
+              "kodDzial": "72",
+              "kodKlasa": "20",
+              "kodPodklasa": "Z"
+            },
+            {
+              "opis": "BADANIA NAUKOWE I PRACE ROZWOJOWE W DZIEDZINIE BIOTECHNOLOGII",
+              "kodDzial": "72",
+              "kodKlasa": "11",
+              "kodPodklasa": "Z"
+            }
+          ]
+        },
+        "wzmiankiOZlozonychDokumentach": {
+          "wzmiankaOZlozeniuRocznegoSprawozdaniaFinansowego": [
+            {
+              "dataZlozenia": "27.06.2022",
+              "zaOkresOdDo": "OD 01.01.2021 DO 29.04.2021"
+            },
+            {
+              "dataZlozenia": "27.06.2022",
+              "zaOkresOdDo": "OD 30.04.2021 DO 31.12.2021"
+            },
+            {
+              "dataZlozenia": "15.05.2023",
+              "zaOkresOdDo": "OD 01.01.2022 DO 31.12.2022"
+            },
+            {
+              "dataZlozenia": "20.06.2024",
+              "zaOkresOdDo": "OD 01.01.2023 DO 31.12.2023"
+            },
+            {
+              "dataZlozenia": "01.07.2025",
+              "zaOkresOdDo": "OD 01.01.2024 DO 31.12.2024"
+            }
+          ],
+          "wzmiankaOZlozeniuOpiniiBieglegoRewidentaSprawozdaniaZBadania": [
+            {
+              "zaOkresOdDo": "OD 01.01.2021 DO 29.04.2021"
+            },
+            {
+              "zaOkresOdDo": "OD 30.04.2021 DO 31.12.2021"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2022 DO 31.12.2022"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2023 DO 31.12.2023"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2024 DO 31.12.2024"
+            }
+          ],
+          "wzmiankaOZlozeniuUchwalyPostanowieniaOZatwierdzeniuRocznegoSprawozdaniaFinansowego": [
+            {
+              "zaOkresOdDo": "OD 01.01.2021 DO 29.04.2021"
+            },
+            {
+              "zaOkresOdDo": "OD 30.04.2021 DO 31.12.2021"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2022 DO 31.12.2022"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2023 DO 31.12.2023"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2024 DO 31.12.2024"
+            }
+          ],
+          "wzmiankaOZlozeniuSprawozdaniaZDzialalnosci": [
+            {
+              "zaOkresOdDo": "OD 01.01.2021 DO 29.04.2021"
+            },
+            {
+              "zaOkresOdDo": "OD 30.04.2021 DO 31.12.2021"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2022 DO 31.12.2022"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2023 DO 31.12.2023"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2024 DO 31.12.2024"
+            }
+          ]
+        },
+        "informacjaODniuKonczacymRokObrotowy": {
+          "dzienKonczacyPierwszyRokObrotowy": "31.12.2021"
+        }
+      },
+      "dzial4": {},
+      "dzial5": {},
+      "dzial6": {
+        "polaczeniePodzialPrzeksztalcenie": [
+          {
+            "okreslenieOkolicznosci": "PRZEJĘCIE INNEJ SPÓŁKI",
+            "opisPolaczeniaPodzialuPrzeksztalcenia": "POŁĄCZENIE W TRYBIE ART. 492 PAR. 1 PKT 1 KSH, TJ. PRZEZ PRZENIESIENIE CAŁEGO MAJĄTKU SPÓŁKI MGD MWS SPÓŁKI Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ SPÓŁKI KOMANDYTOWEJ Z SIEDZIBĄ W WADOWICACH (SPÓŁKA PRZEJMOWANA) NA GRUPA MASPEX SPÓŁKĘ Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ (SPÓŁKA PRZEJMUJĄCA) W ZAMIAN ZA UDZIAŁY PRZYZNANE WSPÓLNIKOM SPÓŁKI PRZEJMOWANEJ W KAPITALE ZAKŁADOWYM SPÓŁKI PRZEJMUJĄCEJ (POŁĄCZENIE PRZEZ PRZEJĘCIE), \n24.08.2021, NADZWYCZAJNE ZGROMADZENIE WSPÓLNIKÓW SPÓŁKI GRUPA MASPEX SP. Z O.O. ORAZ WSPÓLNICY SPÓŁKI MGD MWS SP. Z O.O. SP. K.",
+            "podmiotyPrzejmowane": [
+              {
+                "nazwa": "MGD MWS SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ, SPÓŁKA KOMANDYTOWA",
+                "krajNazwaRejestru": "POLSKA, ------",
+                "identyfikator": {
+                  "regon": "07076800500000"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    }
+  }
+}
