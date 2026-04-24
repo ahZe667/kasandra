@@ -1,0 +1,307 @@
+{
+  "odpis": {
+    "rodzaj": "Aktualny",
+    "naglowekA": {
+      "rejestr": "RejP",
+      "numerKRS": "0000883491",
+      "dataCzasOdpisu": "23.04.2026 14:41:12",
+      "stanZDnia": "12.03.2026",
+      "dataRejestracjiWKRS": "16.02.2021",
+      "numerOstatniegoWpisu": 18,
+      "dataOstatniegoWpisu": "12.03.2026",
+      "sygnaturaAktSprawyDotyczacejOstatniegoWpisu": "RDF/800271/26/399",
+      "oznaczenieSaduDokonujacegoOstatniegoWpisu": "SYSTEM",
+      "stanPozycji": 1
+    },
+    "dane": {
+      "dzial1": {
+        "danePodmiotu": {
+          "formaPrawna": "SPÓŁKA AKCYJNA",
+          "identyfikatory": {
+            "regon": "38818115600000",
+            "nip": "7773370464"
+          },
+          "nazwa": "FAME MMA SPÓŁKA AKCYJNA",
+          "daneOWczesniejszejRejestracji": {},
+          "czyProwadziDzialalnoscZInnymiPodmiotami": false,
+          "czyPosiadaStatusOPP": false
+        },
+        "siedzibaIAdres": {
+          "siedziba": {
+            "kraj": "POLSKA",
+            "wojewodztwo": "WIELKOPOLSKIE",
+            "powiat": "POZNAŃSKI",
+            "gmina": "SWARZĘDZ",
+            "miejscowosc": "SWARZĘDZ"
+          },
+          "adres": {
+            "ulica": "UL. DWORCOWA",
+            "nrDomu": "4B",
+            "nrLokalu": "3",
+            "miejscowosc": "SWARZĘDZ",
+            "kodPocztowy": "62-020",
+            "poczta": "SWARZĘDZ",
+            "kraj": "POLSKA"
+          },
+          "adresStronyInternetowej": "FAMEMMA.COM/SPOLKAAKCYJNA",
+          "adresDoDoreczenElektronicznychWpisanyDoBAE": "AE:PL-31547-31483-TEGVC-22"
+        },
+        "umowaStatut": {
+          "informacjaOZawarciuZmianieUmowyStatutu": [
+            {
+              "zawarcieZmianaUmowyStatutu": "AKT NOTARIALNY STATUTU SPORZĄDZONY W DNIU 17.12.2020 R., PRZED NOTARIUSZEM GRACJANEM CEZARYM NOWAKIEM, W KANCELARII NOTARIALNEJ W POZNANIU UL. STANISŁAWA WYSPIAŃSKIEGO 2/6, REP. A NR 13110/2020"
+            },
+            {
+              "zawarcieZmianaUmowyStatutu": "13.08.2021 R., REP. A NR 5805/2021, ZASTĘPCA NOTARIALNY ANGELIKA NAGÓRSKA WYZNACZONY ZASTĘPCA NOTARIUSZA ILONY TERESY ZIELIŃSKIEJ, KANCELARIA NOTARIALNA PRZY UL. TADEUSZA KOŚCIUSZKI 86/6 W POZNANIU: ZMIENIONE PARAGRAFY STATUTU SPÓŁKI: PAR. 6 UST. 1, PAR. 16, PAR. 17 UST. 1, PAR. 18, PAR. 8, PAR. 29 UST. 2. PRZYJĘTO TEKST JEDNOLITY STATUTU SPÓŁKI."
+            }
+          ]
+        },
+        "pozostaleInformacje": {
+          "czasNaJakiUtworzonyZostalPodmiot": "NIEOZNACZONY",
+          "czyUmowaStatutPrzyznajeUprawnieniaOsobiste": false,
+          "czyObligatoriuszeMajaPrawoDoUdzialuWZysku": false
+        },
+        "kapital": {
+          "wysokoscKapitaluZakladowego": {
+            "wartosc": "400000,00",
+            "waluta": "PLN"
+          },
+          "lacznaLiczbaAkcjiUdzialow": "4000000",
+          "wartoscJednejAkcji": {
+            "wartosc": "0,10",
+            "waluta": "PLN"
+          },
+          "czescKapitaluWplaconegoPokrytego": {
+            "wartosc": "400000,00",
+            "waluta": "PLN"
+          },
+          "wniesioneAporty": {}
+        },
+        "emisjeAkcji": [
+          {
+            "nazwaSeriiAkcji": "SERIA A",
+            "liczbaAkcjiWSerii": "1000000",
+            "czyAkcjeUprzywilejowaneLiczbaAkcjiRodzajUprzywilejowania": "AKCJE NIE SĄ UPRZYWILEJOWANE"
+          },
+          {
+            "nazwaSeriiAkcji": "SERIA B",
+            "liczbaAkcjiWSerii": "3000000",
+            "czyAkcjeUprzywilejowaneLiczbaAkcjiRodzajUprzywilejowania": "AKCJE NIE SĄ UPRZYWILEJOWANE"
+          }
+        ],
+        "wzmiankaOUpowaznieniuDoEmisjiWarrantowSubskrypcyjnych": {
+          "czyZarzadJestUprawnionyDoEmisjiWarrantowSubskrypcyjnych": false
+        }
+      },
+      "dzial2": {
+        "reprezentacja": {
+          "nazwaOrganu": "ZARZĄD",
+          "sposobReprezentacji": "W PRZYPADKU ZARZĄDU LICZĄCEGO 2 LUB WIĘCEJ OSÓB, DO REPREZENTOWANIA SPÓŁKI UPRAWNIONYCH JEST DWÓCH CZŁONKÓW ZARZĄDU ŁĄCZNIE, NATOMIAST GDY ZARZĄD JEST JEDNOOSOBOWY DO REPREZENTOWANIA SPÓŁKI UPRAWNIONY JEST SAMODZIELNIE PREZES ZARZĄDU.",
+          "sklad": [
+            {
+              "nazwisko": {
+                "nazwiskoICzlon": "R******"
+              },
+              "imiona": {
+                "imie": "K********",
+                "imieDrugie": "P****"
+              },
+              "identyfikator": {
+                "pesel": "7**********"
+              },
+              "funkcjaWOrganie": "PREZES ZARZĄDU",
+              "czyZawieszona": false
+            }
+          ]
+        },
+        "organNadzoru": [
+          {
+            "nazwa": "RADA NADZORCZA",
+            "sklad": [
+              {
+                "nazwisko": {
+                  "nazwiskoICzlon": "G***"
+                },
+                "imiona": {
+                  "imie": "W*******",
+                  "imieDrugie": "M*****"
+                },
+                "identyfikator": {
+                  "pesel": "8**********"
+                }
+              },
+              {
+                "nazwisko": {
+                  "nazwiskoICzlon": "B****"
+                },
+                "imiona": {
+                  "imie": "M*****",
+                  "imieDrugie": "A******"
+                },
+                "identyfikator": {
+                  "pesel": "9**********"
+                }
+              },
+              {
+                "nazwisko": {
+                  "nazwiskoICzlon": "W******",
+                  "nazwiskoIICzlon": "R******"
+                },
+                "imiona": {
+                  "imie": "K***",
+                  "imieDrugie": "K********"
+                },
+                "identyfikator": {
+                  "pesel": "9**********"
+                }
+              },
+              {
+                "nazwisko": {
+                  "nazwiskoICzlon": "S*******"
+                },
+                "imiona": {
+                  "imie": "J******",
+                  "imieDrugie": "Ł****"
+                },
+                "identyfikator": {
+                  "pesel": "7**********"
+                }
+              }
+            ]
+          }
+        ],
+        "prokurenci": [
+          {
+            "nazwisko": {
+              "nazwiskoICzlon": "P********"
+            },
+            "imiona": {
+              "imie": "R****",
+              "imieDrugie": "D*****"
+            },
+            "identyfikator": {
+              "pesel": "8**********"
+            },
+            "rodzajProkury": "PROKURA SAMOISTNA"
+          }
+        ]
+      },
+      "dzial3": {
+        "przedmiotDzialalnosci": {
+          "przedmiotPrzewazajacejDzialalnosci": [
+            {
+              "opis": "POZOSTAŁA DZIAŁALNOŚĆ ZWIĄZANA ZE SPORTEM",
+              "kodDzial": "93",
+              "kodKlasa": "19",
+              "kodPodklasa": "Z"
+            }
+          ],
+          "przedmiotPozostalejDzialalnosci": [
+            {
+              "opis": "DZIAŁALNOŚĆ WSPOMAGAJĄCA WYSTAWIANIE PRZEDSTAWIEŃ ARTYSTYCZNYCH",
+              "kodDzial": "90",
+              "kodKlasa": "02",
+              "kodPodklasa": "Z"
+            },
+            {
+              "opis": "DZIAŁALNOŚĆ ZWIĄZANA Z WYSTAWIANIEM PRZEDSTAWIEŃ ARTYSTYCZNYCH",
+              "kodDzial": "90",
+              "kodKlasa": "01",
+              "kodPodklasa": "Z"
+            },
+            {
+              "opis": "DZIAŁALNOŚĆ ZWIĄZANA Z ORGANIZACJĄ TARGÓW, WYSTAW I KONGRESÓW",
+              "kodDzial": "82",
+              "kodKlasa": "30",
+              "kodPodklasa": "Z"
+            },
+            {
+              "opis": "DZIAŁALNOŚĆ AGENCJI REKLAMOWYCH",
+              "kodDzial": "73",
+              "kodKlasa": "11",
+              "kodPodklasa": "Z"
+            },
+            {
+              "opis": "POZOSTAŁA DZIAŁALNOŚĆ WYDAWNICZA",
+              "kodDzial": "58",
+              "kodKlasa": "19",
+              "kodPodklasa": "Z"
+            },
+            {
+              "opis": "DZIAŁALNOŚĆ ZWIĄZANA Z PRODUKCJĄ FILMÓW, NAGRAŃ WIDEO I PROGRAMÓW TELEWIZYJNYCH",
+              "kodDzial": "59",
+              "kodKlasa": "11",
+              "kodPodklasa": "Z"
+            },
+            {
+              "opis": "DZIAŁALNOŚĆ POSTPRODUKCYJNA ZWIĄZANA Z FILMAMI, NAGRANIAMI WIDEO I PROGRAMAMI TELEWIZYJNYMI",
+              "kodDzial": "59",
+              "kodKlasa": "12",
+              "kodPodklasa": "Z"
+            },
+            {
+              "opis": "DZIAŁALNOŚĆ ZWIĄZANA Z DYSTRYBUCJĄ FILMÓW, NAGRAŃ WIDEO I PROGRAMÓW TELEWIZYJNYCH",
+              "kodDzial": "59",
+              "kodKlasa": "13",
+              "kodPodklasa": "Z"
+            },
+            {
+              "opis": "POZOSTAŁA DZIAŁALNOŚĆ ROZRYWKOWA I REKREACYJNA, GDZIE INDZIEJ NIESKLASYFIKOWANA",
+              "kodDzial": "93",
+              "kodKlasa": "29",
+              "kodPodklasa": "B"
+            }
+          ]
+        },
+        "wzmiankiOZlozonychDokumentach": {
+          "wzmiankaOZlozeniuRocznegoSprawozdaniaFinansowego": [
+            {
+              "dataZlozenia": "16.05.2023",
+              "zaOkresOdDo": "OD 01.01.2022 DO 31.12.2022"
+            },
+            {
+              "dataZlozenia": "16.05.2023",
+              "zaOkresOdDo": "OD 16.02.2021 DO 31.12.2021"
+            },
+            {
+              "dataZlozenia": "06.08.2024",
+              "zaOkresOdDo": "OD 01.01.2023 DO 31.12.2023"
+            },
+            {
+              "dataZlozenia": "12.03.2026",
+              "zaOkresOdDo": "OD 01.01.2024 DO 31.12.2024"
+            }
+          ],
+          "wzmiankaOZlozeniuOpiniiBieglegoRewidentaSprawozdaniaZBadania": [
+            {
+              "zaOkresOdDo": "OD 01.01.2022 DO 31.12.2022"
+            },
+            {
+              "zaOkresOdDo": "OD 16.02.2021 DO 31.12.2021"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2023 DO 31.12.2023"
+            }
+          ],
+          "wzmiankaOZlozeniuUchwalyPostanowieniaOZatwierdzeniuRocznegoSprawozdaniaFinansowego": [
+            {
+              "zaOkresOdDo": "OD 01.01.2022 DO 31.12.2022"
+            },
+            {
+              "zaOkresOdDo": "OD 16.02.2021 DO 31.12.2021"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2023 DO 31.12.2023"
+            }
+          ]
+        },
+        "informacjaODniuKonczacymRokObrotowy": {
+          "dzienKonczacyPierwszyRokObrotowy": "31.12.2021"
+        }
+      },
+      "dzial4": {},
+      "dzial5": {},
+      "dzial6": {}
+    }
+  }
+}

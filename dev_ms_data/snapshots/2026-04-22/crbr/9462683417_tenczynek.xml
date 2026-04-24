@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<wynikWyszukiwania>
+    <adresIp>188.47.78.65</adresIp>
+    <parametryWyszukiwania>
+        <dataDo>2026-04-22</dataDo>
+        <dataOd>2026-04-22</dataOd>
+        <nipLubIdentyfikatortrustu>9462683417</nipLubIdentyfikatortrustu>
+    </parametryWyszukiwania>
+    <szczegolyWnioskuOInformacje>
+        <dataICzasUdostepnieniaWniosku>2026-04-22 22:11:40</dataICzasUdostepnieniaWniosku>
+        <dataICzasZlozeniaWniosku>2026-04-22 22:11:40</dataICzasZlozeniaWniosku>
+        <identyfikatorZlozonegoWniosku>F742D570E01F4096A9169273768E877E</identyfikatorZlozonegoWniosku>
+    </szczegolyWnioskuOInformacje>
+    <zgloszeniePodmiotu>
+        <dataKoncaPrezentacji>2026-04-22</dataKoncaPrezentacji>
+        <dataPoczatkuPrezentacji>2026-04-22</dataPoczatkuPrezentacji>
+        <id>0e844306-1986-45d4-af2e-e7cdee1b31fe</id>
+        <korekta>false</korekta>
+        <beneficjent>
+            <imieDrugieINastepne>MARIAN</imieDrugieINastepne>
+            <imiePierwsze>JANUSZ</imiePierwsze>
+            <informacjeOUdzialeLubUprawnieniach>
+                <charakterUdzialu>2</charakterUdzialu>
+                <rodzajUprzywilejowania/>
+                <uprWlasPosrednie>POSIADA 6% AKCJI SPÓŁKI KTÓRA POSIADA 100% AKCJI SPÓŁKI ZGŁASZANEJ ORAZ 67% W SPÓŁCE Z O.O. BĘDĄCEJ WŁAŚCICIELEM 28% AKCJI SPÓŁKI,KTÓRAPOSIADA100%AKCJI SPÓŁKI ZGŁASZANEJ, POSIADA 45% AKCJI SPÓŁKI, KTÓRA POSIADA 19% AKCJI SPÓŁKI, KTÓRA POSIADA 100% AKCJI SPÓŁKI ZGŁASZANEJ.
+BENEFICJENT POSIADA W SUMIE POŚREDNIO ORAZ BEZPOŚREDNIO 33% AKCJI SPÓŁKI KTÓRA POSIADA 100% AKCJI SPÓŁKI ZGŁASZANEJ</uprWlasPosrednie>
+            </informacjeOUdzialeLubUprawnieniach>
+            <nazwisko>PALIKOT</nazwisko>
+            <obywatelstwo>
+                <kodKraju>PL</kodKraju>
+                <nazwa>POLSKA</nazwa>
+            </obywatelstwo>
+            <panstwoZamieszkania>
+                <kodKraju>PL</kodKraju>
+                <nazwa>POLSKA</nazwa>
+            </panstwoZamieszkania>
+            <pesel>64102612710</pesel>
+        </beneficjent>
+        <listaZglaszajacych>
+            <funkcjeZglaszajacego>
+                <kod>136</kod>
+                <opis>ZGŁASZAJĄCY - CZŁONEK ZARZĄDU</opis>
+            </funkcjeZglaszajacego>
+            <imieDrugieINastepne>FRYDERYK</imieDrugieINastepne>
+            <imiePierwsze>PRZEMYSŁAW</imiePierwsze>
+            <nazwisko>BOBROWICZ</nazwisko>
+            <obywatelstwo>
+                <kodKraju>PL</kodKraju>
+                <nazwa>POLSKA</nazwa>
+            </obywatelstwo>
+            <panstwoZamieszkania>
+                <kodKraju>PL</kodKraju>
+                <nazwa>POLSKA</nazwa>
+            </panstwoZamieszkania>
+            <pesel>94110210437</pesel>
+        </listaZglaszajacych>
+        <skorygowane>Zgłoszenie skorygowano w dniu 2022-08-31 16:11:13</skorygowane>
+        <danePodmiotu>
+            <adresSiedziby>
+                <kodPocztowy>20-113</kodPocztowy>
+                <miejscowosc>LUBLIN</miejscowosc>
+                <nrDomu>9</nrDomu>
+                <ulica>ARCHIDIAKOŃSKA</ulica>
+                <wojewodztwo>LUBELSKIE</wojewodztwo>
+            </adresSiedziby>
+            <formaOrganizacyjna>122</formaOrganizacyjna>
+            <formaOrganizacyjnaOpis>Prosta spółka akcyjna</formaOrganizacyjnaOpis>
+            <krs>0000749821</krs>
+            <nipLubIdentyfikatortrustu>9462683417</nipLubIdentyfikatortrustu>
+            <pelnaNazwa>TENCZYNEK DYSTRYBUCJA</pelnaNazwa>
+        </danePodmiotu>
+    </zgloszeniePodmiotu>
+</wynikWyszukiwania>

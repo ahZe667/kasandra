@@ -1,0 +1,755 @@
+{
+  "odpis": {
+    "rodzaj": "Aktualny",
+    "naglowekA": {
+      "rejestr": "RejP",
+      "numerKRS": "0000408273",
+      "dataCzasOdpisu": "23.04.2026 14:41:10",
+      "stanZDnia": "27.02.2026",
+      "dataRejestracjiWKRS": "23.01.2012",
+      "numerOstatniegoWpisu": 102,
+      "dataOstatniegoWpisu": "26.02.2026",
+      "sygnaturaAktSprawyDotyczacejOstatniegoWpisu": "PO.IX NS-REJ.KRS/3045/26/522",
+      "oznaczenieSaduDokonujacegoOstatniegoWpisu": "SĄD REJONOWY POZNAŃ - NOWE MIASTO I WILDA W POZNANIU, IX WYDZIAŁ GOSPODARCZY KRAJOWEGO REJESTRU SĄDOWEGO",
+      "stanPozycji": 1
+    },
+    "dane": {
+      "dzial1": {
+        "danePodmiotu": {
+          "formaPrawna": "SPÓŁKA AKCYJNA",
+          "identyfikatory": {
+            "regon": "30082082800000",
+            "nip": "6211766191"
+          },
+          "nazwa": "\"DINO POLSKA\" SPÓŁKA AKCYJNA",
+          "daneOWczesniejszejRejestracji": {},
+          "czyProwadziDzialalnoscZInnymiPodmiotami": false,
+          "czyPosiadaStatusOPP": false
+        },
+        "siedzibaIAdres": {
+          "siedziba": {
+            "kraj": "POLSKA",
+            "wojewodztwo": "WIELKOPOLSKIE",
+            "powiat": "KROTOSZYŃSKI",
+            "gmina": "KROTOSZYN",
+            "miejscowosc": "KROTOSZYN"
+          },
+          "adres": {
+            "ulica": "OSTROWSKA",
+            "nrDomu": "122",
+            "miejscowosc": "KROTOSZYN",
+            "kodPocztowy": "63-700",
+            "poczta": "KROTOSZYN",
+            "kraj": "POLSKA"
+          },
+          "adresStronyInternetowej": "WWW.GRUPADINO.PL",
+          "adresDoDoreczenElektronicznychWpisanyDoBAE": "AE:PL-83109-10816-EEARF-24"
+        },
+        "umowaStatut": {
+          "informacjaOZawarciuZmianieUmowyStatutu": [
+            {
+              "zawarcieZmianaUmowyStatutu": "AKT NOTARIALNY Z DNIA 21.12.2011R., NOTARIUSZ BOGUMIŁA MARCIŃCZAK-BIELENINIK, KANCELARIA NOTARIALNA W KROTOSZYNIE, REP.A NR 8129/2011."
+            },
+            {
+              "zawarcieZmianaUmowyStatutu": "04.07.2012R., REP.A NR 2413/2012, NOTARIUSZ TOMASZ CHOWAŃSKI, KANCELARIA NOTARIALNA W OSTRZESZOWIE;\n- USUNIĘTO: §§1-40\n- DODANO: §§1-30"
+            },
+            {
+              "zawarcieZmianaUmowyStatutu": "05.10.2012R., REP. A NR 3877/2012, NOTARIUSZ TOMASZ CHOWAŃSKI, KANCELARIA NOTARIALNA W OSTRZESZOWIE \n- UCHYLONO DOTYCHCZASOWĄ TREŚĆ UMOWY SPÓŁKI I NADANO JEJ NOWE BRZMIENIE."
+            },
+            {
+              "zawarcieZmianaUmowyStatutu": "28.08.2014R., REP.A NR 4531/2014, NOTARIUSZ TOMASZ CHOWAŃSKI, KANCELARIA NOTARIALNA W OSTRZESZOWIE\n- ZMIENIONO: §21 PKT 6, §21 PKT 16 STATUTU\n- UCHWALONO TEKST JEDNOLITY STATUTU SPÓŁKI"
+            },
+            {
+              "zawarcieZmianaUmowyStatutu": "28.05.2015R., REP. A NR 3081/2015, NOTARIUSZ TOMASZ CHOWAŃSKI, KANCELARIA NOTARIALNA W OSTRZESZOWIE\n- ZMIENIONO §§ OD 1 DO 32 STATUTU."
+            },
+            {
+              "zawarcieZmianaUmowyStatutu": "AKT NOTARIALNY Z DNIA 01.12.2016R., NOTARIUSZ TOMASZ CHOWAŃSKI, KANCELARIA NOTARIALNA W OSTRZESZOWIE, REP. A NR 7388/2016\n- UCHWALONO NOWĄ TREŚĆ STATUTU SPÓŁKI."
+            },
+            {
+              "zawarcieZmianaUmowyStatutu": "AKT NOTARIALNY Z DNIA 16.02.2017R., REP. A NR 1008/2016, NOTARIUSZ TOMASZ CHOWAŃSKI, KANCELARIA NOTARIALNA W OSTRZESZOWIE\n- ZMIENIONO: §20 UST. 3, §23 UST. 2."
+            },
+            {
+              "zawarcieZmianaUmowyStatutu": "27.02.2017R., REP. A NR 1317/2017, KANCELARIA NOTARIALNA W OSTRZESZOWIE, NOTARIUSZ TOMASZ CHOWAŃSKI,\n- ZMIENIONO: §20 UST. 1 PKT 18 STATUTU ORAZ §20 UST. 2 STATUTU"
+            },
+            {
+              "zawarcieZmianaUmowyStatutu": "AKT NOTARIALNY Z DNIA 08.01.2018R., NOTARIUSZ TOMASZ CHOWAŃSKI, KANCELARIA NOTARIALNA W OSTRZESZOWIE\n- ZMIENIONO CAŁĄ DOTYCHCZASOWĄ TREŚĆ STATUTU SPÓŁKI TJ. OD §1 DO §32 STATUTU I NADANO MU NOWE BRZMIENIE PRZEZ PRZYJĘCIE TEKSTU JEDNOLITEGO STATUTU SPÓŁKI."
+            },
+            {
+              "zawarcieZmianaUmowyStatutu": "02.07.2020R., REP. A NR 5644/2020, NOTARIUSZ TOMASZ CHOWAŃSKI, KANCELARIA NOTARIALNA W OSTRZESZOWIE\n- ZMIENIONO: §4 STATUTU SPÓŁKI."
+            },
+            {
+              "zawarcieZmianaUmowyStatutu": "24.06.2022R., REP. A NR 32606/2022, NOTARIUSZ BEATA BARANOWSKA-SEWERYN, KANCELARIA NOTARIALNA WE WROCŁAWIU \n- ZMIENIONO: §4 UST. 1 STATUTU SPÓŁKI, PRZYJĘTO TEKST JEDNOLITY STATUTU"
+            },
+            {
+              "zawarcieZmianaUmowyStatutu": "26.06.2023 R., REP. A NR 26355/2023, NOTARIUSZ WOJCIECH KAMIŃSKI, KANCELARIA NOTARIALNA WE WROCŁAWIU, UCHWAŁĄ NR 17/6/2023 ZMIENIONO: § 9 UST. 7, § 14 UST. 1, § 14 UST. 3, § 15 UST. 2, § 15 UST. 4 WRAZ ZE ZMIANĄ NUMERACJI NA § 15 UST. 3, § 15 UST. 5 WRAZ ZE ZMIANĄ NUMERACJI NA § 15 UST. 4, ZMIANA NUMERACJI § 15 UST. 6 NA § 15 UST. 5, WYKREŚLONO: § 9 UST. 8, § 15 UST. 3"
+            },
+            {
+              "zawarcieZmianaUmowyStatutu": "16.06.2025 R., REP. A NR 2663/2025, NOTARIUSZ KINGA MIŁOSZ, KANCELARIA NOTARIALNA W OSTROWIE WIELKOPOLSKIM, \nUCHWAŁĄ NR 17/6/2025 ZMIENIONO: § 5 UST. 1,\nUCHWAŁĄ NR 18/6/2025 ZMIENIONO: § 4 UST. 1,\nUCHWAŁĄ NR 19/6/2025 ZMIENIONO: § 17 UST. 1 PKT 6), § 17 UST. 5,\nUCHWAŁĄ NR 20/6/2025 ZMIENIONO: § 24 UST. 2 LIT. A, § 24 UST. 2 LIT. B, § 24 UST. 2 LIT. C, § 24 UST. 2 LIT. D, § 24 UST. 2 LIT. E,  § 24 UST. 2 LIT. G, § 24 UST. 2 LIT. H, § 24 UST. 2 LIT. K, § 24 UST. 3 \nUCHWAŁĄ NR 21/6/2025 PRZYJĘTO TEKST JEDNOLITY STATUTU SPÓŁKI"
+            }
+          ]
+        },
+        "pozostaleInformacje": {
+          "czasNaJakiUtworzonyZostalPodmiot": "NIEOZNACZONY",
+          "czyUmowaStatutPrzyznajeUprawnieniaOsobiste": true,
+          "czyObligatoriuszeMajaPrawoDoUdzialuWZysku": false
+        },
+        "sposobPowstaniaPodmiotu": {
+          "okolicznosciPowstania": "PRZEKSZTAŁCENIE",
+          "opisSposobuPowstaniaInformacjaOUchwale": "SPÓŁKA POWSTAŁA W WYNIKU PRZEKSZTAŁCENIA SPÓŁKI \"DINO POLSKA\" SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ W \"DINO POLSKA\" SPÓŁKA AKCYJNA, UCHWAŁA ZGROMADZENIA WSPÓLNIKÓW SPÓŁKI \"DINO POLSKA\" SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ Z DNIA 21.12.2011R.",
+          "podmioty": [
+            {
+              "nazwa": "\"DINO POLSKA\" SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ,------",
+              "krajNazwaRejestruEwidencji": "KRAJOWY REJESTR SĄDOWY",
+              "krs": {
+                "krs": "0000293706"
+              },
+              "nazwaSaduOrganuProwadzacegoRejestrEwidencje": "******",
+              "identyfikator": {
+                "regon": "30082082800000"
+              }
+            }
+          ]
+        },
+        "kapital": {
+          "wysokoscKapitaluZakladowego": {
+            "wartosc": "9804000,00",
+            "waluta": "PLN"
+          },
+          "lacznaLiczbaAkcjiUdzialow": "980400000",
+          "wartoscJednejAkcji": {
+            "wartosc": "0,01",
+            "waluta": "PLN"
+          },
+          "czescKapitaluWplaconegoPokrytego": {
+            "wartosc": "9804000,00",
+            "waluta": "PLN"
+          },
+          "wniesioneAporty": {
+            "okreslenieWartosciUdzialowObjetychZaAport": []
+          }
+        },
+        "emisjeAkcji": [
+          {
+            "nazwaSeriiAkcji": "A",
+            "liczbaAkcjiWSerii": "980400000",
+            "czyAkcjeUprzywilejowaneLiczbaAkcjiRodzajUprzywilejowania": "AKCJE NIE SĄ UPRZYWILEJOWANE"
+          }
+        ],
+        "wzmiankaOUpowaznieniuDoEmisjiWarrantowSubskrypcyjnych": {
+          "czyZarzadJestUprawnionyDoEmisjiWarrantowSubskrypcyjnych": false
+        }
+      },
+      "dzial2": {
+        "reprezentacja": {
+          "nazwaOrganu": "ZARZĄD",
+          "sposobReprezentacji": "W PRZYPADKU ZARZĄDU JEDNOOSOBOWEGO OŚWIADCZENIA WOLI W IMIENIU SPÓŁKI SKŁADA JEDYNY CZŁONEK ZARZĄDU.\nW PRZYPADKU ZARZĄDU WIELOOSOBOWEGO DO SKŁADANIA OŚWIADCZEŃ WOLI W IMIENIU SPÓŁKI WYMAGANE JEST WSPÓŁDZIAŁANIE DWÓCH CZŁONKÓW ZARZĄDU LUB JEDNEGO CZŁONKA ZARZĄDU ŁĄCZNIE Z PROKURENTEM.",
+          "sklad": [
+            {
+              "nazwisko": {
+                "nazwiskoICzlon": "K*****"
+              },
+              "imiona": {
+                "imie": "M*****"
+              },
+              "identyfikator": {
+                "pesel": "8**********"
+              },
+              "funkcjaWOrganie": "CZŁONEK ZARZĄDU",
+              "czyZawieszona": false
+            },
+            {
+              "nazwisko": {
+                "nazwiskoICzlon": "B******"
+              },
+              "imiona": {
+                "imie": "I******",
+                "imieDrugie": "M*********"
+              },
+              "identyfikator": {
+                "pesel": "7**********"
+              },
+              "funkcjaWOrganie": "CZŁONEK ZARZĄDU",
+              "czyZawieszona": false
+            },
+            {
+              "nazwisko": {
+                "nazwiskoICzlon": "J********"
+              },
+              "imiona": {
+                "imie": "M*****"
+              },
+              "identyfikator": {
+                "pesel": "8**********"
+              },
+              "funkcjaWOrganie": "CZŁONEK ZARZĄDU",
+              "czyZawieszona": false
+            },
+            {
+              "nazwisko": {
+                "nazwiskoICzlon": "N*********"
+              },
+              "imiona": {
+                "imie": "S*******"
+              },
+              "identyfikator": {
+                "pesel": "7**********"
+              },
+              "funkcjaWOrganie": "CZŁONEK ZARZĄDU",
+              "czyZawieszona": false
+            }
+          ]
+        },
+        "organNadzoru": [
+          {
+            "nazwa": "RADA NADZORCZA",
+            "sklad": [
+              {
+                "nazwisko": {
+                  "nazwiskoICzlon": "B********"
+                },
+                "imiona": {
+                  "imie": "T*****"
+                },
+                "identyfikator": {
+                  "pesel": "7**********"
+                }
+              },
+              {
+                "nazwisko": {
+                  "nazwiskoICzlon": "B****"
+                },
+                "imiona": {
+                  "imie": "E***"
+                },
+                "identyfikator": {
+                  "pesel": "6**********"
+                }
+              },
+              {
+                "nazwisko": {
+                  "nazwiskoICzlon": "P*********"
+                },
+                "imiona": {
+                  "imie": "M*****"
+                },
+                "identyfikator": {
+                  "pesel": "7**********"
+                }
+              },
+              {
+                "nazwisko": {
+                  "nazwiskoICzlon": "J******"
+                },
+                "imiona": {
+                  "imie": "S*******"
+                },
+                "identyfikator": {
+                  "pesel": "6**********"
+                }
+              },
+              {
+                "nazwisko": {
+                  "nazwiskoICzlon": "B*******"
+                },
+                "imiona": {
+                  "imie": "P****"
+                },
+                "identyfikator": {
+                  "pesel": "6**********"
+                }
+              }
+            ]
+          }
+        ],
+        "prokurenci": [
+          {
+            "nazwisko": {
+              "nazwiskoICzlon": "K********"
+            },
+            "imiona": {
+              "imie": "I****"
+            },
+            "identyfikator": {
+              "pesel": "7**********"
+            },
+            "rodzajProkury": "PROKURA ŁĄCZNA Z CZŁONKIEM ZARZĄDU"
+          }
+        ]
+      },
+      "dzial3": {
+        "przedmiotDzialalnosci": {
+          "przedmiotPrzewazajacejDzialalnosci": [
+            {
+              "opis": "SPRZEDAŻ DETALICZNA NIEWYSPECJALIZOWANA Z PRZEWAGĄ ŻYWNOŚCI, NAPOJÓW LUB WYROBÓW TYTONIOWYCH",
+              "kodDzial": "47",
+              "kodKlasa": "11",
+              "kodPodklasa": "Z"
+            }
+          ],
+          "przedmiotPozostalejDzialalnosci": [
+            {
+              "opis": "SPRZEDAŻ DETALICZNA OWOCÓW I WARZYW",
+              "kodDzial": "47",
+              "kodKlasa": "21",
+              "kodPodklasa": "Z"
+            },
+            {
+              "opis": "SPRZEDAŻ DETALICZNA MIĘSA I WYROBÓW Z MIĘSA",
+              "kodDzial": "47",
+              "kodKlasa": "22",
+              "kodPodklasa": "Z"
+            },
+            {
+              "opis": "SPRZEDAŻ DETALICZNA NAPOJÓW ALKOHOLOWYCH I BEZALKOHOLOWYCH",
+              "kodDzial": "47",
+              "kodKlasa": "25",
+              "kodPodklasa": "Z"
+            },
+            {
+              "opis": "DZIAŁALNOŚĆ SPÓŁEK HOLDINGOWYCH",
+              "kodDzial": "64",
+              "kodKlasa": "21",
+              "kodPodklasa": "Z"
+            },
+            {
+              "opis": "POZOSTAŁA FINANSOWA DZIAŁALNOŚĆ USŁUGOWA, Z WYŁĄCZENIEM UBEZPIECZEŃ I FUNDUSZY EMERYTALNYCH, GDZIE INDZIEJ NIESKLASYFIKOWANA",
+              "kodDzial": "64",
+              "kodKlasa": "99",
+              "kodPodklasa": "Z"
+            },
+            {
+              "opis": "KUPNO I SPRZEDAŻ NIERUCHOMOŚCI NA WŁASNY RACHUNEK",
+              "kodDzial": "68",
+              "kodKlasa": "11",
+              "kodPodklasa": "Z"
+            },
+            {
+              "opis": "WYNAJEM I ZARZĄDZANIE NIERUCHOMOŚCIAMI WŁASNYMI LUB DZIERŻAWIONYMI",
+              "kodDzial": "68",
+              "kodKlasa": "20",
+              "kodPodklasa": "Z"
+            },
+            {
+              "opis": "WYNAJEM I DZIERŻAWA SAMOCHODÓW OSOBOWYCH I LEKKICH POJAZDÓW SILNIKOWYCH, W TYM MOTOCYKLI",
+              "kodDzial": "77",
+              "kodKlasa": "11",
+              "kodPodklasa": "Z"
+            },
+            {
+              "opis": "WYNAJEM I DZIERŻAWA SAMOCHODÓW CIĘŻAROWYCH",
+              "kodDzial": "77",
+              "kodKlasa": "12",
+              "kodPodklasa": "Z"
+            }
+          ]
+        },
+        "wzmiankiOZlozonychDokumentach": {
+          "wzmiankaOZlozeniuRocznegoSprawozdaniaFinansowego": [
+            {
+              "dataZlozenia": "03.07.2012",
+              "zaOkresOdDo": "01.01.2011R. - 31.12.2011R."
+            },
+            {
+              "dataZlozenia": "24.06.2013",
+              "zaOkresOdDo": "01.01.2012R. - 31.12.2012R."
+            },
+            {
+              "dataZlozenia": "05.06.2014",
+              "zaOkresOdDo": "OD 01.01.2013 DO 31.12.2013"
+            },
+            {
+              "dataZlozenia": "10.06.2015",
+              "zaOkresOdDo": "OD 01.01.2014 DO 31.12.2014"
+            },
+            {
+              "dataZlozenia": "11.05.2016",
+              "zaOkresOdDo": "OD 01.01.2015 DO 31.12.2015"
+            },
+            {
+              "dataZlozenia": "03.03.2017",
+              "zaOkresOdDo": "OD 01.01.2016 DO 31.12.2016"
+            },
+            {
+              "dataZlozenia": "20.06.2018",
+              "zaOkresOdDo": "OD 01.01.2017 DO 31.12.2017"
+            },
+            {
+              "dataZlozenia": "18.06.2019",
+              "zaOkresOdDo": "OD 01.01.2018 DO 31.12.2018"
+            },
+            {
+              "dataZlozenia": "10.08.2020",
+              "zaOkresOdDo": "OD 01.01.2019 DO 31.12.2019"
+            },
+            {
+              "dataZlozenia": "02.07.2021",
+              "zaOkresOdDo": "OD 01.01.2020 DO 31.12.2020"
+            },
+            {
+              "dataZlozenia": "07.07.2022",
+              "zaOkresOdDo": "OD 01.01.2021 DO 31.12.2021"
+            },
+            {
+              "dataZlozenia": "11.07.2023",
+              "zaOkresOdDo": "OD 01.01.2022 DO 31.12.2022"
+            },
+            {
+              "dataZlozenia": "08.07.2024",
+              "zaOkresOdDo": "OD 01.01.2023 DO 31.12.2023"
+            },
+            {
+              "dataZlozenia": "01.07.2025",
+              "zaOkresOdDo": "OD 01.01.2024 DO 31.12.2024"
+            }
+          ],
+          "wzmiankaOZlozeniuOpiniiBieglegoRewidentaSprawozdaniaZBadania": [
+            {
+              "zaOkresOdDo": "01.01.2011R. - 31.12.2011R."
+            },
+            {
+              "zaOkresOdDo": "01.01.2012R. - 31.12.2012R."
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2013 DO 31.12.2013"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2014 DO 31.12.2014"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2015 DO 31.12.2015"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2016 DO 31.12.2016"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2017 DO 31.12.2017"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2018 DO 31.12.2018"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2019 DO 31.12.2019"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2020 DO 31.12.2020"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2021 DO 31.12.2021"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2022 DO 31.12.2022"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2023 DO 31.12.2023"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2024 DO 31.12.2024"
+            }
+          ],
+          "wzmiankaOZlozeniuUchwalyPostanowieniaOZatwierdzeniuRocznegoSprawozdaniaFinansowego": [
+            {
+              "zaOkresOdDo": "01.01.2011R. - 31.12.2011R."
+            },
+            {
+              "zaOkresOdDo": "01.01.2012R. - 31.12.2012R."
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2013 DO 31.12.2013"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2014 DO 31.12.2014"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2015 DO 31.12.2015"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2016 DO 31.12.2016"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2017 DO 31.12.2017"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2018 DO 31.12.2018"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2019 DO 31.12.2019"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2020 DO 31.12.2020"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2021 DO 31.12.2021"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2022 DO 31.12.2022"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2023 DO 31.12.2023"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2024 DO 31.12.2024"
+            }
+          ],
+          "wzmiankaOZlozeniuSprawozdaniaZDzialalnosci": [
+            {
+              "zaOkresOdDo": "01.01.2011R. - 31.12.2011R."
+            },
+            {
+              "zaOkresOdDo": "01.01.2012R. - 31.12.2012R."
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2013 DO 31.12.2013"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2014 DO 31.12.2014"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2015 DO 31.12.2015"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2016 DO 31.12.2016"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2017 DO 31.12.2017"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2018 DO 31.12.2018"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2019 DO 31.12.2019"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2020 DO 31.12.2020"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2021 DO 31.12.2021"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2022 DO 31.12.2022"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2023 DO 31.12.2023"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2024 DO 31.12.2024"
+            }
+          ]
+        },
+        "sprawozdaniaGrupyKapitalowej": {
+          "wzmiankaOZlozeniuSkonsolidowanegoRocznegoSprawozdaniaFinansowego": [
+            {
+              "dataZlozenia": "03.07.2012",
+              "zaOkresOdDo": "01.01.2011R. - 31.12.2011R."
+            },
+            {
+              "dataZlozenia": "24.06.2013",
+              "zaOkresOdDo": "01.01.2012R. - 31.12.2012R."
+            },
+            {
+              "dataZlozenia": "05.06.2014",
+              "zaOkresOdDo": "OD 01.01.2013 DO 31.12.2013"
+            },
+            {
+              "dataZlozenia": "10.06.2015",
+              "zaOkresOdDo": "OD 01.01.2014 DO 31.12.2014"
+            },
+            {
+              "dataZlozenia": "30.09.2016",
+              "zaOkresOdDo": "OD 01.01.2015 DO 31.12.2015"
+            },
+            {
+              "dataZlozenia": "03.03.2017",
+              "zaOkresOdDo": "OD 01.01.2016 DO 31.12.2016"
+            },
+            {
+              "dataZlozenia": "20.06.2018",
+              "zaOkresOdDo": "OD 01.01.2017 DO 31.12.2017"
+            },
+            {
+              "dataZlozenia": "28.06.2019",
+              "zaOkresOdDo": "OD 01.01.2018 DO 31.12.2018"
+            },
+            {
+              "dataZlozenia": "10.08.2020",
+              "zaOkresOdDo": "OD 01.01.2019 DO 31.12.2019"
+            },
+            {
+              "dataZlozenia": "02.07.2021",
+              "zaOkresOdDo": "OD 01.01.2020 DO 31.12.2020"
+            },
+            {
+              "dataZlozenia": "07.07.2022",
+              "zaOkresOdDo": "OD 01.01.2021 DO 31.12.2021"
+            },
+            {
+              "dataZlozenia": "11.07.2023",
+              "zaOkresOdDo": "OD 01.01.2022 DO 31.12.2022"
+            },
+            {
+              "dataZlozenia": "08.07.2024",
+              "zaOkresOdDo": "OD 01.01.2023 DO 31.12.2023"
+            },
+            {
+              "dataZlozenia": "01.07.2025",
+              "zaOkresOdDo": "OD 01.01.2024 DO 31.12.2024"
+            }
+          ],
+          "wzmiankaOZlozeniuOpiniiBieglegoRewidentaSprawozdaniaZBadania": [
+            {
+              "zaOkresOdDo": "01.01.2011R. - 31.12.2011R."
+            },
+            {
+              "zaOkresOdDo": "01.01.2012R. - 31.12.2012R."
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2013 DO 31.12.2013"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2014 DO 31.12.2014"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2015 DO 31.12.2015"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2016 DO 31.12.2016"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2017 DO 31.12.2017"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2018 DO 31.12.2018"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2019 DO 31.12.2019"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2020 DO 31.12.2020"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2021 DO 31.12.2021"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2022 DO 31.12.2022"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2023 DO 31.12.2023"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2024 DO 31.12.2024"
+            }
+          ],
+          "wzmiankaOZlozeniuUchwalyPostanowieniaOZatwierdzeniuSkonsolidowanegoRocznegoSprawozdaniaFinansowego": [
+            {
+              "zaOkresOdDo": "01.01.2011R. - 31.12.2011R."
+            },
+            {
+              "zaOkresOdDo": "01.01.2012R. - 31.12.2012R."
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2013 DO 31.12.2013"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2014 DO 31.12.2014"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2015 DO 31.12.2015"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2016 DO 31.12.2016"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2017 DO 31.12.2017"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2018 DO 31.12.2018"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2019 DO 31.12.2019"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2020 DO 31.12.2020"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2021 DO 31.12.2021"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2022 DO 31.12.2022"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2023 DO 31.12.2023"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2024 DO 31.12.2024"
+            }
+          ],
+          "wzmiankaOZlozeniuSprawozdaniaZDzialalnosciGrupyKapitalowejSpolkiDominujacejLacznie": [
+            {
+              "zaOkresOdDo": "01.01.2011R. - 31.12.2011R."
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2013 DO 31.12.2013"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2014 DO 31.12.2014"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2015 DO 31.12.2015"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2016 DO 31.12.2016"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2018 DO 31.12.2018"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2019 DO 31.12.2019"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2020 DO 31.12.2020"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2021 DO 31.12.2021"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2022 DO 31.12.2022"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2023 DO 31.12.2023"
+            }
+          ],
+          "wzmiankaOZlozeniuSprawozdaniaZDzialalnosciGrupyKapitalowej": [
+            {
+              "zaOkresOdDo": "OD 01.01.2024 DO 31.12.2024"
+            }
+          ]
+        },
+        "informacjaODniuKonczacymRokObrotowy": {
+          "dzienKonczacyPierwszyRokObrotowy": "31.12.2011"
+        }
+      },
+      "dzial4": {},
+      "dzial5": {},
+      "dzial6": {
+        "polaczeniePodzialPrzeksztalcenie": [
+          {
+            "okreslenieOkolicznosci": "PRZEJĘCIE INNEJ SPÓŁKI",
+            "opisPolaczeniaPodzialuPrzeksztalcenia": "POŁĄCZENIE W TRYBIE ART. 492 § 1 UST. 1 K.S.H. PRZEZ PRZENIESIENIE CAŁEGO MAJĄTKU SPÓŁKI POD FIRMĄ: POL-FOOD POLSKA SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ (SPÓŁKA PRZEJMOWANA) NA SPÓŁKĘ \"DINO POLSKA\" SPÓŁKA AKCYJNA (SPÓŁKA PRZEJMUJĄCA).\nUCHWAŁA NR 2/2018 NADZWYCZAJNEGO WALNEGO ZGROMADZENIA SPÓŁKI POD FIRMĄ: \"DINO POLSKA\" SPÓŁKA AKCYJNA Z DNIA 28.11.2018R.\nUCHWAŁA NR 1 NADZWYCZAJNEGO ZGROMADZENIA WSPÓLNIKÓW SPÓŁKI POD FIRMĄ: POL-FOOD POLSKA SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ Z DNIA 28.11.2018R.",
+            "podmiotyPrzejmowane": [
+              {
+                "nazwa": "POL-FOOD POLSKA, SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ",
+                "krajNazwaRejestru": "POLSKA, KRAJOWY REJESTR SĄDOWY",
+                "krs": {
+                  "krs": "0000406970"
+                },
+                "nazwaSadu": "*******",
+                "identyfikator": {
+                  "regon": "30201145800000"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

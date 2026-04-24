@@ -1,0 +1,41 @@
+{
+  "source": "crbr",
+  "slug": "tenczynek",
+  "status": "ok",
+  "snapshot_meta": {
+    "collected_at": "2026-04-23",
+    "zgloszenie_id": "77e6f348-b038-4cef-9930-20f925cad3f4",
+    "korekta": false,
+    "data_poczatku_prezentacji": "2026-04-23",
+    "data_konca_prezentacji": "2026-04-23"
+  },
+  "company": {
+    "krs": "0000749821",
+    "nip": "9462683417",
+    "nazwa": "TENCZYNEK DYSTRYBUCJA",
+    "forma": "Prosta spółka akcyjna",
+    "adres": {
+      "ulica": "ARCHIDIAKOŃSKA",
+      "nr_domu": "9",
+      "nr_lokalu": null,
+      "kod_pocztowy": "20-113",
+      "miejscowosc": "LUBLIN",
+      "wojewodztwo": "LUBELSKIE"
+    }
+  },
+  "beneficjenci": [
+    {
+      "osoba_key": "NAT:P******|J*****|6**********",
+      "display": "J***** P******",
+      "obywatelstwo": "PL",
+      "panstwo_zamieszkania": "PL",
+      "charakter_udzialu_kod": "2",
+      "charakter_udzialu_opis": "posrednia_wlasnosc",
+      "udzial_ilosc": null,
+      "udzial_jednostka_opis": null,
+      "rodzaj_wlasnosci_opis": null,
+      "posrednie_opis": "POSIADA 6% AKCJI SPÓŁKI KTÓRA POSIADA 100% AKCJI SPÓŁKI ZGŁASZANEJ ORAZ 67% W SPÓŁCE Z O.O. BĘDĄCEJ WŁAŚCICIELEM 28% AKCJI SPÓŁKI,KTÓRAPOSIADA100%AKCJI SPÓŁKI ZGŁASZANEJ, POSIADA 45% AKCJI SPÓŁKI, KTÓRA POSIADA 19% AKCJI SPÓŁKI, KTÓRA POSIADA 100% AKCJI SPÓŁKI ZGŁASZANEJ.\nBENEFICJENT POSIADA W SUMIE POŚREDNIO ORAZ BEZPOŚREDNIO 33% AKCJI SPÓŁKI KTÓRA POSIADA 100% AKCJI SPÓŁKI ZGŁASZANEJ",
+      "inne_uprbo_opis": null
+    }
+  ]
+}

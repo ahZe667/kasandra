@@ -1,0 +1,54 @@
+{
+  "source": "crbr",
+  "slug": "fame_mma",
+  "status": "ok",
+  "snapshot_meta": {
+    "collected_at": "2026-04-24",
+    "zgloszenie_id": "ce2793c6-5d9a-4aa9-88ea-aa22b4372862",
+    "korekta": false,
+    "data_poczatku_prezentacji": "2026-04-24",
+    "data_konca_prezentacji": "2026-04-24"
+  },
+  "company": {
+    "krs": "0000883491",
+    "nip": "7773370464",
+    "nazwa": "FAME MMA SPÓŁKA AKCYJNA",
+    "forma": "Spółka akcyjna",
+    "adres": {
+      "ulica": "DWORCOWA",
+      "nr_domu": "4B",
+      "nr_lokalu": "3",
+      "kod_pocztowy": "62-020",
+      "miejscowosc": "SWARZĘDZ",
+      "wojewodztwo": "WIELKOPOLSKIE"
+    }
+  },
+  "beneficjenci": [
+    {
+      "osoba_key": "NAT:P********|R****|8**********",
+      "display": "R**** P********",
+      "obywatelstwo": "PL",
+      "panstwo_zamieszkania": "PL",
+      "charakter_udzialu_kod": "1",
+      "charakter_udzialu_opis": "bezposrednia_wlasnosc",
+      "udzial_ilosc": "30",
+      "udzial_jednostka_opis": "%",
+      "rodzaj_wlasnosci_opis": "AKCJONARIUSZ SPÓŁKI AKCYJNEJ",
+      "posrednie_opis": null,
+      "inne_uprbo_opis": null
+    },
+    {
+      "osoba_key": "NAT:R******|K********|7**********",
+      "display": "K******** R******",
+      "obywatelstwo": "PL",
+      "panstwo_zamieszkania": "PL",
+      "charakter_udzialu_kod": "1",
+      "charakter_udzialu_opis": "bezposrednia_wlasnosc",
+      "udzial_ilosc": "30",
+      "udzial_jednostka_opis": "%",
+      "rodzaj_wlasnosci_opis": "AKCJONARIUSZ SPÓŁKI AKCYJNEJ",
+      "posrednie_opis": null,
+      "inne_uprbo_opis": null
+    }
+  ]
+}

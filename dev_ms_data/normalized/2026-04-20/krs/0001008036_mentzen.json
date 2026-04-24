@@ -1,0 +1,58 @@
+{
+  "company": {
+    "krs": "0001008036",
+    "nazwa": "MENTZEN SPÓŁKA AKCYJNA",
+    "forma": "SPÓŁKA AKCYJNA",
+    "nip": "5273032556",
+    "regon": "52392389500000"
+  },
+  "snapshot_meta": {
+    "stan_z_dnia": "17.04.2026",
+    "nr_ostatniego_wpisu": 26,
+    "data_ostatniego_wpisu": "17.04.2026"
+  },
+  "adres": {
+    "ulica": "UL. GRUDZIĄDZKA",
+    "nr_domu": "110-114",
+    "nr_lokalu": "101",
+    "kod_pocztowy": "87-100",
+    "miejscowosc": "TORUŃ",
+    "kraj": "POLSKA"
+  },
+  "kapital": {
+    "wartosc": "104850,00",
+    "waluta": "PLN"
+  },
+  "zarzad": {
+    "nazwa_organu": "ZARZĄD",
+    "sposob_reprezentacji": "KAŻDY CZŁONEK ZARZĄDU MA PRAWO REPREZENTOWANIA SPÓŁKI SAMODZIELNIE",
+    "sklad": [
+      {
+        "osoba_key": "NAT:M******|S*******|8**********",
+        "typ": "fizyczna",
+        "display": "S******* J**** M******",
+        "funkcja": "PREZES ZARZĄDU"
+      },
+      {
+        "osoba_key": "NAT:S***********|M****|9**********",
+        "typ": "fizyczna",
+        "display": "M**** S***********",
+        "funkcja": "WICEPREZES ZARZĄDU"
+      }
+    ]
+  },
+  "wlasciciele": {
+    "typ": "brak_w_krs",
+    "lista": []
+  },
+  "pkd_glowny": {
+    "kod": "69.20.Z",
+    "opis": "DZIAŁALNOŚĆ RACHUNKOWO-KSIĘGOWA; DORADZTWO PODATKOWE"
+  },
+  "distress": {
+    "dzial4": false,
+    "dzial5": false,
+    "dzial6": false,
+    "dzial6_typy": []
+  }
+}

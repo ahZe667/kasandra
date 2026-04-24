@@ -1,0 +1,1408 @@
+{
+  "odpis": {
+    "rodzaj": "Aktualny",
+    "naglowekA": {
+      "rejestr": "RejP",
+      "numerKRS": "0000033391",
+      "dataCzasOdpisu": "22.04.2026 21:30:14",
+      "stanZDnia": "27.01.2026",
+      "dataRejestracjiWKRS": "20.08.2001",
+      "numerOstatniegoWpisu": 169,
+      "dataOstatniegoWpisu": "26.01.2026",
+      "sygnaturaAktSprawyDotyczacejOstatniegoWpisu": "RZ.XII NS-REJ.KRS/24339/25/190",
+      "oznaczenieSaduDokonujacegoOstatniegoWpisu": "SĄD REJONOWY W RZESZOWIE, XII WYDZIAŁ GOSPODARCZY KRAJOWEGO REJESTRU SĄDOWEGO",
+      "stanPozycji": 1
+    },
+    "dane": {
+      "dzial1": {
+        "danePodmiotu": {
+          "formaPrawna": "SPÓŁKA AKCYJNA",
+          "identyfikatory": {
+            "regon": "01033457800000",
+            "nip": "5220003782"
+          },
+          "nazwa": "ASSECO POLAND SPÓŁKA AKCYJNA",
+          "daneOWczesniejszejRejestracji": {
+            "nazwaPoprzedniegoRejestru": "RHB",
+            "numerWPoprzednimRejestrze": "17220",
+            "sadProwadzacyRejestr": "SĄD REJONOWY DLA M. ST. WARSZAWY  SĄD GOSPODARCZY XVI WYDZIAŁ GOSP - REJ"
+          },
+          "czyProwadziDzialalnoscZInnymiPodmiotami": false,
+          "czyPosiadaStatusOPP": false
+        },
+        "siedzibaIAdres": {
+          "siedziba": {
+            "kraj": "POLSKA",
+            "wojewodztwo": "PODKARPACKIE",
+            "powiat": "RZESZÓW",
+            "gmina": "RZESZÓW",
+            "miejscowosc": "RZESZÓW"
+          },
+          "adres": {
+            "ulica": "OLCHOWA",
+            "nrDomu": "14",
+            "miejscowosc": "RZESZÓW",
+            "kodPocztowy": "35-322",
+            "poczta": "RZESZÓW",
+            "kraj": "POLSKA"
+          },
+          "adresStronyInternetowej": "WWW.ASSECO.PL",
+          "adresDoDoreczenElektronicznychWpisanyDoBAE": "AE:PL-81425-49735-EBAWU-27"
+        },
+        "umowaStatut": {
+          "informacjaOZawarciuZmianieUmowyStatutu": [
+            {
+              "zawarcieZmianaUmowyStatutu": "31.08.1993. NOTARIUSZ PIOTR SOROKA KANCELARIA PIOTR SOROKA,MARIA ŁABOR-SOROKA I MONIKA KĘDZIERSKA NOTARIUSZE - SPÓLKA CYWILNA, 00-695 WARSZAWA,UL.NOWOGRODZKA 51, REP A 6021/93\n26.06.2001. NOTARIUSZ ANDRZEJ PRZYBYŁA KANCELARIA NOTARIALNA ANDRZEJA PRZYBYŁY W WARSZAWIE,00-687 WARSZAWA, UL. WSPÓLNA 65 M 21, REP A 5040/2001 - ZMIANA POSTANOWIEŃ \nPAR 5,6,9 UST 5,PAR 10,12 UST 3, PAR 12 UST 4 PKT 7 I 9, PAR 12 UST 8,9,10,PAR 13 UST 8,11, PAR 15 UST 2 PKT 1, PAR 15 UST 3 PKT 3.1, PAR 19 UST 2"
+            },
+            {
+              "zawarcieZmianaUmowyStatutu": "14 WRZEŚNIA 2001 R., REPERTORIUM A - 6877/2001, ANDRZEJ PRZYBYŁA - NOTARIUSZ PROWADZĄCY KANCELARIĘ NOTARIALNĄ W WARSZAWIE PRZY ULICY WSPÓLNEJ 65 M. 21.\nZMIENIONO:\nPAR. 7 UST. 4, PAR. 9 UST. 5, PAR. 12 UST. 4 PKT 1, PAR. 12 UST. 11, PAR. 13 UST. 2, PAR. 13 UST. 3, PAR. 13 UST. 11, PAR. 14 UST. 2 PKT 2.2, PAR. 15 UST. 1\nUSUNIĘTO:\nPAR. 12 UST. 4 PKT 11, PAR. 12 UST. 6."
+            },
+            {
+              "zawarcieZmianaUmowyStatutu": "07.08.2002 R. REP.A-3819/2002, ANDRZEJ PRZYBYŁA - NOTARIUSZ PROWADZĄCY KANCELARIĘ NOTARIALNĄ W WARSZAWIE,\nZMIENIONO POSTANOWIENIA STATUTU:\nTYTUŁ §6, \n§6 UST.1 I UST.2, §7 UST.3.1, UST.1.15, §12 UST.4 PKT 8, §13 UST.11 PKT 1 I UST.11 PKT 2,\nDODANO NASTĘPUJĄCE POSTANOWIENIA W STATUCIE: §7 UST.1.16"
+            },
+            {
+              "zawarcieZmianaUmowyStatutu": "30 CZERWCA 2004 R. REP.A 6032/2004 NOTARIUSZ ANDRZEJ PRZYBYŁA KANCELARIA NOTARIALNA W WARSZAWIE PRZY UL. WSPÓLNEJ 65 M. 21.\nZMIENIONO § 13 UST. 2; § 13 UST. 3 PKT 1) STATUTU"
+            },
+            {
+              "zawarcieZmianaUmowyStatutu": "17.05.2005 R.,REP. A NR 6657/2005, NOTARIUSZ ANDRZEJ PRZYBYŁA, KANCELARIA NOTARIALNA W WARSZAWIE, PRZY UL. WSPÓLNEJ 65 M 21, ZMIANA § 6 I 7 UST. 1 I 4 STATUTU;\n08.07.2005 R.,REP. A NR6354/2005, NOTARIUSZ PIOTR SOROKA, KANCELARIA NOTARIALNA W WARSZAWIE, PRZY UL. NOWOGRODZKIEJ 51, ZMIANA § 6 STATUTU."
+            },
+            {
+              "zawarcieZmianaUmowyStatutu": "14.11.2006R. REP. A NR 12282/2006 NOTARIUSZ ANDRZEJ PRZYBYŁA KANCELARIA NOTARIALNA W WARSZAWIE UL. WSPÓLNA 65 LOK. 21.\nZMIANA §1,§2,§6,§7,§12,§13,§14,§19\nW §5 DODANO PKT 1.23 STATUTU"
+            },
+            {
+              "zawarcieZmianaUmowyStatutu": "20.03.2007 R. REP. A NR 1274/2007, NOT. ANDRZEJ PRZYBYŁA, KANCELARIA NOTARIALNA W WARSZAWIE PRZY UL.WSPÓLNEJ 65 M.21 - ZMIANA PAR.14 UST.15 STATUTU SPÓŁKI"
+            },
+            {
+              "zawarcieZmianaUmowyStatutu": "23.05.2007 R. REP. A NR 2707/2007, NOTARIUSZ JANUSZ POSŁUSZNY, KANCELARIA NOTARIALNA W RZESZOWIE PRZY UL.LISA KULI 6 - ZMIANA PAR.14 UST.15 STATUTU SPÓŁKI."
+            },
+            {
+              "zawarcieZmianaUmowyStatutu": "AKT NOTARIALNY Z 15.11.2007 R. REP. A NR 6393/2007 SPORZĄDZONY PRZEZ NOTARIUSZA ANDRZEJA PRZYBYŁĘ Z KANCELARII NOTARIALNEJ W WARSZAWIE PRZY UL.WSPÓLNEJ 65 M.21 - ZMIANA PAR.6 I PAR.7 STATUTU SPÓŁKI."
+            },
+            {
+              "zawarcieZmianaUmowyStatutu": "20.02.2008 R. REP. A NR 1290/2008, ASESOR NOTARIALNY MONIKA STRUS-SIODŁOWSKA ZASTĘPCA NOTARIUSZA ANDRZEJA PRZYBYŁY Z KANCELARII NOTARIALNEJ W WARSZAWIE PRZY UL.WSPÓLNEJ 65 M.21 - ZMIANA: PAR.5, PAR.6, PAR.7, PAR.13 UST.2 I 3, PAR.14 UST.2, PAR.19 UST.3 I 4 STATUTU SPÓŁKI"
+            },
+            {
+              "zawarcieZmianaUmowyStatutu": "AKT NOTARIALNY Z DNIA 05.06.2008, REP.A NR 4824/2008,NOTARIUSZ ANDRZEJ PRZYBYŁA PROWADZĄCY KANCELARIĘ W WARSZAWIE\nSKREŚLONO §7 STATUTU"
+            },
+            {
+              "zawarcieZmianaUmowyStatutu": "14.08.2008 R. REP. A NR 7010/2008, NOTARIUSZ ANDRZEJ PRZYBYŁA, KANCELARIA NOTARIALNA W WARSZAWIE PRZY UL.WSPÓLNEJ 65 M.21 - DODANIE PAR.7A STATUTU SPÓŁKI, ZMIANA PAR.9 STATUTU SPÓŁKI"
+            },
+            {
+              "zawarcieZmianaUmowyStatutu": "AKT NOTARIALNY REP. A NR 7010/2008 Z 14.08.2008R SPORZĄDZONY PRZEZ NOTARIUSZA ANDRZEJA PRZYBYŁĘ Z KANCELARII NOTARIALNEJ W WARSZAWIE PRZY UL. WSPÓLNEJ 65 M 21\nZMIANA § 6 STATUTU SPÓŁKI"
+            },
+            {
+              "zawarcieZmianaUmowyStatutu": "15.10.2008 R. REP. A NR 8260/2008, NOTARIUSZ ANDRZEJ PRZYBYŁA, KANCELARIA NOTARIALNA W WARSZAWIE PRZY UL.WSPÓLNEJ 65 M.21 - ZMIANA PAR.6 STATUTU SPÓŁKI"
+            },
+            {
+              "zawarcieZmianaUmowyStatutu": "07.01.2009 R. REP. A NR 141/2009, NOTARIUSZ ANDRZEJ PRZYBYŁA, KANCELARIA NOTARIALNA W WARSZAWIE UL.WSPÓLNA 65 M.21 - ZMIANA: PAR.5, PAR.10 UST.2, PAR.14 UST.15.1 STATUTU SPÓŁKI, SKREŚLENIE: PAR.8, PAR.19 UST.2 STATUTU SPÓŁKI"
+            },
+            {
+              "zawarcieZmianaUmowyStatutu": "PROTOKÓŁ Z WALNEGO ZGROMADZENIA SPÓŁKI ASSECO POLAND S.A. OBJĘTY AKTEM NOTARIALNYM Z DNIA 26.11.2009 R. SPORZĄDZONYM PRZEZ NOTARIUSZA ANDRZEJA PRZYBYŁĘ Z KANCELARII NOTARIALNEJ W WARSZAWIE PRZY UL. WSPÓLNEJ 65 M.21, 00-687 WARSZAWA, REP.A NR 7768/2009 OBEJMUJĄCE ZMIANY PAR.12 UST 2 I 3 STATUTU SPÓŁKI."
+            },
+            {
+              "zawarcieZmianaUmowyStatutu": "20.05.2010 R. REP. A NR 1301/2010, NOTARIUSZ JANUSZ POSŁUSZNY, KANCELARIA NOTARIALNA W RZESZOWIE UL.LISA KULI 6 - ZMIANA PAR.6 UST.1-3"
+            },
+            {
+              "zawarcieZmianaUmowyStatutu": "31.08.2010 R. REP.A 5666/2010 Z KANCELARII NOTARIALNEJ W RZESZOWIE, PRZY UL.LISA KULI 6\nZMIANA PAR.19 UST.1"
+            },
+            {
+              "zawarcieZmianaUmowyStatutu": "ZMIANA PAR.6 UST.1-3 STATUTU SPÓŁKI - AKT NOTARIALNY Z DNIA 16.11.2010 R., REP.A NR 7159/2010 SPORZĄDZONY PRZEZ NOTARIUSZA ANDRZEJA PRZYBYŁĘ Z KANCELARII NOTARIALNEJ W WARSZAWIE, PRZY UL.EMILII PLATER 10 M.7"
+            },
+            {
+              "zawarcieZmianaUmowyStatutu": "ZMIANA PAR.1 UST.1 I 2 STATUTU SPÓŁKI - AKT NOTARIALNY Z DNIA 26.11.2010 R., REP.A NR 7365/2010 SPORZĄDZONY PRZEZ NOTARIUSZA ANDRZEJA PRZYBYŁĘ Z KANCELARII NOTARIALNEJ W WARSZAWIE, PRZY UL.EMILII PLATER 10 M.7"
+            },
+            {
+              "zawarcieZmianaUmowyStatutu": "AKT NOTARIALNY Z 28.04.2011 R., REP.A NR 2202/2011, SPORZADZONY PRZEZ NOTARIUSZA ANDRZEJA PRZYBYŁĘ Z KANCELARII NOTARIALNEJ W WARSZAWIE PRZY UL.EMILII PLATER 10 M.7\nSKREŚLENIE PAR.7 A  STATUTU SPÓŁKI\nSKREŚLENIE PAR.9 UST.6 I 7 STATUTU SPÓŁKI"
+            },
+            {
+              "zawarcieZmianaUmowyStatutu": "AKT NOTARIALNY REP.A NR 4738/2011 Z DNIA 21.09.2011 R. SPORZĄDZONY PRZEZ NOTARIUSZA JANUSZA PRZYBYŁĘ Z KANCELARII NOTARIALNEJ W WARSZAWIE, PRZY AL.JEROZOLIMSKICH 65/79 - ZMIANA PAR.5 STATUTU SPÓŁKI"
+            },
+            {
+              "zawarcieZmianaUmowyStatutu": "AKT NOTARIALNY Z 23.10.2012 R., REP.A - 4369/2012 SPORZĄDZONY PRZEZ NOTARIUSZA ANDRZEJA PRZYBYŁĘ Z KANCELARII NOTARIALNEJ W WARSZAWIE, U.EMILII PLATER 11/7\nZMIANA §13 UST.2 STATUTU SPÓŁKI"
+            },
+            {
+              "zawarcieZmianaUmowyStatutu": "AKT NOTARIALNY Z DNIA 03.12.2012 R. REP. 4814/2012 SPORZĄDZONY PRZEZ NOTARIUSZA ANDRZEJA PRZYBYŁĘ Z KANCELARII NOTARILANEJ W WARSZAWIE PRZY UL. WSPÓLNEJ 65/21, ZMIANA PAR. 6 UST. 1-3 SPÓŁKI."
+            },
+            {
+              "zawarcieZmianaUmowyStatutu": "27.05.2020R., REP. A NR 4068/2020, NOTARIUSZ ANDRZEJ PRZYBYŁA KANCELARIA NOTARIALNA W WARSZAWIE, ZMIANA PAR. 13 UST. 2 STATUTU SPÓŁKI"
+            },
+            {
+              "zawarcieZmianaUmowyStatutu": "25.05.2022R., REP. A - 4149/2022, NOTARIUSZ ANDRZEJ PRZYBYŁA KANCELARIA NOTARIALNA W WARSZAWIE, ZMIANA PAR. 13 UST. 2 STATUTU SPÓŁKI"
+            },
+            {
+              "zawarcieZmianaUmowyStatutu": "14.05.2025 R., REP. A - 2933/2025, NOTARIUSZ ANDRZEJ PRZYBYŁA KANCELARIA NOTARIALNA W WARSZAWIE, ZMIANA § 5 ORAZ § 13 UST.11 PKT (7) STATUTU SPÓŁKI"
+            },
+            {
+              "zawarcieZmianaUmowyStatutu": "04.11.2025 R., REP. A - 7277/2025, NOTARIUSZ ANDRZEJ PRZYBYŁA KANCELARIA NOTARIALNA W WARSZAWIE, ZMIANA § 13 UST. 7 ORAZ DODANIE W § 13 UST. 11 PKT (11) I DODANIE W § 15 UST. 5 STATUTU SPÓŁKI"
+            }
+          ]
+        },
+        "pozostaleInformacje": {
+          "czasNaJakiUtworzonyZostalPodmiot": "NIEOZNACZONY",
+          "czyUmowaStatutPrzyznajeUprawnieniaOsobiste": false,
+          "czyObligatoriuszeMajaPrawoDoUdzialuWZysku": false
+        },
+        "sposobPowstaniaPodmiotu": {
+          "okolicznosciPowstania": "PRZEKSZTAŁCENIE",
+          "opisSposobuPowstaniaInformacjaOUchwale": "PRZEKSZTAŁCENIE SOFTBANK SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ W SOFTBANK SPÓŁKA AKCYJNA, UCHWAŁA NADZWYCZAJNEGO ZGROMADZENIA WSPÓLNIKÓW SPÓŁKI SOFTBANK SP. Z O.O. \nZ DNIA 31.08.1993.,ZGROMADZENIE WSPÓLNIKÓW SPÓŁKI SOFTBANK SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ",
+          "nrDataDecyzjiPrezesaUOKiK": "NA DZIEŃ PRZEKSZTAŁCENIA ZAMIAR NIE PODLEGAŁ ZGŁOSZENIU",
+          "podmioty": [
+            {
+              "nazwa": "SOFTBANK SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ,------",
+              "krajNazwaRejestruEwidencji": "------,RHB",
+              "numerWRejestrzeAlboEwidencji": "17220",
+              "nazwaSaduOrganuProwadzacegoRejestrEwidencje": "SĄD REJONOWY DLA M. ST. WARSZAWY XVI WYDZIAL GOSPODARCZY REJESTROWY",
+              "identyfikator": {}
+            }
+          ]
+        },
+        "kapital": {
+          "wysokoscKapitaluZakladowego": {
+            "wartosc": "83000303,00",
+            "waluta": "PLN"
+          },
+          "wysokoscKapitaluDocelowegoZapasowego": {
+            "wartosc": "0,00",
+            "waluta": "PLN"
+          },
+          "lacznaLiczbaAkcjiUdzialow": "83000303",
+          "wartoscJednejAkcji": {
+            "wartosc": "1,00",
+            "waluta": "PLN"
+          },
+          "czescKapitaluWplaconegoPokrytego": {
+            "wartosc": "83000303,00",
+            "waluta": "PLN"
+          },
+          "wartoscWarunkowegoPodwyzszeniaKapitaluZakladowego": {
+            "wartosc": "0,00",
+            "waluta": "PLN"
+          },
+          "wniesioneAporty": {
+            "okreslenieWartosciUdzialowObjetychZaAport": [
+              {
+                "wartosc": "2827500,00",
+                "waluta": "PLN"
+              },
+              {
+                "wartosc": "3210000,00",
+                "waluta": "PLN"
+              },
+              {
+                "wartosc": "5434773,00",
+                "waluta": "PLN"
+              }
+            ]
+          }
+        },
+        "emisjeAkcji": [
+          {
+            "nazwaSeriiAkcji": "AKCJE SERII A",
+            "liczbaAkcjiWSerii": "15863262",
+            "czyAkcjeUprzywilejowaneLiczbaAkcjiRodzajUprzywilejowania": "AKCJE NIE SĄ UPRZYWILEJOWANE"
+          },
+          {
+            "nazwaSeriiAkcji": "AKCJE SERII B",
+            "liczbaAkcjiWSerii": "3210000",
+            "czyAkcjeUprzywilejowaneLiczbaAkcjiRodzajUprzywilejowania": "AKCJE NIE SĄ UPRZYWILEJOWANE"
+          },
+          {
+            "nazwaSeriiAkcji": "AKCJE SERII C",
+            "liczbaAkcjiWSerii": "17735815",
+            "czyAkcjeUprzywilejowaneLiczbaAkcjiRodzajUprzywilejowania": "AKCJE NIE SĄ UPRZYWILEJOWANE"
+          },
+          {
+            "nazwaSeriiAkcji": "AKCJE SERII R",
+            "liczbaAkcjiWSerii": "30276",
+            "czyAkcjeUprzywilejowaneLiczbaAkcjiRodzajUprzywilejowania": "AKCJE NIE SĄ UPRZYWILEJOWANE"
+          },
+          {
+            "nazwaSeriiAkcji": "D",
+            "liczbaAkcjiWSerii": "295000",
+            "czyAkcjeUprzywilejowaneLiczbaAkcjiRodzajUprzywilejowania": "AKCJE NIE SĄ UPRZYWILEJOWANE"
+          },
+          {
+            "nazwaSeriiAkcji": "AKCJE ZWYKŁE NA OKAZICIELA SERII E",
+            "liczbaAkcjiWSerii": "4644580",
+            "czyAkcjeUprzywilejowaneLiczbaAkcjiRodzajUprzywilejowania": "AKCJE NIE SĄ UPRZYWILEJOWANE"
+          },
+          {
+            "nazwaSeriiAkcji": "AKCJE ZWYKŁE NA OKAZICIELA SERII F",
+            "liczbaAkcjiWSerii": "19846081",
+            "czyAkcjeUprzywilejowaneLiczbaAkcjiRodzajUprzywilejowania": "AKCJE NIE SĄ UPRZYWILEJOWANE"
+          },
+          {
+            "nazwaSeriiAkcji": "AKCJE ZWYKŁE NA OKAZICIELA SERII G",
+            "liczbaAkcjiWSerii": "356515",
+            "czyAkcjeUprzywilejowaneLiczbaAkcjiRodzajUprzywilejowania": "AKCJE NIE SĄ UPRZYWILEJOWANE"
+          },
+          {
+            "nazwaSeriiAkcji": "AKCJE ZWYKŁE NA OKAZICIELA SERII H",
+            "liczbaAkcjiWSerii": "6272550",
+            "czyAkcjeUprzywilejowaneLiczbaAkcjiRodzajUprzywilejowania": "AKCJE NIE SĄ UPRZYWILEJOWANE"
+          },
+          {
+            "nazwaSeriiAkcji": "SERIA I",
+            "liczbaAkcjiWSerii": "3878277",
+            "czyAkcjeUprzywilejowaneLiczbaAkcjiRodzajUprzywilejowania": "AKCJE NIE SĄ UPRZYWILEJOWANE"
+          },
+          {
+            "nazwaSeriiAkcji": "SERIA J",
+            "liczbaAkcjiWSerii": "5433174",
+            "czyAkcjeUprzywilejowaneLiczbaAkcjiRodzajUprzywilejowania": "AKCJE NIE SĄ UPRZYWILEJOWANE"
+          },
+          {
+            "nazwaSeriiAkcji": "SERIA K",
+            "liczbaAkcjiWSerii": "5434773",
+            "czyAkcjeUprzywilejowaneLiczbaAkcjiRodzajUprzywilejowania": "AKCJE NIE SĄ UPRZYWILEJOWANE"
+          }
+        ],
+        "wzmiankaOPodjeciuUchwalyOEmisjachObligacjiZamiennych": {},
+        "wzmiankaOUpowaznieniuDoEmisjiWarrantowSubskrypcyjnych": {
+          "czyZarzadJestUprawnionyDoEmisjiWarrantowSubskrypcyjnych": false
+        }
+      },
+      "dzial2": {
+        "reprezentacja": {
+          "nazwaOrganu": "ZARZĄD",
+          "sposobReprezentacji": "DO REPREZENTOWANIA SPÓŁKI UPOWAŻNIENI SĄ: PREZES ZARZĄDU SAMODZIELNIE, DWAJ WICEPREZESI LUB WICEPREZES DZIAŁAJĄCY ŁĄCZNIE Z INNYM CZŁONKIEM ZARZĄDU LUB WICEPREZES DZIAŁAJĄCY ŁĄCZNIE Z PROKURENTEM.",
+          "sklad": [
+            {
+              "nazwisko": {
+                "nazwiskoICzlon": "G****"
+              },
+              "imiona": {
+                "imie": "A***",
+                "imieDrugie": "T******"
+              },
+              "identyfikator": {
+                "pesel": "5**********"
+              },
+              "funkcjaWOrganie": "PREZES ZARZĄDU",
+              "czyZawieszona": false
+            },
+            {
+              "nazwisko": {
+                "nazwiskoICzlon": "P*******"
+              },
+              "imiona": {
+                "imie": "Z*******"
+              },
+              "identyfikator": {
+                "pesel": "6**********"
+              },
+              "funkcjaWOrganie": "WICEPREZES ZARZĄDU",
+              "czyZawieszona": false
+            },
+            {
+              "nazwisko": {
+                "nazwiskoICzlon": "P****"
+              },
+              "imiona": {
+                "imie": "M****",
+                "imieDrugie": "P****"
+              },
+              "identyfikator": {
+                "pesel": "6**********"
+              },
+              "funkcjaWOrganie": "WICEPREZES ZARZĄDU",
+              "czyZawieszona": false
+            },
+            {
+              "nazwisko": {
+                "nazwiskoICzlon": "G*******"
+              },
+              "imiona": {
+                "imie": "K********",
+                "imieDrugie": "M*****"
+              },
+              "identyfikator": {
+                "pesel": "5**********"
+              },
+              "funkcjaWOrganie": "WICEPREZES ZARZĄDU",
+              "czyZawieszona": false
+            },
+            {
+              "nazwisko": {
+                "nazwiskoICzlon": "D********"
+              },
+              "imiona": {
+                "imie": "A******",
+                "imieDrugie": "W*******"
+              },
+              "identyfikator": {
+                "pesel": "6**********"
+              },
+              "funkcjaWOrganie": "WICEPREZES ZARZĄDU",
+              "czyZawieszona": false
+            },
+            {
+              "nazwisko": {
+                "nazwiskoICzlon": "Ż*******"
+              },
+              "imiona": {
+                "imie": "G*******",
+                "imieDrugie": "B******"
+              },
+              "identyfikator": {
+                "pesel": "7**********"
+              },
+              "funkcjaWOrganie": "WICEPREZES ZARZĄDU",
+              "czyZawieszona": false
+            },
+            {
+              "nazwisko": {
+                "nazwiskoICzlon": "W***"
+              },
+              "imiona": {
+                "imie": "A****"
+              },
+              "identyfikator": {
+                "pesel": "7**********"
+              },
+              "funkcjaWOrganie": "WICEPREZES ZARZĄDU",
+              "czyZawieszona": false
+            },
+            {
+              "nazwisko": {
+                "nazwiskoICzlon": "S**********"
+              },
+              "imiona": {
+                "imie": "S*******"
+              },
+              "identyfikator": {
+                "pesel": "7**********"
+              },
+              "funkcjaWOrganie": "WICEPREZES ZARZĄDU",
+              "czyZawieszona": false
+            },
+            {
+              "nazwisko": {
+                "nazwiskoICzlon": "R*****",
+                "nazwiskoIICzlon": "B******"
+              },
+              "imiona": {
+                "imie": "K*******",
+                "imieDrugie": "M****"
+              },
+              "identyfikator": {
+                "pesel": "8**********"
+              },
+              "funkcjaWOrganie": "WICEPREZES ZARZĄDU",
+              "czyZawieszona": false
+            },
+            {
+              "nazwisko": {
+                "nazwiskoICzlon": "B******"
+              },
+              "imiona": {
+                "imie": "G*******",
+                "imieDrugie": "M*****"
+              },
+              "identyfikator": {
+                "pesel": "7**********"
+              },
+              "funkcjaWOrganie": "WICEPREZES ZARZĄDU",
+              "czyZawieszona": false
+            },
+            {
+              "nazwisko": {
+                "nazwiskoICzlon": "K********"
+              },
+              "imiona": {
+                "imie": "R****",
+                "imieDrugie": "M****"
+              },
+              "identyfikator": {
+                "pesel": "7**********"
+              },
+              "funkcjaWOrganie": "WICEPREZES ZARZĄDU",
+              "czyZawieszona": false
+            },
+            {
+              "nazwisko": {
+                "nazwiskoICzlon": "B*********"
+              },
+              "imiona": {
+                "imie": "T*****"
+              },
+              "identyfikator": {
+                "pesel": "6**********"
+              },
+              "funkcjaWOrganie": "WICEPREZES ZARZĄDU",
+              "czyZawieszona": false
+            }
+          ]
+        },
+        "organNadzoru": [
+          {
+            "nazwa": "RADA NADZORCZA",
+            "sklad": [
+              {
+                "nazwisko": {
+                  "nazwiskoICzlon": "N***"
+                },
+                "imiona": {
+                  "imie": "A***"
+                },
+                "identyfikator": {
+                  "pesel": "5**********"
+                }
+              },
+              {
+                "nazwisko": {
+                  "nazwiskoICzlon": "D***"
+                },
+                "imiona": {
+                  "imie": "J****"
+                },
+                "identyfikator": {
+                  "pesel": "4**********"
+                }
+              },
+              {
+                "nazwisko": {
+                  "nazwiskoICzlon": "B******"
+                },
+                "imiona": {
+                  "imie": "D******",
+                  "imieDrugie": "J*****"
+                },
+                "identyfikator": {
+                  "pesel": "6**********"
+                }
+              },
+              {
+                "nazwisko": {
+                  "nazwiskoICzlon": "G****"
+                },
+                "imiona": {
+                  "imie": "A****",
+                  "imieDrugie": "B*******"
+                },
+                "identyfikator": {
+                  "pesel": "6**********"
+                }
+              },
+              {
+                "nazwisko": {
+                  "nazwiskoICzlon": "C*****"
+                },
+                "imiona": {
+                  "imie": "D******",
+                  "imieDrugie": "A***"
+                },
+                "identyfikator": {
+                  "pesel": "7**********"
+                }
+              },
+              {
+                "nazwisko": {
+                  "nazwiskoICzlon": "C********",
+                  "nazwiskoIICzlon": "C******"
+                },
+                "imiona": {
+                  "imie": "B****",
+                  "imieDrugie": "K********"
+                },
+                "identyfikator": {
+                  "pesel": "6**********"
+                }
+              },
+              {
+                "nazwisko": {
+                  "nazwiskoICzlon": "Z******"
+                },
+                "imiona": {
+                  "imie": "R****"
+                },
+                "identyfikator": {
+                  "dataUrodzenia": "15.08.1973"
+                }
+              },
+              {
+                "nazwisko": {
+                  "nazwiskoICzlon": "S*********"
+                },
+                "imiona": {
+                  "imie": "C**********"
+                },
+                "identyfikator": {
+                  "dataUrodzenia": "17.03.1991"
+                }
+              },
+              {
+                "nazwisko": {
+                  "nazwiskoICzlon": "V*********"
+                },
+                "imiona": {
+                  "imie": "R****"
+                },
+                "identyfikator": {
+                  "dataUrodzenia": "23.01.1973"
+                }
+              }
+            ]
+          }
+        ],
+        "prokurenci": [
+          {
+            "nazwisko": {
+              "nazwiskoICzlon": "G******"
+            },
+            "imiona": {
+              "imie": "A******"
+            },
+            "identyfikator": {
+              "pesel": "6**********"
+            },
+            "rodzajProkury": "PROKURA ŁĄCZNA Z WICEPREZESEM ZARZĄDU"
+          },
+          {
+            "nazwisko": {
+              "nazwiskoICzlon": "B****"
+            },
+            "imiona": {
+              "imie": "R*****",
+              "imieDrugie": "I****"
+            },
+            "identyfikator": {
+              "pesel": "7**********"
+            },
+            "rodzajProkury": "PROKURA ŁĄCZNA Z WICEPREZESEM ZARZĄDU"
+          }
+        ]
+      },
+      "dzial3": {
+        "przedmiotDzialalnosci": {
+          "przedmiotPrzewazajacejDzialalnosci": [
+            {
+              "opis": "POZOSTAŁA DZIAŁALNOŚĆ W ZAKRESIE PROGRAMOWANIA",
+              "kodDzial": "62",
+              "kodKlasa": "10",
+              "kodPodklasa": "B"
+            }
+          ],
+          "przedmiotPozostalejDzialalnosci": [
+            {
+              "opis": "SPRZEDAŻ HURTOWA URZĄDZEŃ TECHNOLOGII INFORMACYJNEJ I KOMUNIKACYJNEJ",
+              "kodDzial": "46",
+              "kodKlasa": "50",
+              "kodPodklasa": "Z"
+            },
+            {
+              "opis": "POZOSTAŁA DZIAŁALNOŚĆ ZWIĄZANA Z DYSTRYBUCJĄ TREŚCI",
+              "kodDzial": "60",
+              "kodKlasa": "39",
+              "kodPodklasa": "Z"
+            },
+            {
+              "opis": "DZIAŁALNOŚĆ W ZAKRESIE WYMIANY RUCHU INTERNETOWEGO",
+              "kodDzial": "61",
+              "kodKlasa": "10",
+              "kodPodklasa": "A"
+            },
+            {
+              "opis": "POZOSTAŁA DZIAŁALNOŚĆ W ZAKRESIE TELEKOMUNIKACJI PRZEWODOWEJ, BEZPRZEWODOWEJ I SATELITARNEJ",
+              "kodDzial": "61",
+              "kodKlasa": "10",
+              "kodPodklasa": "B"
+            },
+            {
+              "opis": "DZIAŁALNOŚĆ W ZAKRESIE CYBERBEZPIECZEŃSTWA",
+              "kodDzial": "62",
+              "kodKlasa": "20",
+              "kodPodklasa": "A"
+            },
+            {
+              "opis": "POZOSTAŁA DZIAŁALNOŚĆ ZWIĄZANA Z DORADZTWEM W ZAKRESIE INFORMATYKI ORAZ ZARZĄDZANIEM URZĄDZENIAMI INFORMATYCZNYMI",
+              "kodDzial": "62",
+              "kodKlasa": "20",
+              "kodPodklasa": "B"
+            },
+            {
+              "opis": "DZIAŁALNOŚĆ W ZAKRESIE KOLOKACJI CENTRÓW DANYCH ORAZ PRZETWARZANIA W CHMURZE",
+              "kodDzial": "63",
+              "kodKlasa": "10",
+              "kodPodklasa": "A"
+            },
+            {
+              "opis": "DZIAŁALNOŚĆ USŁUGOWA W ZAKRESIE DNS",
+              "kodDzial": "63",
+              "kodKlasa": "10",
+              "kodPodklasa": "B"
+            },
+            {
+              "opis": "POZOSTAŁA DZIAŁALNOŚĆ USŁUGOWA W ZAKRESIE INFRASTRUKTURY OBLICZENIOWEJ, PRZETWARZANIA DANYCH, ZARZĄDZANIA STRONAMI INTERNETOWYMI (HOSTING) I DZIAŁALNOŚCI POWIĄZANE",
+              "kodDzial": "63",
+              "kodKlasa": "10",
+              "kodPodklasa": "D"
+            }
+          ]
+        },
+        "wzmiankiOZlozonychDokumentach": {
+          "wzmiankaOZlozeniuRocznegoSprawozdaniaFinansowego": [
+            {
+              "dataZlozenia": "01.06.2001",
+              "zaOkresOdDo": "ROK OBROTOWY 2000"
+            },
+            {
+              "dataZlozenia": "04.09.2001",
+              "zaOkresOdDo": "ZA OKRES 2000-01-01 DO 2000-12-31, ZŁOŻONO DNIA"
+            },
+            {
+              "dataZlozenia": "26.03.2002",
+              "zaOkresOdDo": "01.01.2001 R. - 31.12.2001 R."
+            },
+            {
+              "dataZlozenia": "19.08.2002",
+              "zaOkresOdDo": "01.01.2001 - 31.12.2001"
+            },
+            {
+              "dataZlozenia": "30.06.2003",
+              "zaOkresOdDo": "01.01.2002 - 31.12.2002"
+            },
+            {
+              "dataZlozenia": "02.07.2004",
+              "zaOkresOdDo": "01.01.2003 R. - 31.12.2003 R."
+            },
+            {
+              "dataZlozenia": "10.05.2005",
+              "zaOkresOdDo": "2004.01.01. DO 2004.12.31"
+            },
+            {
+              "dataZlozenia": "14.06.2006",
+              "zaOkresOdDo": "01.01.2005 - 31.12.2005"
+            },
+            {
+              "dataZlozenia": "31.05.2007",
+              "zaOkresOdDo": "01.01.2006 - 31.12.2006"
+            },
+            {
+              "dataZlozenia": "09.07.2008",
+              "zaOkresOdDo": "01.01.2007 - 31.12.2007"
+            },
+            {
+              "dataZlozenia": "10.06.2009",
+              "zaOkresOdDo": "01.01.2008 - 31.12.2008"
+            },
+            {
+              "dataZlozenia": "26.05.2010",
+              "zaOkresOdDo": "01.01.2009 - 31.12.2009"
+            },
+            {
+              "dataZlozenia": "17.05.2011",
+              "zaOkresOdDo": "2010 R."
+            },
+            {
+              "dataZlozenia": "31.05.2012",
+              "zaOkresOdDo": "01.01.2011 R. - 31.12.2011 R."
+            },
+            {
+              "dataZlozenia": "07.05.2013",
+              "zaOkresOdDo": "01.01.2012 R. - 31.12.2012 R."
+            },
+            {
+              "dataZlozenia": "06.06.2014",
+              "zaOkresOdDo": "OD 01.01.2013 DO 31.12.2013"
+            },
+            {
+              "dataZlozenia": "19.05.2015",
+              "zaOkresOdDo": "OD 01.01.2014 DO 31.12.2014"
+            },
+            {
+              "dataZlozenia": "10.05.2016",
+              "zaOkresOdDo": "OD 01.01.2015 DO 31.12.2015"
+            },
+            {
+              "dataZlozenia": "07.04.2017",
+              "zaOkresOdDo": "OD 01.01.2016 DO 31.12.2016"
+            },
+            {
+              "dataZlozenia": "26.08.2019",
+              "zaOkresOdDo": "OD 01.01.2018 DO 31.12.2018"
+            },
+            {
+              "dataZlozenia": "26.07.2018",
+              "zaOkresOdDo": "OD 01.01.2017 DO 31.12.2017"
+            },
+            {
+              "dataZlozenia": "02.06.2020",
+              "zaOkresOdDo": "OD 01.01.2019 DO 31.12.2019"
+            },
+            {
+              "dataZlozenia": "13.07.2021",
+              "zaOkresOdDo": "OD 01.01.2020 DO 31.12.2020"
+            },
+            {
+              "dataZlozenia": "17.06.2022",
+              "zaOkresOdDo": "OD 01.01.2021 DO 31.12.2021"
+            },
+            {
+              "dataZlozenia": "26.07.2023",
+              "zaOkresOdDo": "OD 01.01.2022 DO 31.12.2022"
+            },
+            {
+              "dataZlozenia": "23.07.2024",
+              "zaOkresOdDo": "OD 01.01.2023 DO 31.12.2023"
+            },
+            {
+              "dataZlozenia": "25.06.2025",
+              "zaOkresOdDo": "OD 01.01.2024 DO 31.12.2024"
+            }
+          ],
+          "wzmiankaOZlozeniuOpiniiBieglegoRewidentaSprawozdaniaZBadania": [
+            {
+              "zaOkresOdDo": "ROK OBROTOWY 2000"
+            },
+            {
+              "zaOkresOdDo": "ZA OKRES 2000-01-01 DO 2000-12-31"
+            },
+            {
+              "zaOkresOdDo": "01.01.2001 R. - 31.12.2001 R."
+            },
+            {
+              "zaOkresOdDo": "01.01.2001 - 31.12.2001"
+            },
+            {
+              "zaOkresOdDo": "01.01.2002 - 31.12.2002"
+            },
+            {
+              "zaOkresOdDo": "01.01.2003 R. - 31.12.2003 R."
+            },
+            {
+              "zaOkresOdDo": "2004.01.01. DO 2004.12.31"
+            },
+            {
+              "zaOkresOdDo": "01.01.2005 - 31.12.2005"
+            },
+            {
+              "zaOkresOdDo": "01.01.2006 - 31.12.2006"
+            },
+            {
+              "zaOkresOdDo": "01.01.2007 - 31.12.2007"
+            },
+            {
+              "zaOkresOdDo": "01.01.2008 - 31.12.2008"
+            },
+            {
+              "zaOkresOdDo": "01.01.2009 - 31.12.2009"
+            },
+            {
+              "zaOkresOdDo": "2010 R."
+            },
+            {
+              "zaOkresOdDo": "01.01.2011 R. - 31.12.2011 R."
+            },
+            {
+              "zaOkresOdDo": "01.01.2012 R. - 31.12.2012 R."
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2013 DO 31.12.2013"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2014 DO 31.12.2014"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2015 DO 31.12.2015"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2016 DO 31.12.2016"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2018 DO 31.12.2018"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2017 DO 31.12.2017"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2019 DO 31.12.2019"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2020 DO 31.12.2020"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2021 DO 31.12.2021"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2022 DO 31.12.2022"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2023 DO 31.12.2023"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2024 DO 31.12.2024"
+            }
+          ],
+          "wzmiankaOZlozeniuUchwalyPostanowieniaOZatwierdzeniuRocznegoSprawozdaniaFinansowego": [
+            {
+              "zaOkresOdDo": "ROK OBROTOWY 2000"
+            },
+            {
+              "zaOkresOdDo": "ZA OKRES 2000-01-01 DO 2000-12-31, UCHWAŁA Z DNIA 30.08.2001"
+            },
+            {
+              "zaOkresOdDo": "01.01.2001 R. - 31.12.2001 R."
+            },
+            {
+              "zaOkresOdDo": "01.01.2001 - 31.12.2001"
+            },
+            {
+              "zaOkresOdDo": "01.01.2002 - 31.12.2002"
+            },
+            {
+              "zaOkresOdDo": "01.01.2003 R. - 31.12.2003 R."
+            },
+            {
+              "zaOkresOdDo": "2004.01.01. DO 2004.12.31"
+            },
+            {
+              "zaOkresOdDo": "01.01.2005 - 31.12.2005"
+            },
+            {
+              "zaOkresOdDo": "01.01.2006 - 31.12.2006"
+            },
+            {
+              "zaOkresOdDo": "01.01.2007 - 31.12.2007"
+            },
+            {
+              "zaOkresOdDo": "01.01.2008 - 31.12.2008"
+            },
+            {
+              "zaOkresOdDo": "01.01.2009 - 31.12.2009"
+            },
+            {
+              "zaOkresOdDo": "2010 R."
+            },
+            {
+              "zaOkresOdDo": "01.01.2011 R. - 31.12.2011 R."
+            },
+            {
+              "zaOkresOdDo": "01.01.2012 R. - 31.12.2012 R."
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2013 DO 31.12.2013"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2014 DO 31.12.2014"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2015 DO 31.12.2015"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2016 DO 31.12.2016"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2018 DO 31.12.2018"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2017 DO 31.12.2017"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2019 DO 31.12.2019"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2020 DO 31.12.2020"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2021 DO 31.12.2021"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2022 DO 31.12.2022"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2023 DO 31.12.2023"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2024 DO 31.12.2024"
+            }
+          ],
+          "wzmiankaOZlozeniuSprawozdaniaZDzialalnosci": [
+            {
+              "zaOkresOdDo": "ROK OBROTOWY 2000"
+            },
+            {
+              "zaOkresOdDo": "ZA OKRES 2000-01-01 DO 2000-12-31"
+            },
+            {
+              "zaOkresOdDo": "01.01.2001 R. - 31.12.2001 R."
+            },
+            {
+              "zaOkresOdDo": "01.01.2001 - 31.12.2001"
+            },
+            {
+              "zaOkresOdDo": "01.01.2002 - 31.12.2002"
+            },
+            {
+              "zaOkresOdDo": "01.01.2003 R. - 31.12.2003 R."
+            },
+            {
+              "zaOkresOdDo": "2004.01.01. DO 2004.12.31"
+            },
+            {
+              "zaOkresOdDo": "01.01.2005 - 31.12.2005"
+            },
+            {
+              "zaOkresOdDo": "01.01.2006 - 31.12.2006"
+            },
+            {
+              "zaOkresOdDo": "01.01.2007 - 31.12.2007"
+            },
+            {
+              "zaOkresOdDo": "01.01.2008 - 31.12.2008"
+            },
+            {
+              "zaOkresOdDo": "01.01.2009 - 31.12.2009"
+            },
+            {
+              "zaOkresOdDo": "2010 R."
+            },
+            {
+              "zaOkresOdDo": "01.01.2011 R. - 31.12.2011 R."
+            },
+            {
+              "zaOkresOdDo": "01.01.2012 R. - 31.12.2012 R."
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2013 DO 31.12.2013"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2014 DO 31.12.2014"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2015 DO 31.12.2015"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2016 DO 31.12.2016"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2018 DO 31.12.2018"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2017 DO 31.12.2017"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2019 DO 31.12.2019"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2020 DO 31.12.2020"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2021 DO 31.12.2021"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2022 DO 31.12.2022"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2023 DO 31.12.2023"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2024 DO 31.12.2024"
+            }
+          ],
+          "wzmiankaOZlozeniuSprawozdaniaZAtestacjiSprawozdawczosciZrownowazonegoRozwoju": [
+            {
+              "zaOkresOdDo": "OD 01.01.2024 DO 31.12.2024"
+            }
+          ]
+        },
+        "sprawozdaniaGrupyKapitalowej": {
+          "wzmiankaOZlozeniuSkonsolidowanegoRocznegoSprawozdaniaFinansowego": [
+            {
+              "dataZlozenia": "31.05.2007",
+              "zaOkresOdDo": "01.01.2006 - 31.12.2006"
+            },
+            {
+              "dataZlozenia": "09.07.2008",
+              "zaOkresOdDo": "01.01.2007 - 31.12.2007"
+            },
+            {
+              "dataZlozenia": "10.06.2009",
+              "zaOkresOdDo": "01.01.2008 - 31.12.2008"
+            },
+            {
+              "dataZlozenia": "26.05.2010",
+              "zaOkresOdDo": "01.01.2009 - 31.12.2009"
+            },
+            {
+              "dataZlozenia": "17.05.2011",
+              "zaOkresOdDo": "2010 R."
+            },
+            {
+              "dataZlozenia": "31.05.2012",
+              "zaOkresOdDo": "01.01.2011 R. - 31.12.2011 R."
+            },
+            {
+              "dataZlozenia": "07.05.2013",
+              "zaOkresOdDo": "01.01.2012 R. - 31.12.2012 R."
+            },
+            {
+              "dataZlozenia": "06.06.2014",
+              "zaOkresOdDo": "OD 01.01.2013 DO 31.12.2013"
+            },
+            {
+              "dataZlozenia": "19.05.2015",
+              "zaOkresOdDo": "OD 01.01.2014 DO 31.12.2014"
+            },
+            {
+              "dataZlozenia": "10.05.2016",
+              "zaOkresOdDo": "OD 01.01.2015 DO 31.12.2015"
+            },
+            {
+              "dataZlozenia": "26.07.2018",
+              "zaOkresOdDo": "OD 01.01.2017 DO 31.12.2017"
+            },
+            {
+              "dataZlozenia": "26.08.2019",
+              "zaOkresOdDo": "OD 01.01.2018 DO 31.12.2018"
+            },
+            {
+              "dataZlozenia": "02.06.2020",
+              "zaOkresOdDo": "OD 01.01.2019 DO 31.12.2019"
+            },
+            {
+              "dataZlozenia": "13.07.2021",
+              "zaOkresOdDo": "OD 01.01.2020 DO 31.12.2020"
+            },
+            {
+              "dataZlozenia": "17.06.2022",
+              "zaOkresOdDo": "OD 01.01.2021 DO 31.12.2021"
+            },
+            {
+              "dataZlozenia": "26.07.2023",
+              "zaOkresOdDo": "OD 01.01.2022 DO 31.12.2022"
+            },
+            {
+              "dataZlozenia": "23.07.2024",
+              "zaOkresOdDo": "OD 01.01.2023 DO 31.12.2023"
+            },
+            {
+              "dataZlozenia": "25.06.2025",
+              "zaOkresOdDo": "OD 01.01.2024 DO 31.12.2024"
+            }
+          ],
+          "wzmiankaOZlozeniuOpiniiBieglegoRewidentaSprawozdaniaZBadania": [
+            {
+              "zaOkresOdDo": "01.01.2006 - 31.12.2006"
+            },
+            {
+              "zaOkresOdDo": "01.01.2007 - 31.12.2007"
+            },
+            {
+              "zaOkresOdDo": "01.01.2008 - 31.12.2008"
+            },
+            {
+              "zaOkresOdDo": "01.01.2009 - 31.12.2009"
+            },
+            {
+              "zaOkresOdDo": "2010 R."
+            },
+            {
+              "zaOkresOdDo": "01.01.2011 R. - 31.12.2011 R."
+            },
+            {
+              "zaOkresOdDo": "01.01.2012 R. - 31.12.2012 R."
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2013 DO 31.12.2013"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2014 DO 31.12.2014"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2015 DO 31.12.2015"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2017 DO 31.12.2017"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2018 DO 31.12.2018"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2019 DO 31.12.2019"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2020 DO 31.12.2020"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2021 DO 31.12.2021"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2022 DO 31.12.2022"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2023 DO 31.12.2023"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2024 DO 31.12.2024"
+            }
+          ],
+          "wzmiankaOZlozeniuUchwalyPostanowieniaOZatwierdzeniuSkonsolidowanegoRocznegoSprawozdaniaFinansowego": [
+            {
+              "zaOkresOdDo": "01.01.2006 - 31.12.2006"
+            },
+            {
+              "zaOkresOdDo": "01.01.2007 - 31.12.2007"
+            },
+            {
+              "zaOkresOdDo": "01.01.2008 - 31.12.2008"
+            },
+            {
+              "zaOkresOdDo": "01.01.2009 - 31.12.2009"
+            },
+            {
+              "zaOkresOdDo": "2010 R."
+            },
+            {
+              "zaOkresOdDo": "01.01.2011 R. - 31.12.2011 R."
+            },
+            {
+              "zaOkresOdDo": "01.01.2012 R. - 31.12.2012 R."
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2013 DO 31.12.2013"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2014 DO 31.12.2014"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2015 DO 31.12.2015"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2017 DO 31.12.2017"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2018 DO 31.12.2018"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2019 DO 31.12.2019"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2020 DO 31.12.2020"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2021 DO 31.12.2021"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2022 DO 31.12.2022"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2023 DO 31.12.2023"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2024 DO 31.12.2024"
+            }
+          ],
+          "wzmiankaOZlozeniuSprawozdaniaZDzialalnosciGrupyKapitalowejSpolkiDominujacejLacznie": [
+            {
+              "zaOkresOdDo": "01.01.2006 - 31.12.2006"
+            },
+            {
+              "zaOkresOdDo": "01.01.2007 - 31.12.2007"
+            },
+            {
+              "zaOkresOdDo": "01.01.2008 - 31.12.2008"
+            },
+            {
+              "zaOkresOdDo": "01.01.2009 - 31.12.2009"
+            },
+            {
+              "zaOkresOdDo": "2010 R."
+            },
+            {
+              "zaOkresOdDo": "01.01.2011 R. - 31.12.2011 R."
+            },
+            {
+              "zaOkresOdDo": "01.01.2012 R. - 31.12.2012 R."
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2013 DO 31.12.2013"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2014 DO 31.12.2014"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2015 DO 31.12.2015"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2017 DO 31.12.2017"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2018 DO 31.12.2018"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2019 DO 31.12.2019"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2020 DO 31.12.2020"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2021 DO 31.12.2021"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2022 DO 31.12.2022"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2023 DO 31.12.2023"
+            }
+          ],
+          "wzmiankaOZlozeniuSprawozdaniaZDzialalnosciGrupyKapitalowej": [
+            {
+              "zaOkresOdDo": "OD 01.01.2024 DO 31.12.2024"
+            }
+          ]
+        },
+        "informacjaODniuKonczacymRokObrotowy": {
+          "dzienKonczacyPierwszyRokObrotowy": "31.12.2000"
+        }
+      },
+      "dzial4": {},
+      "dzial5": {},
+      "dzial6": {
+        "polaczeniePodzialPrzeksztalcenie": [
+          {
+            "okreslenieOkolicznosci": "PRZEJĘCIE INNEJ SPÓŁKI",
+            "opisPolaczeniaPodzialuPrzeksztalcenia": "POŁĄCZENIE NASTĄPIŁO NA PODSTAWIE ART. 492 § 1 PKT 1 KSH POPRZEZ PRZENIESIENIE CAŁEGO MAJĄTKU SPÓŁKI ASSECO POLAND S.A. NA SPÓŁKĘ SOFTBANK S.A.\nUCHWAŁA NWZA NR 3 W SPRAWIE POŁĄCZENIA SPÓŁKI SOFTBANK S.A. ZE SPÓŁKĄ ASSECO POLAND S.A. ZOSTAŁA PODJĘTA W DNIU 14 LISTOPADA 2006 R.",
+            "podmiotyPowstalePrzejmujace": [
+              {
+                "nazwa": "ASSECO POLAND SPÓŁKA AKCYJNA,------",
+                "krajNazwaRejestru": "------,",
+                "identyfikator": {
+                  "regon": "69033682000000"
+                }
+              }
+            ]
+          },
+          {
+            "okreslenieOkolicznosci": "PRZEJĘCIE INNEJ SPÓŁKI",
+            "opisPolaczeniaPodzialuPrzeksztalcenia": "PROCES POŁĄCZENIA SPÓŁKI ASSECO POLAND S.A. Z SIEDZIBĄ W RZESZOWIE I SPÓŁKI PROKOM SOFTWARE S.A. Z SIEDZIBĄ W WARSZAWIE W DRODZE PRZEJĘCIA SPÓŁKI PROKOM SOFTWARE S.A. (SPÓŁKA PRZEJMOWANA) PRZEZ SPÓŁKĘ ASSECO POLAND S.A (SPÓŁKA PRZEJMUJĄCA) NA PODSTAWIE ART.492 PAR.1 PKT 1 KSH, TJ. PRZEZ PRZENIESIENIE CAŁEGO MAJĄTKU PROKOM NA ASSECO W ZAMIAN ZA AKCJE NOWEJ EMISJI, KTÓRE ASSECO PRZYZNA AKCJONARIUSZOM PROKOM.\nUCHWAŁA NR 6 NADZWYCZAJNEGO WALNEGO ZGROMADZENIA SPÓŁKI ASSECO POLAND S.A. W SPRAWIE POŁĄCZENIA SPÓŁKI POD FIRMĄ \"ASSECO POLAND\" SPÓŁKA AKCYJNA ZE SPÓŁKĄ POD FIRMĄ PROKOM SOFTWARE SPÓŁKA AKCYJNA ORAZ ZMIANY STATUTU SPÓŁKI POD FIRMĄ \"ASSECO POLAND\" SPÓŁKA AKCYJNA Z DNIA 20.02.2008 R.\nAKT NOTARIALNY REP. A NR 1290/2008 Z 20.02.2008 R. SPORZĄDZONY PRZEZ ASESORA NOTARIALNEGO MONIKĘ STRUS-SIODŁOWSKĄ ZASTĘPCĘ NOTARIUSZA ANDRZEJA PRZYBYŁY Z KANCELARII NOTARIALNEJ W WARSZAWIE PRZY UL.WSPÓLNEJ 65 M.21.\nUCHWAŁA NR 4 NADZWYCZAJNEGO WALNEGO ZGROMADZENIA PROKOM SOFTWARE S.A. W SPRAWIE POŁĄCZENIA SPÓŁKI \"PROKOM SOFTWARE S.A. Z SIEDZIBĄ W WARSZAWIE ZE SPÓŁKĄ ASSECO POLAND S.A. Z SIEDZIBĄ W RZESZOWIE ORAZ W SPRAWIE WYRAŻENIA ZGODY NA ZMIANĘ STATUTU ASSECO POLAND S.A. Z DNIA 20.02.2008 R. \nAKT NOTARIALNY REP. A NR 1733/2008 Z 20.02.2008 R. SPORZĄDZONY PRZEZ NOTARIUSZA HANNĘ WAROŃSKĄ Z KANCELARII NOTARIALNEJ W GDYNI PRZY PLACU KASZUBSKIM 8/209.",
+            "podmiotyPrzejmowane": [
+              {
+                "nazwa": "PROKOM SOFTWARE SPÓŁKA AKCYJNA,------",
+                "krajNazwaRejestru": "------,",
+                "identyfikator": {
+                  "regon": "01264252200000"
+                }
+              }
+            ]
+          },
+          {
+            "okreslenieOkolicznosci": "PRZEJĘCIE INNEJ SPÓŁKI",
+            "opisPolaczeniaPodzialuPrzeksztalcenia": "PROCES POŁĄCZENIA SPÓŁKI ASSECO POLAND S.A. Z SIEDZIBĄ W RZESZOWIE I SPÓŁKI ABG  S.A. Z SIEDZIBĄ W WARSZAWIE W DRODZE PRZEJĘCIA SPÓŁKI ABG S.A.(SPÓŁKA PRZEJMOWANA) PRZEZ SPÓŁKĘ ASSECO POLAND S.A. (SPÓŁKA PRZEJMUJĄCA) NA PODSTAWIE ART.492 §1 PKT 1. KSH)TJ. PRZEZ PRZENIESIENIE CAŁEGO MAJĄTKU ABG NA ASSECO W ZAMIAN ZA AKCJE NOWEJ EMISJI, KTÓRE ASSECO PRZYZNA AKCJONARIUSZOM ABG.\nUCHWAŁA NR 4 NADZWYCZAJNEGO WALNEGO ZGROMADZENIA SPÓŁKI ASSECO POLAND S.A. Z DNIA 14.08.2008R W SPRAWIE POŁĄCZENIA SPÓŁKI ASSECO POLAND S.A. ZE SPÓŁKĄ ABG S.A. ORAZ ZMIANY STATUTU ASSECO POLAND S.A.  AKT NOTARIALNY REP.A NR 7010/2008 Z 14.08.2008R SPORZĄDZONY PRZEZ NOTARIUSZA ANDRZEJA PRZYBYŁĘ Z KANCELARII NOTARIALNEJ W WARSZAWIE PRZY UL.WSPÓLNEJ 65 M 21 W WARSZAWIE.\nUCHWAŁA NR 3/2008 NADZWYCZAJNEGO WALNEGO ZGROMADZENIA ABG S.A. Z DNIA 14.08.2008R W SPRAWIE POŁĄCZENIA SPÓŁKI ABG S.A. ZE SPÓŁKĄ ASSECO POLAND S.A. ORAZ W SPRAWIE WYRAŻENIA ZGODY NA ZMIANĘ STATUTU SPÓŁKI ASSECO POLAND S.A.\nAKT NOTARIALNY REP.A NR 4943/2008 Z 14.08.2008R SPORZĄDZONY PRZEZ NOTARIUSZA JOANNĘ DECZKOWSKĄ Z KANCELARII NOTARIALNEJ W WARSZAWIE PRZY UL. FILTROWEJ 68 LOK.3 W WARSZAWIE.",
+            "podmiotyPrzejmowane": [
+              {
+                "nazwa": "ABG SPÓŁKA AKCYJNA,------",
+                "krajNazwaRejestru": "------,",
+                "identyfikator": {
+                  "regon": "01266124100000"
+                }
+              }
+            ]
+          },
+          {
+            "okreslenieOkolicznosci": "PRZEJĘCIE INNEJ SPÓŁKI",
+            "opisPolaczeniaPodzialuPrzeksztalcenia": "PROCES POŁĄCZENIA SPÓŁKI ASSECO POLAND S.A. (SPÓŁKA PRZEJMUJĄCA) Z SIEDZIBĄ W RZESZOWIE ZE SPÓŁKĄ SYSTEMY INFORMACYJNE KAPITAŁ S.A. (SPÓŁKA PRZEJMOWANA) Z SIEDZIBĄ W GDAŃSKU W TRYBIE ART.429 PAR.1 PKT 1 KSH, TJ. PRZEZ PRZENIESIENIE CAŁEGO MAJĄTKU SPÓŁKI SYSTEMY INFORMACYJNE KAPITAŁ S.A. NA SPÓŁKĘ ASSECO POLAND S.A. W ZWIĄZKU Z POSIADANIEM PRZEZ SPÓŁKĘ PRZEJMUJĄCĄ S.A. 100% AKCJI SPÓŁKI PRZEJMOWANEJ, POŁĄCZENIE ZGODNIE Z ART.515 PAR.1 ORAZ 516 PAR.6 KSH.\nUCHWAŁA NR 5 NWZ SPÓŁKI POD FIRMĄ \"ASSECO POLAND\" SPÓŁKA AKCYJNA, W SPRAWIE POŁĄCZENIA SPÓŁKI ASSECO POLAND S.A. ZE SPÓŁKĄ SI KAPITAŁ S.A. Z DNIA 7.01.2009 R. \nAKT NOTARIALNY REP. A NR 141/2009 SPORZĄDZONY PRZEZ NOTARIUSZA ANDRZEJA PRZYBYŁĘ Z KANCELARII NOTARIALNEJ PRZY UL.WSPÓLNEJ 65 M.21 W WARSZAWIE\nUCHWAŁA NR 1 NWZ SPÓŁKI POD FIRMĄ \"SYSTEMY INFORMACYJNE KAPITAŁ\" SPÓŁKA AKCYJNA W SPRAWIE POŁĄCZENIA SPÓŁKI SI KAPITAŁ Z SIEDZIBĄ W GDAŃSKU ZE SPÓŁKĄ ASSECO POLAND S.A. Z DNIA 7.01.2009 R.\nAKT NOTARIALNY REP. A NR 148/2009 SPORZĄDZONY PRZEZ NOTARIUSZA ANDRZEJA PRZYBYŁĘ Z KANCELARII NOTARIALNEJ PRZY UL.WSPÓLNEJ 65 M.21 W WARSZAWIE",
+            "podmiotyPrzejmowane": [
+              {
+                "nazwa": "\"SYSTEMY INFORMACYJNE KAPITAŁ\" SPÓŁKA AKCYJNA,------",
+                "krajNazwaRejestru": "------,",
+                "identyfikator": {
+                  "regon": "19120395300000"
+                }
+              }
+            ]
+          },
+          {
+            "okreslenieOkolicznosci": "PRZEJĘCIE INNEJ SPÓŁKI",
+            "opisPolaczeniaPodzialuPrzeksztalcenia": "PROCES POŁĄCZENIA SPÓŁKI ASSECO POLAND S.A. Z SIEDZIBĄ W RZESZOWIE I SPÓŁKI ABG S.A. Z SIEDZIBĄ W WARSZAWIE W TRYBIE ART.492 PAR.1 PKT 1 KSH, TJ. PRZEZ PRZENIESIENIE CAŁEGO MAJĄTKU ABG S.A. (SPÓŁKA PRZEJMOWANA) NA ASSECO POLAND S.A. (SPÓŁKA PRZEJMUJĄCA). W WYNIKU POŁĄCZENIA ABG ZOSTANIE ROZWIĄZANE BEZ PRZEPROWADZENIA LIKWIDACJI. W ZWIĄZKU Z TYM, ŻE JEDYNYM AKCJONARIUSZEM SPÓŁKI ABG UPRAWNIONYM DO WSZYSTKICH 37.355.564 AKCJI O WARTOŚCI NOMINALNEJ 1 (JEDEN) ZŁOTY KAŻDA, REPREZENTUJĄCYCH 100% KAPITAŁU ZAKŁADOWEGO SPÓŁKI ABG S.A. JEST ASSECO POLAND S.A., POŁĄCZENIE ZOSTANIE DOKONANE ZGODNIE Z ART.515 PAR.1 ORAZ 516 PAR.6 KSH TJ. BEZ PODWYŻSZENIA KAPITAŁU ZAKŁADOWEGO SPÓŁKI ASSECO POLAND S.A. ORAZ BEZ WYMIANY AKCJI SPÓŁKI ABG S.A. NA AKCJE W KAPITALE ZAKŁADOWYM ASSECO POLAND S.A.\nUCHWAŁA NR 4 WALNEGO ZGROMADZENIA ASSECO POLAND S.A. Z DNIA 26.11.2009 R. OBJĘTA AKTEM NOTARIALNYM REP. A NR 7768/2009\nUCHWAŁA NR 1/2009 WALNEGO ZGROMADZENIA ABG S.A. Z DNIA 4.12.2009 R. OBJĘTA AKTEM NOTARIALNYM REP. A NR 1691/2009"
+          },
+          {
+            "okreslenieOkolicznosci": "PRZEJĘCIE INNEJ SPÓŁKI",
+            "opisPolaczeniaPodzialuPrzeksztalcenia": "POŁĄCZENIE SPÓŁEK W TRYBIE ART.492 PAR.1 UST.1 W ZWIĄZKU Z ART.515 PAR.1 KSH, PRZEZ PRZENIESIENIE CAŁEGO MAJĄTKU SPÓŁKI PRZEJMOWANEJ - ABG S.A., NA SPÓŁKĘ PRZEJMUJĄCĄ - ASSECO POLAND S.A., BEZ PODWYŻSZENIA KAPITAŁU ZAKŁADOWEGO SPÓŁKI PRZEJMUJĄCEJ WOBEC TEGO, ŻE SPÓŁKA PRZEJMUJĄCA POSIADA 100% AKCJI SPÓŁKI PRZEJMOWANEJ. UCHWAŁA NADZWYCZAJNEGO WALNEGO ZGROMADZENIA ASSECO POLAND S.A. Z DNIA 26.11.2009 R., KANCELARIA NOTARIALNA ANDRZEJ PRZYBYŁA W WARSZAWIE, (REP.A NR 7768/2009) NR 4.\nUCHWAŁA NADZWYCZAJNEGO WALNEGO ZGROMADZENIA ABG S.A. W WARSZAWIE Z DNIA 04.12.2009 R. , KANCELARIA NOTARIALNA KRZYSZTOF ŁASKI, JOANNA DECZKOWSKA, NOTARIUSZ JOANNA DECZKOWSKA W WARSZAWIE, (REP.A NR 1691/2009) NR 1/2009.",
+            "podmiotyPrzejmowane": [
+              {
+                "nazwa": "ABG SPÓŁKA AKCYJNA,------",
+                "krajNazwaRejestru": "------,",
+                "identyfikator": {
+                  "regon": "35017679400000"
+                }
+              }
+            ]
+          },
+          {
+            "okreslenieOkolicznosci": "PRZEJĘCIE INNEJ SPÓŁKI",
+            "opisPolaczeniaPodzialuPrzeksztalcenia": "PROCES POŁĄCZENIA SP.ASSECO POLAND S.A.(SP.PRZEJMUJĄCA)W RZESZOWIE ZE SP. ASSECO SYSTEMS S.A.(SP.PRZEJMOWANA)Z SIEDZIBĄ W WARSZAWIE W TRYBIE ART.492 PAR.1 PKT 1 KSH, TJ. PRZEZ PRZENIESIENIE CAŁEGO MAJĄTKU SP.ASSECO SYSTEMS S.A. NA SP.ASSECO POLAND S.A. W ZWIĄZKU Z POSIADANIEM PRZEZ SP.PRZEJMUJĄCĄ S.A. 100% AKCJI SP.PRZEJMOWANEJ, POŁĄCZENIE ZOSTAŁO ZGODNIE Z ART.515 PAR.1 ORAZ 516 PAR.6 KSH.UCHWAŁA NR 4 NADZWYCZAJNEGO ZGROMADZENIA SP.\"ASSECO POLAND\" S.A. W SPRAWIE POŁĄCZENIA SP.ASSECO SYSTEMS S.A. ZE SP.ASSECO POLAND S.A. Z DNIA 26.11.2010R. AKT NOT.REP.A NR 7365/2010 SPORZĄDZONY PRZEZ NOT.ANDRZEJA PRZYBYŁĘ Z K.N. PRZY UL.EMILII PLATER 10 M.7 W WARSZAWIE. UCHWAŁA NR 1/2010 NADZWYCZAJNEGO WALNEGO ZGROMADZENIA SP.ASSECO SYSTEMS S.A. W SPRAWIE POŁĄCZENIA SPÓŁKI POD FIRMĄ ASSECO POLAND S.A. Z DNIA 29.11.2010R. AKT NOT.REP.A NR 9520/2010 SPORZĄDZONY PRZEZ NOT.JOANNĘ ŚLIŻAK Z K.N. PRZY UL.SIENNEJ 72/5 W WARSZAWIE. PROCES POŁĄCZENIA SP. ASSECO POLAND S.A.(SP.PRZEJMUJĄCA) Z SIEDZIBĄ W RZESZOWIE ZE SP.ALATUS SP. Z O.O. (SP. PRZEJMOWANA) Z SIEDZIBĄ W WARSZAWIE W TRYBIE ART.492 PAR.1 PKT 1 KSH, TJ.PRZEZ PRZENIESIENIE CAŁEGO MAJĄTKU SP.ALATUS SP. Z O.O. NA SP.ASSECO POLAND S.A. W ZWIĄZKU Z POSIADANIEM PRZEZ SP.PRZEJMUJĄCĄ S.A. 100% AKCJI SP.PRZEJMOWANEJ, POŁĄCZENIE ZOSTAŁO ZGODNIE Z ART.515 PAR.1 ORAZ 516 PAR.6 KSH.UCHWAŁA NR 4 NADZWYCZAJNEGO ZGROMADZENIA SP.\"ASSECO POLAND\" S.A. W SPRAWIE POŁĄCZENIA SP.ASSECO POLAND S.A. ZE SP.ALATUS SP. Z O.O. Z DNIA 26.11.2010R. AKT NOT. REP.A NR 7365/2010 SPORZĄDZONY PRZEZ NOTARIUSZA ANDRZEJA PRZYBYŁĘ Z K.N. PRZY UL.EMILII PLATER 10 M.7 W WARSZAWIE. UCHWAŁA NR 1 NADZWYCZAJNEGO ZGROMADZENIA WSPÓLNIKÓW SP.ALATUS SP. Z O.O. W SPRAWIE POŁĄCZENIA SP. ALATUS SP. Z O.O. Z SIEDZIBĄ W WARSZAWIE ZE SPÓŁKĄ POD FIRMĄ ASSECO POLAND S.A. Z DNIA 29.11.2010 R. AKT NOT.REP.A NR 9515/2010 SPORZĄDZONY PRZEZ NOT. JOANNĘ ŚLIŻAK Z K.N. PRZY UL.SIENNEJ 72/5 W WARSZAWIE.",
+            "podmiotyPrzejmowane": [
+              {
+                "nazwa": "ASSECO SYSTEMS SPÓŁKA AKCYJNA,------",
+                "krajNazwaRejestru": "------,",
+                "identyfikator": {
+                  "regon": "19035020900000"
+                }
+              },
+              {
+                "nazwa": "\"ALATUS\" SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ,------",
+                "krajNazwaRejestru": "------,",
+                "identyfikator": {
+                  "regon": "01084639600000"
+                }
+              }
+            ]
+          },
+          {
+            "okreslenieOkolicznosci": "PRZEJĘCIE INNEJ SPÓŁKI",
+            "opisPolaczeniaPodzialuPrzeksztalcenia": "PROCES POŁĄCZENIA SPÓŁKI ASSECO POLAND S.A. (SPÓŁKA PRZEJMUJĄCA) Z SIEDZIBĄ W RZESZOWIE ZE SPÓŁKĄ PRZEDSIĘBIORSTWO INNOWACYJNO-WDROŻENIOWE \"POSTINFO\" SP.Z O.O. (SPÓŁKA PRZEJOWANA) Z SIEDZIBĄ W WARSZAWIE W TRYBIE ART. 492 § 1 PKT.1 KSH, TJ.PRZEZ PRZENIESIENIE CAŁEGO MAJATKU SPÓŁKI PRZEDSIĘBIORSTWO INNOWACYJNO-WDROŻENIOWE \"POSTINFO\" SP.Z O.O. NA SPÓŁKĘ ASSECO POLAND S.A. W ZWIĄZKU Z POSIADANIEM PRZEZ SPÓŁKĘ PRZEJMUJĄCĄ 100 % UDZIAŁÓW SPÓŁKI PRZEJMOWANEJ, POŁĄCZENIE ZOSTAŁO DOKONANE ZGODNIE Z ART. 515 § 1 ORAZ 516 § 6 KSH.\nUCHWAŁA NR 4 NADZWYCZAJNEGO WALNEGO ZGROMADZENIA SPÓŁKI ASSECO POLAND S.A. W SPRAWIE POŁĄCZENIA SPÓŁKI ASSECO POLAND S.A. ZE SPÓŁKĄ PRZEDSIĘBIORSTWO INNOWACYJNO-WDROŻENIOWE \"POSTINFO\" SP. Z O.O. Z DNIA 4 GRUDNIA 2013 R. \nAKT NOTARIALNY - REP.A NR 6084/2013 - SPORZĄDZONY PRZEZ NOTARIUSZA ANDRZEJA PRZYBYŁĘ Z KANCELARII NOTARIALNEJ, PRZY UL.EMILII PLATER 10 M.7 W WARSZAWIE.\nUCHWAŁA NR 2 NADZWYCZAJNEGO ZGROMADZENIA WSPÓLNIKÓW SPÓŁKI PRZEDSIĘBIORSTWO INNOWACYJNO-WDROŻENIOWE \"POSTINFO\" SP.Z O.O. Z SIEDZIBĄ W WARSZAWIE W SPRAWIE POŁĄCZENIA SPÓŁKI ZE SPÓŁKĄ ASSECO POLAND S.A. Z DNIA 4 GRUDNIA 2013 R. \nAKT NOTARIALNY - REP.A NR 2695/2013 - SPORZĄDZONY PRZEZ NOTARIUSZA JANUSZA POSŁUSZNEGO, Z KANCELARII NOTARIALNEJ, PRZY UL.LEOPOLDA LISA KULI 6 W RZESZOWIE.",
+            "podmiotyPowstalePrzejmujace": [
+              {
+                "nazwa": "ASSECO POLAND SPÓŁKA AKCYJNA,------",
+                "krajNazwaRejestru": "------,",
+                "identyfikator": {
+                  "regon": "01033457800000"
+                }
+              }
+            ],
+            "podmiotyPrzejmowane": [
+              {
+                "nazwa": "PRZEDSIĘBIORSTWO INNOWACYJNO-WDROŻENIOWE \"POSTINFO\" SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ,------",
+                "krajNazwaRejestru": "------,",
+                "identyfikator": {
+                  "regon": "00138352300000"
+                }
+              }
+            ]
+          },
+          {
+            "okreslenieOkolicznosci": "PRZEJĘCIE INNEJ SPÓŁKI",
+            "opisPolaczeniaPodzialuPrzeksztalcenia": "PROCES POŁĄCZENIA SPÓŁKI ASSECO POLAND S.A. (SPÓŁKA PRZEJMUJĄCA) Z SIEDZIBĄ W RZESZOWIE ZE SPÓŁKĄ INFOVIDE-MATRIX S.A. (SPÓŁKA PRZEJMOWANA) Z SIEDZIBĄ W WARSZAWIE W TRYBIE ART. 492 PAR. 1 PKT 1 KSH TJ. PRZEZ PRZENIESIENIE CAŁEGO MAJĄTKU SPÓŁKI INFOVIDE-MATRIX S.A. NA SPÓŁKĘ ASSECO POLAND S.A.\nW ZWIĄZKU Z POSIADANIEM PRZEZ SPÓŁKĘ PRZEJMUJĄCĄ 100% AKCJI SPÓŁKI PRZEJMOWANEJ, POŁĄCZENIE ZOSTAŁO DOKONANE ZGODNIE Z ART. 515 PAR. 1 ORAZ 516 PAR. 6 KSH. \nUCHWAŁA NR 34 ZWYCZAJNEGO WALNEGO ZGROMADZENIA SPÓŁKI ASSECO POLAND S.A. Z SIEDZIBĄ W RZESZOWIE W SPRAWIE POŁĄCZENIA SPÓŁKI ASSECO POLAND S.A. ZE SPÓŁKĄ INFOVIDE-MATRIX S.A. Z DNIA 29.04.2016R.\nAKT NOTARIALNY - REP. A NR 3500/2016 SPORZĄDZONY PRZEZ NOTARIUSZA ELŻBIETĘ MIKITA Z KANCELARII NOTARIALNEJ, PRZY UL. EMILII PATER 10/7 W WARSZAWIE \nUCHWAŁA NR 21 ZWYCZAJNEGO WALNEGO ZGROMADZENIA SPÓŁKI INFOVIDE-MATRIX S.A. W SPRAWIE POŁĄCZENIA SPÓŁKI INFOVIDE-MATRIX S.A. ZE SPÓŁKĄ ASSECO POLAND S.A. Z DNIA 29.04.2016R.\nAKT NOTARIALNY - REP. A NR 588/2016 SPORZĄDZONY PRZEZ NOTARIUSZA SYLWIĘ KUBICKĄ Z KANCELARII NOTARIALNEJ, PRZY UL. ALEJA RÓŻ 7/9 W WARSZAWIE",
+            "podmiotyPrzejmowane": [
+              {
+                "nazwa": "INFOVIDE - MATRIX SPÓŁKA AKCYJNA,------",
+                "krajNazwaRejestru": "------,",
+                "identyfikator": {
+                  "regon": "01207523000000"
+                }
+              }
+            ]
+          },
+          {
+            "okreslenieOkolicznosci": "PRZEJĘCIE INNEJ SPÓŁKI",
+            "opisPolaczeniaPodzialuPrzeksztalcenia": "PROCES POŁĄCZENIA SPÓŁKI ASSECO POLAND S.A. (SPÓŁKA PRZEJMUJĄCA) Z SIEDZIBĄ W RZESZOWIE ZE SPÓŁKĄ SKG S.A. (SPÓŁKA PRZEJMOWANA) Z SIEDZIBĄ W BIELSKU-BIAŁEJ W TRYBIE ART. 492 PAR. 1 PKT 1 KSH TJ. PRZEZ PRZENIESIENIE CAŁEGO MAJĄTKU SPÓŁKI SKG S.A. NA SPÓŁKĘ ASSECO POLAND S.A. \nW ZWIĄZKU Z POSIADANIEM PRZEZ SPÓŁKĘ PRZEJMUJĄCĄ 100% AKCJI SPÓŁKI PRZEJMOWANEJ, POŁĄCZENIE ZOSTAŁO DOKONANE ZGODNIE Z ART. 516 PAR. 6 KSH Z UWZGLĘDNIENIEM ART. 514 PAR. 1 KSH\nUCHWAŁA NR 24 ZWYCZAJNEGO WALNEGO ZGROMADZENIA SPÓŁKI ASSECO POLAND S.A. W SPRAWIE POŁĄCZENIA SPÓŁKI ASSECO POLAND S.A. ZE SPÓŁKĄ SKG S.A. Z DNIA 27.05.2020R. \nAKT NOTARIALNY REP. A NR 4068/2020 SPORZĄDZONY PRZEZ NOTARIUSZA ANDRZEJA PRZYBYŁĘ Z KANCELARII NOTARIALNEJ W WARSZAWIE          \nUCHWAŁA NR 14 ZWYCZAJNEGO WALNEGO ZGROMADZENIA SPÓŁKI SKG S.A. Z SIEDZIBA W BIELSKU-BIAŁEJ Z DNIA 07.05.2020 W SPRAWIE POŁĄCZENIA SPÓŁKI SKG S.A. ZE SPÓŁKĄ ASSECO POLAND S.A.\nAKT NOTARIALNY REP. A NR 1160/2020 SPORZĄDZONY PRZEZ NOTARIUSZA RAFAŁA KŁECZKA Z KANCELARII NOTARIALNEJ W RZESZOWIE",
+            "podmiotyPrzejmowane": [
+              {
+                "nazwa": "SKG SPÓŁKA AKCYJNA,------",
+                "krajNazwaRejestru": "POLSKA, KRAJOWY REJESTR SĄDOWY",
+                "krs": {
+                  "krs": "0000047940"
+                },
+                "nazwaSadu": "*******",
+                "identyfikator": {
+                  "regon": "07071127000000"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

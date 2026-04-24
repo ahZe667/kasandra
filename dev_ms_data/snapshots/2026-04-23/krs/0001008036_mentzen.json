@@ -1,0 +1,324 @@
+{
+  "odpis": {
+    "rodzaj": "Aktualny",
+    "naglowekA": {
+      "rejestr": "RejP",
+      "numerKRS": "0001008036",
+      "dataCzasOdpisu": "23.04.2026 14:41:14",
+      "stanZDnia": "17.04.2026",
+      "dataRejestracjiWKRS": "14.12.2022",
+      "numerOstatniegoWpisu": 26,
+      "dataOstatniegoWpisu": "17.04.2026",
+      "sygnaturaAktSprawyDotyczacejOstatniegoWpisu": "TO.VII NS-REJ.KRS/3580/26/306",
+      "oznaczenieSaduDokonujacegoOstatniegoWpisu": "SĄD REJONOWY W TORUNIU, VII WYDZIAŁ GOSPODARCZY KRAJOWEGO REJESTRU SĄDOWEGO",
+      "stanPozycji": 1
+    },
+    "dane": {
+      "dzial1": {
+        "danePodmiotu": {
+          "formaPrawna": "SPÓŁKA AKCYJNA",
+          "identyfikatory": {
+            "regon": "52392389500000",
+            "nip": "5273032556"
+          },
+          "nazwa": "MENTZEN SPÓŁKA AKCYJNA",
+          "daneOWczesniejszejRejestracji": {},
+          "czyProwadziDzialalnoscZInnymiPodmiotami": false,
+          "czyPosiadaStatusOPP": false
+        },
+        "siedzibaIAdres": {
+          "siedziba": {
+            "kraj": "POLSKA",
+            "wojewodztwo": "KUJAWSKO-POMORSKIE",
+            "powiat": "TORUŃ",
+            "gmina": "TORUŃ",
+            "miejscowosc": "TORUŃ"
+          },
+          "adres": {
+            "ulica": "UL. GRUDZIĄDZKA",
+            "nrDomu": "110-114",
+            "nrLokalu": "101",
+            "miejscowosc": "TORUŃ",
+            "kodPocztowy": "87-100",
+            "poczta": "TORUŃ",
+            "kraj": "POLSKA"
+          },
+          "adresStronyInternetowej": "WWW.MENTZEN.PL",
+          "adresDoDoreczenElektronicznychWpisanyDoBAE": "AE:PL-46744-96768-RDFBR-17"
+        },
+        "umowaStatut": {
+          "informacjaOZawarciuZmianieUmowyStatutu": [
+            {
+              "zawarcieZmianaUmowyStatutu": "09.08.2022 R., REP. A NR 4170/2022, NOTARIUSZ MAGDALENA WITKOWSKA, KANCELARIA NOTARIALNA MAGDALENA WITKOWSKA, UL. SZARA 14 LOK. 15, 00-420 WARSZAWA"
+            },
+            {
+              "zawarcieZmianaUmowyStatutu": "29.12.2023 R., REP. A NR 4617/2023, NOTARIUSZ  JULIA SZCZECH, KANCELARIA NOTARIALNA W TORUNIU, UL. GRUDZIĄDZKA 132 LOK. 6, ZMIANA § 1, § 2 UST. 1, § 3 UST. 1 ORAZ DODANIE UST. 3 W § 20 STATUTU"
+            },
+            {
+              "zawarcieZmianaUmowyStatutu": "30.01.2024 R., REP. A NR 455/2024 SPROSTOWANY AKTEM NOTARIALNYM REP. A NR 675/2024; NOTARIUSZ JULIA SZCZECH, KANCELARIA NOTARIALNA W TORUNIU, UL. GRUDZIĄDZKA 132 LOK. 6, ZMIENIONO § 6, § 7 UST. 3, § 8, § 12 UST. 2, § 15 UST. 1, § 16 UST. 2, § 26, DODANO § 6A I UST. 4 W § 18, UCHYLONO § 29, § 31 ORAZ § 32 STATUTU"
+            },
+            {
+              "zawarcieZmianaUmowyStatutu": "29.02.2024 R., REP. A NR 827/2024; NOTARIUSZ JULIA SZCZECH, KANCELARIA NOTARIALNA W TORUNIU, UL. GRUDZIĄDZKA 132 LOK. 6, ZMIENIONO § 6, § 6A UST. 1, § 7, UCHYLENIE § 12 I ZMIANA NUMERU DOTYCHCZASOWEGO § 13 NA § 12, NADANIE NOWEGO BRZMIENIA § 13, ZMIANA § 14 UST. 1, ZMIANA § 15 UST. 1 I UST. 2, DODANIE UST. 5 W § 18, ZMIANA § 19, DOTYCHCZASOWY § 30 OTRZYMUJE NUMER § 29, A DOTYCHCZASOWY § 33 OTRZYMUJE NUMER § 30"
+            },
+            {
+              "zawarcieZmianaUmowyStatutu": "04.03.2025 R., REP. A NR 558/2025; NOTARIUSZ JULIA SZCZECH, KANCELARIA NOTARIALNA W TORUNIU, UL. GRUDZIĄDZKA 132 LOK. 6, ZMIENIONO § 6 UST. 1 STATUTU SPÓŁKI"
+            },
+            {
+              "zawarcieZmianaUmowyStatutu": "23.03.2026 R., REP. A NR 734/2026; NOTARIUSZ JULIA SZCZECH, KANCELARIA NOTARIALNA W TORUNIU, UL. GRUDZIĄDZKA 132 LOK. 6, ZMIENIONO § 6 UST. 1 STATUTU SPÓŁKI"
+            }
+          ]
+        },
+        "pozostaleInformacje": {
+          "czasNaJakiUtworzonyZostalPodmiot": "NIEOZNACZONY",
+          "czyUmowaStatutPrzyznajeUprawnieniaOsobiste": false,
+          "czyObligatoriuszeMajaPrawoDoUdzialuWZysku": false
+        },
+        "kapital": {
+          "wysokoscKapitaluZakladowego": {
+            "wartosc": "104850,00",
+            "waluta": "PLN"
+          },
+          "wysokoscKapitaluDocelowegoZapasowego": {
+            "wartosc": "5400,00",
+            "waluta": "PLN"
+          },
+          "lacznaLiczbaAkcjiUdzialow": "1048500",
+          "wartoscJednejAkcji": {
+            "wartosc": "0,10",
+            "waluta": "PLN"
+          },
+          "czescKapitaluWplaconegoPokrytego": {
+            "wartosc": "1048500,00",
+            "waluta": "PLN"
+          },
+          "wniesioneAporty": {
+            "okreslenieWartosciUdzialowObjetychZaAport": []
+          }
+        },
+        "emisjeAkcji": [
+          {
+            "nazwaSeriiAkcji": "SERIA A",
+            "liczbaAkcjiWSerii": "665000",
+            "czyAkcjeUprzywilejowaneLiczbaAkcjiRodzajUprzywilejowania": "AKCJE NIE SĄ UPRZYWILEJOWANE"
+          },
+          {
+            "nazwaSeriiAkcji": "SERIA B",
+            "liczbaAkcjiWSerii": "335000",
+            "czyAkcjeUprzywilejowaneLiczbaAkcjiRodzajUprzywilejowania": "335000 AKCJI, Z KTÓRYCH KAŻDA DAJE PRAWO DO 2 GŁOSÓW"
+          },
+          {
+            "nazwaSeriiAkcji": "SERIA C",
+            "liczbaAkcjiWSerii": "21000",
+            "czyAkcjeUprzywilejowaneLiczbaAkcjiRodzajUprzywilejowania": "AKCJE NIE SĄ UPRZYWILEJOWANE"
+          },
+          {
+            "nazwaSeriiAkcji": "SERIA D",
+            "liczbaAkcjiWSerii": "27500",
+            "czyAkcjeUprzywilejowaneLiczbaAkcjiRodzajUprzywilejowania": "AKCJE NIE SĄ UPRZYWILEJOWANE"
+          }
+        ],
+        "wzmiankaOUpowaznieniuDoEmisjiWarrantowSubskrypcyjnych": {
+          "czyZarzadJestUprawnionyDoEmisjiWarrantowSubskrypcyjnych": false
+        }
+      },
+      "dzial2": {
+        "reprezentacja": {
+          "nazwaOrganu": "ZARZĄD",
+          "sposobReprezentacji": "KAŻDY CZŁONEK ZARZĄDU MA PRAWO REPREZENTOWANIA SPÓŁKI SAMODZIELNIE",
+          "sklad": [
+            {
+              "nazwisko": {
+                "nazwiskoICzlon": "M******"
+              },
+              "imiona": {
+                "imie": "S*******",
+                "imieDrugie": "J****"
+              },
+              "identyfikator": {
+                "pesel": "8**********"
+              },
+              "funkcjaWOrganie": "PREZES ZARZĄDU",
+              "czyZawieszona": false
+            },
+            {
+              "nazwisko": {
+                "nazwiskoICzlon": "S***********"
+              },
+              "imiona": {
+                "imie": "M****"
+              },
+              "identyfikator": {
+                "pesel": "9**********"
+              },
+              "funkcjaWOrganie": "WICEPREZES ZARZĄDU",
+              "czyZawieszona": false
+            }
+          ]
+        },
+        "organNadzoru": [
+          {
+            "nazwa": "RADA NADZORCZA",
+            "sklad": [
+              {
+                "nazwisko": {
+                  "nazwiskoICzlon": "Z*******"
+                },
+                "imiona": {
+                  "imie": "J*****",
+                  "imieDrugie": "E**"
+                },
+                "identyfikator": {
+                  "pesel": "9**********"
+                }
+              },
+              {
+                "nazwisko": {
+                  "nazwiskoICzlon": "S*****"
+                },
+                "imiona": {
+                  "imie": "D****",
+                  "imieDrugie": "M****"
+                },
+                "identyfikator": {
+                  "pesel": "7**********"
+                }
+              },
+              {
+                "nazwisko": {
+                  "nazwiskoICzlon": "Ś********"
+                },
+                "imiona": {
+                  "imie": "P****",
+                  "imieDrugie": "P****"
+                },
+                "identyfikator": {
+                  "pesel": "6**********"
+                }
+              },
+              {
+                "nazwisko": {
+                  "nazwiskoICzlon": "O*****"
+                },
+                "imiona": {
+                  "imie": "P*******"
+                },
+                "identyfikator": {
+                  "pesel": "9**********"
+                }
+              },
+              {
+                "nazwisko": {
+                  "nazwiskoICzlon": "B****"
+                },
+                "imiona": {
+                  "imie": "M*******",
+                  "imieDrugie": "W*******"
+                },
+                "identyfikator": {
+                  "pesel": "7**********"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "dzial3": {
+        "przedmiotDzialalnosci": {
+          "przedmiotPrzewazajacejDzialalnosci": [
+            {
+              "opis": "DZIAŁALNOŚĆ RACHUNKOWO-KSIĘGOWA; DORADZTWO PODATKOWE",
+              "kodDzial": "69",
+              "kodKlasa": "20",
+              "kodPodklasa": "Z"
+            }
+          ],
+          "przedmiotPozostalejDzialalnosci": [
+            {
+              "opis": "DZIAŁALNOŚĆ FIRM CENTRALNYCH (HEAD OFFICES) I HOLDINGÓW, Z WYŁĄCZENIEM HOLDINGÓW FINANSOWYCH",
+              "kodDzial": "70",
+              "kodKlasa": "10",
+              "kodPodklasa": "Z"
+            },
+            {
+              "opis": "POZOSTAŁE DORADZTWO W ZAKRESIE PROWADZENIA DZIAŁALNOŚCI GOSPODARCZEJ I ZARZĄDZANIA",
+              "kodDzial": "70",
+              "kodKlasa": "22",
+              "kodPodklasa": "Z"
+            },
+            {
+              "opis": "DZIAŁALNOŚĆ PRAWNICZA",
+              "kodDzial": "69",
+              "kodKlasa": "10",
+              "kodPodklasa": "Z"
+            }
+          ]
+        },
+        "wzmiankiOZlozonychDokumentach": {
+          "wzmiankaOZlozeniuRocznegoSprawozdaniaFinansowego": [
+            {
+              "dataZlozenia": "24.04.2024",
+              "zaOkresOdDo": "OD 14.12.2022 DO 31.12.2023"
+            },
+            {
+              "dataZlozenia": "10.07.2025",
+              "zaOkresOdDo": "OD 01.01.2024 DO 31.12.2024"
+            }
+          ],
+          "wzmiankaOZlozeniuOpiniiBieglegoRewidentaSprawozdaniaZBadania": [
+            {
+              "zaOkresOdDo": "OD 14.12.2022 DO 31.12.2023"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2024 DO 31.12.2024"
+            }
+          ],
+          "wzmiankaOZlozeniuUchwalyPostanowieniaOZatwierdzeniuRocznegoSprawozdaniaFinansowego": [
+            {
+              "zaOkresOdDo": "OD 14.12.2022 DO 31.12.2023"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2024 DO 31.12.2024"
+            }
+          ],
+          "wzmiankaOZlozeniuSprawozdaniaZDzialalnosci": [
+            {
+              "zaOkresOdDo": "OD 14.12.2022 DO 31.12.2023"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2024 DO 31.12.2024"
+            }
+          ]
+        },
+        "sprawozdaniaGrupyKapitalowej": {
+          "wzmiankaOZlozeniuSkonsolidowanegoRocznegoSprawozdaniaFinansowego": [
+            {
+              "dataZlozenia": "10.07.2025",
+              "zaOkresOdDo": "OD 01.01.2024 DO 31.12.2024"
+            }
+          ],
+          "wzmiankaOZlozeniuOpiniiBieglegoRewidentaSprawozdaniaZBadania": [
+            {
+              "zaOkresOdDo": "OD 01.01.2024 DO 31.12.2024"
+            }
+          ],
+          "wzmiankaOZlozeniuUchwalyPostanowieniaOZatwierdzeniuSkonsolidowanegoRocznegoSprawozdaniaFinansowego": [
+            {
+              "zaOkresOdDo": "OD 01.01.2024 DO 31.12.2024"
+            }
+          ],
+          "wzmiankaOZlozeniuSprawozdaniaZDzialalnosciGrupyKapitalowejSpolkiDominujacejLacznie": [
+            {
+              "zaOkresOdDo": "OD 01.01.2024 DO 31.12.2024"
+            }
+          ]
+        },
+        "informacjaODniuKonczacymRokObrotowy": {
+          "dzienKonczacyPierwszyRokObrotowy": "31.12.2023"
+        }
+      },
+      "dzial4": {},
+      "dzial5": {},
+      "dzial6": {}
+    }
+  }
+}

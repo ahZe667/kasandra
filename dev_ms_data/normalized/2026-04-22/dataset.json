@@ -1,0 +1,796 @@
+[
+  {
+    "company": {
+      "krs": "0000033391",
+      "nazwa": "ASSECO POLAND SPÓŁKA AKCYJNA",
+      "forma": "SPÓŁKA AKCYJNA",
+      "nip": "5220003782",
+      "regon": "01033457800000"
+    },
+    "snapshot_meta": {
+      "stan_z_dnia": "27.01.2026",
+      "nr_ostatniego_wpisu": 169,
+      "data_ostatniego_wpisu": "26.01.2026"
+    },
+    "adres": {
+      "ulica": "OLCHOWA",
+      "nr_domu": "14",
+      "nr_lokalu": null,
+      "kod_pocztowy": "35-322",
+      "miejscowosc": "RZESZÓW",
+      "kraj": "POLSKA"
+    },
+    "kapital": {
+      "wartosc": "83000303,00",
+      "waluta": "PLN"
+    },
+    "zarzad": {
+      "nazwa_organu": "ZARZĄD",
+      "sposob_reprezentacji": "DO REPREZENTOWANIA SPÓŁKI UPOWAŻNIENI SĄ: PREZES ZARZĄDU SAMODZIELNIE, DWAJ WICEPREZESI LUB WICEPREZES DZIAŁAJĄCY ŁĄCZNIE Z INNYM CZŁONKIEM ZARZĄDU LUB WICEPREZES DZIAŁAJĄCY ŁĄCZNIE Z PROKURENTEM.",
+      "sklad": [
+        {
+          "osoba_key": "NAT:G****|A***|5**********",
+          "typ": "fizyczna",
+          "display": "A*** T****** G****",
+          "funkcja": "PREZES ZARZĄDU"
+        },
+        {
+          "osoba_key": "NAT:P*******|Z*******|6**********",
+          "typ": "fizyczna",
+          "display": "Z******* P*******",
+          "funkcja": "WICEPREZES ZARZĄDU"
+        },
+        {
+          "osoba_key": "NAT:P****|M****|6**********",
+          "typ": "fizyczna",
+          "display": "M**** P**** P****",
+          "funkcja": "WICEPREZES ZARZĄDU"
+        },
+        {
+          "osoba_key": "NAT:G*******|K********|5**********",
+          "typ": "fizyczna",
+          "display": "K******** M***** G*******",
+          "funkcja": "WICEPREZES ZARZĄDU"
+        },
+        {
+          "osoba_key": "NAT:D********|A******|6**********",
+          "typ": "fizyczna",
+          "display": "A****** W******* D********",
+          "funkcja": "WICEPREZES ZARZĄDU"
+        },
+        {
+          "osoba_key": "NAT:Ż*******|G*******|7**********",
+          "typ": "fizyczna",
+          "display": "G******* B****** Ż*******",
+          "funkcja": "WICEPREZES ZARZĄDU"
+        },
+        {
+          "osoba_key": "NAT:W***|A****|7**********",
+          "typ": "fizyczna",
+          "display": "A**** W***",
+          "funkcja": "WICEPREZES ZARZĄDU"
+        },
+        {
+          "osoba_key": "NAT:S**********|S*******|7**********",
+          "typ": "fizyczna",
+          "display": "S******* S**********",
+          "funkcja": "WICEPREZES ZARZĄDU"
+        },
+        {
+          "osoba_key": "NAT:R*****|K*******|8**********",
+          "typ": "fizyczna",
+          "display": "K******* M**** R*****",
+          "funkcja": "WICEPREZES ZARZĄDU"
+        },
+        {
+          "osoba_key": "NAT:B******|G*******|7**********",
+          "typ": "fizyczna",
+          "display": "G******* M***** B******",
+          "funkcja": "WICEPREZES ZARZĄDU"
+        },
+        {
+          "osoba_key": "NAT:K********|R****|7**********",
+          "typ": "fizyczna",
+          "display": "R**** M**** K********",
+          "funkcja": "WICEPREZES ZARZĄDU"
+        },
+        {
+          "osoba_key": "NAT:B*********|T*****|6**********",
+          "typ": "fizyczna",
+          "display": "T***** B*********",
+          "funkcja": "WICEPREZES ZARZĄDU"
+        }
+      ]
+    },
+    "wlasciciele": {
+      "typ": "brak_w_krs",
+      "lista": []
+    },
+    "pkd_glowny": {
+      "kod": "62.10.B",
+      "opis": "POZOSTAŁA DZIAŁALNOŚĆ W ZAKRESIE PROGRAMOWANIA"
+    },
+    "distress": {
+      "dzial4": false,
+      "dzial5": false,
+      "dzial6": true,
+      "dzial6_typy": [
+        "polaczeniePodzialPrzeksztalcenie"
+      ]
+    }
+  },
+  {
+    "company": {
+      "krs": "0000055656",
+      "nazwa": "\"STRONG MAN\" SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ",
+      "forma": "SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ",
+      "nip": "5862021333",
+      "regon": "19189293500000"
+    },
+    "snapshot_meta": {
+      "stan_z_dnia": "13.04.2026",
+      "nr_ostatniego_wpisu": 40,
+      "data_ostatniego_wpisu": "13.04.2026"
+    },
+    "adres": {
+      "ulica": "STEFANA BATOREGO",
+      "nr_domu": "21",
+      "nr_lokalu": null,
+      "kod_pocztowy": "82-200",
+      "miejscowosc": "MALBORK",
+      "kraj": "POLSKA"
+    },
+    "kapital": {
+      "wartosc": "25000,00",
+      "waluta": "PLN"
+    },
+    "zarzad": {
+      "nazwa_organu": "ZARZĄD",
+      "sposob_reprezentacji": "DO SKŁADANIA OŚWIADCZEŃ WOLI I PODPISYWANIA W IMIENIU SPÓŁKI UPOWAŻNIENI SĄ DWAJ CZŁONKOWIE ZARZĄDU ŁĄCZNIE ALBO CZŁONEK ZARZĄDU ŁĄCZNIE Z PROKURENTEM.",
+      "sklad": [
+        {
+          "osoba_key": "NAT:D****|J*******|7**********",
+          "typ": "fizyczna",
+          "display": "J******* T***** D****",
+          "funkcja": "PREZES ZARZĄDU"
+        }
+      ]
+    },
+    "wlasciciele": {
+      "typ": "wspolnicy_spzoo",
+      "lista": [
+        {
+          "osoba_key": "NAT:D****|J*******|7**********",
+          "typ": "fizyczna",
+          "display": "J******* T***** D****",
+          "posiadane_udzialy": "15 UDZIAŁÓW O ŁĄCZNEJ WARTOŚCI NOMINALNEJ 9.375 ZŁ.",
+          "calosc": false
+        },
+        {
+          "osoba_key": "NAT:P***********|M******|7**********",
+          "typ": "fizyczna",
+          "display": "M****** Z******* P***********",
+          "posiadane_udzialy": "10 UDZIAŁÓW O ŁĄCZNEJ WARTOŚCI 6.250 ZŁ.",
+          "calosc": false
+        },
+        {
+          "osoba_key": "NAT:D*******|M*****|8**********",
+          "typ": "fizyczna",
+          "display": "M***** P**** D*******",
+          "posiadane_udzialy": "15 UDZIAŁÓW O ŁĄCZNEJ WARTOŚCI NOMINALNEJ 9.375 ZŁ",
+          "calosc": false
+        }
+      ]
+    },
+    "pkd_glowny": {
+      "kod": "",
+      "opis": null
+    },
+    "distress": {
+      "dzial4": false,
+      "dzial5": false,
+      "dzial6": false,
+      "dzial6_typy": []
+    }
+  },
+  {
+    "company": {
+      "krs": "0000140428",
+      "nazwa": "DRUTEX SPÓŁKA AKCYJNA",
+      "forma": "SPÓŁKA AKCYJNA",
+      "nip": "8421622720",
+      "regon": "77156449300000"
+    },
+    "snapshot_meta": {
+      "stan_z_dnia": "20.12.2025",
+      "nr_ostatniego_wpisu": 78,
+      "data_ostatniego_wpisu": "19.12.2025"
+    },
+    "adres": {
+      "ulica": "LĘBORSKA",
+      "nr_domu": "31",
+      "nr_lokalu": null,
+      "kod_pocztowy": "77-100",
+      "miejscowosc": "BYTÓW",
+      "kraj": "POLSKA"
+    },
+    "kapital": {
+      "wartosc": "21690000,00",
+      "waluta": "PLN"
+    },
+    "zarzad": {
+      "nazwa_organu": "ZARZĄD",
+      "sposob_reprezentacji": "DO SKŁADANIA OŚWIADCZEŃ I PODPISYWANIA W IMIENIU SPÓŁKI UPRAWNIENI SĄ:\n1) PREZES ZARZĄDU SAMODZIELNIE;\n2) WICEPREZES ZARZĄDU SAMODZIELNIE;\n3) DWÓCH CZŁONKÓW ZARZĄDU ŁĄCZNIE;\n4) CZŁONEK ZARZĄDU ŁĄCZNIE Z PROKURENTEM.",
+      "sklad": [
+        {
+          "osoba_key": "NAT:G**********|K*****|8**********",
+          "typ": "fizyczna",
+          "display": "K***** G**********",
+          "funkcja": "WICEPREZES ZARZĄDU"
+        },
+        {
+          "osoba_key": "NAT:D*****|D*****|8**********",
+          "typ": "fizyczna",
+          "display": "D***** D*****",
+          "funkcja": "CZŁONEK ZARZĄDU"
+        },
+        {
+          "osoba_key": "NAT:G**********|K****|8**********",
+          "typ": "fizyczna",
+          "display": "K**** G**********",
+          "funkcja": "CZŁONEK ZARZĄDU"
+        }
+      ]
+    },
+    "wlasciciele": {
+      "typ": "jedyny_akcjonariusz",
+      "lista": [
+        {
+          "osoba_key": "NAT:G**********|K*****|8**********",
+          "typ": "fizyczna",
+          "display": "K***** G**********",
+          "posiadane_udzialy": null,
+          "calosc": true
+        }
+      ]
+    },
+    "pkd_glowny": {
+      "kod": "22.23.Z",
+      "opis": "PRODUKCJA WYROBÓW DLA BUDOWNICTWA Z TWORZYW SZTUCZNYCH"
+    },
+    "distress": {
+      "dzial4": false,
+      "dzial5": false,
+      "dzial6": false,
+      "dzial6_typy": []
+    }
+  },
+  {
+    "company": {
+      "krs": "0000408273",
+      "nazwa": "\"DINO POLSKA\" SPÓŁKA AKCYJNA",
+      "forma": "SPÓŁKA AKCYJNA",
+      "nip": "6211766191",
+      "regon": "30082082800000"
+    },
+    "snapshot_meta": {
+      "stan_z_dnia": "27.02.2026",
+      "nr_ostatniego_wpisu": 102,
+      "data_ostatniego_wpisu": "26.02.2026"
+    },
+    "adres": {
+      "ulica": "OSTROWSKA",
+      "nr_domu": "122",
+      "nr_lokalu": null,
+      "kod_pocztowy": "63-700",
+      "miejscowosc": "KROTOSZYN",
+      "kraj": "POLSKA"
+    },
+    "kapital": {
+      "wartosc": "9804000,00",
+      "waluta": "PLN"
+    },
+    "zarzad": {
+      "nazwa_organu": "ZARZĄD",
+      "sposob_reprezentacji": "W PRZYPADKU ZARZĄDU JEDNOOSOBOWEGO OŚWIADCZENIA WOLI W IMIENIU SPÓŁKI SKŁADA JEDYNY CZŁONEK ZARZĄDU.\nW PRZYPADKU ZARZĄDU WIELOOSOBOWEGO DO SKŁADANIA OŚWIADCZEŃ WOLI W IMIENIU SPÓŁKI WYMAGANE JEST WSPÓŁDZIAŁANIE DWÓCH CZŁONKÓW ZARZĄDU LUB JEDNEGO CZŁONKA ZARZĄDU ŁĄCZNIE Z PROKURENTEM.",
+      "sklad": [
+        {
+          "osoba_key": "NAT:K*****|M*****|8**********",
+          "typ": "fizyczna",
+          "display": "M***** K*****",
+          "funkcja": "CZŁONEK ZARZĄDU"
+        },
+        {
+          "osoba_key": "NAT:B******|I******|7**********",
+          "typ": "fizyczna",
+          "display": "I****** M********* B******",
+          "funkcja": "CZŁONEK ZARZĄDU"
+        },
+        {
+          "osoba_key": "NAT:J********|M*****|8**********",
+          "typ": "fizyczna",
+          "display": "M***** J********",
+          "funkcja": "CZŁONEK ZARZĄDU"
+        },
+        {
+          "osoba_key": "NAT:N*********|S*******|7**********",
+          "typ": "fizyczna",
+          "display": "S******* N*********",
+          "funkcja": "CZŁONEK ZARZĄDU"
+        }
+      ]
+    },
+    "wlasciciele": {
+      "typ": "brak_w_krs",
+      "lista": []
+    },
+    "pkd_glowny": {
+      "kod": "47.11.Z",
+      "opis": "SPRZEDAŻ DETALICZNA NIEWYSPECJALIZOWANA Z PRZEWAGĄ ŻYWNOŚCI, NAPOJÓW LUB WYROBÓW TYTONIOWYCH"
+    },
+    "distress": {
+      "dzial4": false,
+      "dzial5": false,
+      "dzial6": true,
+      "dzial6_typy": [
+        "polaczeniePodzialPrzeksztalcenie"
+      ]
+    }
+  },
+  {
+    "company": {
+      "krs": "0000636642",
+      "nazwa": "ŻABKA POLSKA SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ",
+      "forma": "SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ",
+      "nip": "5223071241",
+      "regon": "36538839800000"
+    },
+    "snapshot_meta": {
+      "stan_z_dnia": "21.11.2025",
+      "nr_ostatniego_wpisu": 88,
+      "data_ostatniego_wpisu": "10.07.2025"
+    },
+    "adres": {
+      "ulica": "UL. STANISŁAWA MATYI",
+      "nr_domu": "8",
+      "nr_lokalu": null,
+      "kod_pocztowy": "61-586",
+      "miejscowosc": "POZNAŃ",
+      "kraj": "POLSKA"
+    },
+    "kapital": {
+      "wartosc": "113215000,00",
+      "waluta": "PLN"
+    },
+    "zarzad": {
+      "nazwa_organu": "ZARZĄD",
+      "sposob_reprezentacji": "W PRZYPADKU ZARZĄDU JEDNOOSOBOWEGO SPÓŁKĘ REPREZENTUJE JEDYNY CZŁONEK ZARZĄDU.\nW PRZYPADKU ZARZĄDU WIELOOSOBOWEGO DO SKŁADANIA OŚWIADCZEŃ WOLI I PODPISYWANIA W IMIENIU SPÓŁKI WYMAGANE JEST WSPÓŁDZIAŁANIE DWÓCH CZŁONKÓW ZARZĄDU ALBO JEDNEGO CZŁONKA ZARZĄDU ŁĄCZNIE Z PROKURENTEM.",
+      "sklad": [
+        {
+          "osoba_key": "NAT:S********|T*****|7**********",
+          "typ": "fizyczna",
+          "display": "T***** Z**** S********",
+          "funkcja": "PREZES ZARZĄDU"
+        },
+        {
+          "osoba_key": "NAT:B*********|T*****|8**********",
+          "typ": "fizyczna",
+          "display": "T***** B*********",
+          "funkcja": "WICEPREZES ZARZĄDU"
+        },
+        {
+          "osoba_key": "NAT:G********|A***|7**********",
+          "typ": "fizyczna",
+          "display": "A*** E******* G********",
+          "funkcja": "WICEPREZES ZARZĄDU"
+        },
+        {
+          "osoba_key": "NAT:M*********|A***|7**********",
+          "typ": "fizyczna",
+          "display": "A*** A********* M*********",
+          "funkcja": "WICEPREZES ZARZĄDU"
+        },
+        {
+          "osoba_key": "NAT:B***********|J******|6**********",
+          "typ": "fizyczna",
+          "display": "J****** B***********",
+          "funkcja": "CZŁONEK ZARZĄDU"
+        },
+        {
+          "osoba_key": "NAT:W******|M****|8**********",
+          "typ": "fizyczna",
+          "display": "M**** W******",
+          "funkcja": "CZŁONEK ZARZĄDU"
+        },
+        {
+          "osoba_key": "NAT:K***|W*******|8**********",
+          "typ": "fizyczna",
+          "display": "W******* K***",
+          "funkcja": "CZŁONEK ZARZĄDU"
+        }
+      ]
+    },
+    "wlasciciele": {
+      "typ": "wspolnicy_spzoo",
+      "lista": [
+        {
+          "osoba_key": "LE:ZABKA GROUP SOCIÉTÉ ANONYME|0000000000",
+          "typ": "prawna",
+          "display": "ZABKA GROUP SOCIÉTÉ ANONYME",
+          "posiadane_udzialy": "2.264.300 UDZIAŁÓW O ŁĄCZNEJ WARTOŚCI 113.215.000,00 ZŁ",
+          "calosc": true
+        }
+      ]
+    },
+    "pkd_glowny": {
+      "kod": "70.10.Z",
+      "opis": "DZIAŁALNOŚĆ FIRM CENTRALNYCH (HEAD OFFICES) I HOLDINGÓW, Z WYŁĄCZENIEM HOLDINGÓW FINANSOWYCH"
+    },
+    "distress": {
+      "dzial4": false,
+      "dzial5": false,
+      "dzial6": true,
+      "dzial6_typy": [
+        "polaczeniePodzialPrzeksztalcenie"
+      ]
+    }
+  },
+  {
+    "company": {
+      "krs": "0000779880",
+      "nazwa": "JANUSZEX SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ",
+      "forma": "SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ",
+      "nip": "5272889007",
+      "regon": "38290362500000"
+    },
+    "snapshot_meta": {
+      "stan_z_dnia": "03.12.2025",
+      "nr_ostatniego_wpisu": 3,
+      "data_ostatniego_wpisu": "18.11.2024"
+    },
+    "adres": {
+      "ulica": "UL. MŁYNARSKA",
+      "nr_domu": "42",
+      "nr_lokalu": null,
+      "kod_pocztowy": "01-171",
+      "miejscowosc": "WARSZAWA",
+      "kraj": "POLSKA"
+    },
+    "kapital": {
+      "wartosc": "5000,00",
+      "waluta": "PLN"
+    },
+    "zarzad": {
+      "nazwa_organu": "ZARZĄD",
+      "sposob_reprezentacji": "CZŁONEK ZARZĄDU SAMODZIELNIE.",
+      "sklad": [
+        {
+          "osoba_key": "NAT:J************|K********|4**********",
+          "typ": "fizyczna",
+          "display": "K******** J************",
+          "funkcja": "PREZES ZARZĄDU"
+        }
+      ]
+    },
+    "wlasciciele": {
+      "typ": "wspolnicy_spzoo",
+      "lista": [
+        {
+          "osoba_key": "NAT:J************|K********|4**********",
+          "typ": "fizyczna",
+          "display": "K******** J************",
+          "posiadane_udzialy": "100 UDZIAŁÓW O ŁĄCZNEJ WARTOŚCI 5.000,00 ZŁ",
+          "calosc": true
+        }
+      ]
+    },
+    "pkd_glowny": {
+      "kod": "46.47.Z",
+      "opis": "SPRZEDAŻ HURTOWA MEBLI, DYWANÓW I SPRZĘTU OŚWIETLENIOWEGO"
+    },
+    "distress": {
+      "dzial4": false,
+      "dzial5": false,
+      "dzial6": false,
+      "dzial6_typy": []
+    }
+  },
+  {
+    "company": {
+      "krs": "0000864032",
+      "nazwa": "\"TENCZYNEK DYSTRYBUCJA\" SPÓŁKA AKCYJNA",
+      "forma": "SPÓŁKA AKCYJNA",
+      "nip": "9462683417",
+      "regon": "38136827100000"
+    },
+    "snapshot_meta": {
+      "stan_z_dnia": "24.11.2025",
+      "nr_ostatniego_wpisu": 13,
+      "data_ostatniego_wpisu": "16.07.2024"
+    },
+    "adres": {
+      "ulica": "UL. CHMIELNA",
+      "nr_domu": "2",
+      "nr_lokalu": "31",
+      "kod_pocztowy": "00-020",
+      "miejscowosc": "WARSZAWA",
+      "kraj": "POLSKA"
+    },
+    "kapital": {
+      "wartosc": "100000,00",
+      "waluta": "PLN"
+    },
+    "zarzad": {
+      "nazwa_organu": "ZARZĄD",
+      "sposob_reprezentacji": "DO SKŁADANIA OŚWIADCZEŃ W IMIENIU SPÓŁKI I JEJ REPREZENTOWANIA UPRAWNIONY JEST PREZES ZARZĄDU SAMODZIELNIE LUB DWÓCH CZŁONKÓW ZARZĄDU DZIAŁAJĄCYCH ŁĄCZNIE.",
+      "sklad": [
+        {
+          "osoba_key": "NAT:P******|J*****|6**********",
+          "typ": "fizyczna",
+          "display": "J***** M***** P******",
+          "funkcja": "PREZES ZARZĄDU"
+        }
+      ]
+    },
+    "wlasciciele": {
+      "typ": "jedyny_akcjonariusz",
+      "lista": [
+        {
+          "osoba_key": "LE:MANUFAKTURA PIWA WÓDKI I WINA SPÓŁKA AKCYJNA|0000635590",
+          "typ": "prawna",
+          "display": "MANUFAKTURA PIWA WÓDKI I WINA SPÓŁKA AKCYJNA",
+          "posiadane_udzialy": null,
+          "calosc": true
+        }
+      ]
+    },
+    "pkd_glowny": {
+      "kod": "46.34.A",
+      "opis": "SPRZEDAŻ HURTOWA NAPOJÓW ALKOHOLOWYCH"
+    },
+    "distress": {
+      "dzial4": false,
+      "dzial5": false,
+      "dzial6": false,
+      "dzial6_typy": []
+    }
+  },
+  {
+    "company": {
+      "krs": "0000883491",
+      "nazwa": "FAME MMA SPÓŁKA AKCYJNA",
+      "forma": "SPÓŁKA AKCYJNA",
+      "nip": "7773370464",
+      "regon": "38818115600000"
+    },
+    "snapshot_meta": {
+      "stan_z_dnia": "12.03.2026",
+      "nr_ostatniego_wpisu": 18,
+      "data_ostatniego_wpisu": "12.03.2026"
+    },
+    "adres": {
+      "ulica": "UL. DWORCOWA",
+      "nr_domu": "4B",
+      "nr_lokalu": "3",
+      "kod_pocztowy": "62-020",
+      "miejscowosc": "SWARZĘDZ",
+      "kraj": "POLSKA"
+    },
+    "kapital": {
+      "wartosc": "400000,00",
+      "waluta": "PLN"
+    },
+    "zarzad": {
+      "nazwa_organu": "ZARZĄD",
+      "sposob_reprezentacji": "W PRZYPADKU ZARZĄDU LICZĄCEGO 2 LUB WIĘCEJ OSÓB, DO REPREZENTOWANIA SPÓŁKI UPRAWNIONYCH JEST DWÓCH CZŁONKÓW ZARZĄDU ŁĄCZNIE, NATOMIAST GDY ZARZĄD JEST JEDNOOSOBOWY DO REPREZENTOWANIA SPÓŁKI UPRAWNIONY JEST SAMODZIELNIE PREZES ZARZĄDU.",
+      "sklad": [
+        {
+          "osoba_key": "NAT:R******|K********|7**********",
+          "typ": "fizyczna",
+          "display": "K******** P**** R******",
+          "funkcja": "PREZES ZARZĄDU"
+        }
+      ]
+    },
+    "wlasciciele": {
+      "typ": "brak_w_krs",
+      "lista": []
+    },
+    "pkd_glowny": {
+      "kod": "93.19.Z",
+      "opis": "POZOSTAŁA DZIAŁALNOŚĆ ZWIĄZANA ZE SPORTEM"
+    },
+    "distress": {
+      "dzial4": false,
+      "dzial5": false,
+      "dzial6": false,
+      "dzial6_typy": []
+    }
+  },
+  {
+    "company": {
+      "krs": "0000898248",
+      "nazwa": "GRUPA MASPEX SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ",
+      "forma": "SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ",
+      "nip": "5512617657",
+      "regon": "12294851700000"
+    },
+    "snapshot_meta": {
+      "stan_z_dnia": "03.12.2025",
+      "nr_ostatniego_wpisu": 36,
+      "data_ostatniego_wpisu": "24.09.2025"
+    },
+    "adres": {
+      "ulica": "UL. LEGIONÓW",
+      "nr_domu": "37",
+      "nr_lokalu": null,
+      "kod_pocztowy": "34-100",
+      "miejscowosc": "WADOWICE",
+      "kraj": "POLSKA"
+    },
+    "kapital": {
+      "wartosc": "2988781500,00",
+      "waluta": "PLN"
+    },
+    "zarzad": {
+      "nazwa_organu": "ZARZĄD",
+      "sposob_reprezentacji": "W PRZYPADKU POWOŁANIA ZARZĄDU WIELOOSOBOWEGO DO SKŁADANIA OŚWIADCZEŃ W IMIENIU SPÓŁKI WYMAGANE JEST WSPÓŁDZIAŁANIE DWÓCH CZŁONKÓW ZARZĄDU ALBO JEDNEGO CZŁONKA ZARZĄDU ŁĄCZNIE Z PROKURENTEM ALBO DWÓCH PROKURENTÓW ŁĄCZNIE.",
+      "sklad": [
+        {
+          "osoba_key": "NAT:W****|R*****|7**********",
+          "typ": "fizyczna",
+          "display": "R***** P**** W****",
+          "funkcja": "CZŁONEK ZARZĄDU"
+        },
+        {
+          "osoba_key": "NAT:R****|M********|6**********",
+          "typ": "fizyczna",
+          "display": "M******** A*** R****",
+          "funkcja": "CZŁONEK ZARZĄDU"
+        },
+        {
+          "osoba_key": "NAT:T******|B*****|6**********",
+          "typ": "fizyczna",
+          "display": "B***** T******",
+          "funkcja": "CZŁONEK ZARZĄDU"
+        },
+        {
+          "osoba_key": "NAT:L*****|D*****|6**********",
+          "typ": "fizyczna",
+          "display": "D***** M**** L*****",
+          "funkcja": "CZŁONEK ZARZĄDU"
+        },
+        {
+          "osoba_key": "NAT:W********|B******|7**********",
+          "typ": "fizyczna",
+          "display": "B****** M**** W********",
+          "funkcja": "CZŁONEK ZARZĄDU"
+        },
+        {
+          "osoba_key": "NAT:M*****|M*****|7**********",
+          "typ": "fizyczna",
+          "display": "M***** B**** M*****",
+          "funkcja": "CZŁONEK ZARZĄDU"
+        },
+        {
+          "osoba_key": "NAT:P****|E****|6**********",
+          "typ": "fizyczna",
+          "display": "E**** A*** P****",
+          "funkcja": "CZŁONEK ZARZĄDU"
+        },
+        {
+          "osoba_key": "NAT:G*******|E*******|7**********",
+          "typ": "fizyczna",
+          "display": "E******* A******** G*******",
+          "funkcja": "CZŁONEK ZARZĄDU"
+        },
+        {
+          "osoba_key": "NAT:P*****|I****|7**********",
+          "typ": "fizyczna",
+          "display": "I**** M**** P*****",
+          "funkcja": "CZŁONEK ZARZĄDU"
+        },
+        {
+          "osoba_key": "NAT:Z****|K********|7**********",
+          "typ": "fizyczna",
+          "display": "K******** B******* Z****",
+          "funkcja": "CZŁONEK ZARZĄDU"
+        },
+        {
+          "osoba_key": "NAT:K******|L*****|6**********",
+          "typ": "fizyczna",
+          "display": "L***** K******",
+          "funkcja": "CZŁONEK ZARZĄDU"
+        },
+        {
+          "osoba_key": "NAT:R********|P****|7**********",
+          "typ": "fizyczna",
+          "display": "P**** A****** R********",
+          "funkcja": "CZŁONEK ZARZĄDU"
+        }
+      ]
+    },
+    "wlasciciele": {
+      "typ": "wspolnicy_spzoo",
+      "lista": [
+        {
+          "osoba_key": "LE:MASPEX HOLDING SPÓŁKA AKCYJNA|0000725647",
+          "typ": "prawna",
+          "display": "MASPEX HOLDING SPÓŁKA AKCYJNA",
+          "posiadane_udzialy": "59 775 430 UDZIAŁY O ŁĄCZNEJ WARTOŚCI 2.988.771.500,00 ZŁ",
+          "calosc": false
+        }
+      ]
+    },
+    "pkd_glowny": {
+      "kod": "70.10.Z",
+      "opis": "DZIAŁALNOŚĆ FIRM CENTRALNYCH (HEAD OFFICES) I HOLDINGÓW, Z WYŁĄCZENIEM HOLDINGÓW FINANSOWYCH"
+    },
+    "distress": {
+      "dzial4": false,
+      "dzial5": false,
+      "dzial6": true,
+      "dzial6_typy": [
+        "polaczeniePodzialPrzeksztalcenie"
+      ]
+    }
+  },
+  {
+    "company": {
+      "krs": "0001008036",
+      "nazwa": "MENTZEN SPÓŁKA AKCYJNA",
+      "forma": "SPÓŁKA AKCYJNA",
+      "nip": "5273032556",
+      "regon": "52392389500000"
+    },
+    "snapshot_meta": {
+      "stan_z_dnia": "17.04.2026",
+      "nr_ostatniego_wpisu": 26,
+      "data_ostatniego_wpisu": "17.04.2026"
+    },
+    "adres": {
+      "ulica": "UL. GRUDZIĄDZKA",
+      "nr_domu": "110-114",
+      "nr_lokalu": "101",
+      "kod_pocztowy": "87-100",
+      "miejscowosc": "TORUŃ",
+      "kraj": "POLSKA"
+    },
+    "kapital": {
+      "wartosc": "104850,00",
+      "waluta": "PLN"
+    },
+    "zarzad": {
+      "nazwa_organu": "ZARZĄD",
+      "sposob_reprezentacji": "KAŻDY CZŁONEK ZARZĄDU MA PRAWO REPREZENTOWANIA SPÓŁKI SAMODZIELNIE",
+      "sklad": [
+        {
+          "osoba_key": "NAT:M******|S*******|8**********",
+          "typ": "fizyczna",
+          "display": "S******* J**** M******",
+          "funkcja": "PREZES ZARZĄDU"
+        },
+        {
+          "osoba_key": "NAT:S***********|M****|9**********",
+          "typ": "fizyczna",
+          "display": "M**** S***********",
+          "funkcja": "WICEPREZES ZARZĄDU"
+        }
+      ]
+    },
+    "wlasciciele": {
+      "typ": "brak_w_krs",
+      "lista": []
+    },
+    "pkd_glowny": {
+      "kod": "69.20.Z",
+      "opis": "DZIAŁALNOŚĆ RACHUNKOWO-KSIĘGOWA; DORADZTWO PODATKOWE"
+    },
+    "distress": {
+      "dzial4": false,
+      "dzial5": false,
+      "dzial6": false,
+      "dzial6_typy": []
+    }
+  }
+]

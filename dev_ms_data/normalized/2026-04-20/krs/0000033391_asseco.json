@@ -1,0 +1,120 @@
+{
+  "company": {
+    "krs": "0000033391",
+    "nazwa": "ASSECO POLAND SPÓŁKA AKCYJNA",
+    "forma": "SPÓŁKA AKCYJNA",
+    "nip": "5220003782",
+    "regon": "01033457800000"
+  },
+  "snapshot_meta": {
+    "stan_z_dnia": "27.01.2026",
+    "nr_ostatniego_wpisu": 169,
+    "data_ostatniego_wpisu": "26.01.2026"
+  },
+  "adres": {
+    "ulica": "OLCHOWA",
+    "nr_domu": "14",
+    "nr_lokalu": null,
+    "kod_pocztowy": "35-322",
+    "miejscowosc": "RZESZÓW",
+    "kraj": "POLSKA"
+  },
+  "kapital": {
+    "wartosc": "83000303,00",
+    "waluta": "PLN"
+  },
+  "zarzad": {
+    "nazwa_organu": "ZARZĄD",
+    "sposob_reprezentacji": "DO REPREZENTOWANIA SPÓŁKI UPOWAŻNIENI SĄ: PREZES ZARZĄDU SAMODZIELNIE, DWAJ WICEPREZESI LUB WICEPREZES DZIAŁAJĄCY ŁĄCZNIE Z INNYM CZŁONKIEM ZARZĄDU LUB WICEPREZES DZIAŁAJĄCY ŁĄCZNIE Z PROKURENTEM.",
+    "sklad": [
+      {
+        "osoba_key": "NAT:G****|A***|5**********",
+        "typ": "fizyczna",
+        "display": "A*** T****** G****",
+        "funkcja": "PREZES ZARZĄDU"
+      },
+      {
+        "osoba_key": "NAT:P*******|Z*******|6**********",
+        "typ": "fizyczna",
+        "display": "Z******* P*******",
+        "funkcja": "WICEPREZES ZARZĄDU"
+      },
+      {
+        "osoba_key": "NAT:P****|M****|6**********",
+        "typ": "fizyczna",
+        "display": "M**** P**** P****",
+        "funkcja": "WICEPREZES ZARZĄDU"
+      },
+      {
+        "osoba_key": "NAT:G*******|K********|5**********",
+        "typ": "fizyczna",
+        "display": "K******** M***** G*******",
+        "funkcja": "WICEPREZES ZARZĄDU"
+      },
+      {
+        "osoba_key": "NAT:D********|A******|6**********",
+        "typ": "fizyczna",
+        "display": "A****** W******* D********",
+        "funkcja": "WICEPREZES ZARZĄDU"
+      },
+      {
+        "osoba_key": "NAT:Ż*******|G*******|7**********",
+        "typ": "fizyczna",
+        "display": "G******* B****** Ż*******",
+        "funkcja": "WICEPREZES ZARZĄDU"
+      },
+      {
+        "osoba_key": "NAT:W***|A****|7**********",
+        "typ": "fizyczna",
+        "display": "A**** W***",
+        "funkcja": "WICEPREZES ZARZĄDU"
+      },
+      {
+        "osoba_key": "NAT:S**********|S*******|7**********",
+        "typ": "fizyczna",
+        "display": "S******* S**********",
+        "funkcja": "WICEPREZES ZARZĄDU"
+      },
+      {
+        "osoba_key": "NAT:R*****|K*******|8**********",
+        "typ": "fizyczna",
+        "display": "K******* M**** R*****",
+        "funkcja": "WICEPREZES ZARZĄDU"
+      },
+      {
+        "osoba_key": "NAT:B******|G*******|7**********",
+        "typ": "fizyczna",
+        "display": "G******* M***** B******",
+        "funkcja": "WICEPREZES ZARZĄDU"
+      },
+      {
+        "osoba_key": "NAT:K********|R****|7**********",
+        "typ": "fizyczna",
+        "display": "R**** M**** K********",
+        "funkcja": "WICEPREZES ZARZĄDU"
+      },
+      {
+        "osoba_key": "NAT:B*********|T*****|6**********",
+        "typ": "fizyczna",
+        "display": "T***** B*********",
+        "funkcja": "WICEPREZES ZARZĄDU"
+      }
+    ]
+  },
+  "wlasciciele": {
+    "typ": "brak_w_krs",
+    "lista": []
+  },
+  "pkd_glowny": {
+    "kod": "62.10.B",
+    "opis": "POZOSTAŁA DZIAŁALNOŚĆ W ZAKRESIE PROGRAMOWANIA"
+  },
+  "distress": {
+    "dzial4": false,
+    "dzial5": false,
+    "dzial6": true,
+    "dzial6_typy": [
+      "polaczeniePodzialPrzeksztalcenie"
+    ]
+  }
+}

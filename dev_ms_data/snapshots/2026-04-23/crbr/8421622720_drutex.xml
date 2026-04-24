@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<wynikWyszukiwania>
+    <adresIp>188.47.78.65</adresIp>
+    <parametryWyszukiwania>
+        <dataDo>2026-04-23</dataDo>
+        <dataOd>2026-04-23</dataOd>
+        <nipLubIdentyfikatortrustu>8421622720</nipLubIdentyfikatortrustu>
+    </parametryWyszukiwania>
+    <szczegolyWnioskuOInformacje>
+        <dataICzasUdostepnieniaWniosku>2026-04-23 14:42:22</dataICzasUdostepnieniaWniosku>
+        <dataICzasZlozeniaWniosku>2026-04-23 14:42:22</dataICzasZlozeniaWniosku>
+        <identyfikatorZlozonegoWniosku>6049E00213594ED985DDF47ECDEB6738</identyfikatorZlozonegoWniosku>
+    </szczegolyWnioskuOInformacje>
+    <zgloszeniePodmiotu>
+        <dataKoncaPrezentacji>2026-04-23</dataKoncaPrezentacji>
+        <dataPoczatkuPrezentacji>2026-04-23</dataPoczatkuPrezentacji>
+        <id>9ca145a0-eb45-4c07-8f3a-45306d38b883</id>
+        <korekta>false</korekta>
+        <beneficjent>
+            <imieDrugieINastepne>KATARZYNA</imieDrugieINastepne>
+            <imiePierwsze>KAMILA</imiePierwsze>
+            <informacjeOUdzialeLubUprawnieniach>
+                <charakterUdzialu>1</charakterUdzialu>
+                <ilosc>100</ilosc>
+                <jednostkaMiaryUdzialu>01</jednostkaMiaryUdzialu>
+                <jednostkaMiaryUdzialuOpis>%</jednostkaMiaryUdzialuOpis>
+                <opisPrzywileju>BRAK</opisPrzywileju>
+                <rodzajUprzywilejowania>
+                    <kod>99</kod>
+                    <opis>brak</opis>
+                </rodzajUprzywilejowania>
+                <rodzajWlasnosci>007</rodzajWlasnosci>
+                <rodzajWlasnosciOpis>AKCJONARIUSZ SPÓŁKI AKCYJNEJ</rodzajWlasnosciOpis>
+            </informacjeOUdzialeLubUprawnieniach>
+            <nazwisko>GIERSZEWSKA</nazwisko>
+            <obywatelstwo>
+                <kodKraju>PL</kodKraju>
+                <nazwa>POLSKA</nazwa>
+            </obywatelstwo>
+            <panstwoZamieszkania>
+                <kodKraju>PL</kodKraju>
+                <nazwa>POLSKA</nazwa>
+            </panstwoZamieszkania>
+            <pesel>82041308329</pesel>
+        </beneficjent>
+        <listaZglaszajacych>
+            <funkcjeZglaszajacego>
+                <kod>111</kod>
+                <opis>ZGŁASZAJĄCY - CZŁONEK ZARZĄDU</opis>
+            </funkcjeZglaszajacego>
+            <imieDrugieINastepne>MARCIN</imieDrugieINastepne>
+            <imiePierwsze>DAMIAN</imiePierwsze>
+            <nazwisko>DWOREK</nazwisko>
+            <obywatelstwo>
+                <kodKraju>PL</kodKraju>
+                <nazwa>POLSKA</nazwa>
+            </obywatelstwo>
+            <panstwoZamieszkania>
+                <kodKraju>PL</kodKraju>
+                <nazwa>POLSKA</nazwa>
+            </panstwoZamieszkania>
+            <pesel>80102404890</pesel>
+        </listaZglaszajacych>
+        <danePodmiotu>
+            <adresSiedziby>
+                <gmina>BYTÓW</gmina>
+                <kodPocztowy>77-100</kodPocztowy>
+                <miejscowosc>BYTÓW</miejscowosc>
+                <nrDomu>31</nrDomu>
+                <powiat>BYTOWSKI</powiat>
+                <ulica>LĘBORSKA</ulica>
+                <wojewodztwo>POMORSKIE</wojewodztwo>
+            </adresSiedziby>
+            <formaOrganizacyjna>116</formaOrganizacyjna>
+            <formaOrganizacyjnaOpis>Spółka akcyjna</formaOrganizacyjnaOpis>
+            <krs>0000140428</krs>
+            <nipLubIdentyfikatortrustu>8421622720</nipLubIdentyfikatortrustu>
+            <pelnaNazwa>DRUTEX SPÓŁKA AKCYJNA</pelnaNazwa>
+        </danePodmiotu>
+    </zgloszeniePodmiotu>
+</wynikWyszukiwania>

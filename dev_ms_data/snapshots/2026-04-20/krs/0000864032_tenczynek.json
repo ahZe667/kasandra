@@ -1,0 +1,280 @@
+{
+  "odpis": {
+    "rodzaj": "Aktualny",
+    "naglowekA": {
+      "rejestr": "RejP",
+      "numerKRS": "0000864032",
+      "dataCzasOdpisu": "20.04.2026 22:59:34",
+      "stanZDnia": "24.11.2025",
+      "dataRejestracjiWKRS": "09.10.2020",
+      "numerOstatniegoWpisu": 13,
+      "dataOstatniegoWpisu": "16.07.2024",
+      "sygnaturaAktSprawyDotyczacejOstatniegoWpisu": "RDF/663864/24/316",
+      "oznaczenieSaduDokonujacegoOstatniegoWpisu": "SYSTEM",
+      "stanPozycji": 1
+    },
+    "dane": {
+      "dzial1": {
+        "danePodmiotu": {
+          "formaPrawna": "SPÓŁKA AKCYJNA",
+          "identyfikatory": {
+            "regon": "38136827100000",
+            "nip": "9462683417"
+          },
+          "nazwa": "\"TENCZYNEK DYSTRYBUCJA\" SPÓŁKA AKCYJNA",
+          "daneOWczesniejszejRejestracji": {},
+          "czyProwadziDzialalnoscZInnymiPodmiotami": false,
+          "czyPosiadaStatusOPP": false
+        },
+        "siedzibaIAdres": {
+          "siedziba": {
+            "kraj": "POLSKA",
+            "wojewodztwo": "MAZOWIECKIE",
+            "powiat": "WARSZAWA",
+            "gmina": "WARSZAWA",
+            "miejscowosc": "WARSZAWA"
+          },
+          "adres": {
+            "ulica": "UL. CHMIELNA",
+            "nrDomu": "2",
+            "nrLokalu": "31",
+            "miejscowosc": "WARSZAWA",
+            "kodPocztowy": "00-020",
+            "poczta": "WARSZAWA",
+            "kraj": "POLSKA"
+          },
+          "adresStronyInternetowej": "WWW.TENCZYNEK-DYSTRYBUCJA.PL"
+        },
+        "umowaStatut": {
+          "informacjaOZawarciuZmianieUmowyStatutu": [
+            {
+              "zawarcieZmianaUmowyStatutu": "DNIA 29.09.2020 R. PRZED NOTARIUSZEM AMELIĄ PACHUCKĄ-KUTRZUBA W KANCELARII NOTARIALNEJ W LUBLINIE, AKTEM NOTARIALNYM, REPERTORIUM A NR 2477/2020, DOKONANO PRZEKSZTAŁCENIA SPÓŁKI POD FIRMĄ \"TENCZYNEK DYSTRYBUCJA\" SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ W SPÓŁKĘ AKCYJNĄ POD FIRMĄ \"TENCZYNEK DYSTRYBUCJA\" SPÓŁKA AKCYJNA ORAZ PRZYJĘTO STATUT SPÓŁKI PRZEKSZTAŁCONEJ."
+            },
+            {
+              "zawarcieZmianaUmowyStatutu": "12.04.2024 R., ZASTĄPCA NOTARIALNY KINGA SYSKA, ZASTĘPCA NOTARIUSZA AMELII PACHUCKIEJ-KUTRZUBY, KANCELARIA NOTARIALNA W LUBLINIE, REPERTORIUM A NR 1722/2024, ZMIENIONO § 2 UST. 1 STATUTU, PRZYJĘTO TEKST JEDNOLITY STATUTU SPÓŁKI."
+            }
+          ]
+        },
+        "pozostaleInformacje": {
+          "czasNaJakiUtworzonyZostalPodmiot": "NIEOZNACZONY",
+          "czyUmowaStatutPrzyznajeUprawnieniaOsobiste": false,
+          "czyObligatoriuszeMajaPrawoDoUdzialuWZysku": false
+        },
+        "sposobPowstaniaPodmiotu": {
+          "okolicznosciPowstania": "PRZEKSZTAŁCENIE",
+          "opisSposobuPowstaniaInformacjaOUchwale": "PRZEKSZTAŁCENIE SPÓŁKI \"TENCZYNEK DYSTRYBUCJA\" SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ W SPÓŁKĘ \"TENCZYNEK DYSTRYBUCJA\" SPÓŁKA AKCYJNA, UCHWAŁA O PRZEKSZTAŁCENIU Z DNIA 29 WRZEŚNIA 2020 ROKU, PODJĘTA PRZEZ NADZWYCZAJNE ZGROMADZENIE SPÓŁKI \"TENCZYNEK DYSTRYBUCJA\" SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ, REP. A NR 2477/2020, NOTARIUSZ AMELIA PACHUCKA-KUTRZUBA, KANCELARIA NOTARIALNA W LUBLINIE.",
+          "podmioty": [
+            {
+              "nazwa": "\"TENCZYNEK DYSTRYBUCJA\" SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ,------",
+              "krajNazwaRejestruEwidencji": "POLSKA , KRAJOWY REJESTR SĄDOWY",
+              "krs": {
+                "krs": "0000749821"
+              },
+              "identyfikator": {
+                "regon": "38136827100000"
+              },
+              "nip": "9462683417"
+            }
+          ]
+        },
+        "jedynyAkcjonariusz": [
+          {
+            "nazwa": "MANUFAKTURA PIWA WÓDKI I WINA SPÓŁKA AKCYJNA",
+            "identyfikator": {
+              "regon": "36533145800000"
+            },
+            "krs": {
+              "krs": "0000635590"
+            },
+            "czyPosiadaCaloscAkcji": true
+          }
+        ],
+        "kapital": {
+          "wysokoscKapitaluZakladowego": {
+            "wartosc": "100000,00",
+            "waluta": "PLN"
+          },
+          "lacznaLiczbaAkcjiUdzialow": "1000000",
+          "wartoscJednejAkcji": {
+            "wartosc": "0,10",
+            "waluta": "PLN"
+          },
+          "czescKapitaluWplaconegoPokrytego": {
+            "wartosc": "100000,00",
+            "waluta": "PLN"
+          },
+          "wniesioneAporty": {}
+        },
+        "emisjeAkcji": [
+          {
+            "nazwaSeriiAkcji": "SERIA A",
+            "liczbaAkcjiWSerii": "1000000",
+            "czyAkcjeUprzywilejowaneLiczbaAkcjiRodzajUprzywilejowania": "AKCJE NIE SĄ UPRZYWILEJOWANE"
+          }
+        ],
+        "wzmiankaOUpowaznieniuDoEmisjiWarrantowSubskrypcyjnych": {
+          "czyZarzadJestUprawnionyDoEmisjiWarrantowSubskrypcyjnych": false
+        }
+      },
+      "dzial2": {
+        "reprezentacja": {
+          "nazwaOrganu": "ZARZĄD",
+          "sposobReprezentacji": "DO SKŁADANIA OŚWIADCZEŃ W IMIENIU SPÓŁKI I JEJ REPREZENTOWANIA UPRAWNIONY JEST PREZES ZARZĄDU SAMODZIELNIE LUB DWÓCH CZŁONKÓW ZARZĄDU DZIAŁAJĄCYCH ŁĄCZNIE.",
+          "sklad": [
+            {
+              "nazwisko": {
+                "nazwiskoICzlon": "P******"
+              },
+              "imiona": {
+                "imie": "J*****",
+                "imieDrugie": "M*****"
+              },
+              "identyfikator": {
+                "pesel": "6**********"
+              },
+              "funkcjaWOrganie": "PREZES ZARZĄDU",
+              "czyZawieszona": false
+            }
+          ]
+        },
+        "organNadzoru": [
+          {
+            "nazwa": "RADA NADZORCZA",
+            "sklad": [
+              {
+                "nazwisko": {
+                  "nazwiskoICzlon": "P******"
+                },
+                "imiona": {
+                  "imie": "A***"
+                },
+                "identyfikator": {
+                  "pesel": "8**********"
+                }
+              },
+              {
+                "nazwisko": {
+                  "nazwiskoICzlon": "J*********"
+                },
+                "imiona": {
+                  "imie": "P******"
+                },
+                "identyfikator": {
+                  "pesel": "9**********"
+                }
+              },
+              {
+                "nazwisko": {
+                  "nazwiskoICzlon": "W********"
+                },
+                "imiona": {
+                  "imie": "D****",
+                  "imieDrugie": "J****"
+                },
+                "identyfikator": {
+                  "pesel": "8**********"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "dzial3": {
+        "przedmiotDzialalnosci": {
+          "przedmiotPrzewazajacejDzialalnosci": [
+            {
+              "opis": "SPRZEDAŻ HURTOWA NAPOJÓW ALKOHOLOWYCH",
+              "kodDzial": "46",
+              "kodKlasa": "34",
+              "kodPodklasa": "A"
+            }
+          ],
+          "przedmiotPozostalejDzialalnosci": [
+            {
+              "opis": "PRODUKCJA NAPOJÓW",
+              "kodDzial": "11"
+            },
+            {
+              "opis": "HANDEL HURTOWY, Z WYŁĄCZENIEM HANDLU POJAZDAMI SAMOCHODOWYMI",
+              "kodDzial": "46"
+            },
+            {
+              "opis": "HANDEL DETALICZNY, Z WYŁĄCZENIEM HANDLU DETALICZNEGO POJAZDAMI SAMOCHODOWYMI",
+              "kodDzial": "47"
+            },
+            {
+              "opis": "MAGAZYNOWANIE I DZIAŁALNOŚĆ USŁUGOWA WSPOMAGAJĄCA TRANSPORT",
+              "kodDzial": "52"
+            },
+            {
+              "opis": "ZAKWATEROWANIE",
+              "kodDzial": "55"
+            },
+            {
+              "opis": "FINANSOWA DZIAŁALNOŚĆ USŁUGOWA, Z WYŁĄCZENIEM UBEZPIECZEŃ I FUNDUSZÓW EMERYTALNYCH",
+              "kodDzial": "64"
+            },
+            {
+              "opis": "DZIAŁALNOŚĆ ZWIĄZANA Z OBSŁUGĄ RYNKU NIERUCHOMOŚCI",
+              "kodDzial": "68"
+            },
+            {
+              "opis": "REKLAMA, BADANIE RYNKU I OPINII PUBLICZNEJ",
+              "kodDzial": "73"
+            },
+            {
+              "opis": "WYNAJEM I DZIERŻAWA",
+              "kodDzial": "77"
+            }
+          ]
+        },
+        "wzmiankiOZlozonychDokumentach": {
+          "wzmiankaOZlozeniuRocznegoSprawozdaniaFinansowego": [
+            {
+              "dataZlozenia": "14.04.2022",
+              "zaOkresOdDo": "OD 01.01.2020 DO 31.12.2020"
+            },
+            {
+              "dataZlozenia": "14.04.2022",
+              "zaOkresOdDo": "OD 01.01.2021 DO 31.12.2021"
+            },
+            {
+              "dataZlozenia": "16.07.2024",
+              "zaOkresOdDo": "OD 01.01.2022 DO 31.12.2022"
+            }
+          ],
+          "wzmiankaOZlozeniuOpiniiBieglegoRewidentaSprawozdaniaZBadania": [
+            {
+              "zaOkresOdDo": "OD 01.01.2020 DO 31.12.2020"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2021 DO 31.12.2021"
+            }
+          ],
+          "wzmiankaOZlozeniuUchwalyPostanowieniaOZatwierdzeniuRocznegoSprawozdaniaFinansowego": [
+            {
+              "zaOkresOdDo": "OD 01.01.2020 DO 31.12.2020"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2021 DO 31.12.2021"
+            }
+          ],
+          "wzmiankaOZlozeniuSprawozdaniaZDzialalnosci": [
+            {
+              "zaOkresOdDo": "OD 01.01.2020 DO 31.12.2020"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2021 DO 31.12.2021"
+            }
+          ]
+        },
+        "informacjaODniuKonczacymRokObrotowy": {
+          "dzienKonczacyPierwszyRokObrotowy": "31.12.2021"
+        }
+      },
+      "dzial4": {},
+      "dzial5": {},
+      "dzial6": {}
+    }
+  }
+}

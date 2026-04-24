@@ -1,7 +1,5 @@
 {
-  "autoMemoryEnabled": true,
   "permissions": {
-    "defaultMode": "auto",
     "allow": [
       "Bash(rg:*)",
       "Bash(uv:*)",
@@ -23,8 +21,12 @@
       "Bash(git ls-files:*)",
       "Bash(git stash:*)",
       "Bash(git config:*)",
-      "Bash(gh:*)"
-    ]
+      "Bash(gh:*)",
+      "WebFetch(domain:pl.hyperflow.eu)",
+      "Read(//tmp/**)"
+    ],
+    "defaultMode": "auto"
   },
-  "model": "Sonnet"
+  "model": "Sonnet",
+  "autoMemoryEnabled": true
 }

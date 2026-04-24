@@ -1,0 +1,690 @@
+{
+  "odpis": {
+    "rodzaj": "Aktualny",
+    "naglowekA": {
+      "rejestr": "RejP",
+      "numerKRS": "0000140428",
+      "dataCzasOdpisu": "22.04.2026 21:30:15",
+      "stanZDnia": "20.12.2025",
+      "dataRejestracjiWKRS": "25.11.2002",
+      "numerOstatniegoWpisu": 78,
+      "dataOstatniegoWpisu": "19.12.2025",
+      "sygnaturaAktSprawyDotyczacejOstatniegoWpisu": "GD.VIII NS-REJ.KRS/23628/25/700",
+      "oznaczenieSaduDokonujacegoOstatniegoWpisu": "SĄD REJONOWY GDAŃSK  - PÓŁNOC W GDAŃSKU, VIII WYDZIAŁ GOSPODARCZY KRAJOWEGO REJESTRU SĄDOWEGO",
+      "stanPozycji": 1
+    },
+    "dane": {
+      "dzial1": {
+        "danePodmiotu": {
+          "formaPrawna": "SPÓŁKA AKCYJNA",
+          "identyfikatory": {
+            "regon": "77156449300000",
+            "nip": "8421622720"
+          },
+          "nazwa": "DRUTEX SPÓŁKA AKCYJNA",
+          "daneOWczesniejszejRejestracji": {},
+          "czyProwadziDzialalnoscZInnymiPodmiotami": false,
+          "czyPosiadaStatusOPP": false
+        },
+        "siedzibaIAdres": {
+          "siedziba": {
+            "kraj": "POLSKA",
+            "wojewodztwo": "POMORSKIE",
+            "powiat": "BYTOWSKI",
+            "gmina": "BYTÓW",
+            "miejscowosc": "BYTÓW"
+          },
+          "adres": {
+            "ulica": "LĘBORSKA",
+            "nrDomu": "31",
+            "miejscowosc": "BYTÓW",
+            "kodPocztowy": "77-100",
+            "poczta": "BYTÓW",
+            "kraj": "POLSKA"
+          },
+          "adresPocztyElektronicznej": "DRUTEX@DRUTEX.COM.PL",
+          "adresStronyInternetowej": "WWW.DRUTEX.PL",
+          "adresDoDoreczenElektronicznychWpisanyDoBAE": "AE:PL-71122-84193-GEGTB-28"
+        },
+        "umowaStatut": {
+          "informacjaOZawarciuZmianieUmowyStatutu": [
+            {
+              "zawarcieZmianaUmowyStatutu": "04.11.2002R. NOTARIUSZ MARZENNA KAMIŃSKA-GBUR, KANCELARIA NOTARIALNA W MIASTKU, REP. A 3819/2002"
+            },
+            {
+              "zawarcieZmianaUmowyStatutu": "30.06.2003 R. REP. A 2633/2003, NOTARIUSZ MARZENA KAMIŃSKA-GBUR, KANCELARIA NOTARIALNA W MIASTKU, ZMIANA PAR. 7 ORAZ 8 STATUTU."
+            },
+            {
+              "zawarcieZmianaUmowyStatutu": "09.06.2004R. REPERTORIUM A NR 2784/2004 NOTARIUSZ MARZENNA KAMIŃSKA-GBUR, KANCELARIA NOTARIALNA W MIASTKU, ZMIANA PARAGRAFU 17 PKT 4 STATUTU"
+            },
+            {
+              "zawarcieZmianaUmowyStatutu": "31.05.2005R., REPERTORIUM A NR 2486/2005, NOTARIUSZ MARZENNA KAMIŃSKA-GBUR, KANCELARIA NOTARIALNA W MIASTKU, ZMIANA PARAGRAFÓW: 8, 16 UST.1, 16 UST.6, 17 UST.11, 21 STATUTU SPÓŁKI, WYKREŚLENIE (USUNIĘCIE) PARAGRAFÓW: 25, 26, 27, 28 STATUTU SPÓŁKI;"
+            },
+            {
+              "zawarcieZmianaUmowyStatutu": "31.10.2005R. REPERTORIUM A NR 5045/2005 NOTARIUSZ MARZENNA KAMIŃSKA-GBUR, KANCELARIA NOTARIALNA W MIASTKU, ZMIANA PARAGRAFU 7 STATUTU"
+            },
+            {
+              "zawarcieZmianaUmowyStatutu": "11.05.2007 R. REPERTORIUM A NR 961/2007, NOTARIUSZ MARZENA KAMIŃSKA-GBUR, KANCELARIA NOTARIALNA W TORUNIU, ZMIENIONO PAR. 6 UMOWY"
+            },
+            {
+              "zawarcieZmianaUmowyStatutu": "10.02.2012R. REPERTORIUM A NR 330/2012 NOTARIUSZ MARZENNA KAMIŃSKA-GBUR KANCELARIA NOTARIALNA W TORUNIU, PODJĘCIE UCHWAŁY W SPRAWIE ZMIANY PAR. 6 UST. 1 STATUTU SPÓŁKI"
+            },
+            {
+              "zawarcieZmianaUmowyStatutu": "10.03.2016 R., REPERTORIUM A NR 594/2016, NOTARIUSZ MARZENNA KAMIŃSKA - GBUR, KANCELARIA NOTARIALNA W TORUNIU, PODJĘCIE UCHWAŁY W SPRAWIE ZMIANY PAR.15 STATUTU SPÓŁKI - ROZSZERZENIE SKŁADU ZARZĄDU I ZMIANA SPOSOBU REPREZENTACJI SPÓŁKI."
+            },
+            {
+              "zawarcieZmianaUmowyStatutu": "26.03.2019 ROK, REPERTORIUM A NR 2557/2019, NOTARIUSZ PAWEŁ ORŁOWSKI Z KANCELARII NOTARIALNEJ W WARSZAWIE PRZY ULICY CHŁODNEJ 15, ZMIENIONO: PAR.15 UST.1, PAR.15 UST.5, PAR.15 UST.8, PAR.16 UST.1, PAR.16 UST.2, PAR.16 UST.3, PAR.16 UST.4, PAR.16 UST.5, PAR.16 UST.6, PAR.17 UST.1, PAR.17 UST.6, PAR.17 UST.7, PAR.17 UST.10,\nDODANO: PAR.15 UST.1A, PAR.15 UST.1B, PAR.15 UST.1C, PAR.15 UST.8A, PAR.15 UST.8B, PAR.15 UST.10A, PAR.16 UST.2A, PAR.16 UST.2B, PAR.16 UST.2C, PAR.16 UST.4A, PAR.16 UST.4B, PAR.16 UST.4C, PAR.16 UST.9"
+            },
+            {
+              "zawarcieZmianaUmowyStatutu": "27.04.2020, REP. A NR 2410/2020, NOTARIUSZ PAWEŁ ORŁOWSKI, KANCELARIA NOTARIALNA LESZCZYŃSKA ORŁOWSKI NOTARIUSZE SP. P. W WARSZAWIE PRZY UL. WSPÓLNEJ 70, ZMIANA PAR.6 UST.1, PAR.13 ORAZ PAR.15 UST.5 STATUTU SPÓŁKI.\n27.05.2020, REP. A NR 3433/2020, NOTARIUSZ PAWEŁ ORŁOWSKI, KANCELARIA NOTARIALNA LESZCZYŃSKA ORŁOWSKI NOTARIUSZE SP.P. W WARSZAWIE PRZY UL. WSPÓLNEJ 70, ZMIANA PAR.1, PAR.3, PAR.10 ORAZ PAR.11 STATUTU SPÓŁKI.\nDODANIE W STATUCIE SPÓŁKI PAR.7A, LIT.G) W PAR.16 UST.5 ORAZ UST.14 W PAR.17, ZMIANY REDAKCYJNE W PAR.9 UST.1 LIT B), PAR.9 UST.2 ZD.2, PAR.14, PAR.15 UST.1 ZD.1, PAR.15 UST.2, UST.6, UST.9, UST.11, PAR.16 UST.6 TIRET PIERWSZE, TIRET DRUGIE, TIRET TRZECIE, PAR.17 UST.5 ZD.7, PAR.17 UST.10  TIRET PIERWSZE, TIRET DRUGIE, TIRET TRZECIE, TIRET ÓSME, TIRET DZIEWIĄTE, PAR.22, PAR.23 ORAZ PAR.24 STATUTU SPÓŁKI."
+            },
+            {
+              "zawarcieZmianaUmowyStatutu": "30.09.2021 R., REP. A NR 6897/2021, NOTARIUSZ PAWEŁ ORŁOWSKI, KANCELARIA NOTARIALNA ANETA LESZCZYŃSKA PAWEŁ ORŁOWSKI SP. P. Z SIEDZIBĄ W WARSZAWIE PRZY UL. WSPÓLNEJ 70, 00-687 WARSZAWA, DODANIE UST. 6 W § 15 STATUTU SPÓŁKI."
+            },
+            {
+              "zawarcieZmianaUmowyStatutu": "27.05.2020 R., REP. A NR 3433/2020, NOTARIUSZ PAWEŁ ORŁOWSKI, KANCELARIA NOTARIALNA LESZCZYŃSKA ORŁOWSKI NOTARIUSZE SP.P. W WARSZAWIE PRZY UL. WSPÓLNEJ 70, ZMIANA §8 STATUTU SPÓŁKI, DODANIE W STATUCIE SPÓŁKI § 8A, § 8 B"
+            },
+            {
+              "zawarcieZmianaUmowyStatutu": "23.02.2023 R., REP. A NR 123/2023, NOTARIUSZ PAWEŁ ORŁOWSKI, KANCELARIA NOTARIALNA ORŁOWSKI SAŻYŃSKA NOTARIUSZE, UL. GENERAŁA JÓZEFA ZAJĄCZKA 8 LUK. U1, ZMIANA § 7, USUNIĘCIE § 8 UST. 6, ZMIANA § 15 POPRZEZ DODANIE DO NIEGO UST. 12, ZMIANA § 16 UST. 8, ZMIANA § 16 POPRZEZ DODANIE DO NIEGO UST. 10 I 11"
+            },
+            {
+              "zawarcieZmianaUmowyStatutu": "03.09.2024 R., REP. A NR 2678/2024, NOTARIUSZ PAWEŁ ORŁOWSKI, KANCELARIA NOTARIALNA NOTARIUSZ PAWEŁ ORŁOWSKI, UL. GENERAŁA JÓZEFA ZAJĄCZKA 8 LOK. U1, ZMIANA § 15 UST. 5"
+            }
+          ]
+        },
+        "pozostaleInformacje": {
+          "czasNaJakiUtworzonyZostalPodmiot": "NIEOZNACZONY",
+          "czyUmowaStatutPrzyznajeUprawnieniaOsobiste": false,
+          "czyObligatoriuszeMajaPrawoDoUdzialuWZysku": false
+        },
+        "jedynyAkcjonariusz": [
+          {
+            "nazwisko": {
+              "nazwiskoICzlon": "G**********"
+            },
+            "imiona": {
+              "imie": "K*****"
+            },
+            "identyfikator": {
+              "pesel": "8**********"
+            },
+            "czyPosiadaCaloscAkcji": true
+          }
+        ],
+        "kapital": {
+          "wysokoscKapitaluZakladowego": {
+            "wartosc": "21690000,00",
+            "waluta": "PLN"
+          },
+          "lacznaLiczbaAkcjiUdzialow": "2169000",
+          "wartoscJednejAkcji": {
+            "wartosc": "10,00",
+            "waluta": "PLN"
+          },
+          "czescKapitaluWplaconegoPokrytego": {
+            "wartosc": "21690000,00",
+            "waluta": "PLN"
+          },
+          "wniesioneAporty": {
+            "okreslenieWartosciUdzialowObjetychZaAport": [
+              {
+                "wartosc": "21200000,00",
+                "waluta": "PLN"
+              },
+              {
+                "wartosc": "7012000,00",
+                "waluta": "PLN"
+              }
+            ]
+          }
+        },
+        "emisjeAkcji": [
+          {
+            "nazwaSeriiAkcji": "AKCJE SERII \"A\"",
+            "liczbaAkcjiWSerii": "49000",
+            "czyAkcjeUprzywilejowaneLiczbaAkcjiRodzajUprzywilejowania": "AKCJE NIE SĄ UPRZYWILEJOWANE"
+          },
+          {
+            "nazwaSeriiAkcji": "AKCJE SERII \"B\"",
+            "liczbaAkcjiWSerii": "2120000",
+            "czyAkcjeUprzywilejowaneLiczbaAkcjiRodzajUprzywilejowania": "AKCJE NIE SĄ UPRZYWILEJOWANE"
+          }
+        ],
+        "wzmiankaOUpowaznieniuDoEmisjiWarrantowSubskrypcyjnych": {
+          "czyZarzadJestUprawnionyDoEmisjiWarrantowSubskrypcyjnych": false
+        }
+      },
+      "dzial2": {
+        "reprezentacja": {
+          "nazwaOrganu": "ZARZĄD",
+          "sposobReprezentacji": "DO SKŁADANIA OŚWIADCZEŃ I PODPISYWANIA W IMIENIU SPÓŁKI UPRAWNIENI SĄ:\n1) PREZES ZARZĄDU SAMODZIELNIE;\n2) WICEPREZES ZARZĄDU SAMODZIELNIE;\n3) DWÓCH CZŁONKÓW ZARZĄDU ŁĄCZNIE;\n4) CZŁONEK ZARZĄDU ŁĄCZNIE Z PROKURENTEM.",
+          "sklad": [
+            {
+              "nazwisko": {
+                "nazwiskoICzlon": "G**********"
+              },
+              "imiona": {
+                "imie": "K*****"
+              },
+              "identyfikator": {
+                "pesel": "8**********"
+              },
+              "funkcjaWOrganie": "WICEPREZES ZARZĄDU",
+              "czyZawieszona": false
+            },
+            {
+              "nazwisko": {
+                "nazwiskoICzlon": "D*****"
+              },
+              "imiona": {
+                "imie": "D*****"
+              },
+              "identyfikator": {
+                "pesel": "8**********"
+              },
+              "funkcjaWOrganie": "CZŁONEK ZARZĄDU",
+              "czyZawieszona": false
+            },
+            {
+              "nazwisko": {
+                "nazwiskoICzlon": "G**********"
+              },
+              "imiona": {
+                "imie": "K****"
+              },
+              "identyfikator": {
+                "pesel": "8**********"
+              },
+              "funkcjaWOrganie": "CZŁONEK ZARZĄDU",
+              "czyZawieszona": false
+            }
+          ]
+        },
+        "organNadzoru": [
+          {
+            "nazwa": "RADA NADZORCZA",
+            "sklad": [
+              {
+                "nazwisko": {
+                  "nazwiskoICzlon": "G**********"
+                },
+                "imiona": {
+                  "imie": "J****"
+                },
+                "identyfikator": {
+                  "pesel": "6**********"
+                }
+              },
+              {
+                "nazwisko": {
+                  "nazwiskoICzlon": "P*****",
+                  "nazwiskoIICzlon": "B*****"
+                },
+                "imiona": {
+                  "imie": "M********"
+                },
+                "identyfikator": {
+                  "pesel": "8**********"
+                }
+              },
+              {
+                "nazwisko": {
+                  "nazwiskoICzlon": "H********"
+                },
+                "imiona": {
+                  "imie": "J*******"
+                },
+                "identyfikator": {
+                  "pesel": "5**********"
+                }
+              }
+            ]
+          }
+        ],
+        "prokurenci": [
+          {
+            "nazwisko": {
+              "nazwiskoICzlon": "F*****"
+            },
+            "imiona": {
+              "imie": "M*******"
+            },
+            "identyfikator": {
+              "pesel": "7**********"
+            },
+            "rodzajProkury": "ŁĄCZNA"
+          },
+          {
+            "nazwisko": {
+              "nazwiskoICzlon": "L***"
+            },
+            "imiona": {
+              "imie": "A***",
+              "imieDrugie": "Z******"
+            },
+            "identyfikator": {
+              "pesel": "7**********"
+            },
+            "rodzajProkury": "ŁĄCZNA"
+          }
+        ]
+      },
+      "dzial3": {
+        "przedmiotDzialalnosci": {
+          "przedmiotPrzewazajacejDzialalnosci": [
+            {
+              "opis": "PRODUKCJA WYROBÓW DLA BUDOWNICTWA Z TWORZYW SZTUCZNYCH",
+              "kodDzial": "22",
+              "kodKlasa": "23",
+              "kodPodklasa": "Z"
+            }
+          ],
+          "przedmiotPozostalejDzialalnosci": [
+            {
+              "opis": "PRODUKCJA ARKUSZY FORNIROWYCH I PŁYT WYKONANYCH NA BAZIE DREWNA",
+              "kodDzial": "16",
+              "kodKlasa": "21",
+              "kodPodklasa": "Z"
+            },
+            {
+              "opis": "PRODUKCJA POZOSTAŁYCH WYROBÓW Z DREWNA; PRODUKCJA WYROBÓW Z KORKA, SŁOMY I MATERIAŁÓW UŻYWANYCH DO WYPLATANIA",
+              "kodDzial": "16",
+              "kodKlasa": "29",
+              "kodPodklasa": "Z"
+            },
+            {
+              "opis": "PRODUKCJA PŁYT, ARKUSZY, RUR I KSZTAŁTOWNIKÓW Z TWORZYW SZTUCZNYCH",
+              "kodDzial": "22",
+              "kodKlasa": "21",
+              "kodPodklasa": "Z"
+            },
+            {
+              "opis": "PRODUKCJA SZKŁA PŁASKIEGO",
+              "kodDzial": "23",
+              "kodKlasa": "11",
+              "kodPodklasa": "Z"
+            },
+            {
+              "opis": "KSZTAŁTOWANIE I OBRÓBKA SZKŁA PŁASKIEGO",
+              "kodDzial": "23",
+              "kodKlasa": "12",
+              "kodPodklasa": "Z"
+            },
+            {
+              "opis": "PRODUKCJA I OBRÓBKA POZOSTAŁEGO SZKŁA, WŁĄCZAJĄC SZKŁO TECHNICZNE",
+              "kodDzial": "23",
+              "kodKlasa": "19",
+              "kodPodklasa": "Z"
+            },
+            {
+              "opis": "PRODUKCJA POZOSTAŁYCH GOTOWYCH WYROBÓW METALOWYCH, GDZIE INDZIEJ NIESKLASYFIKOWANA",
+              "kodDzial": "25",
+              "kodKlasa": "99",
+              "kodPodklasa": "Z"
+            },
+            {
+              "opis": "SPRZEDAŻ HURTOWA DREWNA, MATERIAŁÓW BUDOWLANYCH I WYPOSAŻENIA SANITARNEGO",
+              "kodDzial": "46",
+              "kodKlasa": "73",
+              "kodPodklasa": "Z"
+            },
+            {
+              "opis": "PRODUKCJA POZOSTAŁYCH WYROBÓW STOLARSKICH I CIESIELSKICH DLA BUDOWNICTWA",
+              "kodDzial": "16",
+              "kodKlasa": "23",
+              "kodPodklasa": "Z"
+            }
+          ]
+        },
+        "wzmiankiOZlozonychDokumentach": {
+          "wzmiankaOZlozeniuRocznegoSprawozdaniaFinansowego": [
+            {
+              "dataZlozenia": "02.07.2004",
+              "zaOkresOdDo": "OD 04.11.2002R. DO 31.12.2003R."
+            },
+            {
+              "dataZlozenia": "15.06.2005",
+              "zaOkresOdDo": "OD 01.01.2004R. DO 31.12.2004R."
+            },
+            {
+              "dataZlozenia": "05.06.2006",
+              "zaOkresOdDo": "OD 1.01.2005R. DO 31.12.2005R."
+            },
+            {
+              "dataZlozenia": "03.07.2007",
+              "zaOkresOdDo": "OD 01.01.2006R. DO 31.12.2006R."
+            },
+            {
+              "dataZlozenia": "02.07.2008",
+              "zaOkresOdDo": "01.01.2007 R. - 31.12.2007 R."
+            },
+            {
+              "dataZlozenia": "19.06.2009",
+              "zaOkresOdDo": "OD 01.01.2008 R. DO 31.12.2008 R."
+            },
+            {
+              "dataZlozenia": "30.06.2010",
+              "zaOkresOdDo": "OD 01.01.2009R. DO 31.12.2009R."
+            },
+            {
+              "dataZlozenia": "28.06.2011",
+              "zaOkresOdDo": "OD 01.01.2010R. DO 31.12.2010R."
+            },
+            {
+              "dataZlozenia": "13.07.2012",
+              "zaOkresOdDo": "OD 01.01.2011R. DO 31.12.2011R."
+            },
+            {
+              "dataZlozenia": "21.06.2013",
+              "zaOkresOdDo": "OD 01.01.2012R. DO 31.12.2012R."
+            },
+            {
+              "dataZlozenia": "03.07.2014",
+              "zaOkresOdDo": "OD 01.01.2013 DO 31.12.2013"
+            },
+            {
+              "dataZlozenia": "13.07.2015",
+              "zaOkresOdDo": "OD 01.01.2014 DO 31.12.2014"
+            },
+            {
+              "dataZlozenia": "13.07.2016",
+              "zaOkresOdDo": "OD 01.01.2015 DO 31.12.2015"
+            },
+            {
+              "dataZlozenia": "27.06.2017",
+              "zaOkresOdDo": "OD 01.01.2016 DO 31.12.2016"
+            },
+            {
+              "dataZlozenia": "09.07.2019",
+              "zaOkresOdDo": "OD 01.01.2018 DO 31.12.2018"
+            },
+            {
+              "dataZlozenia": "06.10.2020",
+              "zaOkresOdDo": "OD 01.01.2019 DO 31.12.2019"
+            },
+            {
+              "dataZlozenia": "05.10.2021",
+              "zaOkresOdDo": "OD 01.01.2020 DO 31.12.2020"
+            },
+            {
+              "dataZlozenia": "16.08.2022",
+              "zaOkresOdDo": "OD 01.01.2021 DO 31.12.2021"
+            },
+            {
+              "dataZlozenia": "04.07.2023",
+              "zaOkresOdDo": "OD 01.01.2022 DO 31.12.2022"
+            },
+            {
+              "dataZlozenia": "24.06.2024",
+              "zaOkresOdDo": "OD 01.01.2023 DO 31.12.2023"
+            },
+            {
+              "dataZlozenia": "26.06.2025",
+              "zaOkresOdDo": "OD 01.01.2024 DO 31.12.2024"
+            }
+          ],
+          "wzmiankaOZlozeniuOpiniiBieglegoRewidentaSprawozdaniaZBadania": [
+            {
+              "zaOkresOdDo": "OD 04.11.2002R. DO 31.12.2003R."
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2004R. DO 31.12.2004R."
+            },
+            {
+              "zaOkresOdDo": "OD 1.01.2005R. DO 31.12.2005R."
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2006R. DO 31.12.2006R."
+            },
+            {
+              "zaOkresOdDo": "01.01.2007 R. - 31.12.2007 R."
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2008 R. DO 31.12.2008 R."
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2009R. DO 31.12.2009R."
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2010R. DO 31.12.2010R."
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2011R. DO 31.12.2011R."
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2012R. DO 31.12.2012R."
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2013 DO 31.12.2013"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2014 DO 31.12.2014"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2015 DO 31.12.2015"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2016 DO 31.12.2016"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2018 DO 31.12.2018"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2019 DO 31.12.2019"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2020 DO 31.12.2020"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2021 DO 31.12.2021"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2022 DO 31.12.2022"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2023 DO 31.12.2023"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2024 DO 31.12.2024"
+            }
+          ],
+          "wzmiankaOZlozeniuUchwalyPostanowieniaOZatwierdzeniuRocznegoSprawozdaniaFinansowego": [
+            {
+              "zaOkresOdDo": "OD 04.11.2002R. DO 31.12.2003R."
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2004R. DO 31.12.2004R."
+            },
+            {
+              "zaOkresOdDo": "OD 1.01.2005R. DO 31.12.2005R."
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2006R. DO 31.12.2006R."
+            },
+            {
+              "zaOkresOdDo": "01.01.2007 R. - 31.12.2007 R."
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2008 R. DO 31.12.2008 R."
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2009R. DO 31.12.2009R."
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2010R. DO 31.12.2010R."
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2011R. DO 31.12.2011R."
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2012R. DO 31.12.2012R."
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2013 DO 31.12.2013"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2014 DO 31.12.2014"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2015 DO 31.12.2015"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2016 DO 31.12.2016"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2018 DO 31.12.2018"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2019 DO 31.12.2019"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2020 DO 31.12.2020"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2021 DO 31.12.2021"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2022 DO 31.12.2022"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2023 DO 31.12.2023"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2024 DO 31.12.2024"
+            }
+          ],
+          "wzmiankaOZlozeniuSprawozdaniaZDzialalnosci": [
+            {
+              "zaOkresOdDo": "OD 04.11.2002R. DO 31.12.2003R."
+            },
+            {
+              "zaOkresOdDo": "OD 1.01.2005R. DO 31.12.2005R."
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2006R. DO 31.12.2006R."
+            },
+            {
+              "zaOkresOdDo": "01.01.2007 R. - 31.12.2007 R."
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2008 R. DO 31.12.2008 R."
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2009R. DO 31.12.2009R."
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2010R. DO 31.12.2010R."
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2011R. DO 31.12.2011R."
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2012R. DO 31.12.2012R."
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2013 DO 31.12.2013"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2014 DO 31.12.2014"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2015 DO 31.12.2015"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2016 DO 31.12.2016"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2018 DO 31.12.2018"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2019 DO 31.12.2019"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2020 DO 31.12.2020"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2021 DO 31.12.2021"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2022 DO 31.12.2022"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2023 DO 31.12.2023"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2024 DO 31.12.2024"
+            }
+          ]
+        },
+        "sprawozdaniaGrupyKapitalowej": {
+          "wzmiankaOZlozeniuSkonsolidowanegoRocznegoSprawozdaniaFinansowego": [
+            {
+              "dataZlozenia": "13.07.2015",
+              "zaOkresOdDo": "OD 01.01.2014 DO 31.12.2014"
+            },
+            {
+              "dataZlozenia": "13.07.2016",
+              "zaOkresOdDo": "OD 01.01.2015 DO 31.12.2015"
+            },
+            {
+              "dataZlozenia": "27.06.2017",
+              "zaOkresOdDo": "OD 01.01.2016 DO 31.12.2016"
+            },
+            {
+              "dataZlozenia": "15.06.2018",
+              "zaOkresOdDo": "OD 01.01.2017 DO 31.12.2017"
+            }
+          ],
+          "wzmiankaOZlozeniuOpiniiBieglegoRewidentaSprawozdaniaZBadania": [
+            {
+              "zaOkresOdDo": "OD 01.01.2014 DO 31.12.2014"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2015 DO 31.12.2015"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2016 DO 31.12.2016"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2017 DO 31.12.2017"
+            }
+          ],
+          "wzmiankaOZlozeniuUchwalyPostanowieniaOZatwierdzeniuSkonsolidowanegoRocznegoSprawozdaniaFinansowego": [
+            {
+              "zaOkresOdDo": "OD 01.01.2014 DO 31.12.2014"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2015 DO 31.12.2015"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2016 DO 31.12.2016"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2017 DO 31.12.2017"
+            }
+          ],
+          "wzmiankaOZlozeniuSprawozdaniaZDzialalnosciGrupyKapitalowejSpolkiDominujacejLacznie": [
+            {
+              "zaOkresOdDo": "OD 01.01.2014 DO 31.12.2014"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2015 DO 31.12.2015"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2016 DO 31.12.2016"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2017 DO 31.12.2017"
+            }
+          ]
+        },
+        "informacjaODniuKonczacymRokObrotowy": {
+          "dzienKonczacyPierwszyRokObrotowy": "31.12.2003"
+        }
+      },
+      "dzial4": {},
+      "dzial5": {},
+      "dzial6": {}
+    }
+  }
+}

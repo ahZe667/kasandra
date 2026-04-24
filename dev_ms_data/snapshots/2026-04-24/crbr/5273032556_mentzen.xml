@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<wynikWyszukiwania>
+    <adresIp>188.47.78.65</adresIp>
+    <parametryWyszukiwania>
+        <dataDo>2026-04-24</dataDo>
+        <dataOd>2026-04-24</dataOd>
+        <nipLubIdentyfikatortrustu>5273032556</nipLubIdentyfikatortrustu>
+    </parametryWyszukiwania>
+    <szczegolyWnioskuOInformacje>
+        <dataICzasUdostepnieniaWniosku>2026-04-24 14:22:20</dataICzasUdostepnieniaWniosku>
+        <dataICzasZlozeniaWniosku>2026-04-24 14:22:20</dataICzasZlozeniaWniosku>
+        <identyfikatorZlozonegoWniosku>3B7B0995983842C8A0BFF2398120FBD4</identyfikatorZlozonegoWniosku>
+    </szczegolyWnioskuOInformacje>
+    <zgloszeniePodmiotu>
+        <dataKoncaPrezentacji>2026-04-24</dataKoncaPrezentacji>
+        <dataPoczatkuPrezentacji>2026-04-24</dataPoczatkuPrezentacji>
+        <id>8f9d735d-40ea-4ec2-a395-15105307a183</id>
+        <korekta>false</korekta>
+        <beneficjent>
+            <imieDrugieINastepne>JERZY</imieDrugieINastepne>
+            <imiePierwsze>SŁAWOMIR</imiePierwsze>
+            <informacjeOUdzialeLubUprawnieniach>
+                <charakterUdzialu>2</charakterUdzialu>
+                <rodzajUprzywilejowania/>
+                <uprWlasPosrednie>FUNDATOR / PREZES ZARZĄDU / BENEFICJENT FUNDACJI RODZINNEJ MENTZEN W ORGANIZACJI</uprWlasPosrednie>
+            </informacjeOUdzialeLubUprawnieniach>
+            <nazwisko>MENTZEN</nazwisko>
+            <obywatelstwo>
+                <kodKraju>PL</kodKraju>
+                <nazwa>POLSKA</nazwa>
+            </obywatelstwo>
+            <panstwoZamieszkania>
+                <kodKraju>PL</kodKraju>
+                <nazwa>POLSKA</nazwa>
+            </panstwoZamieszkania>
+            <pesel>86112012551</pesel>
+        </beneficjent>
+        <beneficjent>
+            <imiePierwsze>AGNIESZKA</imiePierwsze>
+            <informacjeOUdzialeLubUprawnieniach>
+                <charakterUdzialu>2</charakterUdzialu>
+                <rodzajUprzywilejowania/>
+                <uprWlasPosrednie>BENEFICJENT FUNDACJI RODZINNEJ MENTZEN W ORGANIZACJI</uprWlasPosrednie>
+            </informacjeOUdzialeLubUprawnieniach>
+            <nazwisko>MENTZEN</nazwisko>
+            <obywatelstwo>
+                <kodKraju>PL</kodKraju>
+                <nazwa>POLSKA</nazwa>
+            </obywatelstwo>
+            <panstwoZamieszkania>
+                <kodKraju>PL</kodKraju>
+                <nazwa>POLSKA</nazwa>
+            </panstwoZamieszkania>
+            <pesel>86121604646</pesel>
+        </beneficjent>
+        <listaZglaszajacych>
+            <funkcjeZglaszajacego>
+                <kod>111</kod>
+                <opis>ZGŁASZAJĄCY - CZŁONEK ZARZĄDU</opis>
+            </funkcjeZglaszajacego>
+            <imieDrugieINastepne>KRZYSZTOF</imieDrugieINastepne>
+            <imiePierwsze>KAMIL</imiePierwsze>
+            <nazwisko>WIELEWICKI</nazwisko>
+            <obywatelstwo>
+                <kodKraju>PL</kodKraju>
+                <nazwa>POLSKA</nazwa>
+            </obywatelstwo>
+            <panstwoZamieszkania>
+                <kodKraju>PL</kodKraju>
+                <nazwa>POLSKA</nazwa>
+            </panstwoZamieszkania>
+            <pesel>90101804614</pesel>
+        </listaZglaszajacych>
+        <danePodmiotu>
+            <adresSiedziby>
+                <gmina>TORUŃ</gmina>
+                <kodPocztowy>87-100</kodPocztowy>
+                <miejscowosc>TORUŃ</miejscowosc>
+                <nrDomu>110-114</nrDomu>
+                <nrLokalu>101</nrLokalu>
+                <powiat>TORUŃ</powiat>
+                <ulica>GRUDZIĄDZKA</ulica>
+                <wojewodztwo>KUJAWSKO-POMORSKIE</wojewodztwo>
+            </adresSiedziby>
+            <formaOrganizacyjna>116</formaOrganizacyjna>
+            <formaOrganizacyjnaOpis>Spółka akcyjna</formaOrganizacyjnaOpis>
+            <krs>0001008036</krs>
+            <nipLubIdentyfikatortrustu>5273032556</nipLubIdentyfikatortrustu>
+            <pelnaNazwa>MENTZEN SPÓŁKA AKCYJNA</pelnaNazwa>
+        </danePodmiotu>
+    </zgloszeniePodmiotu>
+</wynikWyszukiwania>
