@@ -204,3 +204,11 @@ def list_alerts(
         """,
         params,
     ).fetchall()
+
+
+def mark_alerts_seen(conn: sqlite3.Connection) -> int:
+    """Mark all 'new' alerts as 'seen'. Returns count updated."""
+    conn.execute("UPDATE alerts SET status = 'seen' WHERE status = 'new'")
+    count = conn.execute("SELECT changes()").fetchone()[0]
+    conn.commit()
+    return count

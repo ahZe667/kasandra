@@ -64,14 +64,20 @@ def _do_diff() -> None:
 
 def _do_digest() -> None:
     from kasandra.processing.alerts import generate_alerts, render_digest
+    from kasandra.config.paths import VAR_LOGS_DIR
 
     conn = connect()
     init_db(conn)
     new_alerts = generate_alerts(conn)
     if new_alerts:
-        typer.echo(f"Wygenerowano {new_alerts} nowych alertów.\n")
-    typer.echo(render_digest(conn))
+        typer.echo(f"Wygenerowano {new_alerts} nowych alertow.\n")
+    text = render_digest(conn)
+    typer.echo(text)
     conn.close()
+
+    VAR_LOGS_DIR.mkdir(parents=True, exist_ok=True)
+    digest_path = VAR_LOGS_DIR / f"digest_{_today_type.today()}.txt"
+    digest_path.write_text(text, encoding="utf-8")
 
 
 # --------------------------------------------------------------------------
@@ -122,6 +128,20 @@ def diff() -> None:
 def digest() -> None:
     """Generate alerts from changes and render a prioritised text digest."""
     _do_digest()
+
+
+@app.command()
+def review() -> None:
+    """Show new alerts and mark them as seen."""
+    from kasandra.storage.sqlite import mark_alerts_seen
+
+    _do_digest()
+    conn = connect()
+    init_db(conn)
+    marked = mark_alerts_seen(conn)
+    conn.close()
+    if marked:
+        typer.echo(f"\n({marked} alertow oznaczono jako seen)")
 
 
 @app.command()
