@@ -270,19 +270,19 @@ def run_diff(conn: sqlite3.Connection) -> int:
                 and snap_new["payload_hash"] is not None
                 and snap_old["payload_hash"] == snap_new["payload_hash"]
             ):
-                print(f"  {slug:12s} {source:4s} — bez zmian (hash identyczny)")
+                print(f"  {slug:12s} {source:4s} - bez zmian (hash identyczny)")
                 continue
 
             field_changes = diff_krs(snap_old, snap_new) if source == "krs" else diff_crbr(snap_old, snap_new)
 
             if not field_changes:
-                print(f"  {slug:12s} {source:4s} — hash różny, diff pusty")
+                print(f"  {slug:12s} {source:4s} - hash rozny, diff pusty")
                 continue
 
             saved = save_changes(conn, cid, source, snap_old, snap_new, field_changes)
             total += saved
-            for ch in field_changes:
-                print(f"  {slug:12s} {source:4s} [{ch['alert_rule']}] zapisano: {ch.get('field')}")
+            if saved > 0:
+                print(f"  {slug:12s} {source:4s} zapisano {saved} zmian")
 
     total += check_crbr_brak(conn)
     conn.commit()

@@ -16,7 +16,7 @@ Wszystkie snapshoty Fazy 0 zebrane, ekstraktor KRS gotowy, CRBR Playwright dzia�
 | B1 | Fundament storage — SQLite, importer, hashe snapshotów | DONE |
 | B2 | Diff engine KRS — porównanie snapshotów, reguły alertów | DONE |
 | B3 | Normalizacja CRBR + alerty CRBR-specyficzne | DONE |
-| B4 | CLI — `kasandra fetch / diff / alerts` | TODO |
+| B4 | CLI — `kasandra fetch / diff / alerts` | DONE |
 | B5 | Harmonogram pobierania + automatyzacja | TODO |
 
 **Deadline krytyczny:** CRBR publiczny dostęp kończy się **2026-07-01**.
@@ -325,13 +325,11 @@ Dostęp publiczny CRBR ważny do **2026-07-01** (potem wymagany uzasadniony inte
 - B2 zamknięty
 
 
-### Do dokończenia (notatka):
-Zrobione: diff.py, priority.py, alerts.py, sqlite.py + cli/main.py — wszystkie komendy zaimplementowane. kasandra diff przetestowany i działa (3 nowe rekordy: A-CRBR-BEN-USUN dla Żabki + A-CRBR-BRAK dla Strong Man i Januszex).
+### 2026-04-28 — Blok 4: CLI domknięty
 
-Do dokończenia przy następnej sesji (w kolejności):
-
-Drobny bug w diff.py — print "zapisano" pokazuje się nawet przy idempotent skip
-Test kasandra digest i kasandra watchlist list
-Fix Unicode (--help rzuca UnicodeEncodeError w Windows terminal)
-Commit plików src/kasandra/
-Aktualizacja dev_ms.md (B4 → DONE + log)
+- Fix: print "zapisano" w `diff.py` — teraz wypisywany tylko gdy `saved > 0` (idempotent rerun nie produkuje szumu)
+- Fix Unicode: usunięto `—` (en-dash) i `→` (strzałka) ze wszystkich stringów wyjściowych — `kasandra --help` działa bez UnicodeEncodeError na Windows cp1250
+- Przetestowano: `kasandra --help`, `kasandra watchlist list`, `kasandra diff` (rerun: 0 nowych rekordów), `kasandra digest` (7 alertów z poprzednich sesji)
+- Obserwacja: duplikaty A-CRBR-BRAK dla januszex i strong_man — dwa snapshoty brak_wpisow, dwa change rekordy, dwa alerty. Do rozwiązania przy deduplicacji alertów (B5 lub osobny fix).
+- CRBR zawieszone jako aktywne źródło (deadline publicznego dostępu: 2026-07-01) — zaktualizowano docs/02-sources-and-alerts.md
+- B4 zamknięty

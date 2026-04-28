@@ -99,7 +99,7 @@ def watchlist_list() -> None:
     for c in companies:
         crbr_status = "zwolniona" if c["crbr_exempt"] else "monitorowana"
         typer.echo(
-            f"{c['slug']:<14} {c['krs']:<12} {c['nip'] or '—':<14} {crbr_status:>9}  {c['notes'] or ''}"
+            f"{c['slug']:<14} {c['krs']:<12} {c['nip'] or '-':<14} {crbr_status:>9}  {c['notes'] or ''}"
         )
 
 
@@ -135,7 +135,7 @@ def run(
         None, "--date", "-d", help="Data YYYY-MM-DD (domyślnie: dziś)"
     ),
 ) -> None:
-    """Run the full pipeline: fetch → diff → digest."""
+    """Run the full pipeline: fetch -> diff -> digest."""
     d = run_date or str(_today_type.today())
     _do_fetch(source, d)
     _do_diff()

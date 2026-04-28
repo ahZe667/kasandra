@@ -80,7 +80,7 @@ def generate_alerts(conn: sqlite3.Connection) -> int:
 
 
 def render_digest(conn: sqlite3.Connection) -> str:
-    """Render a text digest of new alerts, grouped by priority (K→W→S→N)."""
+    """Render a text digest of new alerts, grouped by priority (K->W->S->N)."""
     alerts = conn.execute(
         """
         SELECT a.*, co.slug FROM alerts a
@@ -103,7 +103,7 @@ def render_digest(conn: sqlite3.Connection) -> str:
             current_priority = a["priority"]
             label = _PRIORITY_LABELS.get(current_priority, current_priority)
             lines.append(f"--- {label} ---")
-        lines.append(f"[{a['priority']}] {a['slug']} — {a['title']} ({a['alert_rule']})")
+        lines.append(f"[{a['priority']}] {a['slug']} - {a['title']} ({a['alert_rule']})")
         lines.append(f"    {a['summary']}")
 
     return "\n".join(lines)
