@@ -33,7 +33,7 @@ Wszystkie snapshoty Fazy 0 zebrane, ekstraktor KRS gotowy, CRBR Playwright dzia�
 | DRUTEX SPÓŁKA AKCYJNA | 0000140428 | 8421622720 | 771564493 | SA | producent okien/drzwi, stabilna |
 | GRUPA MASPEX SP. Z O.O. | 0000898248 | 5512617657 | 122948517 | Sp. z o.o. | FMCG, Tymbark — holding |
 | DINO POLSKA SPÓŁKA AKCYJNA | 0000408273 | 6211766191 | 300820828 | SA | retail, notowana GPW |
-| ASSECO POLAND SPÓŁKA AKCYJNA | 0000033391 | 5220003307 | 010337520 | SA | IT, notowana GPW |
+| ASSECO POLAND SPÓŁKA AKCYJNA | 0000033391 | 5220003782 | 010337520 | SA | IT, notowana GPW |
 | FAME MMA SPÓŁKA AKCYJNA | 0000883491 | 7773370464 | 388181156 | SA | młoda SA, dynamiczne zmiany |
 | MENTZEN SPÓŁKA AKCYJNA | 0001008036 | 5273032556 | 523923895 | SA | nowa SA, Mentzen — ciekawy CRBR |
 | "STRONG MAN" SP. Z O.O. | 0000055656 | 5862021333 | 191892935 | Sp. z o.o. | stara spółka, logistyka Malbork |

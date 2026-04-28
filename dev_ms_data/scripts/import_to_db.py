@@ -36,7 +36,7 @@ WATCHLIST = [
     dict(krs="0000140428", nip="8421622720", regon="771564493",  slug="drutex",      crbr_exempt=False, notes="producent okien/drzwi, stabilna"),
     dict(krs="0000898248", nip="5512617657", regon="122948517",  slug="maspex",      crbr_exempt=False, notes="FMCG, Tymbark — holding"),
     dict(krs="0000408273", nip="6211766191", regon="300820828",  slug="dino",        crbr_exempt=True,  notes="retail, notowana GPW"),
-    dict(krs="0000033391", nip="5220003307", regon="010337520",  slug="asseco",      crbr_exempt=True,  notes="IT, notowana GPW; NIP w KRS API: 5220003782"),
+    dict(krs="0000033391", nip="5220003782", regon="010337520",  slug="asseco",      crbr_exempt=True,  notes="IT, notowana GPW"),
     dict(krs="0000883491", nip="7773370464", regon="388181156",  slug="fame_mma",    crbr_exempt=False, notes="młoda SA, dynamiczne zmiany"),
     dict(krs="0001008036", nip="5273032556", regon="523923895",  slug="mentzen",     crbr_exempt=False, notes="nowa SA, Mentzen — ciekawy CRBR"),
     dict(krs="0000055656", nip="5862021333", regon="191892935",  slug="strong_man",  crbr_exempt=False, notes="stara spółka, logistyka Malbork"),
