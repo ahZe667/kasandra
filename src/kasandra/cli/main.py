@@ -35,7 +35,8 @@ def _run_script(script: str, *args: str) -> None:
 def _do_fetch(source: str, run_date: str) -> None:
     snap_dir = REPO_ROOT / "dev_ms_data" / "snapshots" / run_date
     norm_dir = REPO_ROOT / "dev_ms_data" / "normalized" / run_date
-    sources = ["krs", "crbr"] if source == "all" else [source]
+    # CRBR zawieszone od 2026-04-28 (dostep publiczny konczy sie 2026-07-01)
+    sources = ["krs"] if source == "all" else [source]
 
     for src in sources:
         if src == "krs":
@@ -43,13 +44,8 @@ def _do_fetch(source: str, run_date: str) -> None:
             _run_script("fetch_krs.py", str(snap_dir))
             typer.echo(f"\n=== Extract KRS ({run_date}) ===")
             _run_script("extract_krs.py", str(snap_dir / "krs"), str(norm_dir))
-        elif src == "crbr":
-            typer.echo(f"\n=== Fetch CRBR ({run_date}) ===")
-            _run_script("fetch_crbr_playwright.py", str(snap_dir))
-            typer.echo(f"\n=== Extract CRBR ({run_date}) ===")
-            _run_script("extract_crbr.py", str(snap_dir / "crbr"), str(norm_dir))
         else:
-            typer.echo(f"Nieznane źródło: {src}. Użyj krs, crbr lub all.", err=True)
+            typer.echo(f"Nieznane zrodlo: {src}. Uzyj krs lub all.", err=True)
             raise typer.Exit(1)
 
     typer.echo(f"\n=== Import do DB ({run_date}) ===")
@@ -105,7 +101,7 @@ def watchlist_list() -> None:
 
 @app.command()
 def fetch(
-    source: str = typer.Option("all", "--source", "-s", help="krs | crbr | all"),
+    source: str = typer.Option("all", "--source", "-s", help="krs | all"),
     run_date: Optional[str] = typer.Option(
         None, "--date", "-d", help="Data YYYY-MM-DD (domyślnie: dziś)"
     ),
@@ -130,7 +126,7 @@ def digest() -> None:
 
 @app.command()
 def run(
-    source: str = typer.Option("all", "--source", "-s", help="krs | crbr | all"),
+    source: str = typer.Option("all", "--source", "-s", help="krs | all"),
     run_date: Optional[str] = typer.Option(
         None, "--date", "-d", help="Data YYYY-MM-DD (domyślnie: dziś)"
     ),

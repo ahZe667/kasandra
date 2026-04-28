@@ -253,7 +253,7 @@ def run_diff(conn: sqlite3.Connection) -> int:
         cid = company["id"]
         slug = company["slug"]
 
-        for source in ("krs", "crbr"):
+        for source in ("krs",):  # CRBR zawieszone 2026-04-28
             snaps = conn.execute(
                 "SELECT * FROM snapshots WHERE company_id=? AND source=? ORDER BY collected_at ASC",
                 (cid, source),
@@ -284,7 +284,7 @@ def run_diff(conn: sqlite3.Connection) -> int:
             if saved > 0:
                 print(f"  {slug:12s} {source:4s} zapisano {saved} zmian")
 
-    total += check_crbr_brak(conn)
+    # total += check_crbr_brak(conn)  # CRBR zawieszone 2026-04-28
     conn.commit()
     print(f"\nDiff gotowy. Nowych rekordów w changes: {total}")
     return total

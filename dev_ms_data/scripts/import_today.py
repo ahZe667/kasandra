@@ -65,41 +65,11 @@ def import_date(date: str) -> None:
     else:
         print(f"  SKIP: brak {krs_dir}")
 
-    # CRBR
-    crbr_dir = normalized_root / "crbr"
-    crbr_count = 0
-    if crbr_dir.exists():
-        for json_path in sorted(f for f in crbr_dir.glob("*.json") if not f.name.startswith("_")):
-            with open(json_path, encoding="utf-8") as fp:
-                payload = json.load(fp)
-            nip = payload["company"].get("nip")
-            krs = NIP_TO_KRS.get(nip)
-            if krs is None:
-                print(f"  WARN: NIP {nip} bez mapowania, pomijam {json_path.name}")
-                continue
-            row = conn.execute("SELECT id FROM companies WHERE krs = ?", (krs,)).fetchone()
-            if row is None:
-                print(f"  WARN: KRS {krs} nie w companies, pomijam")
-                continue
-            status = payload.get("status", "ok")
-            actual_payload = payload if status == "ok" else None
-            snap_id = insert_snapshot(
-                conn,
-                company_id=row["id"],
-                source="crbr",
-                collected_at=date,
-                status=status,
-                normalized_payload=actual_payload,
-                raw_path=f"dev_ms_data/snapshots/{date}/crbr/{json_path.stem}.xml" if status == "ok" else None,
-            )
-            crbr_count += 1
-            print(f"  CRBR {date}: {json_path.name} [{status}] -> snapshot #{snap_id}")
-    else:
-        print(f"  SKIP: brak {crbr_dir}")
+    # CRBR zawieszone 2026-04-28 — import pomijany
 
     conn.commit()
     conn.close()
-    print(f"\nGotowe: {krs_count} KRS + {crbr_count} CRBR snapshots dla {date}")
+    print(f"\nGotowe: {krs_count} KRS snapshots dla {date}")
 
 
 if __name__ == "__main__":

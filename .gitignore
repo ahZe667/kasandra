@@ -42,6 +42,9 @@ var/exports/*
 !var/exports/.gitkeep
 var/tmp/*
 !var/tmp/.gitkeep
+!var/logs/
+var/logs/*
+!var/logs/.gitkeep
 
 # Agent-local files
 .claude/worktrees/
