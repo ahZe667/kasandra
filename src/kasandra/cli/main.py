@@ -131,6 +131,46 @@ def digest() -> None:
 
 
 @app.command()
+def history(
+    slug: str = typer.Argument(..., help="Slug spolki (np. zabka)"),
+) -> None:
+    """Show full change history for a company."""
+    from kasandra.storage.sqlite import list_changes
+
+    conn = connect()
+    init_db(conn)
+    company = conn.execute(
+        "SELECT id, krs, nazwa FROM companies WHERE slug = ?", (slug,)
+    ).fetchone()
+    if company is None:
+        typer.echo(f"Nie znaleziono spolki: {slug}", err=True)
+        raise typer.Exit(1)
+
+    changes = list_changes(conn, company["id"])
+    conn.close()
+
+    if not changes:
+        typer.echo(f"{slug}: brak zmian w historii.")
+        return
+
+    typer.echo(f"=== Historia zmian: {slug} ({company['krs']}) ===\n")
+    for ch in changes:
+        date = ch["change_date"] or "?"
+        rule = ch["alert_rule"]
+        before = ch["value_before"] or ""
+        after = ch["value_after"] or ""
+        if len(before) > 70:
+            before = before[:67] + "..."
+        if len(after) > 70:
+            after = after[:67] + "..."
+        typer.echo(f"  {date}  [{rule}]")
+        if before and before not in ("null", "[]", "false", "true"):
+            typer.echo(f"    przed: {before}")
+        if after and after not in ("null", "[]", "false", "true"):
+            typer.echo(f"    po:    {after}")
+
+
+@app.command()
 def review() -> None:
     """Show new alerts and mark them as seen."""
     from kasandra.storage.sqlite import mark_alerts_seen

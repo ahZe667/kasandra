@@ -94,6 +94,100 @@ def diff_krs(snap_old: sqlite3.Row, snap_new: sqlite3.Row) -> list[dict]:
             "value_after": json.dumps(new_kap, ensure_ascii=False),
         })
 
+    # A-WLASC-NOWY / A-WLASC-USUN
+    old_wlasc = {w["osoba_key"] for w in old.get("wlasciciele", {}).get("lista", [])}
+    new_wlasc = {w["osoba_key"] for w in new.get("wlasciciele", {}).get("lista", [])}
+    if old_wlasc != new_wlasc:
+        dodani = new_wlasc - old_wlasc
+        usunieci = old_wlasc - new_wlasc
+        if dodani:
+            changes.append({
+                "alert_rule": "A-WLASC-NOWY",
+                "field": "wlasciciele.lista",
+                "value_before": json.dumps([], ensure_ascii=False),
+                "value_after": json.dumps(sorted(dodani), ensure_ascii=False),
+            })
+        if usunieci:
+            changes.append({
+                "alert_rule": "A-WLASC-USUN",
+                "field": "wlasciciele.lista",
+                "value_before": json.dumps(sorted(usunieci), ensure_ascii=False),
+                "value_after": json.dumps([], ensure_ascii=False),
+            })
+
+    # A-ZARZAD-REPR
+    old_repr = old.get("zarzad", {}).get("sposob_reprezentacji")
+    new_repr = new.get("zarzad", {}).get("sposob_reprezentacji")
+    if old_repr != new_repr:
+        changes.append({
+            "alert_rule": "A-ZARZAD-REPR",
+            "field": "zarzad.sposob_reprezentacji",
+            "value_before": json.dumps(old_repr, ensure_ascii=False),
+            "value_after": json.dumps(new_repr, ensure_ascii=False),
+        })
+
+    # A-NAZWA
+    old_nazwa = old.get("company", {}).get("nazwa")
+    new_nazwa = new.get("company", {}).get("nazwa")
+    if old_nazwa != new_nazwa:
+        changes.append({
+            "alert_rule": "A-NAZWA",
+            "field": "company.nazwa",
+            "value_before": json.dumps(old_nazwa, ensure_ascii=False),
+            "value_after": json.dumps(new_nazwa, ensure_ascii=False),
+        })
+
+    # A-FORMA
+    old_forma = old.get("company", {}).get("forma")
+    new_forma = new.get("company", {}).get("forma")
+    if old_forma != new_forma:
+        changes.append({
+            "alert_rule": "A-FORMA",
+            "field": "company.forma",
+            "value_before": json.dumps(old_forma, ensure_ascii=False),
+            "value_after": json.dumps(new_forma, ensure_ascii=False),
+        })
+
+    # A-PKD
+    old_pkd = old.get("pkd_glowny", {}).get("kod")
+    new_pkd = new.get("pkd_glowny", {}).get("kod")
+    if old_pkd != new_pkd:
+        changes.append({
+            "alert_rule": "A-PKD",
+            "field": "pkd_glowny.kod",
+            "value_before": json.dumps(old_pkd, ensure_ascii=False),
+            "value_after": json.dumps(new_pkd, ensure_ascii=False),
+        })
+
+    # A-DZ6-NEW — postepowania upadlosciowe/restrukturyzacyjne (KRYTYCZNY)
+    old_d = old.get("distress", {})
+    new_d = new.get("distress", {})
+    if not old_d.get("dzial6") and new_d.get("dzial6"):
+        changes.append({
+            "alert_rule": "A-DZ6-NEW",
+            "field": "distress.dzial6",
+            "value_before": json.dumps(False, ensure_ascii=False),
+            "value_after": json.dumps(new_d.get("dzial6_typy", []), ensure_ascii=False),
+        })
+
+    # A-DZ4-NEW — zaleglosci/egzekucja (KRYTYCZNY)
+    if not old_d.get("dzial4") and new_d.get("dzial4"):
+        changes.append({
+            "alert_rule": "A-DZ4-NEW",
+            "field": "distress.dzial4",
+            "value_before": json.dumps(False, ensure_ascii=False),
+            "value_after": json.dumps(True, ensure_ascii=False),
+        })
+
+    # A-DZ5-NEW — kurator/zarzad komisaryczny (WYSOKI)
+    if not old_d.get("dzial5") and new_d.get("dzial5"):
+        changes.append({
+            "alert_rule": "A-DZ5-NEW",
+            "field": "distress.dzial5",
+            "value_before": json.dumps(False, ensure_ascii=False),
+            "value_after": json.dumps(True, ensure_ascii=False),
+        })
+
     return changes
 
 

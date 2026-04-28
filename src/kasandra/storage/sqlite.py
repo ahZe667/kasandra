@@ -174,6 +174,35 @@ def get_snapshots(
 
 
 # --------------------------------------------------------------------------
+# changes
+# --------------------------------------------------------------------------
+
+def list_changes(
+    conn: sqlite3.Connection,
+    company_id: int,
+    *,
+    source: str | None = None,
+) -> list[sqlite3.Row]:
+    """Return all changes for a company ordered chronologically."""
+    clauses: list[str] = ["ch.company_id = ?"]
+    params: list[Any] = [company_id]
+    if source is not None:
+        clauses.append("ch.source = ?")
+        params.append(source)
+    where = "WHERE " + " AND ".join(clauses)
+    return conn.execute(
+        f"""
+        SELECT ch.*, sn.collected_at AS change_date
+        FROM changes ch
+        LEFT JOIN snapshots sn ON sn.id = ch.snapshot_new_id
+        {where}
+        ORDER BY change_date ASC, ch.id ASC
+        """,
+        params,
+    ).fetchall()
+
+
+# --------------------------------------------------------------------------
 # alerts
 # --------------------------------------------------------------------------
 
