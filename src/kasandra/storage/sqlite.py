@@ -31,6 +31,17 @@ def init_db(conn: sqlite3.Connection) -> None:
     """Create tables from schema SQL if they don't exist yet."""
     sql = _SCHEMA_SQL.read_text(encoding="utf-8")
     conn.executescript(sql)
+    _apply_migrations(conn)
+
+
+def _apply_migrations(conn: sqlite3.Connection) -> None:
+    """Apply incremental schema changes to existing databases."""
+    existing = {row[1] for row in conn.execute("PRAGMA table_info(snapshots)")}
+    if "is_synthetic" not in existing:
+        conn.execute(
+            "ALTER TABLE snapshots ADD COLUMN is_synthetic INTEGER NOT NULL DEFAULT 0"
+        )
+        conn.commit()
 
 
 def payload_hash(payload: dict[str, Any] | None) -> str | None:
@@ -110,6 +121,7 @@ def insert_snapshot(
     status: str = "ok",
     normalized_payload: dict[str, Any] | None = None,
     raw_path: str | None = None,
+    is_synthetic: bool = False,
 ) -> int:
     """Insert a snapshot; skip silently if (company, source, date) already exists.
 
@@ -129,9 +141,11 @@ def insert_snapshot(
     cur = conn.execute(
         """
         INSERT INTO snapshots
-            (company_id, source, collected_at, status, normalized_payload, payload_hash, raw_path)
+            (company_id, source, collected_at, status, normalized_payload,
+             payload_hash, raw_path, is_synthetic)
         VALUES
-            (:company_id, :source, :collected_at, :status, :payload, :hash, :raw_path)
+            (:company_id, :source, :collected_at, :status, :payload,
+             :hash, :raw_path, :is_synthetic)
         """,
         {
             "company_id": company_id,
@@ -141,6 +155,7 @@ def insert_snapshot(
             "payload": payload_json,
             "hash": ph,
             "raw_path": raw_path,
+            "is_synthetic": int(is_synthetic),
         },
     )
     return cur.lastrowid  # type: ignore[return-value]

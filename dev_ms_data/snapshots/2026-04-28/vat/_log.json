@@ -1,0 +1,65 @@
+{
+  "date": "2026-04-28",
+  "entries": [
+    {
+      "slug": "asseco",
+      "nip": "5220003307",
+      "status": "error",
+      "size_b": 23
+    },
+    {
+      "slug": "dino",
+      "nip": "6211766191",
+      "status": "ok",
+      "size_b": 1321
+    },
+    {
+      "slug": "drutex",
+      "nip": "8421622720",
+      "status": "ok",
+      "size_b": 1350
+    },
+    {
+      "slug": "fame_mma",
+      "nip": "7773370464",
+      "status": "ok",
+      "size_b": 723
+    },
+    {
+      "slug": "januszex",
+      "nip": "5272889007",
+      "status": "brak_wpisu",
+      "size_b": 101
+    },
+    {
+      "slug": "maspex",
+      "nip": "5512617657",
+      "status": "ok",
+      "size_b": 1575
+    },
+    {
+      "slug": "mentzen",
+      "nip": "5273032556",
+      "status": "ok",
+      "size_b": 704
+    },
+    {
+      "slug": "strong_man",
+      "nip": "5862021333",
+      "status": "brak_wpisu",
+      "size_b": 101
+    },
+    {
+      "slug": "tenczynek",
+      "nip": "9462683417",
+      "status": "ok",
+      "size_b": 810
+    },
+    {
+      "slug": "zabka",
+      "nip": "5223071241",
+      "status": "ok",
+      "size_b": 1859
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "company": {
+    "nip": "7773370464",
+    "nazwa": "FAME MMA SPÓŁKA AKCYJNA",
+    "krs": "0000883491",
+    "regon": "388181156"
+  },
+  "vat": {
+    "status": "Czynny",
+    "konta": [
+      "06109014500000000162112561",
+      "43109014500000000162112574"
+    ]
+  },
+  "snapshot_meta": {
+    "query_date": "2026-04-28"
+  }
+}

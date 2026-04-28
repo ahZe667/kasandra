@@ -17,7 +17,7 @@ Wszystkie snapshoty Fazy 0 zebrane, ekstraktor KRS gotowy, CRBR Playwright dzia�
 | B2 | Diff engine KRS — porównanie snapshotów, reguły alertów | DONE |
 | B3 | Normalizacja CRBR + alerty CRBR-specyficzne | DONE |
 | B4 | CLI — `kasandra fetch / diff / alerts` | DONE |
-| B5 | Harmonogram pobierania + automatyzacja | TODO |
+| B5 | Harmonogram pobierania + automatyzacja | DONE |
 
 **Deadline krytyczny:** CRBR publiczny dostęp kończy się **2026-07-01**.
 
@@ -324,6 +324,17 @@ Dostęp publiczny CRBR ważny do **2026-07-01** (potem wymagany uzasadniony inte
 - Diff potwierdził 3 zmiany dla Żabki: A-WPIS-NR + A-ZARZAD-SKLAD (KRS) + A-CRBR-BEN-SKLAD (CRBR)
 - B2 zamknięty
 
+
+### 2026-04-28 — Krok B + Biała Lista VAT
+
+- Krok B: kolumna `is_synthetic` w tabeli snapshots (migracja live + schema) — seed_synthetic.py oznacza dane testowe, diff je pomija
+- B5 formalnie zamknięty (scheduler Windows Task Scheduler pn-pt 09:00, logi do var/logs/)
+- Nowe reguły diff KRS: A-WLASC-NOWY/USUN, A-ZARZAD-REPR, A-NAZWA, A-FORMA, A-PKD, A-DZ6-NEW [K], A-DZ4-NEW [K], A-DZ5-NEW [W]
+- Nowe komendy CLI: `kasandra history <slug>`, `kasandra review`
+- Digest zapisywany do var/logs/digest_YYYY-MM-DD.txt przy każdym uruchomieniu
+- Biała Lista VAT: fetch_vat.py + extract_vat.py + import + diff_vat() (A-VAT-STATUS/KONTO-NOWE/KONTO-USUN)
+- Pierwszy fetch VAT: 7/10 OK — odkrycia: Tenczynek `Niezarejestrowany`, Asseco ERR (błędny NIP w seedzie: 5220003307 vs 5220003782)
+- Watchlista aktywna: KRS + VAT codziennie o 09:00
 
 ### 2026-04-28 — Blok 4: CLI domknięty
 

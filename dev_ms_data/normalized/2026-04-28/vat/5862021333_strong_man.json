@@ -1,0 +1,16 @@
+{
+  "company": {
+    "nip": "5862021333",
+    "nazwa": null,
+    "krs": null,
+    "regon": null
+  },
+  "vat": {
+    "status": null,
+    "konta": []
+  },
+  "snapshot_meta": {
+    "query_date": "2026-04-28",
+    "api_code": "unknown"
+  }
+}

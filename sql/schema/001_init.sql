@@ -35,6 +35,7 @@ CREATE TABLE IF NOT EXISTS snapshots (
     normalized_payload  TEXT,               -- JSON; NULL gdy status != 'ok'
     payload_hash        TEXT,               -- SHA-256 normalized_payload; do szybkiego diffowania
     raw_path            TEXT,               -- ścieżka do surowego pliku (rel. od REPO_ROOT)
+    is_synthetic        INTEGER NOT NULL DEFAULT 0,  -- 1 = dane testowe, pomijane w diffie
     created_at          TEXT    NOT NULL DEFAULT (strftime('%Y-%m-%dT%H:%M:%SZ', 'now')),
 
     UNIQUE (company_id, source, collected_at)

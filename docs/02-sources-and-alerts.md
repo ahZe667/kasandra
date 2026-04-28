@@ -13,12 +13,12 @@ Ten dokument laczy dwie rzeczy, ktore w `v0` musza pozostac spojne:
 | --- | --- | --- | --- |
 | KRS | zarzad, prokura, adres, dane rejestrowe | `v0 must` | podstawowe zrodlo zmian formalnych |
 | CRBR | beneficjenci rzeczywisci i zmiany wlascicielskie | `zawieszone` | patrz nizej |
-| Biala Lista VAT | status VAT i rachunki bankowe | `v1 kandydat` | najprostsze API sposrod dostepnych zrodel |
+| Biala Lista VAT | status VAT i rachunki bankowe | `v1 aktywne` | REST API MF bez autoryzacji; fetch_vat.py + extract_vat.py |
 | KRZ | postepowania restrukturyzacyjne i upadlosciowe | `v1` | glowny kandydat do rozszerzenia distress-first |
 | ESPI / PAP | raporty biezace i okresowe spolek publicznych | `later` | przydatne, ale zawaza projekt na rynek publiczny |
 | GUS / BDL | dane finansowe i statystyczne | `later / context` | dobre jako tlo, slabe jako trigger |
 
-Aktywne zrodlo w `v0`: tylko `KRS`.
+Aktywne zrodla: `KRS` + `Biala Lista VAT`.
 
 ## Status CRBR — zawieszone
 

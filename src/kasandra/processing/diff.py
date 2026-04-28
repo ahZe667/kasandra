@@ -250,6 +250,53 @@ def diff_crbr(snap_old: sqlite3.Row, snap_new: sqlite3.Row) -> list[dict]:
 
 
 # --------------------------------------------------------------------------
+# VAT diff
+# --------------------------------------------------------------------------
+
+def diff_vat(snap_old: sqlite3.Row, snap_new: sqlite3.Row) -> list[dict]:
+    old = _load(snap_old)
+    new = _load(snap_new)
+    if old is None or new is None:
+        return []
+
+    changes: list[dict] = []
+
+    # A-VAT-STATUS
+    old_status = old.get("vat", {}).get("status")
+    new_status = new.get("vat", {}).get("status")
+    if old_status != new_status:
+        changes.append({
+            "alert_rule": "A-VAT-STATUS",
+            "field": "vat.status",
+            "value_before": json.dumps(old_status, ensure_ascii=False),
+            "value_after": json.dumps(new_status, ensure_ascii=False),
+        })
+
+    # A-VAT-KONTO-NOWE / A-VAT-KONTO-USUN
+    old_konta = set(old.get("vat", {}).get("konta", []))
+    new_konta = set(new.get("vat", {}).get("konta", []))
+    if old_konta != new_konta:
+        nowe = new_konta - old_konta
+        usuniete = old_konta - new_konta
+        if nowe:
+            changes.append({
+                "alert_rule": "A-VAT-KONTO-NOWE",
+                "field": "vat.konta",
+                "value_before": json.dumps([], ensure_ascii=False),
+                "value_after": json.dumps(sorted(nowe), ensure_ascii=False),
+            })
+        if usuniete:
+            changes.append({
+                "alert_rule": "A-VAT-KONTO-USUN",
+                "field": "vat.konta",
+                "value_before": json.dumps(sorted(usuniete), ensure_ascii=False),
+                "value_after": json.dumps([], ensure_ascii=False),
+            })
+
+    return changes
+
+
+# --------------------------------------------------------------------------
 # A-CRBR-BRAK — statyczny check: spółka bez wpisu CRBR, nigdy go nie miała
 # --------------------------------------------------------------------------
 
@@ -347,9 +394,9 @@ def run_diff(conn: sqlite3.Connection) -> int:
         cid = company["id"]
         slug = company["slug"]
 
-        for source in ("krs",):  # CRBR zawieszone 2026-04-28
+        for source in ("krs", "vat"):  # CRBR zawieszone 2026-04-28
             snaps = conn.execute(
-                "SELECT * FROM snapshots WHERE company_id=? AND source=? ORDER BY collected_at ASC",
+                "SELECT * FROM snapshots WHERE company_id=? AND source=? AND is_synthetic=0 ORDER BY collected_at ASC",
                 (cid, source),
             ).fetchall()
 
@@ -367,7 +414,12 @@ def run_diff(conn: sqlite3.Connection) -> int:
                 print(f"  {slug:12s} {source:4s} - bez zmian (hash identyczny)")
                 continue
 
-            field_changes = diff_krs(snap_old, snap_new) if source == "krs" else diff_crbr(snap_old, snap_new)
+            if source == "krs":
+                field_changes = diff_krs(snap_old, snap_new)
+            elif source == "vat":
+                field_changes = diff_vat(snap_old, snap_new)
+            else:
+                field_changes = diff_crbr(snap_old, snap_new)
 
             if not field_changes:
                 print(f"  {slug:12s} {source:4s} - hash rozny, diff pusty")

@@ -132,6 +132,7 @@ def main() -> None:
         status="ok",
         normalized_payload=synth_krs,
         raw_path=f"dev_ms_data/synthetic/{SYNTH_DATE}/krs/0000636642_zabka.json",
+        is_synthetic=True,
     )
     print(f"  KRS snapshot zapisany: #{snap_id_krs}\n")
 
@@ -155,6 +156,7 @@ def main() -> None:
         status="ok",
         normalized_payload=synth_crbr,
         raw_path=f"dev_ms_data/synthetic/{SYNTH_DATE}/crbr/5223071241_zabka.json",
+        is_synthetic=True,
     )
     print(f"  CRBR snapshot zapisany: #{snap_id_crbr}\n")
 

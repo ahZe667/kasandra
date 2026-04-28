@@ -1,0 +1,37 @@
+{
+  "result": {
+    "subject": {
+      "name": "\"TENCZYNEK DYSTRYBUCJA\" SPÓŁKA AKCYJNA",
+      "nip": "9462683417",
+      "statusVat": "Niezarejestrowany",
+      "regon": "381368271",
+      "pesel": null,
+      "krs": "0000864032",
+      "residenceAddress": null,
+      "workingAddress": "CHMIELNA 2/31, 00-020 WARSZAWA",
+      "representatives": [
+        {
+          "companyName": null,
+          "firstName": "JANUSZ",
+          "lastName": "PALIKOT",
+          "nip": null,
+          "pesel": null
+        }
+      ],
+      "authorizedClerks": [],
+      "partners": [],
+      "registrationLegalDate": "2018-10-08",
+      "registrationDenialBasis": null,
+      "registrationDenialDate": null,
+      "restorationBasis": null,
+      "restorationDate": null,
+      "removalBasis": "Art. 96 ust. 9a pkt 2",
+      "removalDate": "2024-11-21",
+      "exemptionSmeDate": null,
+      "accountNumbers": [],
+      "hasVirtualAccounts": false
+    },
+    "requestId": "MzmQH-9752n4i",
+    "requestDateTime": "28-04-2026 10:30:42"
+  }
+}

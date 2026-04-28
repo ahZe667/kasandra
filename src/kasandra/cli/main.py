@@ -36,7 +36,7 @@ def _do_fetch(source: str, run_date: str) -> None:
     snap_dir = REPO_ROOT / "dev_ms_data" / "snapshots" / run_date
     norm_dir = REPO_ROOT / "dev_ms_data" / "normalized" / run_date
     # CRBR zawieszone od 2026-04-28 (dostep publiczny konczy sie 2026-07-01)
-    sources = ["krs"] if source == "all" else [source]
+    sources = ["krs", "vat"] if source == "all" else [source]
 
     for src in sources:
         if src == "krs":
@@ -44,8 +44,13 @@ def _do_fetch(source: str, run_date: str) -> None:
             _run_script("fetch_krs.py", str(snap_dir))
             typer.echo(f"\n=== Extract KRS ({run_date}) ===")
             _run_script("extract_krs.py", str(snap_dir / "krs"), str(norm_dir))
+        elif src == "vat":
+            typer.echo(f"\n=== Fetch VAT ({run_date}) ===")
+            _run_script("fetch_vat.py", str(snap_dir), run_date)
+            typer.echo(f"\n=== Extract VAT ({run_date}) ===")
+            _run_script("extract_vat.py", str(snap_dir / "vat"), str(norm_dir), run_date)
         else:
-            typer.echo(f"Nieznane zrodlo: {src}. Uzyj krs lub all.", err=True)
+            typer.echo(f"Nieznane zrodlo: {src}. Uzyj krs, vat lub all.", err=True)
             raise typer.Exit(1)
 
     typer.echo(f"\n=== Import do DB ({run_date}) ===")
@@ -107,7 +112,7 @@ def watchlist_list() -> None:
 
 @app.command()
 def fetch(
-    source: str = typer.Option("all", "--source", "-s", help="krs | all"),
+    source: str = typer.Option("all", "--source", "-s", help="krs | vat | all"),
     run_date: Optional[str] = typer.Option(
         None, "--date", "-d", help="Data YYYY-MM-DD (domyślnie: dziś)"
     ),
@@ -186,7 +191,7 @@ def review() -> None:
 
 @app.command()
 def run(
-    source: str = typer.Option("all", "--source", "-s", help="krs | all"),
+    source: str = typer.Option("all", "--source", "-s", help="krs | vat | all"),
     run_date: Optional[str] = typer.Option(
         None, "--date", "-d", help="Data YYYY-MM-DD (domyślnie: dziś)"
     ),
