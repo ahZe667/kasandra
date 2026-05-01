@@ -9,7 +9,7 @@ SYMULOWANA ZMIANA (realistyczna):
   CRBR: ten sam wiceprezes znika z listy beneficjentów (inne_uprawnienia, senior manager AML)
 
 OZNACZENIE:
-  - pliki zapisywane do dev_ms_data/synthetic/2026-04-24/
+  - pliki zapisywane do var/synthetic/2026-04-24/
   - raw_path w DB wskazuje na ścieżkę z "synthetic" — jasne że to dane testowe
   - collected_at = "2026-04-24" (kolejny dzień po realnych danych)
 
@@ -22,13 +22,13 @@ import json
 import sys
 from pathlib import Path
 
-REPO_ROOT = Path(__file__).resolve().parents[2]
+REPO_ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(REPO_ROOT / "src"))
 
 from kasandra.storage.sqlite import connect, insert_snapshot  # noqa: E402
 
 SYNTH_DATE = "2026-04-24"
-SYNTH_DIR = REPO_ROOT / "dev_ms_data" / "synthetic" / SYNTH_DATE
+SYNTH_DIR = REPO_ROOT / "var" / "synthetic" / SYNTH_DATE
 
 
 def get_latest_snapshot(conn, slug: str, source: str):
@@ -136,7 +136,7 @@ def main() -> None:
         collected_at=SYNTH_DATE,
         status="ok",
         normalized_payload=synth_krs,
-        raw_path=f"dev_ms_data/synthetic/{SYNTH_DATE}/krs/0000636642_zabka.json",
+        raw_path=f"var/synthetic/{SYNTH_DATE}/krs/0000636642_zabka.json",
         is_synthetic=True,
     )
     print(f"  KRS snapshot zapisany: #{snap_id_krs}\n")
@@ -160,14 +160,14 @@ def main() -> None:
         collected_at=SYNTH_DATE,
         status="ok",
         normalized_payload=synth_crbr,
-        raw_path=f"dev_ms_data/synthetic/{SYNTH_DATE}/crbr/5223071241_zabka.json",
+        raw_path=f"var/synthetic/{SYNTH_DATE}/crbr/5223071241_zabka.json",
         is_synthetic=True,
     )
     print(f"  CRBR snapshot zapisany: #{snap_id_crbr}\n")
 
     conn.commit()
     conn.close()
-    print("Gotowe. Uruchom teraz: python dev_ms_data/scripts/run_diff.py")
+    print("Gotowe. Uruchom teraz: python scripts/run_diff.py")
 
 
 if __name__ == "__main__":

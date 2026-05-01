@@ -17,7 +17,7 @@ import json
 import sys
 from pathlib import Path
 
-REPO_ROOT = Path(__file__).resolve().parents[2]
+REPO_ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(REPO_ROOT / "src"))
 
 from kasandra.storage.sqlite import (  # noqa: E402
@@ -148,13 +148,10 @@ def import_krs_snapshots(conn, normalized_dir: Path, collected_at: str) -> int:
             )
 
         raw_path = str(
-            Path("dev_ms_data/snapshots")
-            / collected_at
-            / "krs"
-            / json_path.name.replace(".json", ".json")
+            Path("var/snapshots") / collected_at / "krs" / json_path.name.replace(".json", ".json")
         ).replace("\\", "/")
         # raw file ma to samo imię ale w snapshotach
-        raw_path = f"dev_ms_data/snapshots/{collected_at}/krs/{json_path.stem}.json"
+        raw_path = f"var/snapshots/{collected_at}/krs/{json_path.stem}.json"
 
         snap_id = insert_snapshot(
             conn,
@@ -198,9 +195,7 @@ def import_crbr_snapshots(conn, normalized_dir: Path, collected_at: str) -> int:
 
         raw_slug = payload.get("slug", "")
         raw_path = (
-            f"dev_ms_data/snapshots/{collected_at}/crbr/{nip}_{raw_slug}.xml"
-            if status == "ok"
-            else None
+            f"var/snapshots/{collected_at}/crbr/{nip}_{raw_slug}.xml" if status == "ok" else None
         )
 
         snap_id = insert_snapshot(
@@ -227,7 +222,7 @@ def main() -> None:
     args = parser.parse_args()
 
     db_path = args.db or (REPO_ROOT / "var" / "sqlite" / "kasandra.sqlite3")
-    normalized_root = REPO_ROOT / "dev_ms_data" / "normalized"
+    normalized_root = REPO_ROOT / "var" / "normalized"
 
     print(f"DB: {db_path}")
     conn = connect(db_path)

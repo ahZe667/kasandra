@@ -2,16 +2,16 @@
 import_today.py — importuje snapshoty z konkretnej daty do DB.
 
 Usage:
-    python dev_ms_data/scripts/import_today.py <date>
+    python scripts/import_today.py <date>
 
 Przykład:
-    python dev_ms_data/scripts/import_today.py 2026-04-23
+    python scripts/import_today.py 2026-04-23
 """
 
 import sys
 from pathlib import Path
 
-REPO_ROOT = Path(__file__).resolve().parents[2]
+REPO_ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(REPO_ROOT / "src"))
 
 from kasandra.storage.sqlite import connect, init_db, insert_snapshot  # noqa: E402
@@ -34,7 +34,7 @@ def import_date(date: str) -> None:
     import json
 
     db_path = REPO_ROOT / "var" / "sqlite" / "kasandra.sqlite3"
-    normalized_root = REPO_ROOT / "dev_ms_data" / "normalized" / date
+    normalized_root = REPO_ROOT / "var" / "normalized" / date
 
     conn = connect(db_path)
     init_db(conn)
@@ -58,7 +58,7 @@ def import_date(date: str) -> None:
                 collected_at=date,
                 status="ok",
                 normalized_payload=payload,
-                raw_path=f"dev_ms_data/snapshots/{date}/krs/{json_path.stem}.json",
+                raw_path=f"var/snapshots/{date}/krs/{json_path.stem}.json",
             )
             krs_count += 1
             print(f"  KRS {date}: {json_path.name} -> snapshot #{snap_id}")
@@ -93,7 +93,7 @@ def import_date(date: str) -> None:
                 collected_at=date,
                 status=status,
                 normalized_payload=actual_payload,
-                raw_path=f"dev_ms_data/snapshots/{date}/vat/{json_path.name}",
+                raw_path=f"var/snapshots/{date}/vat/{json_path.name}",
             )
             vat_count += 1
             print(f"  VAT {date}: {json_path.name} [{status}] -> snapshot #{snap_id}")

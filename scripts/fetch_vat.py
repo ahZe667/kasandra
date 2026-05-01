@@ -19,7 +19,7 @@ import urllib.request
 from datetime import date as _date
 from pathlib import Path
 
-REPO_ROOT = Path(__file__).resolve().parents[2]
+REPO_ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(REPO_ROOT / "src"))
 
 from kasandra.storage.sqlite import connect, init_db, list_companies  # noqa: E402
