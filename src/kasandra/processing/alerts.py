@@ -16,10 +16,11 @@ _PRIORITY_LABELS = {"K": "KRYTYCZNY", "W": "WYSOKI", "S": "ŚREDNI", "N": "NISKI
 
 def _build_summary(change: sqlite3.Row) -> str:
     rule = change["alert_rule"]
+    _json_errors = (json.JSONDecodeError, TypeError)
     try:
         before = json.loads(change["value_before"]) if change["value_before"] else None
         after = json.loads(change["value_after"]) if change["value_after"] else None
-    except (json.JSONDecodeError, TypeError):
+    except _json_errors:
         before, after = change["value_before"], change["value_after"]
 
     parts: list[str] = []

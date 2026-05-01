@@ -53,6 +53,10 @@ var/logs/*
 # Codex / local tooling
 .codex/
 
+# Developer-local data and notes
+dev_ms_data/
+dev_ms.md
+
 # Task reports
 !var/reports/
 var/reports/*

@@ -25,7 +25,7 @@ watchlist_app = typer.Typer(
 )
 app.add_typer(watchlist_app, name="watchlist")
 
-_SCRIPTS = REPO_ROOT / "dev_ms_data" / "scripts"
+_SCRIPTS = REPO_ROOT / "scripts"
 
 
 def _run_script(script: str, *args: str) -> None:
@@ -33,8 +33,8 @@ def _run_script(script: str, *args: str) -> None:
 
 
 def _do_fetch(source: str, run_date: str) -> None:
-    snap_dir = REPO_ROOT / "dev_ms_data" / "snapshots" / run_date
-    norm_dir = REPO_ROOT / "dev_ms_data" / "normalized" / run_date
+    snap_dir = REPO_ROOT / "var" / "snapshots" / run_date
+    norm_dir = REPO_ROOT / "var" / "normalized" / run_date
     # CRBR zawieszone od 2026-04-28 (dostep publiczny konczy sie 2026-07-01)
     sources = ["krs", "vat"] if source == "all" else [source]
 
@@ -68,8 +68,8 @@ def _do_diff() -> None:
 
 
 def _do_digest() -> None:
-    from kasandra.processing.alerts import generate_alerts, render_digest
     from kasandra.config.paths import VAR_LOGS_DIR
+    from kasandra.processing.alerts import generate_alerts, render_digest
 
     conn = connect()
     init_db(conn)
@@ -89,6 +89,7 @@ def _do_digest() -> None:
 # Commands
 # --------------------------------------------------------------------------
 
+
 @watchlist_app.command("list")
 def watchlist_list() -> None:
     """Show the current watchlist."""
@@ -106,7 +107,8 @@ def watchlist_list() -> None:
     for c in companies:
         crbr_status = "zwolniona" if c["crbr_exempt"] else "monitorowana"
         typer.echo(
-            f"{c['slug']:<14} {c['krs']:<12} {c['nip'] or '-':<14} {crbr_status:>9}  {c['notes'] or ''}"
+            f"{c['slug']:<14} {c['krs']:<12} {c['nip'] or '-':<14}"
+            f" {crbr_status:>9}  {c['notes'] or ''}"
         )
 
 
