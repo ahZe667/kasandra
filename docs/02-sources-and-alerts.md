@@ -12,13 +12,55 @@ Ten dokument laczy dwie rzeczy, ktore w `v0` musza pozostac spojne:
 | Zrodlo | Co monitorujemy | Etap | Uwagi |
 | --- | --- | --- | --- |
 | KRS | zarzad, prokura, adres, dane rejestrowe | `v0 must` | podstawowe zrodlo zmian formalnych |
-| CRBR | beneficjenci rzeczywisci i zmiany wlascicielskie | `v0 must` | podstawowe zrodlo zmian wlascicielskich |
+| CRBR | beneficjenci rzeczywisci i zmiany wlascicielskie | `zawieszone` | patrz nizej |
+| Biala Lista VAT | status VAT i rachunki bankowe | `v1 aktywne` | REST API MF bez autoryzacji; fetch_vat.py + extract_vat.py |
 | KRZ | postepowania restrukturyzacyjne i upadlosciowe | `v1` | glowny kandydat do rozszerzenia distress-first |
 | ESPI / PAP | raporty biezace i okresowe spolek publicznych | `later` | przydatne, ale zawaza projekt na rynek publiczny |
-| Biala Lista VAT | status VAT i rachunki bankowe | `later` | raczej sygnal uzupelniajacy niz rdzen |
 | GUS / BDL | dane finansowe i statystyczne | `later / context` | dobre jako tlo, slabe jako trigger |
 
-W pierwszej wersji obowiazkowy zakres to tylko `KRS + CRBR`.
+Aktywne zrodla: `KRS` + `Biala Lista VAT`.
+
+## Status CRBR — zawieszone
+
+**Decyzja (2026-04-28):** CRBR zostaje zawieszone jako aktywne zrodlo danych.
+
+**Uzasadnienie:**
+
+Publiczny dostep do portalu CRBR (`crbr.podatki.gov.pl`) konczy sie **2026-07-01**. Po tej dacie dostep wymaga wykazania uzasadnionego interesu prawnego — warunek, ktorego system autonomiczny (CLI, batch run) nie spelnia.
+
+Dotychczasowy mechanizm pobierania opierał sie na Playwright (headless browser omijajacy Imperva WAF), poniewaz:
+- SOAP API MF zwraca HTTP 500 dla wszystkich zapytan (10/10 prob w 2026-04);
+- REST API portalu jest blokowane przez WAF (zwraca `null` bez sesji JS).
+
+Kontynuowanie integracji CRBR przed Faza 3 nie ma uzasadnienia:
+- do 2026-07-01 dziala tylko kruchy scraper Playwright — nie nadaje sie na produkcje;
+- po 2026-07-01 publiczny dostep odpada w calosci;
+- dane historyczne z CRBR (snapshoty 2026-04) pozostaja w bazie i sa uzyteczne jako baseline.
+
+**Co pozostaje:**
+- Snapshoty CRBR z 2026-04 sa zaimportowane do SQLite i moga sluzyc jako tlo historyczne.
+- Alerty CRBR (`A-CRBR-*`) pozostaja w kodzie jako usmipione — mozna je reaktywowac jesli pojawi sie legalne API (np. komercyjne).
+- Przyszla integracja CRBR wymaga albo licencjonowanego dostepu, albo dostepu przez API z uzasadnieniem — do rozpatrzenia w Fazie 3.
+
+## Kandydaci na kolejne zrodlo
+
+### Biala Lista VAT — rekomendowane jako pierwsze
+
+**Dlaczego proste:** MF udostepnia REST API bez autoryzacji:
+
+```
+GET https://wl-api.mf.gov.pl/api/search/nip/{NIP}?date={YYYY-MM-DD}
+```
+
+Odpowiedz JSON zawiera: status VAT (`Czynny` / `Nieczynny` / `Zwolniony`), rachunki bankowe, nazwe, KRS, REGON. Watchlista ma juz numery NIP dla wszystkich 10 spolek — integracja to pojedynczy plik fetchera i nowe pole w `normalized_payload`.
+
+**Sygnaly alertowe:** `A-VAT-STATUS` (zmiana statusu VAT) i `A-VAT-KONTO` (nowe lub usuniete konto bankowe) — oba przydatne dla compliance i due diligence.
+
+**Ograniczenie:** sygnaly uzupelniajace, nie rdzenowe — nie zastepuja CRBR, ale wzmacniaja obraz KRS.
+
+### KRZ — wyzsze ryzyko implementacji
+
+KRZ (`krz.ms.gov.pl`) jest strategicznie wazniejszy (distress-first), ale dostep wymaga prawdopodobnie scrapingu podobnego do CRBR — portal oparty o Angular SPA. Warto zbadac dostepnosc API przed startem implementacji. Pozostaje oznaczony jako `v1` w roadmapie.
 
 ## Sygnaly v0
 

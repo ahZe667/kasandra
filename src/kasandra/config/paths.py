@@ -12,10 +12,11 @@ SQL_DIR = REPO_ROOT / "sql"
 VAR_DIR = REPO_ROOT / "var"
 VAR_SQLITE_DIR = VAR_DIR / "sqlite"
 VAR_EXPORTS_DIR = VAR_DIR / "exports"
+VAR_LOGS_DIR = VAR_DIR / "logs"
 VAR_TMP_DIR = VAR_DIR / "tmp"
 
 
 def ensure_runtime_dirs() -> None:
     """Ensure runtime directories exist locally."""
-    for path in (VAR_DIR, VAR_SQLITE_DIR, VAR_EXPORTS_DIR, VAR_TMP_DIR):
+    for path in (VAR_DIR, VAR_SQLITE_DIR, VAR_EXPORTS_DIR, VAR_LOGS_DIR, VAR_TMP_DIR):
         path.mkdir(parents=True, exist_ok=True)

@@ -6,7 +6,6 @@ Monitoring polskich spolek oparty o dane publiczne. Repo laczy dokumentacje, prz
 
 ## Repo contract
 
-- Jezyk dokumentacji i komunikacji: `polski`. Commit messages: angielski.
 - Gdy zmienia sie kontrakt, zachowanie albo zalozenie, zsynchronizuj `docs/` w tym samym change secie.
 
 ## Workflow agentowy

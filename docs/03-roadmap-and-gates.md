@@ -30,10 +30,11 @@ Przed `Faza 3` glownymi interfejsami pozostaja alert tekstowy, digest i historia
 
 Aktualny punkt pracy to `faza 0-1`:
 
-- zakres rdzenia: `KRS + CRBR`,
+- zakres rdzenia: `KRS` (CRBR zawieszone — patrz `02-sources-and-alerts.md`),
 - priorytet: jakosc diffu, alertu i historii zmian,
 - preferowany interfejs: CLI i lokalny run,
-- brak zgody na rozlewanie scope'u przed ustabilizowaniem rdzenia.
+- brak zgody na rozlewanie scope'u przed ustabilizowaniem rdzenia,
+- kandydat na rozszerzenie v0: Biala Lista VAT (proste REST API bez autoryzacji).
 
 ## Najwazniejsze ryzyka
 

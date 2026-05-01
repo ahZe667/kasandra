@@ -42,6 +42,9 @@ var/exports/*
 !var/exports/.gitkeep
 var/tmp/*
 !var/tmp/.gitkeep
+!var/logs/
+var/logs/*
+!var/logs/.gitkeep
 
 # Agent-local files
 .claude/worktrees/
@@ -49,6 +52,10 @@ var/tmp/*
 
 # Codex / local tooling
 .codex/
+
+# Developer-local data and notes
+dev_ms_data/
+dev_ms.md
 
 # Task reports
 !var/reports/

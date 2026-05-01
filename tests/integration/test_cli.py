@@ -20,4 +20,4 @@ def test_fetch_command_is_wired() -> None:
     result = runner.invoke(app, ["fetch", "--source", "krs"])
 
     assert result.exit_code == 0
-    assert "fetch krs: scaffold only" in result.stdout
+    assert "Fetch KRS" in result.stdout

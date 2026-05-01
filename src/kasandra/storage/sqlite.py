@@ -2,15 +2,254 @@
 
 from __future__ import annotations
 
+import hashlib
+import json
 import sqlite3
 from pathlib import Path
+from typing import Any
 
-from kasandra.config.paths import VAR_SQLITE_DIR, ensure_runtime_dirs
+from kasandra.config.paths import SQL_DIR, VAR_SQLITE_DIR, ensure_runtime_dirs
 
 DEFAULT_DB_PATH = VAR_SQLITE_DIR / "kasandra.sqlite3"
+_SCHEMA_SQL = SQL_DIR / "schema" / "001_init.sql"
 
 
-def connect_sqlite(db_path: Path = DEFAULT_DB_PATH) -> sqlite3.Connection:
-    """Open a SQLite connection for the local runtime."""
+def connect(db_path: Path = DEFAULT_DB_PATH) -> sqlite3.Connection:
     ensure_runtime_dirs()
-    return sqlite3.connect(db_path)
+    conn = sqlite3.connect(db_path)
+    conn.row_factory = sqlite3.Row
+    conn.execute("PRAGMA journal_mode = WAL")
+    conn.execute("PRAGMA foreign_keys = ON")
+    return conn
+
+
+# kept for backwards-compat with any existing callers
+connect_sqlite = connect
+
+
+def init_db(conn: sqlite3.Connection) -> None:
+    """Create tables from schema SQL if they don't exist yet."""
+    sql = _SCHEMA_SQL.read_text(encoding="utf-8")
+    conn.executescript(sql)
+    _apply_migrations(conn)
+
+
+def _apply_migrations(conn: sqlite3.Connection) -> None:
+    """Apply incremental schema changes to existing databases."""
+    existing = {row[1] for row in conn.execute("PRAGMA table_info(snapshots)")}
+    if "is_synthetic" not in existing:
+        conn.execute("ALTER TABLE snapshots ADD COLUMN is_synthetic INTEGER NOT NULL DEFAULT 0")
+        conn.commit()
+
+
+def payload_hash(payload: dict[str, Any] | None) -> str | None:
+    if payload is None:
+        return None
+    canonical = json.dumps(payload, sort_keys=True, ensure_ascii=False)
+    return hashlib.sha256(canonical.encode()).hexdigest()
+
+
+# --------------------------------------------------------------------------
+# companies
+# --------------------------------------------------------------------------
+
+
+def upsert_company(
+    conn: sqlite3.Connection,
+    *,
+    krs: str,
+    nip: str | None = None,
+    regon: str | None = None,
+    slug: str,
+    nazwa: str | None = None,
+    crbr_exempt: bool = False,
+    notes: str | None = None,
+) -> int:
+    """Insert or update a company; return its id."""
+    conn.execute(
+        """
+        INSERT INTO companies (krs, nip, regon, slug, nazwa, crbr_exempt, notes)
+        VALUES (:krs, :nip, :regon, :slug, :nazwa, :crbr_exempt, :notes)
+        ON CONFLICT(krs) DO UPDATE SET
+            nip         = excluded.nip,
+            regon       = excluded.regon,
+            nazwa       = excluded.nazwa,
+            crbr_exempt = excluded.crbr_exempt,
+            notes       = excluded.notes
+        """,
+        {
+            "krs": krs,
+            "nip": nip,
+            "regon": regon,
+            "slug": slug,
+            "nazwa": nazwa,
+            "crbr_exempt": int(crbr_exempt),
+            "notes": notes,
+        },
+    )
+    row = conn.execute("SELECT id FROM companies WHERE krs = ?", (krs,)).fetchone()
+    return row["id"]
+
+
+def get_company_by_krs(conn: sqlite3.Connection, krs: str) -> sqlite3.Row | None:
+    return conn.execute("SELECT * FROM companies WHERE krs = ?", (krs,)).fetchone()
+
+
+def get_company_by_nip(conn: sqlite3.Connection, nip: str) -> sqlite3.Row | None:
+    return conn.execute("SELECT * FROM companies WHERE nip = ?", (nip,)).fetchone()
+
+
+def list_companies(conn: sqlite3.Connection) -> list[sqlite3.Row]:
+    return conn.execute("SELECT * FROM companies ORDER BY slug").fetchall()
+
+
+# --------------------------------------------------------------------------
+# snapshots
+# --------------------------------------------------------------------------
+
+
+def insert_snapshot(
+    conn: sqlite3.Connection,
+    *,
+    company_id: int,
+    source: str,
+    collected_at: str,
+    status: str = "ok",
+    normalized_payload: dict[str, Any] | None = None,
+    raw_path: str | None = None,
+    is_synthetic: bool = False,
+) -> int:
+    """Insert a snapshot; skip silently if (company, source, date) already exists.
+
+    Returns the snapshot id (existing or new).
+    """
+    existing = conn.execute(
+        "SELECT id FROM snapshots WHERE company_id=? AND source=? AND collected_at=?",
+        (company_id, source, collected_at),
+    ).fetchone()
+    if existing:
+        return existing["id"]
+
+    ph = payload_hash(normalized_payload)
+    payload_json = (
+        json.dumps(normalized_payload, ensure_ascii=False) if normalized_payload else None
+    )
+    cur = conn.execute(
+        """
+        INSERT INTO snapshots
+            (company_id, source, collected_at, status, normalized_payload,
+             payload_hash, raw_path, is_synthetic)
+        VALUES
+            (:company_id, :source, :collected_at, :status, :payload,
+             :hash, :raw_path, :is_synthetic)
+        """,
+        {
+            "company_id": company_id,
+            "source": source,
+            "collected_at": collected_at,
+            "status": status,
+            "payload": payload_json,
+            "hash": ph,
+            "raw_path": raw_path,
+            "is_synthetic": int(is_synthetic),
+        },
+    )
+    assert cur.lastrowid is not None
+    return cur.lastrowid
+
+
+def get_latest_snapshot(
+    conn: sqlite3.Connection, company_id: int, source: str
+) -> sqlite3.Row | None:
+    return conn.execute(
+        """
+        SELECT * FROM snapshots
+        WHERE company_id = ? AND source = ?
+        ORDER BY collected_at DESC
+        LIMIT 1
+        """,
+        (company_id, source),
+    ).fetchone()
+
+
+def get_snapshots(conn: sqlite3.Connection, company_id: int, source: str) -> list[sqlite3.Row]:
+    return conn.execute(
+        """
+        SELECT * FROM snapshots
+        WHERE company_id = ? AND source = ?
+        ORDER BY collected_at ASC
+        """,
+        (company_id, source),
+    ).fetchall()
+
+
+# --------------------------------------------------------------------------
+# changes
+# --------------------------------------------------------------------------
+
+
+def list_changes(
+    conn: sqlite3.Connection,
+    company_id: int,
+    *,
+    source: str | None = None,
+) -> list[sqlite3.Row]:
+    """Return all changes for a company ordered chronologically."""
+    clauses: list[str] = ["ch.company_id = ?"]
+    params: list[Any] = [company_id]
+    if source is not None:
+        clauses.append("ch.source = ?")
+        params.append(source)
+    where = "WHERE " + " AND ".join(clauses)
+    return conn.execute(
+        f"""
+        SELECT ch.*, sn.collected_at AS change_date
+        FROM changes ch
+        LEFT JOIN snapshots sn ON sn.id = ch.snapshot_new_id
+        {where}
+        ORDER BY change_date ASC, ch.id ASC
+        """,
+        params,
+    ).fetchall()
+
+
+# --------------------------------------------------------------------------
+# alerts
+# --------------------------------------------------------------------------
+
+
+def list_alerts(
+    conn: sqlite3.Connection,
+    *,
+    status: str | None = "new",
+    company_id: int | None = None,
+) -> list[sqlite3.Row]:
+    """Return alerts, optionally filtered by status and/or company."""
+    clauses = []
+    params: list[Any] = []
+    if status is not None:
+        clauses.append("a.status = ?")
+        params.append(status)
+    if company_id is not None:
+        clauses.append("a.company_id = ?")
+        params.append(company_id)
+    where = f"WHERE {' AND '.join(clauses)}" if clauses else ""
+    return conn.execute(
+        f"""
+        SELECT a.*, co.slug FROM alerts a
+        JOIN companies co ON co.id = a.company_id
+        {where}
+        ORDER BY
+            CASE a.priority WHEN 'K' THEN 0 WHEN 'W' THEN 1 WHEN 'S' THEN 2 ELSE 3 END,
+            co.slug, a.generated_at
+        """,
+        params,
+    ).fetchall()
+
+
+def mark_alerts_seen(conn: sqlite3.Connection) -> int:
+    """Mark all 'new' alerts as 'seen'. Returns count updated."""
+    conn.execute("UPDATE alerts SET status = 'seen' WHERE status = 'new'")
+    count = conn.execute("SELECT changes()").fetchone()[0]
+    conn.commit()
+    return count
