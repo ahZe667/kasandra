@@ -1,0 +1,74 @@
+{
+  "company": {
+    "krs": "0000055656",
+    "nazwa": "\"STRONG MAN\" SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ",
+    "forma": "SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ",
+    "nip": "5862021333",
+    "regon": "19189293500000"
+  },
+  "snapshot_meta": {
+    "stan_z_dnia": "13.04.2026",
+    "nr_ostatniego_wpisu": 40,
+    "data_ostatniego_wpisu": "13.04.2026"
+  },
+  "adres": {
+    "ulica": "STEFANA BATOREGO",
+    "nr_domu": "21",
+    "nr_lokalu": null,
+    "kod_pocztowy": "82-200",
+    "miejscowosc": "MALBORK",
+    "kraj": "POLSKA"
+  },
+  "kapital": {
+    "wartosc": "25000,00",
+    "waluta": "PLN"
+  },
+  "zarzad": {
+    "nazwa_organu": "ZARZĄD",
+    "sposob_reprezentacji": "DO SKŁADANIA OŚWIADCZEŃ WOLI I PODPISYWANIA W IMIENIU SPÓŁKI UPOWAŻNIENI SĄ DWAJ CZŁONKOWIE ZARZĄDU ŁĄCZNIE ALBO CZŁONEK ZARZĄDU ŁĄCZNIE Z PROKURENTEM.",
+    "sklad": [
+      {
+        "osoba_key": "NAT:D****|J*******|7**********",
+        "typ": "fizyczna",
+        "display": "J******* T***** D****",
+        "funkcja": "PREZES ZARZĄDU"
+      }
+    ]
+  },
+  "wlasciciele": {
+    "typ": "wspolnicy_spzoo",
+    "lista": [
+      {
+        "osoba_key": "NAT:D****|J*******|7**********",
+        "typ": "fizyczna",
+        "display": "J******* T***** D****",
+        "posiadane_udzialy": "15 UDZIAŁÓW O ŁĄCZNEJ WARTOŚCI NOMINALNEJ 9.375 ZŁ.",
+        "calosc": false
+      },
+      {
+        "osoba_key": "NAT:P***********|M******|7**********",
+        "typ": "fizyczna",
+        "display": "M****** Z******* P***********",
+        "posiadane_udzialy": "10 UDZIAŁÓW O ŁĄCZNEJ WARTOŚCI 6.250 ZŁ.",
+        "calosc": false
+      },
+      {
+        "osoba_key": "NAT:D*******|M*****|8**********",
+        "typ": "fizyczna",
+        "display": "M***** P**** D*******",
+        "posiadane_udzialy": "15 UDZIAŁÓW O ŁĄCZNEJ WARTOŚCI NOMINALNEJ 9.375 ZŁ",
+        "calosc": false
+      }
+    ]
+  },
+  "pkd_glowny": {
+    "kod": "",
+    "opis": null
+  },
+  "distress": {
+    "dzial4": false,
+    "dzial5": false,
+    "dzial6": false,
+    "dzial6_typy": []
+  }
+}

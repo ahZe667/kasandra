@@ -1,0 +1,60 @@
+{
+  "company": {
+    "krs": "0000779880",
+    "nazwa": "JANUSZEX SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ",
+    "forma": "SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ",
+    "nip": "5272889007",
+    "regon": "38290362500000"
+  },
+  "snapshot_meta": {
+    "stan_z_dnia": "03.12.2025",
+    "nr_ostatniego_wpisu": 3,
+    "data_ostatniego_wpisu": "18.11.2024"
+  },
+  "adres": {
+    "ulica": "UL. MŁYNARSKA",
+    "nr_domu": "42",
+    "nr_lokalu": null,
+    "kod_pocztowy": "01-171",
+    "miejscowosc": "WARSZAWA",
+    "kraj": "POLSKA"
+  },
+  "kapital": {
+    "wartosc": "5000,00",
+    "waluta": "PLN"
+  },
+  "zarzad": {
+    "nazwa_organu": "ZARZĄD",
+    "sposob_reprezentacji": "CZŁONEK ZARZĄDU SAMODZIELNIE.",
+    "sklad": [
+      {
+        "osoba_key": "NAT:J************|K********|4**********",
+        "typ": "fizyczna",
+        "display": "K******** J************",
+        "funkcja": "PREZES ZARZĄDU"
+      }
+    ]
+  },
+  "wlasciciele": {
+    "typ": "wspolnicy_spzoo",
+    "lista": [
+      {
+        "osoba_key": "NAT:J************|K********|4**********",
+        "typ": "fizyczna",
+        "display": "K******** J************",
+        "posiadane_udzialy": "100 UDZIAŁÓW O ŁĄCZNEJ WARTOŚCI 5.000,00 ZŁ",
+        "calosc": true
+      }
+    ]
+  },
+  "pkd_glowny": {
+    "kod": "46.47.Z",
+    "opis": "SPRZEDAŻ HURTOWA MEBLI, DYWANÓW I SPRZĘTU OŚWIETLENIOWEGO"
+  },
+  "distress": {
+    "dzial4": false,
+    "dzial5": false,
+    "dzial6": false,
+    "dzial6_typy": []
+  }
+}

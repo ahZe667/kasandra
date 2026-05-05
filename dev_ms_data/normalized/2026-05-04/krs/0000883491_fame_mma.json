@@ -1,0 +1,52 @@
+{
+  "company": {
+    "krs": "0000883491",
+    "nazwa": "FAME MMA SPÓŁKA AKCYJNA",
+    "forma": "SPÓŁKA AKCYJNA",
+    "nip": "7773370464",
+    "regon": "38818115600000"
+  },
+  "snapshot_meta": {
+    "stan_z_dnia": "12.03.2026",
+    "nr_ostatniego_wpisu": 18,
+    "data_ostatniego_wpisu": "12.03.2026"
+  },
+  "adres": {
+    "ulica": "UL. DWORCOWA",
+    "nr_domu": "4B",
+    "nr_lokalu": "3",
+    "kod_pocztowy": "62-020",
+    "miejscowosc": "SWARZĘDZ",
+    "kraj": "POLSKA"
+  },
+  "kapital": {
+    "wartosc": "400000,00",
+    "waluta": "PLN"
+  },
+  "zarzad": {
+    "nazwa_organu": "ZARZĄD",
+    "sposob_reprezentacji": "W PRZYPADKU ZARZĄDU LICZĄCEGO 2 LUB WIĘCEJ OSÓB, DO REPREZENTOWANIA SPÓŁKI UPRAWNIONYCH JEST DWÓCH CZŁONKÓW ZARZĄDU ŁĄCZNIE, NATOMIAST GDY ZARZĄD JEST JEDNOOSOBOWY DO REPREZENTOWANIA SPÓŁKI UPRAWNIONY JEST SAMODZIELNIE PREZES ZARZĄDU.",
+    "sklad": [
+      {
+        "osoba_key": "NAT:R******|K********|7**********",
+        "typ": "fizyczna",
+        "display": "K******** P**** R******",
+        "funkcja": "PREZES ZARZĄDU"
+      }
+    ]
+  },
+  "wlasciciele": {
+    "typ": "brak_w_krs",
+    "lista": []
+  },
+  "pkd_glowny": {
+    "kod": "93.19.Z",
+    "opis": "POZOSTAŁA DZIAŁALNOŚĆ ZWIĄZANA ZE SPORTEM"
+  },
+  "distress": {
+    "dzial4": false,
+    "dzial5": false,
+    "dzial6": false,
+    "dzial6_typy": []
+  }
+}

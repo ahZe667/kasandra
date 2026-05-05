@@ -1,0 +1,60 @@
+{
+  "company": {
+    "krs": "0000864032",
+    "nazwa": "\"TENCZYNEK DYSTRYBUCJA\" SPÓŁKA AKCYJNA",
+    "forma": "SPÓŁKA AKCYJNA",
+    "nip": "9462683417",
+    "regon": "38136827100000"
+  },
+  "snapshot_meta": {
+    "stan_z_dnia": "24.11.2025",
+    "nr_ostatniego_wpisu": 13,
+    "data_ostatniego_wpisu": "16.07.2024"
+  },
+  "adres": {
+    "ulica": "UL. CHMIELNA",
+    "nr_domu": "2",
+    "nr_lokalu": "31",
+    "kod_pocztowy": "00-020",
+    "miejscowosc": "WARSZAWA",
+    "kraj": "POLSKA"
+  },
+  "kapital": {
+    "wartosc": "100000,00",
+    "waluta": "PLN"
+  },
+  "zarzad": {
+    "nazwa_organu": "ZARZĄD",
+    "sposob_reprezentacji": "DO SKŁADANIA OŚWIADCZEŃ W IMIENIU SPÓŁKI I JEJ REPREZENTOWANIA UPRAWNIONY JEST PREZES ZARZĄDU SAMODZIELNIE LUB DWÓCH CZŁONKÓW ZARZĄDU DZIAŁAJĄCYCH ŁĄCZNIE.",
+    "sklad": [
+      {
+        "osoba_key": "NAT:P******|J*****|6**********",
+        "typ": "fizyczna",
+        "display": "J***** M***** P******",
+        "funkcja": "PREZES ZARZĄDU"
+      }
+    ]
+  },
+  "wlasciciele": {
+    "typ": "jedyny_akcjonariusz",
+    "lista": [
+      {
+        "osoba_key": "LE:MANUFAKTURA PIWA WÓDKI I WINA SPÓŁKA AKCYJNA|0000635590",
+        "typ": "prawna",
+        "display": "MANUFAKTURA PIWA WÓDKI I WINA SPÓŁKA AKCYJNA",
+        "posiadane_udzialy": null,
+        "calosc": true
+      }
+    ]
+  },
+  "pkd_glowny": {
+    "kod": "46.34.A",
+    "opis": "SPRZEDAŻ HURTOWA NAPOJÓW ALKOHOLOWYCH"
+  },
+  "distress": {
+    "dzial4": false,
+    "dzial5": false,
+    "dzial6": false,
+    "dzial6_typy": []
+  }
+}

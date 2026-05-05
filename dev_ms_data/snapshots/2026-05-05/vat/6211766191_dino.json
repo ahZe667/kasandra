@@ -1,0 +1,52 @@
+{
+  "result": {
+    "subject": {
+      "name": "DINO POLSKA SPÓŁKA AKCYJNA",
+      "nip": "6211766191",
+      "statusVat": "Czynny",
+      "regon": "300820828",
+      "pesel": null,
+      "krs": "0000408273",
+      "residenceAddress": null,
+      "workingAddress": "OSTROWSKA 122, 63-700 KROTOSZYN",
+      "representatives": [],
+      "authorizedClerks": [],
+      "partners": [],
+      "registrationLegalDate": "2008-05-01",
+      "registrationDenialBasis": null,
+      "registrationDenialDate": null,
+      "restorationBasis": null,
+      "restorationDate": null,
+      "removalBasis": null,
+      "removalDate": null,
+      "exemptionSmeDate": null,
+      "accountNumbers": [
+        "45102040270000110205012531",
+        "69124010371111001114839065",
+        "19116022020000000660400227",
+        "56160000031001316390000001",
+        "29160000031001316390000002",
+        "10124010371111001155671404",
+        "89105000861000009085376532",
+        "29102040270000130220563276",
+        "24160014620006378131639001",
+        "37114019930000532766001006",
+        "15116022020000000122725516",
+        "91114019930000532766001004",
+        "80114019930000532766001008",
+        "23105015201000002406954921",
+        "64102010260000170203007697",
+        "75114019930000532766001001",
+        "33116022020000000453185471",
+        "96102010260000190202679066",
+        "50102010260000190203075363",
+        "53105015201000002429467596",
+        "90102010260000100204388658",
+        "90114019930000532766001022"
+      ],
+      "hasVirtualAccounts": true
+    },
+    "requestId": "G3slw-9771cb0",
+    "requestDateTime": "05-05-2026 21:16:24"
+  }
+}

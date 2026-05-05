@@ -1,0 +1,32 @@
+{
+  "result": {
+    "subject": {
+      "name": "FAME MMA SPÓŁKA AKCYJNA",
+      "nip": "7773370464",
+      "statusVat": "Czynny",
+      "regon": "388181156",
+      "pesel": null,
+      "krs": "0000883491",
+      "residenceAddress": null,
+      "workingAddress": "WIELKA RYBACKA 3/1, 62-020 SWARZĘDZ",
+      "representatives": [],
+      "authorizedClerks": [],
+      "partners": [],
+      "registrationLegalDate": "2021-04-15",
+      "registrationDenialBasis": null,
+      "registrationDenialDate": null,
+      "restorationBasis": null,
+      "restorationDate": null,
+      "removalBasis": null,
+      "removalDate": null,
+      "exemptionSmeDate": null,
+      "accountNumbers": [
+        "06109014500000000162112561",
+        "43109014500000000162112574"
+      ],
+      "hasVirtualAccounts": false
+    },
+    "requestId": "46Asq-9771caa",
+    "requestDateTime": "05-05-2026 21:16:10"
+  }
+}

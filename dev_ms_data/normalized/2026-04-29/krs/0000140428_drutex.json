@@ -1,0 +1,72 @@
+{
+  "company": {
+    "krs": "0000140428",
+    "nazwa": "DRUTEX SPÓŁKA AKCYJNA",
+    "forma": "SPÓŁKA AKCYJNA",
+    "nip": "8421622720",
+    "regon": "77156449300000"
+  },
+  "snapshot_meta": {
+    "stan_z_dnia": "20.12.2025",
+    "nr_ostatniego_wpisu": 78,
+    "data_ostatniego_wpisu": "19.12.2025"
+  },
+  "adres": {
+    "ulica": "LĘBORSKA",
+    "nr_domu": "31",
+    "nr_lokalu": null,
+    "kod_pocztowy": "77-100",
+    "miejscowosc": "BYTÓW",
+    "kraj": "POLSKA"
+  },
+  "kapital": {
+    "wartosc": "21690000,00",
+    "waluta": "PLN"
+  },
+  "zarzad": {
+    "nazwa_organu": "ZARZĄD",
+    "sposob_reprezentacji": "DO SKŁADANIA OŚWIADCZEŃ I PODPISYWANIA W IMIENIU SPÓŁKI UPRAWNIENI SĄ:\n1) PREZES ZARZĄDU SAMODZIELNIE;\n2) WICEPREZES ZARZĄDU SAMODZIELNIE;\n3) DWÓCH CZŁONKÓW ZARZĄDU ŁĄCZNIE;\n4) CZŁONEK ZARZĄDU ŁĄCZNIE Z PROKURENTEM.",
+    "sklad": [
+      {
+        "osoba_key": "NAT:G**********|K*****|8**********",
+        "typ": "fizyczna",
+        "display": "K***** G**********",
+        "funkcja": "WICEPREZES ZARZĄDU"
+      },
+      {
+        "osoba_key": "NAT:D*****|D*****|8**********",
+        "typ": "fizyczna",
+        "display": "D***** D*****",
+        "funkcja": "CZŁONEK ZARZĄDU"
+      },
+      {
+        "osoba_key": "NAT:G**********|K****|8**********",
+        "typ": "fizyczna",
+        "display": "K**** G**********",
+        "funkcja": "CZŁONEK ZARZĄDU"
+      }
+    ]
+  },
+  "wlasciciele": {
+    "typ": "jedyny_akcjonariusz",
+    "lista": [
+      {
+        "osoba_key": "NAT:G**********|K*****|8**********",
+        "typ": "fizyczna",
+        "display": "K***** G**********",
+        "posiadane_udzialy": null,
+        "calosc": true
+      }
+    ]
+  },
+  "pkd_glowny": {
+    "kod": "22.23.Z",
+    "opis": "PRODUKCJA WYROBÓW DLA BUDOWNICTWA Z TWORZYW SZTUCZNYCH"
+  },
+  "distress": {
+    "dzial4": false,
+    "dzial5": false,
+    "dzial6": false,
+    "dzial6_typy": []
+  }
+}
