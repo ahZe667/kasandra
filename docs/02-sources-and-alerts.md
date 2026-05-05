@@ -44,23 +44,9 @@ Kontynuowanie integracji CRBR przed Faza 3 nie ma uzasadnienia:
 
 ## Kandydaci na kolejne zrodlo
 
-### Biala Lista VAT — rekomendowane jako pierwsze
+### KRZ — glowny cel Fazy 2
 
-**Dlaczego proste:** MF udostepnia REST API bez autoryzacji:
-
-```
-GET https://wl-api.mf.gov.pl/api/search/nip/{NIP}?date={YYYY-MM-DD}
-```
-
-Odpowiedz JSON zawiera: status VAT (`Czynny` / `Nieczynny` / `Zwolniony`), rachunki bankowe, nazwe, KRS, REGON. Watchlista ma juz numery NIP dla wszystkich 10 spolek — integracja to pojedynczy plik fetchera i nowe pole w `normalized_payload`.
-
-**Sygnaly alertowe:** `A-VAT-STATUS` (zmiana statusu VAT) i `A-VAT-KONTO` (nowe lub usuniete konto bankowe) — oba przydatne dla compliance i due diligence.
-
-**Ograniczenie:** sygnaly uzupelniajace, nie rdzenowe — nie zastepuja CRBR, ale wzmacniaja obraz KRS.
-
-### KRZ — wyzsze ryzyko implementacji
-
-KRZ (`krz.ms.gov.pl`) jest strategicznie wazniejszy (distress-first), ale dostep wymaga prawdopodobnie scrapingu podobnego do CRBR — portal oparty o Angular SPA. Warto zbadac dostepnosc API przed startem implementacji. Pozostaje oznaczony jako `v1` w roadmapie.
+KRZ (`krz.ms.gov.pl`) jest strategicznie wazniejszy niz VAT (distress-first): daje dostep do postepowania upadlosciowych, restrukturyzacyjnych i egzekucyjnych — zdarzen o najwyzszej wartosci operacyjnej dla kancelarii i compliance. Dostep wymaga prawdopodobnie scrapingu (portal oparty o Angular SPA). Warto zbadac dostepnosc API przed startem implementacji.
 
 ## Sygnaly v0
 
@@ -68,11 +54,14 @@ W `v0` interesuja nas tylko sygnaly, ktore da sie wiarygodnie wykryc i szybko zi
 
 | Typ sygnalu | Zrodlo | Domyslny priorytet | Komentarz |
 | --- | --- | --- | --- |
-| zmiana zarzadu | `KRS` | `sredni` | mocny sygnal organizacyjny |
-| zmiana prokury | `KRS` | `niski` albo `sredni` | zalezy od kontekstu |
+| postepowanie upadlosciowe / restrukturyzacyjne | `KRS dzial 6` | `krytyczny` | najsilniejszy sygnal distress |
+| zaleglosci / egzekucja | `KRS dzial 4` | `krytyczny` | — |
+| zmiana prezesa zarzadu | `KRS` | `wysoki` | mocny sygnal organizacyjny |
+| zmiana skladu zarzadu | `KRS` | `sredni` | — |
+| zmiana wlasciciela / akcjonariusza | `KRS` | `wysoki` | sygnalizuje zmiany struktury |
+| zmiana statusu VAT | `Biala Lista VAT` | `wysoki` | utrata VAT to sygnal ostrzegawczy |
+| nowe lub usuniete konto bankowe | `Biala Lista VAT` | `sredni` / `wysoki` | przydatne dla compliance |
 | zmiana adresu lub danych rejestrowych | `KRS` | `niski` | wazna historycznie, zwykle niepilna |
-| zmiana beneficjenta rzeczywistego | `CRBR` | `sredni` | mocniejszy sygnal interpretacyjny |
-| kilka zmian w krotkim czasie | `KRS + CRBR` | `podwyzszony` | priorytet wynika z korelacji zdarzen |
 
 Wazniejsze od szerokosci katalogu sygnalow jest dobre rozroznienie miedzy szumem a zmiana, ktora realnie zasluguje na uwage.
 
@@ -110,4 +99,4 @@ Panel webowy nie jest potrzebny przed udowodnieniem, ze alert i historia zmian s
 
 - wielu nowych zrodel tylko po to, zeby zwiekszyc szerokosc projektu,
 - scoringu opartego na ciezkiej logice lub ML,
-- zrodel, ktore komplikuja model danych bez wzmacniania rdzenia `KRS + CRBR`.
+- zrodel, ktore komplikuja model danych bez wzmacniania rdzenia `KRS + VAT`.

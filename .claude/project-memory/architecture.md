@@ -3,7 +3,7 @@
 ## Stabilne zalozenia
 
 - Produkt: monitoring polskich spolek na danych publicznych.
-- Etap: `faza 0-1`, zakres `v0` to `KRS + CRBR`.
+- Etap: `Faza 1 zamknieta (2026-05-05)`, aktywne zrodla: `KRS + Biala Lista VAT`, CRBR zawieszone.
 - Python jako domyslny jezyk, `sqlite3` jako pierwszy storage.
 - `Faza 1` preferuje prosty CLI nad ciezka orkiestracja.
 - Brak publicznego API przed `Faza 3`.

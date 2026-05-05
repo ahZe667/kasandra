@@ -4,7 +4,7 @@
 
 - `v0` ma byc male i proste,
 - priorytetem jest dzialajacy pipeline i czytelny diff,
-- startujemy od `KRS + CRBR`,
+- aktywne zrodla: `KRS + Biala Lista VAT`,
 - ciezsza infrastruktura wchodzi dopiero wtedy, gdy prostsza wersja realnie przestaje wystarczac.
 
 ## Domyslny stack dla v0
@@ -12,7 +12,7 @@
 | Warstwa | Decyzja | Dlaczego |
 | --- | --- | --- |
 | jezyk | `Python` | wystarcza do pobierania danych, diffu i generowania alertow |
-| HTTP | `httpx` | prosty klient do zrodel publicznych |
+| HTTP | `urllib.request` (stdlib) | bez zewnetrznych zaleznosci; wystarczy dla 2 aktywnych API |
 | parsowanie | `BeautifulSoup4` lub bezposredni `JSON` | najprostsza sciezka per zrodlo |
 | magazyn danych | `sqlite3` | lokalny start bez osobnego serwera |
 | interfejs | `Typer`-based CLI | wystarcza do runu, debugowania i iteracji |
@@ -43,7 +43,7 @@ Nie potrzebujemy na start Scrapy, Airflow ani rozbudowanej platformy danych.
 | Decyzja | Trigger |
 | --- | --- |
 | `KRZ` | gdy `KRS + CRBR` daja juz stabilny rdzen i potrzeba silniejszych sygnalow distress |
-| scheduler / retry / monitoring zdrowia | gdy manual run zaczyna byc realnym bottleneckiem |
+| retry / monitoring zdrowia | scheduler dziala (Windows Task Scheduler pn-pt 09:00); retry i alerty o bledach fetchera — gdy beda realne awarie |
 | `PostgreSQL` | gdy `sqlite3` przestaje wystarczac pojemnosciowo albo operacyjnie |
 | email-first delivery | gdy alert i digest sa juz wystarczajaco czytelne dla odbiorcy spoza zespolu |
 | lekki panel lub API | gdy historia zmian i digest sa stabilne i faktycznie uzywane |

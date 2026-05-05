@@ -54,21 +54,19 @@ Lepsze pozycjonowanie:
 
 Zeby pokazac co system robi w praktyce, najlatwiej przesledzic przyklad.
 
-**Scenariusz:** uzytkownik monitoruje 15 spolek. Uruchamia pipeline (lub dostaje go automatycznie). System porownuje aktualny stan KRS i CRBR z poprzednim snapshotem.
+**Scenariusz:** uzytkownik monitoruje 15 spolek. Pipeline uruchamia sie automatycznie codziennie rano. System porownuje aktualny stan KRS i Bialej Listy VAT z poprzednim snapshotem.
 
 Jesli nic sie nie zmienilo — brak alertu.
 
 Jesli wykryje zmiane, generuje krotki alert:
 
 ```
-[PODWYZSZONY] ABC Sp. z o.o. | KRS + CRBR | 2025-04-14
+[WYSOKI] ABC Sp. z o.o. | KRS | 2026-05-06
 
-KRS: zmiana w skladzie zarzadu — usunieto Jana Kowalskiego, dodano Anne Nowak
-CRBR: zmiana beneficjenta rzeczywistego — nowy udzial 30%: Anna Nowak
+KRS: zmiana prezesa zarzadu — usunieto Jana Kowalskiego, dodano Anne Nowak
 
-Interpretacja: korelacja zmian w zarzadzie i beneficjencie w tej samej spolce
-w krotkim czasie sugeruje istotna zmiane struktury wlascicielskiej.
-Warte sprawdzenia.
+Interpretacja: zmiana na stanowisku prezesa to sygnal organizacyjny.
+Warto sprawdzic wplyw na reprezentacje spolki i uprawnienia do podpisu.
 ```
 
 Po zakonczeniu runu uzytkownik dostaje **digest** — zbiorczy przeglad wszystkich zmian z danego dnia, posortowany wedlug priorytetu. Kazda spolka ze zmiana ma swoj wpis z krotkim podsumowaniem i ocena pilnosci.
@@ -90,7 +88,7 @@ Naturalnym pierwszym workflow jest praca osoby, ktora chce szybko wiedziec:
 ## Roadmap
 
 - `Faza 0` — definicja rdzenia, modeli danych i recznych case studies,
-- `Faza 1` — `v0 / alpha wewnetrzna` na `KRS + CRBR`,
+- `Faza 1` — `v0 / alpha wewnetrzna` na `KRS + VAT` (CRBR zawieszone) — **zamknieta**,
 - `Faza 2` — rozszerzenie `distress-first`, przede wszystkim o `KRZ`,
 - `Faza 3` — maly pilot produktowy dla waskiej grupy uzytkownikow zewnetrznych.
 
@@ -102,7 +100,7 @@ Naturalnym pierwszym workflow jest praca osoby, ktora chce szybko wiedziec:
 
 Pierwszy rdzen jest swiadomie waski:
 
-- zrodla: `KRS + CRBR`,
+- zrodla: `KRS + Biala Lista VAT` (CRBR zawieszone od 2026-04-28),
 - formaty wyjscia: alert tekstowy, digest, historia zmian,
 - interfejs: prosty CLI i lokalny run,
 - magazyn danych: `sqlite3`.

@@ -28,13 +28,12 @@ Przed `Faza 3` glownymi interfejsami pozostaja alert tekstowy, digest i historia
 
 ## Na czym jestesmy teraz
 
-Aktualny punkt pracy to `faza 0-1`:
+**Faza 1 zamknieta (2026-05-05).** Aktualny punkt to granica Fazy 1 / Fazy 2:
 
-- zakres rdzenia: `KRS` (CRBR zawieszone — patrz `02-sources-and-alerts.md`),
-- priorytet: jakosc diffu, alertu i historii zmian,
-- preferowany interfejs: CLI i lokalny run,
-- brak zgody na rozlewanie scope'u przed ustabilizowaniem rdzenia,
-- kandydat na rozszerzenie v0: Biala Lista VAT (proste REST API bez autoryzacji).
+- aktywne zrodla: `KRS + Biala Lista VAT` (scheduler pn-pt 09:00, Windows Task Scheduler),
+- CRBR zawieszone — patrz `02-sources-and-alerts.md`,
+- gate Fazy 1 spelniony: kolejne runy wykrywaja tylko realne zmiany, alerty sa czytelne,
+- nastepny cel: start Fazy 2 — KRZ jako pierwsze rozszerzenie distress-first.
 
 ## Najwazniejsze ryzyka
 
@@ -51,18 +50,17 @@ Aktualny punkt pracy to `faza 0-1`:
 
 ## Otwarte pytania
 
-### Teraz
+### Teraz (Faza 2)
 
-- ktore pola `KRS` i `CRBR` wchodza do rdzenia, a ktore sa tylko kontekstem,
-- jak prosty moze byc model danych, zeby nadal dobrze przechowywal historie zmian,
-- czy domyslnym formatem `Fazy 1` ma byc digest, pojedynczy alert, czy oba rownolegle,
-- jaki poziom recznej pracy w `Fazie 1` jest jeszcze akceptowalny.
+- czy KRZ ma publiczne API, czy wymaga scrapingu — zbadac przed startem implementacji,
+- jak szeroka powinna byc watchlista w Fazie 2 (25-100 spolek) i wedlug jakich kryteriow doboru,
+- co zrobic z CRBR przed deadline dostepnosci publicznej (2026-07-01).
 
 ### Pozniej
 
-- kiedy `KRZ` realnie zwieksza wartosc systemu, a kiedy tylko zwieksza szum,
+- kiedy KRZ realnie zwieksza wartosc systemu, a kiedy tylko zwieksza szum,
 - jaki jest konkretny warunek gotowosci do pilota zewnetrznego,
-- czy po `Fazie 3` potrzebny jest tylko digest z historia zmian, czy lekki panel.
+- czy po Fazie 3 potrzebny jest tylko digest z historia zmian, czy lekki panel.
 
 ## Roadmapa wizualna
 
