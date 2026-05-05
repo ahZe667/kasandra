@@ -45,9 +45,10 @@ def fetch_one(krs: str, timeout: int = 30) -> tuple[int, bytes]:
             return resp.status, resp.read()
     except urllib.error.HTTPError as e:
         try:
-            return e.code, e.read()
+            body = e.read()
         except Exception:
-            return e.code, b""
+            body = b""
+        return e.code, body
 
 
 def main():
@@ -58,6 +59,7 @@ def main():
     out_dir = Path(sys.argv[1]) / "krs"
     out_dir.mkdir(parents=True, exist_ok=True)
     log = []
+    ok_count = 0
 
     for slug, krs in WATCHLIST:
         print(f"-> {slug} ({krs})...", end=" ", flush=True)
@@ -68,6 +70,7 @@ def main():
         if ok:
             (out_dir / fname).write_bytes(raw)
             bytes_written = len(raw)
+            ok_count += 1
             print(f"OK {bytes_written} B")
         else:
             bytes_written = 0
@@ -86,8 +89,9 @@ def main():
     (out_dir / "_log.json").write_text(
         json.dumps(log, ensure_ascii=False, indent=2), encoding="utf-8"
     )
-    ok_count = sum(1 for e in log if e["ok"])
     print(f"\nDone: {ok_count}/{len(log)} OK -> {out_dir}")
+    if ok_count < len(WATCHLIST):
+        sys.exit(1)
 
 
 if __name__ == "__main__":

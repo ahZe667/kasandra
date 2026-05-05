@@ -60,7 +60,7 @@ def main(snap_dir: Path, query_date: str) -> None:
     conn.close()
 
     log: list[dict] = []
-    ok_count = err_count = skip_count = 0
+    ok_count = brak_count = err_count = skip_count = 0
 
     for company in companies:
         nip = company["nip"]
@@ -83,6 +83,8 @@ def main(snap_dir: Path, query_date: str) -> None:
         log.append({"slug": slug, "nip": nip, "status": status, "size_b": size})
         if status == "ok":
             ok_count += 1
+        elif status == "brak_wpisu":
+            brak_count += 1
         else:
             err_count += 1
 
@@ -94,8 +96,10 @@ def main(snap_dir: Path, query_date: str) -> None:
         encoding="utf-8",
     )
 
-    total = ok_count + err_count + skip_count
-    print(f"\nDone: {ok_count}/{total} OK, {err_count} blad/brak, {skip_count} pominieto -> {out_dir}")
+    total = ok_count + brak_count + err_count + skip_count
+    print(f"\nDone: {ok_count}/{total} OK, {brak_count} brak_wpisu, {err_count} error, {skip_count} pominieto -> {out_dir}")
+    if err_count > 0:
+        sys.exit(1)
 
 
 if __name__ == "__main__":
