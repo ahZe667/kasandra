@@ -74,7 +74,9 @@ NEXT_STEP: dict[str, str] = {
     "A-KAPITAL": "Sprawdzic przyczyny zmiany kapitalu — podwyzszenie lub obnizenie.",
     "A-NAZWA": "Zaktualizowac dane spolki we wszystkich systemach.",
     "A-PKD": "Sprawdzic, czy zmiana PKD odzwierciedla faktyczna zmiane dzialalnosci.",
-    "A-VAT-STATUS": "Sprawdzic przyczyne zmiany — utrata VAT to sygnal ostrzegawczy dla compliance.",
+    "A-VAT-STATUS": (
+        "Sprawdzic przyczyne zmiany — utrata VAT to sygnal ostrzegawczy dla compliance."
+    ),
     "A-VAT-KONTO-NOWE": "Zidentyfikowac nowy rachunek i potwierdzic wlasciciela w Bialej Liscie.",
     "A-VAT-KONTO-USUN": "Sprawdzic czy rachunek zostal zablokowany lub spolka zmienila bank.",
     "A-ADRES": "Zapisac zmiane w historii, brak eskalacji.",

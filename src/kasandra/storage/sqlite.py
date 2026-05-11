@@ -38,9 +38,7 @@ def _apply_migrations(conn: sqlite3.Connection) -> None:
     """Apply incremental schema changes to existing databases."""
     existing = {row[1] for row in conn.execute("PRAGMA table_info(snapshots)")}
     if "is_synthetic" not in existing:
-        conn.execute(
-            "ALTER TABLE snapshots ADD COLUMN is_synthetic INTEGER NOT NULL DEFAULT 0"
-        )
+        conn.execute("ALTER TABLE snapshots ADD COLUMN is_synthetic INTEGER NOT NULL DEFAULT 0")
         conn.commit()
 
 
@@ -54,6 +52,7 @@ def payload_hash(payload: dict[str, Any] | None) -> str | None:
 # --------------------------------------------------------------------------
 # companies
 # --------------------------------------------------------------------------
+
 
 def upsert_company(
     conn: sqlite3.Connection,
@@ -93,15 +92,11 @@ def upsert_company(
 
 
 def get_company_by_krs(conn: sqlite3.Connection, krs: str) -> sqlite3.Row | None:
-    return conn.execute(
-        "SELECT * FROM companies WHERE krs = ?", (krs,)
-    ).fetchone()
+    return conn.execute("SELECT * FROM companies WHERE krs = ?", (krs,)).fetchone()
 
 
 def get_company_by_nip(conn: sqlite3.Connection, nip: str) -> sqlite3.Row | None:
-    return conn.execute(
-        "SELECT * FROM companies WHERE nip = ?", (nip,)
-    ).fetchone()
+    return conn.execute("SELECT * FROM companies WHERE nip = ?", (nip,)).fetchone()
 
 
 def list_companies(conn: sqlite3.Connection) -> list[sqlite3.Row]:
@@ -111,6 +106,7 @@ def list_companies(conn: sqlite3.Connection) -> list[sqlite3.Row]:
 # --------------------------------------------------------------------------
 # snapshots
 # --------------------------------------------------------------------------
+
 
 def insert_snapshot(
     conn: sqlite3.Connection,
@@ -158,7 +154,8 @@ def insert_snapshot(
             "is_synthetic": int(is_synthetic),
         },
     )
-    return cur.lastrowid  # type: ignore[return-value]
+    assert cur.lastrowid is not None
+    return cur.lastrowid
 
 
 def get_latest_snapshot(
@@ -175,9 +172,7 @@ def get_latest_snapshot(
     ).fetchone()
 
 
-def get_snapshots(
-    conn: sqlite3.Connection, company_id: int, source: str
-) -> list[sqlite3.Row]:
+def get_snapshots(conn: sqlite3.Connection, company_id: int, source: str) -> list[sqlite3.Row]:
     return conn.execute(
         """
         SELECT * FROM snapshots
@@ -191,6 +186,7 @@ def get_snapshots(
 # --------------------------------------------------------------------------
 # changes
 # --------------------------------------------------------------------------
+
 
 def list_changes(
     conn: sqlite3.Connection,
@@ -220,6 +216,7 @@ def list_changes(
 # --------------------------------------------------------------------------
 # alerts
 # --------------------------------------------------------------------------
+
 
 def list_alerts(
     conn: sqlite3.Connection,
