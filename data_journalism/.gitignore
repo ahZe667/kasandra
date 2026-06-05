@@ -1,0 +1,40 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Pre-commit
+.pre-commit-cache/
+
+# Local env
+.env
+.env.local
+.env.*.local
+
+# Notebooks
+.ipynb_checkpoints/
+
+# Data artifacts (keep the directory layout, ignore the contents)
+data/raw/*
+!data/raw/.gitkeep
+data/interim/*
+!data/interim/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+
+# Generated outputs
+outputs/
+*.png
+*.svg
+!docs/**/*.png
+!docs/**/*.svg

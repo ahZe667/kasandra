@@ -1,0 +1,64 @@
+[build-system]
+requires = ["hatchling>=1.27"]
+build-backend = "hatchling.build"
+
+[project]
+name = "data-journalism"
+version = "0.1.0"
+description = "Generic data journalism scaffold: acquire, clean, analyze, publish."
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+  "typer>=0.12,<1.0",
+  "httpx>=0.27,<1.0",
+  "pandas>=2.2,<3.0",
+  "matplotlib>=3.8,<4.0",
+  "tabulate>=0.9,<1.0",
+]
+
+[project.scripts]
+dj = "data_journalism.cli:main"
+
+[dependency-groups]
+dev = [
+  "pytest>=8.2,<9",
+  "ruff>=0.6,<1",
+  "ty>=0.0.31",
+  "pre-commit>=4.0,<5",
+  "poethepoet>=0.29,<1",
+]
+
+[tool.poe.tasks.check]
+sequence = [
+  { cmd = "pre-commit run --all-files" },
+  { cmd = "ruff check src tests" },
+  { cmd = "ty check src tests" },
+  { cmd = "pytest" },
+]
+
+[tool.poe.tasks.bootstrap]
+sequence = [
+  { cmd = "uv sync --dev" },
+  { cmd = "pre-commit install" },
+  { cmd = "pre-commit install --hook-type commit-msg" },
+  { ref = "check" },
+]
+
+[tool.poe.tasks.pipeline]
+help = "Run the full demo pipeline: acquire -> clean -> analyze -> publish"
+cmd = "python -m data_journalism run"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/data_journalism"]
+
+[tool.pytest.ini_options]
+addopts = "-q"
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 100
+src = ["src", "tests"]
+target-version = "py312"
+
+[tool.ruff.lint]
+select = ["E", "F", "I"]
